@@ -62,3 +62,4 @@ typings/
 
 # Custom things
 lib/
+.jest-cache

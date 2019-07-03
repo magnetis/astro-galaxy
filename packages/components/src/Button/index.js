@@ -1,12 +1,11 @@
 import styled from 'styled-components';
 import { color, space, border, fontSize, buttonStyle, typography } from 'styled-system';
-import { font } from "astro-core/src/custom-props";
+import { font, buttonSizes } from "astro-core/src/custom-props";
 
 const Button = styled.button(
   {
     appearance: 'button',
     cursor: 'pointer',
-    border: 0,
   },
   font,
   color,
@@ -15,15 +14,14 @@ const Button = styled.button(
   fontSize,
   typography,
   buttonStyle,
+  buttonSizes,
 );
 
 Button.defaultProps = {
   px: 4,
   py: 1,
-  fontSize: 1,
-  lineHeight: 2,
-  borderRadius: 4,
   font: 'primary',
+  size: 'medium',
   variant: 'primaryUranus',
 };
 

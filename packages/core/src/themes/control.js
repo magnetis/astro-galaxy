@@ -72,13 +72,15 @@ const colors = {
 };
 
 const theme = {
-  fontSizes: [12, 16, 24, 32, 40, 48, 64],
   fonts: {
     primary: `normal normal 600 normal 16px/1.5 Poppins, sans-serif`,
     secondary: `normal normal 400 normal 16px/1.5 Lato, sans-serif;`
   },
+  fontSizes: [12, 16, 24, 32, 40, 48, 64],
   radii: [0, 2, 8, 16, 24],
-  spacing: [0, 8, 16, 24],
+  space: [0, 8, 16, 24, 38],
+  sizes: [],
+  lineHeights: [0, '18px', '28px'],
   buttons: {
     primaryUranus: {
       backgroundColor: colors.uranus500,
@@ -88,7 +90,7 @@ const theme = {
       backgroundColor: colors.earth400,
       color: colors.moon900
     }
-  }
-}
+  },
+};
 
 export default theme;

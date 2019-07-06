@@ -8,6 +8,6 @@ export const font = system({
 });
 
 export const buttonSizes = variant({
-  prop: 'size',
+  prop: 'buttonSize',
   key: 'buttonSizes',
 });

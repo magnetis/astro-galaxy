@@ -72,6 +72,7 @@ const colors = {
 };
 
 const baseTheme = {
+  colors,
   fonts: {
     primary: `normal normal 600 normal 16px/1.5 Poppins, sans-serif`,
     secondary: `normal normal 400 normal 16px/1.5 Lato, sans-serif;`
@@ -86,15 +87,27 @@ const baseTheme = {
 const theme = {
   ...baseTheme,
   buttons: {
-    primaryUranus: {
-      backgroundColor: colors.uranus500,
-      color: colors.space100,
-      borderColor: colors.uranus500,
-    },
-    primaryEarth: {
-      backgroundColor: colors.earth400,
-      color: colors.moon900,
-      borderColor: colors.earth400,
+    primary: {
+      uranus: {
+        backgroundColor: baseTheme.colors.uranus500,
+        color: baseTheme.colors.space100,
+        borderColor: baseTheme.colors.uranus500,
+      },
+      earth: {
+        backgroundColor: baseTheme.colors.earth400,
+        color: baseTheme.colors.moon900,
+        borderColor: baseTheme.colors.earth400,
+      },
+      venus: {
+        backgroundColor: baseTheme.colors.venus400,
+        color: baseTheme.colors.space100,
+        borderColor: baseTheme.colors.venus400,
+      },
+      mars: {
+        backgroundColor: baseTheme.colors.mars500,
+        color: baseTheme.colors.space100,
+        borderColor: baseTheme.colors.mars500,
+      }
     },
   },
   buttonSizes: {

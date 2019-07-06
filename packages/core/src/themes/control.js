@@ -109,19 +109,40 @@ const theme = {
         borderColor: baseTheme.colors.mars500,
       }
     },
+    outline: {
+      uranus: {
+        color: baseTheme.colors.uranus500,
+        borderColor: baseTheme.colors.uranus500,
+      },
+      earth: {
+        color: baseTheme.colors.earth600,
+        borderColor: baseTheme.colors.earth600,
+      },
+      venus: {
+        color: baseTheme.colors.venus400,
+        borderColor: baseTheme.colors.venus400,
+      },
+      mars: {
+        color: baseTheme.colors.mars500,
+        borderColor: baseTheme.colors.mars500,
+      }
+    }
   },
   buttonSizes: {
     small: {
+      padding: '5px 28px', // @TODO: Figure out this hardcoded values
       fontSize: baseTheme.fontSizes[0],
       lineHeight: baseTheme.lineHeights[1],
       borderRadius: baseTheme.radii[3],
     },
     medium: {
+      padding: '8px 38px', // @TODO: Figure out this hardcoded values
       fontSize: baseTheme.fontSizes[1],
       lineHeight: baseTheme.lineHeights[2],
       borderRadius: baseTheme.radii[4],
     },
     large: {
+      padding: '12px 46px', // @TODO: Figure out this hardcoded values
       fontSize: baseTheme.fontSizes[2],
       lineHeight: baseTheme.lineHeights[3],
       borderRadius: baseTheme.radii[5],

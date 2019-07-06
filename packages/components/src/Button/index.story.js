@@ -10,11 +10,15 @@ storiesOf('Buttons', module)
       <Button variant='primary.earth'>earth</Button>
       <Button variant='primary.venus'>venus</Button>
       <Button variant='primary.mars'>mars</Button>
+      <Button disabled>disabled</Button>
     </React.Fragment>
   ));
 
-storiesOf('Button small', module)
-  .add('button uranus small', () => <Button buttonSize='small'>uranus</Button>);
-
-storiesOf('Button large', module)
-  .add('button uranus large', () => <Button buttonSize='large'>uranus</Button>);
+storiesOf('Button sizes', module)
+  .add('primary buttons sizes', () => (
+    <React.Fragment>
+      <Button buttonSize='small'>small</Button>
+      <Button buttonSize='medium'>medium ~ default</Button>
+      <Button buttonSize='large'>large</Button>
+    </React.Fragment>
+  ));

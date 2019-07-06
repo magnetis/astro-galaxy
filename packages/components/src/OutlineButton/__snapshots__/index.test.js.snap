@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button should render a Button component 1`] = `
+.c0 {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  cursor: pointer;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-size: 14px;
+}
+
+<Button
+  borderRadius={4}
+  fontSize={1}
+  px={4}
+  py={3}
+  variant="primaryUranus"
+>
+  <StyledComponent
+    borderRadius={4}
+    fontSize={1}
+    forwardedComponent={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "_foldedDefaultProps": Object {
+          "borderRadius": 4,
+          "fontSize": 1,
+          "px": 4,
+          "py": 3,
+          "variant": "primaryUranus",
+        },
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "Button-sc-17nfmw4-0",
+          "isStatic": false,
+          "lastClassName": "c0",
+          "rules": Array [
+            "appearance: button;",
+            "cursor: pointer;",
+            [Function],
+            [Function],
+            [Function],
+            [Function],
+            [Function],
+            [Function],
+          ],
+        },
+        "displayName": "Button",
+        "foldedComponentIds": Array [],
+        "propTypes": Object {},
+        "render": [Function],
+        "styledComponentId": "Button-sc-17nfmw4-0",
+        "target": "button",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      }
+    }
+    forwardedRef={null}
+    px={4}
+    py={3}
+    variant="primaryUranus"
+  >
+    <button
+      className="c0"
+      fontSize={1}
+    >
+      uranus
+    </button>
+  </StyledComponent>
+</Button>
+`;

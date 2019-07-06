@@ -82,8 +82,6 @@ const Button = styled.button`
 
 Button.defaultProps = {
   display: 'inline-block',
-  px: 4,
-  py: 1,
   variant: 'primary.uranus',
   buttonSize: 'medium',
   font: 'primary',

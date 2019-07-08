@@ -4,11 +4,13 @@ import ThemeProvider from '../packages/core/src/theme-provider';
 
 addDecorator(story => <ThemeProvider>{story()}</ThemeProvider>);
 
-// automatically import all files ending in *.stories.js
-const req = require.context('../packages/components', true, /.story\.js$/);
+// automatically import all files ending in *.story.js
+const componentsContext = require.context('../packages/components', true, /.story\.js$/);
+const iconsContext = require.context('../packages/icons', true, /.story\.js$/);
 
 function loadStories() {
-  req.keys().forEach(filename => req(filename));
+  componentsContext.keys().forEach(componentsContext);
+  iconsContext.keys().forEach(iconsContext);
 }
 
 configure(loadStories, module);

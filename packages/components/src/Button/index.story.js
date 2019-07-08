@@ -2,7 +2,7 @@ import React from 'react';
 import { storiesOf } from "@storybook/react";
 import Button from './index.js';
 
-storiesOf('Buttons', module)
+storiesOf('buttons', module)
   .add('button default', () => <Button>uranus</Button>)
   .add('primary buttons variants', () => (
     <React.Fragment>
@@ -14,7 +14,7 @@ storiesOf('Buttons', module)
     </React.Fragment>
   ));
 
-storiesOf('Button sizes', module)
+storiesOf('button sizes', module)
   .add('primary buttons sizes', () => (
     <React.Fragment>
       <Button buttonSize='small'>small</Button>

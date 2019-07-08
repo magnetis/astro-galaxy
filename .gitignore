@@ -63,3 +63,4 @@ typings/
 # Custom things
 lib/
 .jest-cache
+.DS_Store

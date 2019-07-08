@@ -2,7 +2,7 @@ import React from 'react';
 import { storiesOf } from "@storybook/react";
 import OutlineButton from './index.js';
 
-storiesOf('OutlineButtons', module)
+storiesOf('outline buttons', module)
   .add('button default', () => <OutlineButton>uranus</OutlineButton>)
   .add('outline buttons variants', () => (
     <React.Fragment>
@@ -14,7 +14,7 @@ storiesOf('OutlineButtons', module)
     </React.Fragment>
   ));
 
-storiesOf('OutlineButton sizes', module)
+storiesOf('outline button sizes', module)
 .add('outline buttons sizes', () => (
   <React.Fragment>
     <OutlineButton buttonSize='small'>small</OutlineButton>

@@ -4,11 +4,10 @@ const iconTemplate = require('../templates/icon-template');
 const iconComponentTemplate = require('../templates/icon-component-template');
 const indexTemplate = require('../templates/index');
 
-const getSVGContent = source =>
-  source.slice(source.indexOf('>') + 1).slice(0, -6);
+const getSVGContent = source => source.slice(source.indexOf('>') + 1).slice(0, -6);
 
 const createIcon = svgs => {
-  const files = svgs.map((svg) => {
+  const files = svgs.map(svg => {
     const { name, viewBox, width, height } = svg.metadata;
     const componentName = upperFirst(camelCase(name));
     const svgPaths = getSVGContent(svg.source);

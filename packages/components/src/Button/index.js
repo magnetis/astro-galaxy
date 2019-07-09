@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { color, space, border, layout, fontSize, buttonStyle, typography } from 'styled-system';
-import { font, buttonSizes } from "astro-core/src/custom-props";
+import { font, buttonSizes } from 'astro-core/src/custom-props';
 
 const hoverStyles = props => ({
   'primary.uranus': `
@@ -18,7 +18,7 @@ const hoverStyles = props => ({
   'primary.mars': `
     background-color: ${props.theme.colors.mars300};
     border-color: ${props.theme.colors.mars300};
-  `
+  `,
 });
 
 const activeStyles = props => ({
@@ -37,13 +37,13 @@ const activeStyles = props => ({
   'primary.mars': `
     background-color: ${props.theme.colors.mars600};
     border-color: ${props.theme.colors.mars600};
-  `
+  `,
 });
 
 const Button = styled.button`
   cursor: pointer;
   white-space: no-wrap;
-  textAlign: center;
+  text-align: center;
   transition: all 0.3s ease;
   overflow: hidden;
   border-width: 2px;

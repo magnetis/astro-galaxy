@@ -68,14 +68,14 @@ const colors = {
   venus700: '#993c85',
   venus800: '#842a6d',
   venus900: '#6b1550',
-  venus1000: '#5c083f'
+  venus1000: '#5c083f',
 };
 
 const baseTheme = {
   colors,
   fonts: {
     primary: `normal normal 600 normal 16px/1.5 Poppins, sans-serif`,
-    secondary: `normal normal 400 normal 16px/1.5 Lato, sans-serif;`
+    secondary: `normal normal 400 normal 16px/1.5 Lato, sans-serif;`,
   },
   fontSizes: [12, 16, 24, 32, 40, 48, 64],
   radii: [0, 2, 8, 16, 24, 32],
@@ -107,7 +107,7 @@ const theme = {
         backgroundColor: baseTheme.colors.mars500,
         color: baseTheme.colors.space100,
         borderColor: baseTheme.colors.mars500,
-      }
+      },
     },
     outline: {
       uranus: {
@@ -125,8 +125,8 @@ const theme = {
       mars: {
         color: baseTheme.colors.mars500,
         borderColor: baseTheme.colors.mars500,
-      }
-    }
+      },
+    },
   },
   buttonSizes: {
     small: {
@@ -147,7 +147,7 @@ const theme = {
       lineHeight: baseTheme.lineHeights[3],
       borderRadius: baseTheme.radii[5],
     },
-  }
+  },
 };
 
 export default theme;

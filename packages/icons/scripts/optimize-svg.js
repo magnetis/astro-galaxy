@@ -25,9 +25,7 @@ const getName = assetPath => path.basename(assetPath, path.extname(assetPath));
 const getViewBox = svg => {
   const { nodes } = new SVGI(svg).report();
 
-  return (
-    nodes.properties.viewBox || `0 0 ${nodes.properties.width} ${nodes.properties.height}`
-  );
+  return nodes.properties.viewBox || `0 0 ${nodes.properties.width} ${nodes.properties.height}`;
 };
 
 const optimizeSvg = (assetPattern, callback) => {
@@ -48,7 +46,7 @@ const optimizeSvg = (assetPattern, callback) => {
         .optimize(content, { path: assetpath })
         .then(({ data, info }) => {
           svg2jsx(data)
-            .then((jsxSVG) => {
+            .then(jsxSVG => {
               optimizedItems.push({
                 source: jsxSVG,
                 metadata: Object.assign(info, {

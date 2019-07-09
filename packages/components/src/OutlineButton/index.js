@@ -21,7 +21,7 @@ const hoverStyles = props => ({
     background-color: ${props.theme.colors.mars400};
     border-color: ${props.theme.colors.mars400};
     color: ${props.theme.colors.space100};
-  `
+  `,
 });
 
 const activeStyles = props => ({
@@ -40,7 +40,7 @@ const activeStyles = props => ({
   'outline.mars': `
     background-color: ${props.theme.colors.mars600};
     border-color: ${props.theme.colors.mars600};
-  `
+  `,
 });
 
 const OutlineButton = styled(Button)`

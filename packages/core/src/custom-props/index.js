@@ -3,8 +3,8 @@ import { system, variant } from 'styled-system';
 export const font = system({
   font: {
     property: 'font',
-    scale: 'fonts'
-  }
+    scale: 'fonts',
+  },
 });
 
 export const buttonSizes = variant({

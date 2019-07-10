@@ -1,10 +1,14 @@
-import React from 'react';
 import styled from 'styled-components';
-import { color, space, layout, fontSize, typography } from 'styled-system';
-import { font, buttonSizes } from 'astro-core/src/custom-props';
+import { space, layout } from 'styled-system';
 
 const RadioWrapper = styled.div`
   display: flex;
+
+  > input[type='radio']:disabled ~ label,
+  > input[type='radio']:disabled ~ span::before {
+    cursor: not-allowed;
+    color: ${props => props.theme.colors.moon200};
+  }
 
   ${layout};
   ${space};

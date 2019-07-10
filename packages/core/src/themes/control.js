@@ -80,7 +80,7 @@ const baseTheme = {
   fontSizes: [12, 16, 24, 32, 40, 48, 64],
   radii: [0, 2, 8, 16, 24, 32],
   space: [0, 8, 16, 24, 38],
-  sizes: [],
+  sizes: [0, '8px', '18px'],
   lineHeights: [0, '18px', '28px', '35px'],
 };
 

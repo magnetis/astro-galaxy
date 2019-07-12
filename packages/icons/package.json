@@ -1,5 +1,5 @@
 {
-  "name": "astro-icons",
+  "name": "@magnetis/astro-galaxy-icons",
   "version": "1.0.0",
   "main": "lib/index.js",
   "module": "src/index.js",

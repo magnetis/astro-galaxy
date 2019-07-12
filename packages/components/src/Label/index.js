@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { color, space } from 'styled-system';
-import { font } from 'astro-core/src/custom-props';
+import { font } from '@magnetis/astro-galaxy-core';
 
 const Label = styled.label`
   cursor: pointer;

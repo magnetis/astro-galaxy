@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { color, space, border, layout, fontSize, buttonStyle, typography } from 'styled-system';
-import { font, buttonSizes } from 'astro-core/src/custom-props';
+import { font, buttonSizes } from '@magnetis/astro-galaxy-core';
 
 const hoverStyles = props => ({
   'primary.uranus': `

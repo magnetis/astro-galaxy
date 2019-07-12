@@ -1,5 +1,5 @@
 {
-  "name": "astro-components",
+  "name": "@magnetis/astro-galaxy-components",
   "version": "1.0.0",
   "main": "lib/index.js",
   "module": "src/index.js",

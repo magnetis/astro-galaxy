@@ -1,61 +1,67 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Button should render a Button component 1`] = `
-.c0 {
-  -webkit-appearance: button;
-  -moz-appearance: button;
-  appearance: button;
-  cursor: pointer;
-  padding-left: 32px;
-  padding-right: 32px;
-  padding-top: 16px;
-  padding-bottom: 16px;
-  border-radius: 4px;
-  font-size: 14px;
-  font-size: 14px;
-}
-
 <Button
-  borderRadius={4}
-  fontSize={1}
-  px={4}
-  py={3}
-  variant="primaryUranus"
+  buttonSize="medium"
+  display="inline-block"
+  font="primary"
+  variant="primary.uranus"
 >
   <StyledComponent
-    borderRadius={4}
-    fontSize={1}
+    buttonSize="medium"
+    display="inline-block"
+    font="primary"
     forwardedComponent={
       Object {
         "$$typeof": Symbol(react.forward_ref),
         "_foldedDefaultProps": Object {
-          "borderRadius": 4,
-          "fontSize": 1,
-          "px": 4,
-          "py": 3,
-          "variant": "primaryUranus",
+          "buttonSize": "medium",
+          "display": "inline-block",
+          "font": "primary",
+          "variant": "primary.uranus",
         },
         "attrs": Array [],
         "componentStyle": ComponentStyle {
-          "componentId": "Button-sc-17nfmw4-0",
+          "componentId": "Button-tgj28e-0",
           "isStatic": false,
-          "lastClassName": "c0",
+          "lastClassName": "eIrlVm",
           "rules": Array [
-            "appearance: button;",
-            "cursor: pointer;",
+            "cursor:pointer;white-space:no-wrap;text-align:center;transition:all 0.3s ease;overflow:hidden;border-width:2px;border-style:solid;:disabled{cursor:not-allowed;background-color:",
             [Function],
+            ";border-color:",
             [Function],
+            ";color:",
             [Function],
+            ";}:hover:not(:disabled),:focus:not(:disabled){",
             [Function],
+            "}:active:not(:disabled){",
             [Function],
+            "}:focus{outline:none;}",
             [Function],
+            ";",
+            [Function],
+            ";",
+            [Function],
+            ";",
+            [Function],
+            ";",
+            [Function],
+            ";",
+            [Function],
+            ";",
+            [Function],
+            ";",
+            [Function],
+            ";",
+            [Function],
+            ";",
           ],
         },
         "displayName": "Button",
         "foldedComponentIds": Array [],
         "propTypes": Object {},
         "render": [Function],
-        "styledComponentId": "Button-sc-17nfmw4-0",
+        "styledComponentId": "Button-tgj28e-0",
         "target": "button",
         "toString": [Function],
         "warnTooManyClasses": [Function],
@@ -63,13 +69,11 @@ exports[`Button should render a Button component 1`] = `
       }
     }
     forwardedRef={null}
-    px={4}
-    py={3}
-    variant="primaryUranus"
+    variant="primary.uranus"
   >
     <button
-      className="c0"
-      fontSize={1}
+      className="Button-tgj28e-0 eIrlVm"
+      display="inline-block"
     >
       uranus
     </button>

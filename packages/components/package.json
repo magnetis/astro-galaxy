@@ -1,8 +1,11 @@
 {
   "name": "@magnetis/astro-galaxy-components",
   "version": "1.0.0",
-  "main": "lib/index.js",
-  "module": "src/index.js",
+  "main": "lib/index.cjs.js",
+  "module": "lib/index.es.js",
+  "scripts": {
+    "compile": "rollup -c"
+  },
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",

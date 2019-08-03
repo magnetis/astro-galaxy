@@ -1,8 +1,8 @@
 {
   "name": "@magnetis/astro-galaxy-icons",
   "version": "1.0.0",
-  "main": "lib/index.js",
-  "module": "src/index.js",
+  "main": "lib/index.cjs.js",
+  "module": "lib/index.es.js",
   "dependencies": {
     "lodash": "^4.17.11",
     "react": "^16.8.6",

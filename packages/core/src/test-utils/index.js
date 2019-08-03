@@ -1,6 +1,7 @@
 import React from 'react';
 import { mount } from 'enzyme';
-import { ThemeProvider, theme } from '@magnetis/astro-galaxy-core';
+import ThemeProvider from '../theme-provider';
+import theme from '../themes/control';
 
 export const mountWithTheme = (tree, theme) => {
   const WrappingThemeProvider = props => (

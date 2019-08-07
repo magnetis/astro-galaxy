@@ -1,5 +1,6 @@
 {
-  "name": "root",
+  "name": "@magnetis/astro-galaxy",
+  "version": "1.0.0",
   "private": true,
   "workspaces": [
     "packages/*"

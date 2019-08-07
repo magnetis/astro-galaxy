@@ -42,7 +42,7 @@ const activeStyles = props => ({
 
 const Button = styled.button`
   cursor: pointer;
-  white-space: no-wrap;
+  white-space: nowrap;
   text-align: center;
   transition: all 0.3s ease;
   overflow: hidden;

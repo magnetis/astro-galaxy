@@ -1,11 +1,18 @@
 {
   "name": "@magnetis/astro-galaxy",
-  "version": "1.0.0-alpha",
+  "version": "0.0.0",
+  "author": "Magnetis (https://github.com/magnetis)",
+  "homepage": "https://astro.magnetis.com.br/",
+  "description": "Magnetis design system",
   "workspaces": [
     "packages/*"
   ],
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/magnetis/astro-galaxy"
+  },
   "scripts": {
-    "build": "lerna exec --parallel -- babel --root-mode upward src -d lib --ignore **/*.story.js,**/*.test.js",
     "compile": "lerna run compile",
     "build:icons": "node packages/icons/scripts/build-icons",
     "bootstrap": "npx lerna bootstrap --use-workspaces",

@@ -1,7 +1,6 @@
 {
   "name": "@magnetis/astro-galaxy",
   "version": "1.0.0-alpha",
-  "private": true,
   "workspaces": [
     "packages/*"
   ],

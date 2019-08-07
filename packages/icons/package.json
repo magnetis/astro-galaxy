@@ -25,5 +25,8 @@
     "svgi": "^1.1.0",
     "svgo": "^1.2.2"
   },
-  "gitHead": "9a4d4a49403b182c1809bbb4f750e705e77bef61"
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "91162d27c8c054701bf1557a38a9541b130e8583"
 }

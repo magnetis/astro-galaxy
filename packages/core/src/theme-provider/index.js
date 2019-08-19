@@ -83,15 +83,11 @@ const GlobalStyle = createGlobalStyle`
   }
 `;
 
-const ThemeProvider = props => {
-  return (
-    <AstroThemeProvider theme={props.theme || theme}>
-      <Fragment>
-        <GlobalStyle />
-        {props.children}
-      </Fragment>
-    </AstroThemeProvider>
-  );
-};
-
-export default ThemeProvider;
+export default props => (
+  <AstroThemeProvider theme={props.theme || theme}>
+    <Fragment>
+      <GlobalStyle />
+      {props.children}
+    </Fragment>
+  </AstroThemeProvider>
+);

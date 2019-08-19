@@ -1,7 +1,7 @@
 import React from 'react';
 import { configure, addDecorator } from '@storybook/react';
 import { ThemeProvider } from '@magnetis/astro-galaxy-core';
-console.log(ThemeProvider);
+
 addDecorator(story => <ThemeProvider>{story()}</ThemeProvider>);
 
 // automatically import all files ending in *.story.js

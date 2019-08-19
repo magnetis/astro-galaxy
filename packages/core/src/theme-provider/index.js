@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import { ThemeProvider as StyledThemeProvider, createGlobalStyle } from 'styled-components';
+import { ThemeProvider as AstroThemeProvider, createGlobalStyle } from 'styled-components';
 import theme from '../themes/control';
 
 const GlobalStyle = createGlobalStyle`
@@ -85,12 +85,12 @@ const GlobalStyle = createGlobalStyle`
 
 const ThemeProvider = props => {
   return (
-    <StyledThemeProvider theme={theme}>
+    <AstroThemeProvider theme={props.theme || theme}>
       <Fragment>
         <GlobalStyle />
         {props.children}
       </Fragment>
-    </StyledThemeProvider>
+    </AstroThemeProvider>
   );
 };
 

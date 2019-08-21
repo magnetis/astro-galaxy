@@ -6,6 +6,9 @@
   "files": [
     "lib"
   ],
+  "scripts": {
+    "compile":"node ./scripts/build-icons && rollup -c"
+  },
   "dependencies": {
     "lodash": "^4.17.11",
     "react": "^16.8.6",

@@ -1,7 +1,7 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 import map from 'lodash/map';
-import * as icons from './lib/icons/index';
+import * as icons from './lib/index.es';
 
 const Story = () => {
   return map(icons, (Icon, IconName) => (

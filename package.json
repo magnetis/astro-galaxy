@@ -1,6 +1,7 @@
 {
   "name": "@magnetis/astro-galaxy",
   "version": "0.0.0",
+  "private": true,
   "author": "Magnetis (https://github.com/magnetis)",
   "homepage": "https://astro.magnetis.com.br/",
   "description": "Magnetis design system",
@@ -14,9 +15,8 @@
   },
   "scripts": {
     "compile": "lerna run compile",
-    "build:icons": "node packages/icons/scripts/build-icons",
     "bootstrap": "npx lerna bootstrap --use-workspaces",
-    "dev": "yarn run build:icons && start-storybook -p 5555",
+    "dev": "yarn compile --scope @magnetis/astro-galaxy-icons && start-storybook -p 5555",
     "test:coverage": "jest --coverage",
     "test:unit": "jest",
     "lint": "eslint \"./packages/**/**/*.js\" --fix"
@@ -60,6 +60,7 @@
     "rollup-plugin-auto-external": "^2.0.0",
     "rollup-plugin-babel": "^4.3.3",
     "rollup-plugin-commonjs": "^10.0.1",
+    "rollup-plugin-delete": "^1.1.0",
     "rollup-plugin-filesize": "^6.1.1",
     "rollup-plugin-json": "^4.0.0",
     "rollup-plugin-local-resolve": "^1.0.7",

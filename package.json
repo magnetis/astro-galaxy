@@ -19,7 +19,8 @@
     "dev": "yarn compile --scope @magnetis/astro-galaxy-icons && start-storybook -p 5555",
     "test:coverage": "jest --coverage",
     "test:unit": "jest",
-    "lint": "eslint \"./packages/**/**/*.js\" --fix"
+    "lint": "eslint \"./packages/**/**/*.js\" --fix",
+    "publish": "npx lerna publish"
   },
   "devDependencies": {
     "@babel/cli": "^7.4.4",

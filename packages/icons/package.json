@@ -1,13 +1,13 @@
 {
   "name": "@magnetis/astro-galaxy-icons",
-  "version": "1.0.5-alpha.0",
+  "version": "1.0.0-alpha.1",
   "main": "lib/index.cjs.js",
   "module": "lib/index.es.js",
   "files": [
     "lib"
   ],
   "scripts": {
-    "compile":"node ./scripts/build-icons && rollup -c"
+    "compile": "node ./scripts/build-icons && rollup -c"
   },
   "dependencies": {
     "lodash": "^4.17.11",

@@ -17,8 +17,8 @@
     "compile": "lerna run compile",
     "bootstrap": "npx lerna bootstrap --use-workspaces",
     "dev": "yarn compile --scope @magnetis/astro-galaxy-icons && start-storybook -p 5555",
-    "test:coverage": "jest --coverage",
     "test:unit": "jest",
+    "test:unit:watch": "jest --watch",
     "lint": "eslint \"./packages/**/**/*.js\" --fix",
     "publish": "npx lerna publish"
   },

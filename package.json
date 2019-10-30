@@ -21,7 +21,7 @@
     "test:unit:watch": "jest --watch",
     "lint": "eslint \"./packages/**/**/*.js\" --fix",
     "publish": "npx lerna publish",
-    "ci:build": "yarn lint && yarn compile"
+    "ci:build": "yarn lint && yarn test:unit && yarn compile"
   },
   "devDependencies": {
     "@babel/cli": "^7.4.4",
@@ -72,6 +72,7 @@
     "webpack-dev-server": "^3.7.2"
   },
   "dependencies": {
+    "@magnetis/astro-galaxy-core": "1.0.0-alpha.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "styled-components": "^4.3.2",

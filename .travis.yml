@@ -1,8 +1,8 @@
 language: node_js
 node_js:
   - '10'
-before_install:
-  - yarn global add @magnetis/astro-galaxy-core
 install:
   - yarn bootstrap
+before_script:
+  - yarn add -W @magnetis/astro-galaxy-core
 script: yarn ci:build

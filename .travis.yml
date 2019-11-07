@@ -3,6 +3,4 @@ node_js:
   - '10'
 install:
   - yarn bootstrap
-before_script:
-  - yarn add -W @magnetis/astro-galaxy-core
 script: yarn ci:build

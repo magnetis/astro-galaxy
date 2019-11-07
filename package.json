@@ -21,7 +21,7 @@
     "test:unit:watch": "jest --watch",
     "lint": "eslint \"./packages/**/**/*.js\" --fix",
     "publish": "npx lerna publish",
-    "ci:build": "yarn lint && yarn test:unit && yarn compile"
+    "ci:build": "yarn lint && yarn compile && yarn test:unit"
   },
   "devDependencies": {
     "@babel/cli": "^7.4.4",

@@ -35,6 +35,8 @@
     "@storybook/addon-links": "^5.1.9",
     "@storybook/addons": "^5.1.9",
     "@storybook/react": "^5.1.9",
+    "@testing-library/jest-dom": "^4.2.3",
+    "@testing-library/react": "^9.3.2",
     "babel-core": "7.0.0-bridge.0",
     "babel-eslint": "9.x",
     "babel-jest": "^24.8.0",
@@ -56,6 +58,7 @@
     "jest-styled-components": "^6.3.3",
     "lerna": "^3.15.0",
     "prettier": "1.18.2",
+    "react-test-renderer": "^16.11.0",
     "rollup": "^1.17.0",
     "rollup-plugin-auto-external": "^2.0.0",
     "rollup-plugin-babel": "^4.3.3",
@@ -72,8 +75,8 @@
     "webpack-dev-server": "^3.7.2"
   },
   "dependencies": {
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
     "styled-components": "^4.3.2",
     "styled-system": "^5.0.12"
   }

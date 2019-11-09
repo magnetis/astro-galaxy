@@ -1,38 +1,31 @@
 import React from 'react';
-import { shallow } from 'enzyme';
-import { AstroThemeProvider } from '@magnetis/astro-galaxy-core';
+import { theme } from '@magnetis/astro-galaxy-core';
 import Button from '../index';
 
-describe('Button', () => {
-  const build = (props = {}, text) => {
-    const wrapper = shallow(
-      <AstroThemeProvider>
-        <Button {...props}>{text}</Button>
-      </AstroThemeProvider>
-    );
-    return wrapper;
-  };
+describe('Button component', () => {
+  it('should render a button', () => {
+    const button = rendererCreateWithTheme(<Button>Hello</Button>).toJSON();
 
-  it('should render default Button component', () => {
-    const shallowButton = build({ id: 'my-button', mt: 10 }, 'uranus');
-    const btn = shallowButton.find('#my-button');
-
-    const expectedProps = {
-      id: 'my-button',
-      mt: 10,
-      children: 'uranus',
-      display: 'inline-block',
-      variant: 'primary.uranus',
-      buttonSize: 'medium',
-      font: 'primary',
-    };
-
-    expect(btn.props()).toEqual(expectedProps);
+    expect(button).toMatchSnapshot();
   });
 
-  it('should render disabled button', () => {
-    const wrapper = shallow(<Button disabled>uranus</Button>);
+  it('should change font-size and padding when button size is small', () => {
+    const button = rendererCreateWithTheme(
+      <Button buttonSize="small">Click here!</Button>
+    ).toJSON();
 
-    expect(wrapper.find('[disabled]')).toHaveLength(1);
+    expect(button).toMatchSnapshot();
+    expect(button).toHaveStyleRule('font-size', '12px');
+    expect(button).toHaveStyleRule('padding', '5px 28px');
+  });
+
+  it('should change background-color and border-color when variant is primary.mars', () => {
+    const button = rendererCreateWithTheme(
+      <Button variant="primary.mars">Click here!</Button>
+    ).toJSON();
+
+    expect(button).toMatchSnapshot();
+    expect(button).toHaveStyleRule('background-color', theme.colors.mars500);
+    expect(button).toHaveStyleRule('border-color', theme.colors.mars500);
   });
 });

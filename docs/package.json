@@ -1,0 +1,32 @@
+{
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "start": "next",
+    "build": "next build && next export"
+  },
+  "dependencies": {
+    "@magnetis/astro-galaxy-components": "1.0.0-alpha.1",
+    "@magnetis/astro-galaxy-core": "1.0.0-alpha.1",
+    "@magnetis/astro-galaxy-icons": "1.0.0-alpha.1",
+    "@mdx-js/mdx": "^0.15.0",
+    "mdx-docs": "^2.0.0-alpha.0",
+    "next": "^9.1.3",
+    "prop-types": "^15.6.2",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "remark-autolink-headings": "^5.1.0",
+    "remark-emoji": "^2.0.2",
+    "remark-images": "^0.16.1",
+    "remark-slug": "^5.1.1",
+    "remark-unwrap-images": "^0.1.0",
+    "styled-components": "^4.4.1",
+    "styled-system": "^5.1.2"
+  },
+  "devDependencies": {
+    "@mdx-js/loader": "^0.16.6",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-styled-components": "^1.10.6"
+  },
+  "name": "docs"
+}

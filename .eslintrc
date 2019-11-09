@@ -3,5 +3,10 @@
   "plugins": ["prettier"],
   "rules": {
     "prettier/prettier": "error"
+  },
+  "globals": {
+    "renderWithTheme": "readonly",
+    "rendererCreateWithTheme": "readonly",
+    "requestAnimationFrame": "readonly"
   }
 }

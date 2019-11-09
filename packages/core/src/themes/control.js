@@ -77,11 +77,12 @@ const baseTheme = {
     primary: `normal normal 600 normal 16px/1.5 Poppins, sans-serif`,
     secondary: `normal normal 400 normal 16px/1.5 Lato, sans-serif;`,
   },
-  fontSizes: [12, 16, 24, 32, 40, 48, 64],
+  fontSizes: [12, 14, 16, 24, 32, 40, 48, 64],
   radii: [0, 2, 8, 16, 24, 32],
   space: [0, 8, 16, 24, 38],
   sizes: [0, '8px', '18px'],
   lineHeights: [0, '18px', '28px', '35px'],
+  zIndices: [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100],
 };
 
 const theme = {
@@ -137,13 +138,13 @@ const theme = {
     },
     medium: {
       padding: '8px 38px', // @TODO: Figure out this hardcoded values
-      fontSize: baseTheme.fontSizes[1],
+      fontSize: baseTheme.fontSizes[2],
       lineHeight: baseTheme.lineHeights[2],
       borderRadius: baseTheme.radii[4],
     },
     large: {
       padding: '12px 46px', // @TODO: Figure out this hardcoded values
-      fontSize: baseTheme.fontSizes[2],
+      fontSize: baseTheme.fontSizes[3],
       lineHeight: baseTheme.lineHeights[3],
       borderRadius: baseTheme.radii[5],
     },

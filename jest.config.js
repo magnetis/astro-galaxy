@@ -1,5 +1,5 @@
 module.exports = {
-  setupFiles: ['./jest.setup.js'],
+  setupFilesAfterEnv: ['./jest.setup.js'],
   cacheDirectory: '.jest-cache',
   coverageDirectory: '.jest-coverage',
   coveragePathIgnorePatterns: ['<rootDir>/packages/(?:.+?)/lib/'],

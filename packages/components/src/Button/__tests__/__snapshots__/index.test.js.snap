@@ -1,0 +1,154 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button component should change background-color and border-color when variant is primary.mars 1`] = `
+.c0 {
+  cursor: pointer;
+  white-space: nowrap;
+  text-align: center;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  overflow: hidden;
+  border-width: 2px;
+  border-style: solid;
+  font: normal normal 600 normal 16px/1.5 Poppins,sans-serif;
+  display: inline-block;
+  background-color: #d45459;
+  color: #fff;
+  border-color: #d45459;
+  padding: 8px 38px;
+  font-size: 16px;
+  line-height: 28px;
+  border-radius: 24px;
+}
+
+.c0:disabled {
+  cursor: not-allowed;
+  background-color: #e9eef2;
+  border-color: #e9eef2;
+  color: #fff;
+}
+
+.c0:hover:not(:disabled),
+.c0:focus:not(:disabled) {
+  background-color: #ea9297;
+  border-color: #ea9297;
+}
+
+.c0:active:not(:disabled) {
+  background-color: #ac3c40;
+  border-color: #ac3c40;
+}
+
+.c0:focus {
+  outline: none;
+}
+
+<button
+  className="c0"
+  display="inline-block"
+>
+  Click here!
+</button>
+`;
+
+exports[`Button component should change font-size and padding when button size is small 1`] = `
+.c0 {
+  cursor: pointer;
+  white-space: nowrap;
+  text-align: center;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  overflow: hidden;
+  border-width: 2px;
+  border-style: solid;
+  font: normal normal 600 normal 16px/1.5 Poppins,sans-serif;
+  display: inline-block;
+  background-color: #159ce4;
+  color: #fff;
+  border-color: #159ce4;
+  padding: 5px 28px;
+  font-size: 12px;
+  line-height: 18px;
+  border-radius: 16px;
+}
+
+.c0:disabled {
+  cursor: not-allowed;
+  background-color: #e9eef2;
+  border-color: #e9eef2;
+  color: #fff;
+}
+
+.c0:hover:not(:disabled),
+.c0:focus:not(:disabled) {
+  background-color: #67cff3;
+  border-color: #67cff3;
+}
+
+.c0:active:not(:disabled) {
+  background-color: #147ec1;
+  border-color: #147ec1;
+}
+
+.c0:focus {
+  outline: none;
+}
+
+<button
+  className="c0"
+  display="inline-block"
+>
+  Click here!
+</button>
+`;
+
+exports[`Button component should render a button 1`] = `
+.c0 {
+  cursor: pointer;
+  white-space: nowrap;
+  text-align: center;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  overflow: hidden;
+  border-width: 2px;
+  border-style: solid;
+  font: normal normal 600 normal 16px/1.5 Poppins,sans-serif;
+  display: inline-block;
+  background-color: #159ce4;
+  color: #fff;
+  border-color: #159ce4;
+  padding: 8px 38px;
+  font-size: 16px;
+  line-height: 28px;
+  border-radius: 24px;
+}
+
+.c0:disabled {
+  cursor: not-allowed;
+  background-color: #e9eef2;
+  border-color: #e9eef2;
+  color: #fff;
+}
+
+.c0:hover:not(:disabled),
+.c0:focus:not(:disabled) {
+  background-color: #67cff3;
+  border-color: #67cff3;
+}
+
+.c0:active:not(:disabled) {
+  background-color: #147ec1;
+  border-color: #147ec1;
+}
+
+.c0:focus {
+  outline: none;
+}
+
+<button
+  className="c0"
+  display="inline-block"
+>
+  Hello
+</button>
+`;

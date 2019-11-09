@@ -1,0 +1,11 @@
+import React from 'react';
+
+import {{componentName}} from '../index';
+
+describe('{{componentName}}', () => {
+  it('should render', () => {
+    const json = rendererCreateWithTheme(<{{componentName}} />).toJSON();
+    
+    expect(json).toMatchSnapshot();
+  })
+})

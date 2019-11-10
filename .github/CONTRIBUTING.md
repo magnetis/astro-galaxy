@@ -71,8 +71,8 @@ This command will run `lerna bootstrap` that install all dependencies and do all
 
 ### Running tests
 
-We use [Jest][jest] for testing, including unit tests for functionality and
-[snapshot testing][snapshots] for components.
+We use [Jest](https://jestjs.io) for testing, including unit tests for functionality and
+[snapshot testing](https://jestjs.io/docs/en/snapshot-testing.html#content) for components.
 
 ```sh
 yarn test:unit

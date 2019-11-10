@@ -97,7 +97,7 @@ Follow the steps below to create a new component:
 
 ### Storybook
 
-[Storybook][https://storybook.js.org] is used for isolated UI component development at the moment.
+[Storybook](https://storybook.js.org) is used for isolated UI component development at the moment.
 To run storybook locally from the root directory:
 
 ```sh

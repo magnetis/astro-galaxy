@@ -21,17 +21,17 @@ yarn create-component
 
 You will be prompt with the following:
 
-![macOS Terminal showing Astro Galaxy's create-component command line interface. It is asking the following question: Please enter component name (ProperCase)](https://raw.githubusercontent.com/AgtLucas/bug-free-eureka/master/Screen%20Shot%202019-11-11%20at%208.22.44%20AM.png?token=AAOSIAMUCN4O5277IUS3HCS5ZFCPS)
+![macOS Terminal showing Astro Galaxy's create-component command line interface. It is asking the following question: Please enter component name (ProperCase)](.github/img/creating-components-1.png)
 
 Enter the name of your component, in our case let's call it `Input`, and hit enter. Now another option will appear:
 
-![macOS Terminal showing Astro Galaxy's create-component command line interface. It is asking the following question: Please enter HTML tag name](https://raw.githubusercontent.com/AgtLucas/bug-free-eureka/master/Screen%20Shot%202019-11-11%20at%208.26.30%20AM.png?token=AAOSIAK2XU2FRSUUWGEG4YC5ZFDLO)
+![macOS Terminal showing Astro Galaxy's create-component command line interface. It is asking the following question: Please enter HTML tag name](.github/img/creating-components-2.png)
 
 Our component is an `input` and we will be using an `input` HTML tag, let's type that and hit enter again.
 
 If everything works as expected, you should see something like the following:
 
-![macOS Terminal showing Astro Galaxy's create-component command line interface. It is showing the two previous questions, both of which are answered with "input". It also shows the project's structure created for the component.](https://raw.githubusercontent.com/AgtLucas/bug-free-eureka/master/Screen%20Shot%202019-11-11%20at%208.33.36%20AM.png?token=AAOSIAKTPKESVK5U32EITUC5ZFDZW)
+![macOS Terminal showing Astro Galaxy's create-component command line interface. It is showing the two previous questions, both of which are answered with "input". It also shows the project's structure created for the component.](.github/img/creating-components-3.png)
 
 Three files were created inside `packages/components/src/Input`:
 

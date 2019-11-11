@@ -93,7 +93,7 @@ Check the docs for all the props available and happy coding!
 
 ## Contributing
 
-It's awesome that you want to contribute to Astro! Please see [CONTRIBUTING.md](.github/CONTRIBUTING.md) to learn how it works.
+It's awesome that you want to contribute to Astro! Please see [CONTRIBUTING.md](CONTRIBUTING.md) to learn how it works.
 
 ## Contact us
 

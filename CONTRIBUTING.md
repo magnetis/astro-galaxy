@@ -11,6 +11,7 @@ We recommend [Prettier](https://github.com/prettier/prettier) as your code forma
 - [Install dependencies](#install-dependencies)
 - [Running tests](#running-tests)
 - [Creating new components](#creating-new-components)
+- [Adding new icons](#adding-new-icons)
 - [Storybook](#storybook)
 
 ### TLDR
@@ -96,6 +97,10 @@ Follow the steps below to create a new component:
 2. Make sure to export your new component by adding an export in `packages/components/src/index.js` file
 
 > For a more detailed overview of component's creation, please check our [CREATING COMPONENTS](CREATING_COMPONENTS.md) guide.
+
+### Adding new icons
+
+Please see [ADDING_NEW_ICONS](ADDING_NEW_ICONS.md).
 
 ### Storybook
 

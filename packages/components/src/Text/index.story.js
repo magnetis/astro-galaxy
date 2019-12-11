@@ -6,7 +6,7 @@ storiesOf('Text', module)
   .add('primary', () => <Text>Astro Galaxy</Text>)
   .add('secondary', () => <Text font="secondary">Astro Galaxy</Text>)
   .add('colors', () => (
-    <React.Fragment>
+    <>
       <Text color="earth400">earth400</Text>
       <Text color="mars400">mars400</Text>
       <Text color="moon400">moon400</Text>
@@ -14,7 +14,7 @@ storiesOf('Text', module)
       <Text color="sun400">sun400</Text>
       <Text color="uranus400">uranus400</Text>
       <Text color="venus400">venus400</Text>
-    </React.Fragment>
+    </>
   ))
   .add('sizes', () => (
     <>
@@ -23,4 +23,5 @@ storiesOf('Text', module)
       <Text fontSize="medium">medium</Text>
       <Text fontSize="large">large</Text>
     </>
-  ));
+  ))
+  .add('as span', () => <Text as="span">medium</Text>);

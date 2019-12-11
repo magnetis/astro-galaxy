@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Text should render 1`] = `
+.c0 {
+  color: #32383c;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font: normal normal 600 normal 16px/1.5 Poppins,sans-serif;
+  font-size: 16px;
+}
+
+<p
+  className="c0"
+  color="moon900"
+  fontSize="medium"
+/>
+`;

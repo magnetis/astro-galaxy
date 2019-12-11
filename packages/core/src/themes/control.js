@@ -150,10 +150,18 @@ const theme = {
     },
   },
   fontSizes: {
-    verySmall: baseTheme.fontSizes[0],
-    small: baseTheme.fontSizes[1],
-    medium: baseTheme.fontSizes[2],
-    large: baseTheme.fontSizes[3],
+    text: {
+      verySmall: `${baseTheme.fontSizes[0]}px`,
+      small: `${baseTheme.fontSizes[1]}px`,
+      medium: `${baseTheme.fontSizes[2]}px`,
+      large: `${baseTheme.fontSizes[3]}px`,
+    },
+    headings: {
+      small: `${baseTheme.fontSizes[4]}px`,
+      medium: `${baseTheme.fontSizes[5]}px`,
+      large: `${baseTheme.fontSizes[6]}px`,
+      huge: `${baseTheme.fontSizes[7]}px`,
+    },
   },
 };
 

@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { color, space, border, layout, fontSize, buttonStyle, typography } from 'styled-system';
+import { color, space, border, layout, buttonStyle, typography } from 'styled-system';
 import { font } from '@magnetis/astro-galaxy-core';
 
 const Text = styled.p`
@@ -7,7 +7,7 @@ const Text = styled.p`
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   ${font};
-  ${fontSize};
+  font-size: ${props => props.theme.fontSizes.text[props.fontSize]};
 `;
 
 Text.displayName = 'Text';
@@ -23,7 +23,6 @@ Text.propTypes = {
   ...space.propTypes,
   ...border.propTypes,
   ...layout.propTypes,
-  ...fontSize.propTypes,
   ...buttonStyle.propTypes,
   ...typography.propTypes,
 };

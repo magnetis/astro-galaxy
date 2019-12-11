@@ -12,7 +12,12 @@ module.exports = {
       statements: 100,
     },
   },
-  testPathIgnorePatterns: ['<rootDir>/packages/(?:.+?)/lib/', './node_modules/', './jest.setup.js'],
+  testPathIgnorePatterns: [
+    '<rootDir>/packages/docs',
+    '<rootDir>/packages/(?:.+?)/lib/',
+    './node_modules/',
+    './jest.setup.js',
+  ],
   transform: {
     '^.+\\.[t|j]s?$': 'babel-jest',
   },

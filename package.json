@@ -22,7 +22,8 @@
     "lint": "eslint \"./packages/**/**/*.js\" --fix",
     "publish": "npx lerna publish",
     "ci:build": "yarn lint && yarn compile && yarn test:unit",
-    "create-component": "yarn run plop"
+    "create-component": "yarn run plop",
+    "docs:dev": "npx lerna run develop --stream --scope @magnetis/astro-galaxy-docs"
   },
   "devDependencies": {
     "@babel/cli": "^7.4.4",

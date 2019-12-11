@@ -71,15 +71,30 @@ const colors = {
   venus1000: '#5c083f',
 };
 
+const gradients = {
+  nebulosa: 'linear-gradient(47.32deg, #d991e0 0%, #00c6d4 60.06%, #00ea60 100%)',
+  andromeda: 'linear-gradient(45deg, #ea9297 0%, #e078d6 100%)',
+  sombrero: 'linear-gradient(45.52deg, #9cf184 0%, #3db5eb 100%)',
+  milkyway: 'linear-gradient(44.64deg, #159ce4 0%, #e078d6 100%)',
+  centaurus: 'linear-gradient(225deg, #e078d6 0%, #993c85 100%)',
+  whirlpool: 'linear-gradient(225deg, #9cf184 0%, #56b53f 100%)',
+  cartwheel: 'linear-gradient(45deg, #147ec1 0%, #3db5eb 100%)',
+  blackhole: 'linear-gradient(225deg, #3f4c55 0%, #1c2124 100%)',
+  mayall: 'linear-gradient(225deg, #ea9297 0%, #dd676b 100%)',
+  hoag: 'linear-gradient(223.9deg, #fbee88 0%, #f1c500 100%)',
+  pinwheel: 'linear-gradient(45deg, #8296a4 0%, #bac8d1 100%)',
+};
+
 const baseTheme = {
   colors,
+  gradients,
   fonts: {
     primary: `normal normal 600 normal 16px/1.5 Poppins, sans-serif`,
     secondary: `normal normal 400 normal 16px/1.5 Lato, sans-serif;`,
   },
   fontSizes: [12, 14, 16, 24, 32, 40, 48, 64],
   radii: [0, 2, 8, 16, 24, 32],
-  space: [0, 8, 16, 24, 38],
+  space: [0, 8, 16, 24, 32, 40, 48, 64],
   sizes: [0, '8px', '18px'],
   lineHeights: [0, '18px', '28px', '35px'],
   zIndices: [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100],

@@ -27,7 +27,7 @@ module.exports = {
   resolve: {
     alias: {
       '@magnetis/astro-galaxy-core': path.resolve(__dirname, '../packages/core/src'),
-      '@magnetis/astro-galaxy-icons': path.resolve(__dirname, '../packages/icons/src'),
+      '@magnetis/astro-galaxy-icons': path.resolve(__dirname, '../packages/icons/lib/index.es.js'),
       '@magnetis/astro-galaxy-components': path.resolve(__dirname, '../packages/components/src'),
     },
   },

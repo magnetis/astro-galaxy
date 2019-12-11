@@ -149,6 +149,12 @@ const theme = {
       borderRadius: baseTheme.radii[5],
     },
   },
+  fontSizes: {
+    verySmall: baseTheme.fontSizes[0],
+    small: baseTheme.fontSizes[1],
+    medium: baseTheme.fontSizes[2],
+    large: baseTheme.fontSizes[3],
+  },
 };
 
 export default theme;

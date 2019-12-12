@@ -6,10 +6,6 @@ const breakpoints = {
   xl: 1120,
 };
 
-const keys = Object.keys(breakpoints);
-
-const values = Object.values(breakpoints);
-
 function min(key) {
   return `@media (min-width: ${breakpoints[key]}px)`;
 }

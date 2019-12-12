@@ -1,9 +1,13 @@
 import styled from 'styled-components';
+import { color, space, layout, typography } from 'styled-system';
 
 const Heading = styled.h1`
-  color: ${props => props.theme.colors[props.color]};
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  ${color}
+  ${space}
+  ${layout}
+  ${typography}
   font: ${props => props.theme.fonts.primary};
   font-size: ${props => props.theme.fontSizes.headings[props.fontSize]};
   ${props => props.fontSize === 'huge' && 'font-weight: 700'}
@@ -16,6 +20,11 @@ Heading.defaultProps = {
   fontSize: 'large',
 };
 
-Heading.propTypes = {};
+Heading.propTypes = {
+  ...color.propTypes,
+  ...space.propTypes,
+  ...layout.propTypes,
+  ...typography.propTypes,
+};
 
 export default Heading;

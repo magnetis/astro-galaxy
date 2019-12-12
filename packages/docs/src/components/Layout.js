@@ -50,11 +50,35 @@ function Layout({ children, ...props }) {
     site: {
       siteMetadata: { title: siteTitle },
     },
+    allSitePage,
+    allMdx
   } = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
         siteMetadata {
           title
+        }
+      }
+
+      allSitePage(filter: {path: {regex: "/^((?!404).)*$/"}}) {
+        nodes {
+          path
+          context {
+            frontmatter {
+              title
+            }
+          }
+        }
+      }
+
+      allMdx(filter: {headings: {elemMatch: {depth: {eq: 1}}}}) {
+        nodes {
+          frontmatter {
+            title
+          }
+          headings(depth: h1) {
+            value
+          }
         }
       }
     }
@@ -66,7 +90,7 @@ function Layout({ children, ...props }) {
     <AstroThemeProvider>
       <Helmet title={[siteTitle, pageTitle].join(' | ')} />
       <Page>
-        <Sidebar />
+        <Sidebar pages={allSitePage} mdx={allMdx}/>
         <ContentWrapper>
           <Content>
             <Hero>{pageTitle || siteTitle}</Hero>

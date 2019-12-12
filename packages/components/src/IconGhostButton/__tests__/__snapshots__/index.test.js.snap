@@ -1,0 +1,763 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`IconGhostButton should change background-color and border-color when variant is ghost.mars 1`] = `
+.c1 {
+  fill: currentcolor;
+  color: black;
+}
+
+.c0 {
+  cursor: pointer;
+  white-space: nowrap;
+  text-align: center;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  overflow: hidden;
+  border-width: 2px;
+  border-style: solid;
+  font: normal normal 600 normal 16px/1.5 Poppins,sans-serif;
+  display: inline-block;
+  padding: 8px 38px;
+  font-size: 16px;
+  line-height: 28px;
+  border-radius: 24px;
+  padding: 8px 6px;
+}
+
+.c0:disabled {
+  cursor: not-allowed;
+  background-color: #e9eef2;
+  border-color: #e9eef2;
+  color: #fff;
+}
+
+.c0:focus {
+  outline: none;
+}
+
+.c0 svg {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  vertical-align: middle;
+  margin: -4px 0 -3px;
+  width: 32px;
+  height: 32px;
+}
+
+.c0 svg {
+  color: #d45459;
+}
+
+.c0:disabled {
+  background-color: transparent;
+  border-color: transparent;
+  color: #e9eef2;
+}
+
+.c0:disabled svg {
+  color: #e9eef2;
+}
+
+.c0:hover:not(:disabled) svg,
+.c0:focus:not(:disabled) svg {
+  color: #dd676b;
+}
+
+.c0:hover:not(:disabled),
+.c0:focus:not(:disabled) {
+  background-color: #f6f7f8;
+  border-color: #f6f7f8;
+  color: #dd676b;
+}
+
+.c0:active:not(:disabled) {
+  background-color: #e9eef2;
+  border-color: #e9eef2;
+  color: #ac3c40;
+}
+
+<button
+  className="c0"
+  display="inline-block"
+>
+  <svg
+    className="c1"
+    color="black"
+    height={24}
+    viewBox="0 0 32 32"
+    width={24}
+  >
+    <defs>
+      <path
+        d="M16 4H8v2a1 1 0 1 1-2 0V4H3a1 1 0 0 0-1 1v4.111h20V5a1 1 0 0 0-1-1h-3v2a1 1 0 0 1-2 0V4zm1 0v2-2zm1-2v2h1V2h2a3 3 0 0 1 3 3v18a3 3 0 0 1-3 3H3a3 3 0 0 1-3-3V5a3 3 0 0 1 3-3h2v2h1V1a1 1 0 1 1 2 0v3h1V2h6v2h1V1a1 1 0 0 1 2 0v1zm-1 0V1v1zM7 4v2-2zm0-2V1v1zm15 9.111H2V23a1 1 0 0 0 1 1h18a1 1 0 0 0 1-1V11.111zM7 17a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm0 4a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm5-4a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm0 4a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm5-4a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm0 4a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"
+        id="icon-calendar-a"
+      />
+    </defs>
+    <g
+      id="icon/secondary/calendar"
+    >
+      <g
+        id="color/earth-400"
+        transform="translate(4 3)"
+      >
+        <mask
+          id="icon-calendar-b"
+        >
+          <use
+            xlinkHref="#icon-calendar-a"
+          />
+        </mask>
+        <use
+          id="Mask"
+          xlinkHref="#icon-calendar-a"
+        />
+        <g
+          id="color/moon-900"
+          mask="url(#icon-calendar-b)"
+        >
+          <path
+            d="M0 0h32v32H0z"
+            id="Rectangle"
+            transform="translate(-4 -3)"
+          />
+        </g>
+      </g>
+    </g>
+  </svg>
+</button>
+`;
+
+exports[`IconGhostButton should change background-color and border-color when variant is ghost.venus 1`] = `
+.c1 {
+  fill: currentcolor;
+  color: black;
+}
+
+.c0 {
+  cursor: pointer;
+  white-space: nowrap;
+  text-align: center;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  overflow: hidden;
+  border-width: 2px;
+  border-style: solid;
+  font: normal normal 600 normal 16px/1.5 Poppins,sans-serif;
+  display: inline-block;
+  padding: 8px 38px;
+  font-size: 16px;
+  line-height: 28px;
+  border-radius: 24px;
+  padding: 8px 6px;
+}
+
+.c0:disabled {
+  cursor: not-allowed;
+  background-color: #e9eef2;
+  border-color: #e9eef2;
+  color: #fff;
+}
+
+.c0:focus {
+  outline: none;
+}
+
+.c0 svg {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  vertical-align: middle;
+  margin: -4px 0 -3px;
+  width: 32px;
+  height: 32px;
+}
+
+.c0 svg {
+  color: #e078d6;
+}
+
+.c0:disabled {
+  background-color: transparent;
+  border-color: transparent;
+  color: #e9eef2;
+}
+
+.c0:disabled svg {
+  color: #e9eef2;
+}
+
+.c0:hover:not(:disabled) svg,
+.c0:focus:not(:disabled) svg {
+  color: #e78ade;
+}
+
+.c0:hover:not(:disabled),
+.c0:focus:not(:disabled) {
+  background-color: #f6f7f8;
+  border-color: #f6f7f8;
+  color: #e78ade;
+}
+
+.c0:active:not(:disabled) {
+  background-color: #e9eef2;
+  border-color: #e9eef2;
+  color: #c763ba;
+}
+
+<button
+  className="c0"
+  display="inline-block"
+>
+  <svg
+    className="c1"
+    color="black"
+    height={24}
+    viewBox="0 0 32 32"
+    width={24}
+  >
+    <defs>
+      <path
+        d="M16 4H8v2a1 1 0 1 1-2 0V4H3a1 1 0 0 0-1 1v4.111h20V5a1 1 0 0 0-1-1h-3v2a1 1 0 0 1-2 0V4zm1 0v2-2zm1-2v2h1V2h2a3 3 0 0 1 3 3v18a3 3 0 0 1-3 3H3a3 3 0 0 1-3-3V5a3 3 0 0 1 3-3h2v2h1V1a1 1 0 1 1 2 0v3h1V2h6v2h1V1a1 1 0 0 1 2 0v1zm-1 0V1v1zM7 4v2-2zm0-2V1v1zm15 9.111H2V23a1 1 0 0 0 1 1h18a1 1 0 0 0 1-1V11.111zM7 17a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm0 4a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm5-4a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm0 4a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm5-4a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm0 4a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"
+        id="icon-calendar-a"
+      />
+    </defs>
+    <g
+      id="icon/secondary/calendar"
+    >
+      <g
+        id="color/earth-400"
+        transform="translate(4 3)"
+      >
+        <mask
+          id="icon-calendar-b"
+        >
+          <use
+            xlinkHref="#icon-calendar-a"
+          />
+        </mask>
+        <use
+          id="Mask"
+          xlinkHref="#icon-calendar-a"
+        />
+        <g
+          id="color/moon-900"
+          mask="url(#icon-calendar-b)"
+        >
+          <path
+            d="M0 0h32v32H0z"
+            id="Rectangle"
+            transform="translate(-4 -3)"
+          />
+        </g>
+      </g>
+    </g>
+  </svg>
+</button>
+`;
+
+exports[`IconGhostButton should change color, background-color and border-color when variant is ghost.earth 1`] = `
+.c1 {
+  fill: currentcolor;
+  color: black;
+}
+
+.c0 {
+  cursor: pointer;
+  white-space: nowrap;
+  text-align: center;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  overflow: hidden;
+  border-width: 2px;
+  border-style: solid;
+  font: normal normal 600 normal 16px/1.5 Poppins,sans-serif;
+  display: inline-block;
+  padding: 8px 38px;
+  font-size: 16px;
+  line-height: 28px;
+  border-radius: 24px;
+  padding: 8px 6px;
+}
+
+.c0:disabled {
+  cursor: not-allowed;
+  background-color: #e9eef2;
+  border-color: #e9eef2;
+  color: #fff;
+}
+
+.c0:focus {
+  outline: none;
+}
+
+.c0 svg {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  vertical-align: middle;
+  margin: -4px 0 -3px;
+  width: 32px;
+  height: 32px;
+}
+
+.c0 svg {
+  color: #469d39;
+}
+
+.c0:disabled {
+  background-color: transparent;
+  border-color: transparent;
+  color: #e9eef2;
+}
+
+.c0:disabled svg {
+  color: #e9eef2;
+}
+
+.c0:hover:not(:disabled) svg,
+.c0:focus:not(:disabled) svg {
+  color: #88e967;
+}
+
+.c0:hover:not(:disabled),
+.c0:focus:not(:disabled) {
+  background-color: #f6f7f8;
+  border-color: #f6f7f8;
+  color: #88e967;
+}
+
+.c0:active:not(:disabled) {
+  background-color: #e9eef2;
+  border-color: #e9eef2;
+  color: #276f2d;
+}
+
+<button
+  className="c0"
+  display="inline-block"
+>
+  <svg
+    className="c1"
+    color="black"
+    height={24}
+    viewBox="0 0 32 32"
+    width={24}
+  >
+    <defs>
+      <path
+        d="M16 4H8v2a1 1 0 1 1-2 0V4H3a1 1 0 0 0-1 1v4.111h20V5a1 1 0 0 0-1-1h-3v2a1 1 0 0 1-2 0V4zm1 0v2-2zm1-2v2h1V2h2a3 3 0 0 1 3 3v18a3 3 0 0 1-3 3H3a3 3 0 0 1-3-3V5a3 3 0 0 1 3-3h2v2h1V1a1 1 0 1 1 2 0v3h1V2h6v2h1V1a1 1 0 0 1 2 0v1zm-1 0V1v1zM7 4v2-2zm0-2V1v1zm15 9.111H2V23a1 1 0 0 0 1 1h18a1 1 0 0 0 1-1V11.111zM7 17a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm0 4a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm5-4a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm0 4a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm5-4a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm0 4a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"
+        id="icon-calendar-a"
+      />
+    </defs>
+    <g
+      id="icon/secondary/calendar"
+    >
+      <g
+        id="color/earth-400"
+        transform="translate(4 3)"
+      >
+        <mask
+          id="icon-calendar-b"
+        >
+          <use
+            xlinkHref="#icon-calendar-a"
+          />
+        </mask>
+        <use
+          id="Mask"
+          xlinkHref="#icon-calendar-a"
+        />
+        <g
+          id="color/moon-900"
+          mask="url(#icon-calendar-b)"
+        >
+          <path
+            d="M0 0h32v32H0z"
+            id="Rectangle"
+            transform="translate(-4 -3)"
+          />
+        </g>
+      </g>
+    </g>
+  </svg>
+</button>
+`;
+
+exports[`IconGhostButton should change padding when icon button size is large 1`] = `
+.c1 {
+  fill: currentcolor;
+  color: black;
+}
+
+.c0 {
+  cursor: pointer;
+  white-space: nowrap;
+  text-align: center;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  overflow: hidden;
+  border-width: 2px;
+  border-style: solid;
+  font: normal normal 600 normal 16px/1.5 Poppins,sans-serif;
+  display: inline-block;
+  padding: 12px 46px;
+  font-size: 24px;
+  line-height: 35px;
+  border-radius: 32px;
+  padding: 11px 9px;
+}
+
+.c0:disabled {
+  cursor: not-allowed;
+  background-color: #e9eef2;
+  border-color: #e9eef2;
+  color: #fff;
+}
+
+.c0:focus {
+  outline: none;
+}
+
+.c0 svg {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  vertical-align: middle;
+  margin: -4px 0 -3px;
+  width: 40px;
+  height: 40px;
+}
+
+.c0 svg {
+  color: #159ce4;
+}
+
+.c0:disabled {
+  background-color: transparent;
+  border-color: transparent;
+  color: #e9eef2;
+}
+
+.c0:disabled svg {
+  color: #e9eef2;
+}
+
+.c0:hover:not(:disabled) svg,
+.c0:focus:not(:disabled) svg {
+  color: #3db5eb;
+}
+
+.c0:hover:not(:disabled),
+.c0:focus:not(:disabled) {
+  background-color: #f6f7f8;
+  border-color: #f6f7f8;
+  color: #3db5eb;
+}
+
+.c0:active:not(:disabled) {
+  background-color: #e9eef2;
+  border-color: #e9eef2;
+  color: #147ec1;
+}
+
+<button
+  className="c0"
+  display="inline-block"
+>
+  <svg
+    className="c1"
+    color="black"
+    height={24}
+    viewBox="0 0 32 32"
+    width={24}
+  >
+    <defs>
+      <path
+        d="M16 4H8v2a1 1 0 1 1-2 0V4H3a1 1 0 0 0-1 1v4.111h20V5a1 1 0 0 0-1-1h-3v2a1 1 0 0 1-2 0V4zm1 0v2-2zm1-2v2h1V2h2a3 3 0 0 1 3 3v18a3 3 0 0 1-3 3H3a3 3 0 0 1-3-3V5a3 3 0 0 1 3-3h2v2h1V1a1 1 0 1 1 2 0v3h1V2h6v2h1V1a1 1 0 0 1 2 0v1zm-1 0V1v1zM7 4v2-2zm0-2V1v1zm15 9.111H2V23a1 1 0 0 0 1 1h18a1 1 0 0 0 1-1V11.111zM7 17a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm0 4a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm5-4a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm0 4a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm5-4a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm0 4a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"
+        id="icon-calendar-a"
+      />
+    </defs>
+    <g
+      id="icon/secondary/calendar"
+    >
+      <g
+        id="color/earth-400"
+        transform="translate(4 3)"
+      >
+        <mask
+          id="icon-calendar-b"
+        >
+          <use
+            xlinkHref="#icon-calendar-a"
+          />
+        </mask>
+        <use
+          id="Mask"
+          xlinkHref="#icon-calendar-a"
+        />
+        <g
+          id="color/moon-900"
+          mask="url(#icon-calendar-b)"
+        >
+          <path
+            d="M0 0h32v32H0z"
+            id="Rectangle"
+            transform="translate(-4 -3)"
+          />
+        </g>
+      </g>
+    </g>
+  </svg>
+</button>
+`;
+
+exports[`IconGhostButton should change padding when icon button size is small 1`] = `
+.c1 {
+  fill: currentcolor;
+  color: black;
+}
+
+.c0 {
+  cursor: pointer;
+  white-space: nowrap;
+  text-align: center;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  overflow: hidden;
+  border-width: 2px;
+  border-style: solid;
+  font: normal normal 600 normal 16px/1.5 Poppins,sans-serif;
+  display: inline-block;
+  padding: 5px 28px;
+  font-size: 12px;
+  line-height: 18px;
+  border-radius: 16px;
+  padding: 5px 2px;
+}
+
+.c0:disabled {
+  cursor: not-allowed;
+  background-color: #e9eef2;
+  border-color: #e9eef2;
+  color: #fff;
+}
+
+.c0:focus {
+  outline: none;
+}
+
+.c0 svg {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  vertical-align: middle;
+  margin: -4px 0 -3px;
+  width: 24px;
+  height: 24px;
+}
+
+.c0 svg {
+  color: #159ce4;
+}
+
+.c0:disabled {
+  background-color: transparent;
+  border-color: transparent;
+  color: #e9eef2;
+}
+
+.c0:disabled svg {
+  color: #e9eef2;
+}
+
+.c0:hover:not(:disabled) svg,
+.c0:focus:not(:disabled) svg {
+  color: #3db5eb;
+}
+
+.c0:hover:not(:disabled),
+.c0:focus:not(:disabled) {
+  background-color: #f6f7f8;
+  border-color: #f6f7f8;
+  color: #3db5eb;
+}
+
+.c0:active:not(:disabled) {
+  background-color: #e9eef2;
+  border-color: #e9eef2;
+  color: #147ec1;
+}
+
+<button
+  className="c0"
+  display="inline-block"
+>
+  <svg
+    className="c1"
+    color="black"
+    height={24}
+    viewBox="0 0 32 32"
+    width={24}
+  >
+    <defs>
+      <path
+        d="M16 4H8v2a1 1 0 1 1-2 0V4H3a1 1 0 0 0-1 1v4.111h20V5a1 1 0 0 0-1-1h-3v2a1 1 0 0 1-2 0V4zm1 0v2-2zm1-2v2h1V2h2a3 3 0 0 1 3 3v18a3 3 0 0 1-3 3H3a3 3 0 0 1-3-3V5a3 3 0 0 1 3-3h2v2h1V1a1 1 0 1 1 2 0v3h1V2h6v2h1V1a1 1 0 0 1 2 0v1zm-1 0V1v1zM7 4v2-2zm0-2V1v1zm15 9.111H2V23a1 1 0 0 0 1 1h18a1 1 0 0 0 1-1V11.111zM7 17a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm0 4a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm5-4a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm0 4a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm5-4a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm0 4a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"
+        id="icon-calendar-a"
+      />
+    </defs>
+    <g
+      id="icon/secondary/calendar"
+    >
+      <g
+        id="color/earth-400"
+        transform="translate(4 3)"
+      >
+        <mask
+          id="icon-calendar-b"
+        >
+          <use
+            xlinkHref="#icon-calendar-a"
+          />
+        </mask>
+        <use
+          id="Mask"
+          xlinkHref="#icon-calendar-a"
+        />
+        <g
+          id="color/moon-900"
+          mask="url(#icon-calendar-b)"
+        >
+          <path
+            d="M0 0h32v32H0z"
+            id="Rectangle"
+            transform="translate(-4 -3)"
+          />
+        </g>
+      </g>
+    </g>
+  </svg>
+</button>
+`;
+
+exports[`IconGhostButton should render an icon button with calendar icon 1`] = `
+.c1 {
+  fill: currentcolor;
+  color: black;
+}
+
+.c0 {
+  cursor: pointer;
+  white-space: nowrap;
+  text-align: center;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  overflow: hidden;
+  border-width: 2px;
+  border-style: solid;
+  font: normal normal 600 normal 16px/1.5 Poppins,sans-serif;
+  display: inline-block;
+  padding: 8px 38px;
+  font-size: 16px;
+  line-height: 28px;
+  border-radius: 24px;
+  padding: 8px 6px;
+}
+
+.c0:disabled {
+  cursor: not-allowed;
+  background-color: #e9eef2;
+  border-color: #e9eef2;
+  color: #fff;
+}
+
+.c0:focus {
+  outline: none;
+}
+
+.c0 svg {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  vertical-align: middle;
+  margin: -4px 0 -3px;
+  width: 32px;
+  height: 32px;
+}
+
+.c0 svg {
+  color: #159ce4;
+}
+
+.c0:disabled {
+  background-color: transparent;
+  border-color: transparent;
+  color: #e9eef2;
+}
+
+.c0:disabled svg {
+  color: #e9eef2;
+}
+
+.c0:hover:not(:disabled) svg,
+.c0:focus:not(:disabled) svg {
+  color: #3db5eb;
+}
+
+.c0:hover:not(:disabled),
+.c0:focus:not(:disabled) {
+  background-color: #f6f7f8;
+  border-color: #f6f7f8;
+  color: #3db5eb;
+}
+
+.c0:active:not(:disabled) {
+  background-color: #e9eef2;
+  border-color: #e9eef2;
+  color: #147ec1;
+}
+
+<button
+  className="c0"
+  display="inline-block"
+>
+  <svg
+    className="c1"
+    color="black"
+    height={24}
+    viewBox="0 0 32 32"
+    width={24}
+  >
+    <defs>
+      <path
+        d="M16 4H8v2a1 1 0 1 1-2 0V4H3a1 1 0 0 0-1 1v4.111h20V5a1 1 0 0 0-1-1h-3v2a1 1 0 0 1-2 0V4zm1 0v2-2zm1-2v2h1V2h2a3 3 0 0 1 3 3v18a3 3 0 0 1-3 3H3a3 3 0 0 1-3-3V5a3 3 0 0 1 3-3h2v2h1V1a1 1 0 1 1 2 0v3h1V2h6v2h1V1a1 1 0 0 1 2 0v1zm-1 0V1v1zM7 4v2-2zm0-2V1v1zm15 9.111H2V23a1 1 0 0 0 1 1h18a1 1 0 0 0 1-1V11.111zM7 17a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm0 4a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm5-4a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm0 4a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm5-4a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm0 4a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"
+        id="icon-calendar-a"
+      />
+    </defs>
+    <g
+      id="icon/secondary/calendar"
+    >
+      <g
+        id="color/earth-400"
+        transform="translate(4 3)"
+      >
+        <mask
+          id="icon-calendar-b"
+        >
+          <use
+            xlinkHref="#icon-calendar-a"
+          />
+        </mask>
+        <use
+          id="Mask"
+          xlinkHref="#icon-calendar-a"
+        />
+        <g
+          id="color/moon-900"
+          mask="url(#icon-calendar-b)"
+        >
+          <path
+            d="M0 0h32v32H0z"
+            id="Rectangle"
+            transform="translate(-4 -3)"
+          />
+        </g>
+      </g>
+    </g>
+  </svg>
+</button>
+`;

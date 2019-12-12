@@ -10,7 +10,7 @@ storiesOf('icon buttons', module)
     </IconButton>
   ))
   .add('primary icon buttons variants', () => (
-    <React.Fragment>
+    <>
       <IconButton variant="primary.uranus" iconlabel>
         <IconCalendar />
         uranus
@@ -27,11 +27,11 @@ storiesOf('icon buttons', module)
       <IconButton disabled>
         <IconCalendar />
       </IconButton>
-    </React.Fragment>
+    </>
   ));
 
 storiesOf('icon button sizes', module).add('primary icon buttons sizes', () => (
-  <React.Fragment>
+  <>
     <IconButton buttonSize="small">
       <IconCalendar />
     </IconButton>
@@ -41,5 +41,5 @@ storiesOf('icon button sizes', module).add('primary icon buttons sizes', () => (
     <IconButton buttonSize="large">
       <IconCalendar />
     </IconButton>
-  </React.Fragment>
+  </>
 ));

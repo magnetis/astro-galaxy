@@ -1,18 +1,33 @@
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import Button from '../Button';
+import OutlineButton from '../OutlineButton';
 
 const iconColor = props => ({
-  'primary.uranus': `
+  'outline.uranus': `
+    color: ${props.theme.colors.uranus500};
+  `,
+  'outline.earth': `
+    color: ${props.theme.colors.earth600};
+  `,
+  'outline.venus': `
+    color: ${props.theme.colors.venus400};
+  `,
+  'outline.mars': `
+    color: ${props.theme.colors.mars500};
+  `,
+});
+
+const hoverStyles = props => ({
+  'outline.uranus': `
     color: ${props.theme.colors.space100};
   `,
-  'primary.earth': `
+  'outline.earth': `
     color: ${props.theme.colors.moon900};
   `,
-  'primary.venus': `
+  'outline.venus': `
     color: ${props.theme.colors.space100};
   `,
-  'primary.mars': `
+  'outline.mars': `
     color: ${props.theme.colors.space100};
   `,
 });
@@ -56,7 +71,7 @@ const iconlabelMargin = props => {
   return '-4px 0 -3px';
 };
 
-const IconButton = styled(Button)`
+const IconOutlineButton = styled(OutlineButton)`
   & svg {
     transition: all 0.3s ease;
     vertical-align: middle;
@@ -66,20 +81,34 @@ const IconButton = styled(Button)`
   }
 
   ${props => !props.iconlabel && buttonPadding()[props.buttonSize]};
+
+  & :disabled {
+    svg {
+      color: ${props => props.theme.colors.moon200};
+    }
+  }
+
+  :hover:not(:disabled) svg,
+  :focus:not(:disabled) svg,
+  :active:not(:disabled) svg {
+    ${props => hoverStyles(props)[props.variant]}
+  }
 `;
 
-IconButton.displayName = 'IconButton';
+IconOutlineButton.displayName = 'IconOutlineButton';
 
-IconButton.propTypes = {
-  variant: PropTypes.oneOf(['primary.uranus', 'primary.earth', 'primary.venus', 'primary.mars']),
+IconOutlineButton.propTypes = {
+  variant: PropTypes.oneOf(['outline.uranus', 'outline.earth', 'outline.venus', 'outline.mars']),
   buttonSize: PropTypes.oneOf(['small', 'medium', 'large']),
   iconlabel: PropTypes.bool,
+  iconlabelRight: PropTypes.bool,
 };
 
-IconButton.defaultProps = {
-  variant: 'primary.uranus',
+IconOutlineButton.defaultProps = {
+  variant: 'outline.uranus',
   buttonSize: 'medium',
   iconlabel: false,
+  iconlabelRight: false,
 };
 
-export default IconButton;
+export default IconOutlineButton;

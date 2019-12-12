@@ -143,6 +143,28 @@ const theme = {
         borderColor: baseTheme.colors.mars500,
       },
     },
+    ghost: {
+      uranus: {
+        backgroundColor: 'transparent',
+        color: baseTheme.colors.uranus500,
+        borderColor: 'transparent',
+      },
+      earth: {
+        backgroundColor: 'transparent',
+        color: baseTheme.colors.earth600,
+        borderColor: 'transparent',
+      },
+      venus: {
+        backgroundColor: 'transparent',
+        color: baseTheme.colors.venus400,
+        borderColor: 'transparent',
+      },
+      mars: {
+        backgroundColor: 'transparent',
+        color: baseTheme.colors.mars500,
+        borderColor: 'transparent',
+      },
+    },
   },
   buttonSizes: {
     small: {

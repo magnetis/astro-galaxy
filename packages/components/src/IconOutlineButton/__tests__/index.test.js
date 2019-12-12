@@ -1,14 +1,14 @@
 import React from 'react';
 import { theme } from '@magnetis/astro-galaxy-core';
 import { IconCalendar } from '@magnetis/astro-galaxy-icons';
-import IconButton from '../index';
+import IconOutlineButton from '../index';
 
-describe('IconButton', () => {
+describe('IconOutlineButton', () => {
   it('should render an icon button with calendar icon', () => {
     const iconButton = rendererCreateWithTheme(
-      <IconButton>
+      <IconOutlineButton>
         <IconCalendar />
-      </IconButton>
+      </IconOutlineButton>
     ).toJSON();
 
     expect(iconButton).toMatchSnapshot();
@@ -16,9 +16,9 @@ describe('IconButton', () => {
 
   it('should change padding when icon button size is small', () => {
     const iconButton = rendererCreateWithTheme(
-      <IconButton buttonSize="small">
+      <IconOutlineButton buttonSize="small">
         <IconCalendar />
-      </IconButton>
+      </IconOutlineButton>
     ).toJSON();
 
     expect(iconButton).toMatchSnapshot();
@@ -27,49 +27,45 @@ describe('IconButton', () => {
 
   it('should change padding when icon button size is large', () => {
     const iconButton = rendererCreateWithTheme(
-      <IconButton buttonSize="large">
+      <IconOutlineButton buttonSize="large">
         <IconCalendar />
-      </IconButton>
+      </IconOutlineButton>
     ).toJSON();
 
     expect(iconButton).toMatchSnapshot();
     expect(iconButton).toHaveStyleRule('padding', '11px 9px');
   });
 
-  it('should change color, background-color and border-color when variant is primary.earth', () => {
+  it('should border-color when variant is outline.earth', () => {
     const iconButton = rendererCreateWithTheme(
-      <IconButton variant="primary.earth">
+      <IconOutlineButton variant="outline.earth">
         <IconCalendar />
-      </IconButton>
+      </IconOutlineButton>
     ).toJSON();
 
     expect(iconButton).toMatchSnapshot();
-    expect(iconButton).toHaveStyleRule('color', theme.colors.moon900);
-    expect(iconButton).toHaveStyleRule('background-color', theme.colors.earth400);
-    expect(iconButton).toHaveStyleRule('border-color', theme.colors.earth400);
+    expect(iconButton).toHaveStyleRule('border-color', theme.colors.earth600);
   });
 
-  it('should change background-color and border-color when variant is primary.venus', () => {
+  it('should change border-color when variant is outline.venus', () => {
     const iconButton = rendererCreateWithTheme(
-      <IconButton variant="primary.venus">
+      <IconOutlineButton variant="outline.venus">
         <IconCalendar />
-      </IconButton>
+      </IconOutlineButton>
     ).toJSON();
 
     expect(iconButton).toMatchSnapshot();
-    expect(iconButton).toHaveStyleRule('background-color', theme.colors.venus400);
     expect(iconButton).toHaveStyleRule('border-color', theme.colors.venus400);
   });
 
-  it('should change background-color and border-color when variant is primary.mars', () => {
+  it('should change border-color when variant is outline.mars', () => {
     const iconButton = rendererCreateWithTheme(
-      <IconButton variant="primary.mars">
+      <IconOutlineButton variant="outline.mars">
         <IconCalendar />
-      </IconButton>
+      </IconOutlineButton>
     ).toJSON();
 
     expect(iconButton).toMatchSnapshot();
-    expect(iconButton).toHaveStyleRule('background-color', theme.colors.mars500);
     expect(iconButton).toHaveStyleRule('border-color', theme.colors.mars500);
   });
 });

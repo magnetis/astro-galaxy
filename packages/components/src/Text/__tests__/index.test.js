@@ -4,7 +4,7 @@ import { theme } from '@magnetis/astro-galaxy-core';
 import Text from '../index';
 
 describe('Text', () => {
-  it('should render', () => {
+  it('renders correctly', () => {
     const json = rendererCreateWithTheme(<Text />).toJSON();
     expect(json).toMatchSnapshot();
   });

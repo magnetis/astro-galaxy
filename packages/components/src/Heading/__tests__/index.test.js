@@ -4,7 +4,7 @@ import Heading from '../index';
 import { theme } from '@magnetis/astro-galaxy-core';
 
 describe('Heading', () => {
-  it('should render', () => {
+  it('renders correctly', () => {
     const json = rendererCreateWithTheme(<Heading />).toJSON();
 
     expect(json).toMatchSnapshot();

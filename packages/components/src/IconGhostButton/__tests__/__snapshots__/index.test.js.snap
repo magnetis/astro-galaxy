@@ -17,6 +17,9 @@ exports[`IconGhostButton should change background-color and border-color when va
   border-style: solid;
   font: normal normal 600 normal 16px/1.5 Poppins,sans-serif;
   display: inline-block;
+  background-color: transparent;
+  color: #d45459;
+  border-color: transparent;
   padding: 8px 38px;
   font-size: 16px;
   line-height: 28px;
@@ -144,6 +147,9 @@ exports[`IconGhostButton should change background-color and border-color when va
   border-style: solid;
   font: normal normal 600 normal 16px/1.5 Poppins,sans-serif;
   display: inline-block;
+  background-color: transparent;
+  color: #e078d6;
+  border-color: transparent;
   padding: 8px 38px;
   font-size: 16px;
   line-height: 28px;
@@ -271,6 +277,9 @@ exports[`IconGhostButton should change color, background-color and border-color 
   border-style: solid;
   font: normal normal 600 normal 16px/1.5 Poppins,sans-serif;
   display: inline-block;
+  background-color: transparent;
+  color: #469d39;
+  border-color: transparent;
   padding: 8px 38px;
   font-size: 16px;
   line-height: 28px;
@@ -398,6 +407,9 @@ exports[`IconGhostButton should change padding when icon button size is large 1`
   border-style: solid;
   font: normal normal 600 normal 16px/1.5 Poppins,sans-serif;
   display: inline-block;
+  background-color: transparent;
+  color: #159ce4;
+  border-color: transparent;
   padding: 12px 46px;
   font-size: 24px;
   line-height: 35px;
@@ -525,6 +537,9 @@ exports[`IconGhostButton should change padding when icon button size is small 1`
   border-style: solid;
   font: normal normal 600 normal 16px/1.5 Poppins,sans-serif;
   display: inline-block;
+  background-color: transparent;
+  color: #159ce4;
+  border-color: transparent;
   padding: 5px 28px;
   font-size: 12px;
   line-height: 18px;
@@ -652,6 +667,9 @@ exports[`IconGhostButton should render an icon button with calendar icon 1`] = `
   border-style: solid;
   font: normal normal 600 normal 16px/1.5 Poppins,sans-serif;
   display: inline-block;
+  background-color: transparent;
+  color: #159ce4;
+  border-color: transparent;
   padding: 8px 38px;
   font-size: 16px;
   line-height: 28px;

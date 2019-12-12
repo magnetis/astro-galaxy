@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Astro Galaxy`,
-    description: `Awesome React UI library for Magnetis' design system`
+    description: `Awesome React UI library for Magnetis' design system`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -9,16 +9,16 @@ module.exports = {
       resolve: `gatsby-plugin-mdx`,
       options: {
         defaultLayouts: {
-          default: require.resolve("./src/components/layout.js")
-        }
-      }
+          default: require.resolve('./src/components/Layout.js'),
+        },
+      },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `pages`,
-        path: `${__dirname}/src/pages`
-      }
+        path: `${__dirname}/src/pages`,
+      },
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
@@ -30,12 +30,10 @@ module.exports = {
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
-        display: `minimal-ui`
-        // icon: `src/static/images/favicon.png`
-      }
-    }
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
-  ]
+        display: `minimal-ui`,
+        icon: `./favicon.png`,
+      },
+    },
+    `gatsby-plugin-styled-components`,
+  ],
 };

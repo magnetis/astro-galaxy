@@ -1,7 +1,5 @@
 const path = require('path');
 
-console.log(path.resolve(__dirname, 'node_modules/styled-components'));
-
 exports.onCreateWebpackConfig = ({ actions }) => {
   actions.setWebpackConfig({
     resolve: {

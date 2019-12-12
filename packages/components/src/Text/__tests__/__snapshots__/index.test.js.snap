@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Text should render 1`] = `
+exports[`Text renders correctly 1`] = `
 .c0 {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

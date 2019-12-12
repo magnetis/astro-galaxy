@@ -35,13 +35,13 @@ const Content = styled.div`
 
 const Hero = styled.h1`
   font: ${props => props.theme.fonts.primary};
-  font-size: ${props => `${props.theme.fontSizes[7]}px`};
+  font-size: ${props => `${props.theme.fontSizes.headings.huge}`};
   text-transform: lowercase;
   margin: 103px 0px 186px;
   color: #fff;
 
   ${breakpoints.max('sm')} {
-    font-size: ${props => `${props.theme.fontSizes[6]}px`};
+    font-size: ${props => `${props.theme.fontSizes.headings.large}`};
   }
 `;
 

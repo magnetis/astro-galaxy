@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
-import styled from 'styled-components';
+import React, { useState, useContext } from 'react';
+import styled, { ThemeContext } from 'styled-components';
+import { IconMenu, IconClose } from '@magnetis/astro-galaxy-icons';
 import breakpoints from '../utils/breakpoints';
 import Menu from './Menu';
-import MenuIcon from './MenuIcon';
 import logoUrl from './astro-logo.svg';
 
 const Wrapper = styled.div`
@@ -106,7 +106,9 @@ const Backdrop = styled.div`
 `;
 
 function Sidebar() {
+  const theme = useContext(ThemeContext);
   const [showMenu, setShowMenu] = useState(false);
+  const menuIconProps = { color: theme.colors.space100, width: 40, height: 40 };
 
   function toggleMenu() {
     setShowMenu(x => !x);
@@ -117,7 +119,7 @@ function Sidebar() {
       <Wrapper isOpen={showMenu}>
         <Content isOpen={showMenu}>
           <ShowMenu onClick={toggleMenu}>
-            <MenuIcon isOpen={showMenu} />
+            {showMenu ? <IconClose {...menuIconProps} /> : <IconMenu {...menuIconProps} />}
           </ShowMenu>
           <LogoWrapper>
             <Logo>Astro</Logo>

@@ -7,7 +7,7 @@ const Text = styled.p`
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   ${font};
-  font-size: ${props => props.theme.fontSizes.text[props.fontSize]};
+  font-size: ${props => props.theme.fontSizes.texts[props.fontSize]};
 `;
 
 Text.displayName = 'Text';

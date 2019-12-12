@@ -75,7 +75,7 @@ const baseTheme = {
   colors,
   fonts: {
     primary: `normal normal 600 normal 16px/1.5 Poppins, sans-serif`,
-    secondary: `normal normal 400 normal 16px/1.5 Lato, sans-serif;`,
+    secondary: `normal normal 400 normal 16px/1.5 Lato, sans-serif`,
   },
   fontSizes: [12, 14, 16, 24, 32, 40, 48, 64],
   radii: [0, 2, 8, 16, 24, 32],
@@ -150,7 +150,7 @@ const theme = {
     },
   },
   fontSizes: {
-    text: {
+    texts: {
       verySmall: `${baseTheme.fontSizes[0]}px`,
       small: `${baseTheme.fontSizes[1]}px`,
       medium: `${baseTheme.fontSizes[2]}px`,

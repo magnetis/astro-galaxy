@@ -105,7 +105,7 @@ const Backdrop = styled.div`
   }
 `;
 
-function Sidebar({...props}) {
+function Sidebar({ ...props }) {
   const theme = useContext(ThemeContext);
   const [showMenu, setShowMenu] = useState(false);
   const menuIconProps = { color: theme.colors.space100, width: 40, height: 40 };
@@ -124,7 +124,7 @@ function Sidebar({...props}) {
           <LogoWrapper>
             <Logo>Astro</Logo>
           </LogoWrapper>
-          <Menu pages={props.pages} mdx={props.mdx}/>
+          <Menu pages={props.pages} mdx={props.mdx} />
         </Content>
       </Wrapper>
       <Backdrop isOpen={showMenu} onClick={toggleMenu} />

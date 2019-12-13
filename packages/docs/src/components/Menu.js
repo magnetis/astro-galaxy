@@ -47,10 +47,10 @@ const SubItem = styled(Link)`
   }
 `;
 
-function Menu({ ...props }) {
+function Menu({ mdx, pages }) {
   const [active, setIsActive] = useState(false);
-  const menuItems = props.pages.nodes;
-  const subItems = props.mdx.nodes;
+  const menuItems = pages.nodes;
+  const subItems = mdx.nodes;
 
   function activeItem() {
     setIsActive(x => !x);

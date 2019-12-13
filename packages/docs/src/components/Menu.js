@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import { Link } from 'gatsby';
-// import Icon from '@magnetis/astro-galaxy-icons';
 
 const Wrapper = styled.div`
   background-color: ${props => props.theme.colors.space100};

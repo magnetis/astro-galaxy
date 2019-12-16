@@ -6,6 +6,7 @@ import styled from 'styled-components';
 const Wrapper = styled.div`
   border-radius: 5px;
   border: 1px solid ${props => props.theme.colors.space400};
+  margin-bottom: 32px;
 `;
 
 const PreviewWrapper = styled.div`

@@ -25,9 +25,13 @@ import PropsTableWrapper from '../components/PropsTable';
   primary buttons
 </Text>
 
-Use these for the main action in a section or screen. You should display only one primary button at a time.
+Primary buttons are medium sized and have a colored background. Use these for the main action in a section or screen. You should display only one primary button at a time.
 
-To create a primary button, import Button component and use `variant` prop with `primary.uranus` value. You can replace `uranus` with other set of colors. Check the table below.
+To create a primary button, import `Button` component and use `variant` prop with `primary.uranus` value. You can replace `uranus` with other set of colors.
+
+To modify button size you may use `buttonSize` prop with `small`, `medium` or `large` value. Default value is `medium`. Check the table below for more props information.
+
+Mouseover and click to view `:hover` and `:active` states.
 
 <Playground
   scope={{ Button }}
@@ -138,6 +142,12 @@ To create a primary button, import Button component and use `variant` prop with 
 
 Outline buttons can be used as secondary roles. Secondary buttons present secondary actions when there's already a primary action in the same section or screen.
 
+To create a outline button, import `OutlineButton` component and use `variant` prop with `outline.uranus` value. You can replace uranus with other set of colors.
+
+To modify button size you may use `buttonSize` prop with `small`, `medium` or `large` value. Default value is `medium`. Check the table below for more props information.
+
+Mouseover and click to view `:hover` and `:active` states.
+
 <Playground
   scope={{ OutlineButton }}
   code={`
@@ -245,7 +255,13 @@ Outline buttons can be used as secondary roles. Secondary buttons present second
   icon buttons
 </Text>
 
-Buttons with icons help identify the action or context within the interface.
+Icon buttons can be used for simple microinteractions and commands.
+
+To create an icon button, import `IconButton` component and use `variant` prop with `primary.uranus` value. Then, add an icon component inside the icon button. See our <Link to="/iconography">Iconography</Link> to learn how to use Astro icons.
+
+To modify button size you may use `buttonSize` prop with `small`, `medium` or `large` value. Default value is `medium`. Check the table below for more props information.
+
+Mouseover and click to view `:hover` and `:active` states.
 
 <Playground
   scope={{ IconButton, IconCalendar }}
@@ -296,6 +312,14 @@ Refer to iconlabel buttons below.
 <Text as="h2" fontSize="large" color="moon500">
   iconlabel buttons
 </Text>
+
+To create an iconlabel button, first create a regular `IconButton`, plus the `iconlabel` prop. Then, if you want the icon to the left of the label, add an icon component inside the button and before its inner text. See our <Link to="/iconography">Iconography</Link> to learn how to use Astro icons.
+
+If you want the icon to the right of the label, add the `iconlabelRight` prop in addition to the previous props and place the icon component inside the button and after its inner text, instead.
+
+To modify button size you may use `buttonSize` prop with `small`, `medium` or `large` value. Default value is `medium`. Check the table below for more props information.
+
+Mouseover and click to view `:hover` and `:active` states.
 
 <Playground
   scope={{ IconButton, IconCalendar }}
@@ -424,7 +448,13 @@ Refer to iconlabel buttons below.
   icon outline buttons
 </Text>
 
-Buttons with icons help identify the action or context within the interface.
+Icon outline buttons are commonly used in microinteractions and secondary commands.
+
+To create an icon outline button import `IconOutlineButton` component and use `variant` prop with `outline.uranus` value. Then, add an icon component inside the icon button. See our <Link to="/iconography">Iconography</Link> to learn how to use Astro icons.
+
+To modify button size you may use `buttonSize` prop with `small`, `medium` or `large` value. Default value is `medium`. Check the table below for more props information.
+
+Mouseover and click to view `:hover` and `:active` states.
 
 <Playground
   scope={{ IconOutlineButton, IconCalendar }}
@@ -476,7 +506,15 @@ Refer to iconlabel outline buttons buttons below.
   iconlabel outline buttons
 </Text>
 
-Buttons with icons help identify the action or context within the interface.
+Iconlabel outline buttons are commonly used in microinteractions and secondary commands.
+
+To create an iconlabel outline button, first create a regular `IconOutlineButton`, plus the `iconlabel` prop. Then, if you want the icon to the left of the label, add an icon component inside the button and before its inner text. See our <Link to="/iconography">Iconography</Link> to learn how to use Astro icons.
+
+If you want the icon to the right of the label, add the `iconlabelRight` prop in addition to the previous props and place the icon component inside the button and after its inner text, instead.
+
+To modify button size you may use `buttonSize` prop with `small`, `medium` or `large` value. Default value is `medium`. Check the table below for more props information.
+
+Mouseover and click to view `:hover` and `:active` states.
 
 <Playground
   scope={{ IconOutlineButton, IconCalendar }}
@@ -603,6 +641,14 @@ Buttons with icons help identify the action or context within the interface.
   ghost icon buttons
 </Text>
 
+Ghost icon buttons can be used for simple microinteractions and commands.
+
+To create an ghost icon button import `IconGhostButton` component and use `variant` prop with `ghost.uranus` value. Then, add an icon component inside the icon button. See our <Link to="/iconography">Iconography</Link> to learn how to use Astro icons.
+
+To modify button size you may use `buttonSize` prop with `small`, `medium` or `large` value. Default value is `medium`. Check the table below for more props information.
+
+Mouseover and click to view `:hover` and `:active` states.
+
 <Playground
   scope={{ IconGhostButton, IconCalendar }}
   code={`
@@ -652,6 +698,16 @@ Refer to ghost iconlabel buttons below.
 <Text as="h2" fontSize="large" color="moon500">
   ghost iconlabel buttons
 </Text>
+
+Ghost iconlabel buttons are also used in microinteractions and smaller commands.
+
+To create an ghost iconlabel button, first create a regular `IconGhostButton`, plus the `iconlabel` prop. Then, if you want the icon to the left of the label, add an icon component inside the button and before its inner text. See our <Link to="/iconography">Iconography</Link> to learn how to use Astro icons.
+
+If you want the icon to the right of the label, add the `iconlabelRight` prop in addition to the previous props and place the icon component inside the button and after its inner text, instead.
+
+To modify button size you may use `buttonSize` prop with `small`, `medium` or `large` value. Default value is `medium`. Check the table below for more props information.
+
+Mouseover and click to view `:hover` and `:active` states.
 
 <Playground
   scope={{ IconGhostButton, IconCalendar }}

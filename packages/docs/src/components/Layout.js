@@ -37,6 +37,7 @@ const Content = styled.div`
     background-color: ${props => props.theme.colors.space200};
     color: ${props => props.theme.colors.moon400};
     font-family: monospace;
+    font-size: ${props => props.theme.fontSizes.texts.small};
   }
 `;
 

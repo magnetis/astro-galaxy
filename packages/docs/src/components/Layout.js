@@ -9,6 +9,7 @@ import Sidebar from './Sidebar';
 const Page = styled.div`
   display: flex;
   font: ${props => props.theme.fonts.secondary};
+  color: ${props => props.theme.colors.moon900};
 `;
 
 const ContentWrapper = styled.div`
@@ -30,6 +31,13 @@ const Content = styled.div`
 
   ${breakpoints.min('lg')} {
     width: 90%;
+  }
+
+  & code {
+    background-color: ${props => props.theme.colors.space200};
+    color: ${props => props.theme.colors.moon400};
+    font-family: monospace;
+    font-size: ${props => props.theme.fontSizes.texts.small};
   }
 `;
 

@@ -13,7 +13,7 @@ const Page = styled.div`
 `;
 
 const ContentWrapper = styled.div`
-  background-image: ${props => props.theme.gradients.nebulosa};
+  background-image: ${props => props.theme.gradients.blackhole};
   background-size: 100% 312px;
   background-position: center top;
   background-repeat: no-repeat;
@@ -33,11 +33,27 @@ const Content = styled.div`
     width: 90%;
   }
 
+  & h2,
+  h3 {
+    color: ${props => props.theme.colors.moon500};
+  }
+
+  h2 {
+    font-size: ${props => props.theme.fontSizes.texts.large};
+  }
+
+  h3 {
+    font-size: ${props => props.theme.fontSizes.texts.medium};
+    margin-top: ${props => props.theme.space[4]}px;
+  }
+
   & code {
     background-color: ${props => props.theme.colors.space200};
     color: ${props => props.theme.colors.moon400};
     font-family: monospace;
-    font-size: ${props => props.theme.fontSizes.texts.small};
+    font-size: 0.8em;
+    padding: 2px 5px;
+    margin: 0 3px;
   }
 `;
 

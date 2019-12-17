@@ -2,12 +2,62 @@
 title: iconography
 ---
 
-import IconsCollection from '../components/IconsCollection';
+import { Text } from '@magnetis/astro-galaxy-components';
+import PropsTableWrapper from '../components/PropsTable';
+import { DashboardIcons, SupportIcons } from '../components/IconsCollection';
 
-# iconography
-
-#### Icons carry affordance and interaction patterns of Magnetis’ platform. They should be used in meaningful assets like buttons and visual informative support to help users navigate through our product.
+<Text font="secondary" fontSize="large" color="moon400" marginBottom={5}>
+  Icons carry affordance and interaction patterns of Magnetis’ platform. They should be used in
+  meaningful assets like buttons and visual informative support to help users navigate through our
+  product.
+</Text>
 
 All icons have a 32x32px bound as default format. They can be resized in our 16px baseline as required.
 
-<IconsCollection />
+To use an icon, import it (by one of the names below) from `@magnetis/astro-galaxy-icons` and use it as a React component.
+
+You can modify an icon's size by using the prop `size` with one of the following values: `24`, `32` or `40`. You can also modify the color with the prop `color`. See the props table at the bottom of this page for details.
+
+<Text as="h2">dashboard icons</Text>
+
+<DashboardIcons />
+
+<Text as="h2">support icons</Text>
+
+<SupportIcons />
+
+<Text as="h3">props</Text>
+
+<PropsTableWrapper>
+  <table>
+    <thead>
+      <tr>
+        <th>property</th>
+        <th>PropType</th>
+        <th>required</th>
+        <th>default</th>
+        <th>description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>size</td>
+        <td>number</td>
+        <td>no</td>
+        <td>
+          <code>24</code>
+        </td>
+        <td>Change icon size. "24", "32", "40".</td>
+      </tr>
+      <tr>
+        <td>color</td>
+        <td>string</td>
+        <td>no</td>
+        <td>
+          <code>moon900</code>
+        </td>
+        <td>Change icon color. Use any Astro color variable.</td>
+      </tr>
+    </tbody>
+  </table>
+</PropsTableWrapper>

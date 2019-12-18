@@ -58,8 +58,8 @@ function Menu({ mdx, pages }) {
 
   return (
     <Wrapper>
-      {menuItems.map(i => (
-        <Item to={i.path} onClick={activeItem}>
+      {menuItems.map((i, x) => (
+        <Item key={x} to={i.path} onClick={activeItem}>
           {i.context.frontmatter.title}
           {subItems
             .filter(subItem => subItem.frontmatter.title === i.context.frontmatter.title)

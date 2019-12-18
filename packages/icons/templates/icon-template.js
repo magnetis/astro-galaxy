@@ -22,7 +22,7 @@ const IconComponent = ({ content, viewBox, size, ...props }) => (
 
 IconComponent.defaultProps = {
   size: 24,
-  color: 'black',
+  color: 'moon900',
 };
 
 export default IconComponent;

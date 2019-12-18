@@ -108,7 +108,7 @@ const Backdrop = styled.div`
 function Sidebar({ ...props }) {
   const theme = useContext(ThemeContext);
   const [showMenu, setShowMenu] = useState(false);
-  const menuIconProps = { color: theme.colors.space100, width: 40, height: 40 };
+  const menuIconProps = { color: theme.colors.space100, size: 40 };
 
   function toggleMenu() {
     setShowMenu(x => !x);

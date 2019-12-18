@@ -3,7 +3,7 @@
 exports[`IconOutlineButton should border-color when variant is outline.earth 1`] = `
 .c1 {
   fill: currentcolor;
-  color: black;
+  color: #32383c;
 }
 
 .c0 {
@@ -87,7 +87,7 @@ exports[`IconOutlineButton should border-color when variant is outline.earth 1`]
 >
   <svg
     className="c1"
-    color="black"
+    color="moon900"
     height={24}
     viewBox="0 0 32 32"
     width={24}
@@ -135,7 +135,7 @@ exports[`IconOutlineButton should border-color when variant is outline.earth 1`]
 exports[`IconOutlineButton should change border-color when variant is outline.mars 1`] = `
 .c1 {
   fill: currentcolor;
-  color: black;
+  color: #32383c;
 }
 
 .c0 {
@@ -219,7 +219,7 @@ exports[`IconOutlineButton should change border-color when variant is outline.ma
 >
   <svg
     className="c1"
-    color="black"
+    color="moon900"
     height={24}
     viewBox="0 0 32 32"
     width={24}
@@ -267,7 +267,7 @@ exports[`IconOutlineButton should change border-color when variant is outline.ma
 exports[`IconOutlineButton should change border-color when variant is outline.venus 1`] = `
 .c1 {
   fill: currentcolor;
-  color: black;
+  color: #32383c;
 }
 
 .c0 {
@@ -351,7 +351,7 @@ exports[`IconOutlineButton should change border-color when variant is outline.ve
 >
   <svg
     className="c1"
-    color="black"
+    color="moon900"
     height={24}
     viewBox="0 0 32 32"
     width={24}
@@ -399,7 +399,7 @@ exports[`IconOutlineButton should change border-color when variant is outline.ve
 exports[`IconOutlineButton should change padding when icon button size is large 1`] = `
 .c1 {
   fill: currentcolor;
-  color: black;
+  color: #32383c;
 }
 
 .c0 {
@@ -483,7 +483,7 @@ exports[`IconOutlineButton should change padding when icon button size is large 
 >
   <svg
     className="c1"
-    color="black"
+    color="moon900"
     height={24}
     viewBox="0 0 32 32"
     width={24}
@@ -531,7 +531,7 @@ exports[`IconOutlineButton should change padding when icon button size is large 
 exports[`IconOutlineButton should change padding when icon button size is small 1`] = `
 .c1 {
   fill: currentcolor;
-  color: black;
+  color: #32383c;
 }
 
 .c0 {
@@ -615,7 +615,7 @@ exports[`IconOutlineButton should change padding when icon button size is small 
 >
   <svg
     className="c1"
-    color="black"
+    color="moon900"
     height={24}
     viewBox="0 0 32 32"
     width={24}
@@ -663,7 +663,7 @@ exports[`IconOutlineButton should change padding when icon button size is small 
 exports[`IconOutlineButton should render an icon button with calendar icon 1`] = `
 .c1 {
   fill: currentcolor;
-  color: black;
+  color: #32383c;
 }
 
 .c0 {
@@ -747,7 +747,7 @@ exports[`IconOutlineButton should render an icon button with calendar icon 1`] =
 >
   <svg
     className="c1"
-    color="black"
+    color="moon900"
     height={24}
     viewBox="0 0 32 32"
     width={24}

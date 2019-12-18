@@ -25,6 +25,7 @@ const Content = styled.div`
   max-height: 100vh;
   border-right: 1px solid ${props => props.theme.colors.space300};
   background-color: #fff;
+  overflow: scroll;
   transition: transform 0.2s ease 0s;
 
   ${breakpoints.min('xl')} {
@@ -124,7 +125,7 @@ function Sidebar({ ...props }) {
           <LogoWrapper>
             <Logo>Astro</Logo>
           </LogoWrapper>
-          <Menu pages={props.pages} mdx={props.mdx} />
+          <Menu currentPath={props.currentPath} pages={props.pages} mdx={props.mdx} />
         </Content>
       </Wrapper>
       <Backdrop isOpen={showMenu} onClick={toggleMenu} />

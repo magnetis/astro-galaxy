@@ -50,7 +50,7 @@ const DashboardIcons = () => (
           <Container>
             <Icon color="moon900" size="32" />
           </Container>
-          <Name>{icons[icon].name}</Name>
+          <Name>{icon}</Name>
         </Item>
       );
     })}

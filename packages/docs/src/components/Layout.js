@@ -114,7 +114,7 @@ function Layout({ children, ...props }) {
     <AstroThemeProvider>
       <Helmet title={[siteTitle, pageTitle].join(' | ')} />
       <Page>
-        <Sidebar pages={allSitePage} mdx={allMdx} />
+        <Sidebar currentPath={props.path} pages={allSitePage} mdx={allMdx} />
         <ContentWrapper>
           <Content>
             <Hero>{pageTitle || siteTitle}</Hero>

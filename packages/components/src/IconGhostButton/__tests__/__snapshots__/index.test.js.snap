@@ -3,7 +3,7 @@
 exports[`IconGhostButton should change background-color and border-color when variant is ghost.mars 1`] = `
 .c1 {
   fill: currentcolor;
-  color: black;
+  color: #32383c;
 }
 
 .c0 {
@@ -85,7 +85,7 @@ exports[`IconGhostButton should change background-color and border-color when va
 >
   <svg
     className="c1"
-    color="black"
+    color="moon900"
     height={24}
     viewBox="0 0 32 32"
     width={24}
@@ -133,7 +133,7 @@ exports[`IconGhostButton should change background-color and border-color when va
 exports[`IconGhostButton should change background-color and border-color when variant is ghost.venus 1`] = `
 .c1 {
   fill: currentcolor;
-  color: black;
+  color: #32383c;
 }
 
 .c0 {
@@ -215,7 +215,7 @@ exports[`IconGhostButton should change background-color and border-color when va
 >
   <svg
     className="c1"
-    color="black"
+    color="moon900"
     height={24}
     viewBox="0 0 32 32"
     width={24}
@@ -263,7 +263,7 @@ exports[`IconGhostButton should change background-color and border-color when va
 exports[`IconGhostButton should change color, background-color and border-color when variant is ghost.earth 1`] = `
 .c1 {
   fill: currentcolor;
-  color: black;
+  color: #32383c;
 }
 
 .c0 {
@@ -345,7 +345,7 @@ exports[`IconGhostButton should change color, background-color and border-color 
 >
   <svg
     className="c1"
-    color="black"
+    color="moon900"
     height={24}
     viewBox="0 0 32 32"
     width={24}
@@ -393,7 +393,7 @@ exports[`IconGhostButton should change color, background-color and border-color 
 exports[`IconGhostButton should change padding when icon button size is large 1`] = `
 .c1 {
   fill: currentcolor;
-  color: black;
+  color: #32383c;
 }
 
 .c0 {
@@ -475,7 +475,7 @@ exports[`IconGhostButton should change padding when icon button size is large 1`
 >
   <svg
     className="c1"
-    color="black"
+    color="moon900"
     height={24}
     viewBox="0 0 32 32"
     width={24}
@@ -523,7 +523,7 @@ exports[`IconGhostButton should change padding when icon button size is large 1`
 exports[`IconGhostButton should change padding when icon button size is small 1`] = `
 .c1 {
   fill: currentcolor;
-  color: black;
+  color: #32383c;
 }
 
 .c0 {
@@ -605,7 +605,7 @@ exports[`IconGhostButton should change padding when icon button size is small 1`
 >
   <svg
     className="c1"
-    color="black"
+    color="moon900"
     height={24}
     viewBox="0 0 32 32"
     width={24}
@@ -653,7 +653,7 @@ exports[`IconGhostButton should change padding when icon button size is small 1`
 exports[`IconGhostButton should render an icon button with calendar icon 1`] = `
 .c1 {
   fill: currentcolor;
-  color: black;
+  color: #32383c;
 }
 
 .c0 {
@@ -735,7 +735,7 @@ exports[`IconGhostButton should render an icon button with calendar icon 1`] = `
 >
   <svg
     className="c1"
-    color="black"
+    color="moon900"
     height={24}
     viewBox="0 0 32 32"
     width={24}

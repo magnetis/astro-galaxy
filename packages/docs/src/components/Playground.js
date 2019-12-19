@@ -7,6 +7,7 @@ const Wrapper = styled.div`
   border-radius: 5px;
   border: 1px solid ${props => props.theme.colors.space400};
   margin-bottom: 32px;
+  background-image: ${props => (props.dark ? props.theme.gradients.blackhole : 'none')};
 `;
 
 const PreviewWrapper = styled.div`
@@ -43,7 +44,7 @@ const EditorToggle = styled.button`
   cursor: pointer;
 `;
 
-function Playground({ scope, code }) {
+function Playground({ scope, code, dark }) {
   const [showEditor, setShowEditor] = useState(false);
 
   function toggleEditor() {
@@ -51,7 +52,7 @@ function Playground({ scope, code }) {
   }
 
   return (
-    <Wrapper>
+    <Wrapper dark={dark}>
       <LiveProvider
         code={`<>
 ${code}

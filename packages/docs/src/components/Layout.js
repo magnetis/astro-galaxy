@@ -10,6 +10,8 @@ const Page = styled.div`
   display: flex;
   font: ${props => props.theme.fonts.secondary};
   color: ${props => props.theme.colors.moon900};
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 `;
 
 const ContentWrapper = styled.div`
@@ -39,6 +41,7 @@ const Content = styled.div`
   }
 
   h2 {
+    font: ${props => props.theme.fonts.primary};
     font-size: ${props => props.theme.fontSizes.texts.large};
   }
 
@@ -95,12 +98,12 @@ function Layout({ children, ...props }) {
         }
       }
 
-      allMdx(filter: { headings: { elemMatch: { depth: { eq: 1 } } } }) {
+      allMdx(filter: { headings: { elemMatch: { depth: { eq: 2 } } } }) {
         nodes {
           frontmatter {
             title
           }
-          headings(depth: h1) {
+          headings(depth: h2) {
             value
           }
         }

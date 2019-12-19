@@ -25,7 +25,6 @@ const Content = styled.div`
   max-height: 100vh;
   border-right: 1px solid ${props => props.theme.colors.space300};
   background-color: #fff;
-  overflow: scroll;
   transition: transform 0.2s ease 0s;
 
   ${breakpoints.min('xl')} {
@@ -36,6 +35,10 @@ const Content = styled.div`
     z-index: 100;
     transform: translateX(${props => (props.isOpen ? 0 : '-100%')});
   }
+`;
+
+const ScrollView = styled.div`
+  overflow-y: scroll;
 `;
 
 const Logo = styled.h1`
@@ -68,15 +71,11 @@ const ShowMenu = styled.button`
   position: absolute;
   align-items: center;
   justify-content: center;
-  width: 33px;
-  height: 30px;
   top: 2px;
-  right: -27px;
+  right: -42px;
   transform: translateX(10px) translateY(4px);
   display: block;
-  padding: 5px 6px;
   transition: transform 0.3s ease 0s;
-  outline: none;
   border: none;
   background-color: transparent;
   display: block;
@@ -122,10 +121,12 @@ function Sidebar({ ...props }) {
           <ShowMenu onClick={toggleMenu}>
             {showMenu ? <IconClose {...menuIconProps} /> : <IconMenu {...menuIconProps} />}
           </ShowMenu>
+          <ScrollView>
           <LogoWrapper>
             <Logo>Astro</Logo>
           </LogoWrapper>
           <Menu currentPath={props.currentPath} pages={props.pages} mdx={props.mdx} />
+          </ScrollView>
         </Content>
       </Wrapper>
       <Backdrop isOpen={showMenu} onClick={toggleMenu} />

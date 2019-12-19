@@ -11,6 +11,7 @@ const Wrapper = styled.nav`
 const Item = styled(Link)`
   display: flex;
   flex-direction: column;
+  position: relative;
   font: ${props => props.theme.fonts.primary};
   font-size: 20px;
   font-weight: 500;
@@ -83,6 +84,7 @@ function Menu({ mdx, pages, currentPath }) {
         const hasSubItems = subItems.filter(
           subItem => subItem.frontmatter.title === i.context.frontmatter.title
         ).length;
+
         const isPathActive = active[i.path];
 
         return (

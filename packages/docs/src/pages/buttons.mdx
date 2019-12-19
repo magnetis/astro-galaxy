@@ -9,6 +9,7 @@ import {
   IconButton,
   IconOutlineButton,
   IconGhostButton,
+  IconLinkButton,
   Text,
 } from '@magnetis/astro-galaxy-components';
 import { IconCalendar } from '@magnetis/astro-galaxy-icons';
@@ -21,9 +22,7 @@ import PropsTableWrapper from '../components/PropsTable';
   background or foreground of an experience.
 </Text>
 
-<Text as="h2">
-  primary buttons
-</Text>
+## primary buttons
 
 Primary buttons are medium sized and have a colored background. Use these for the main action in a section or screen. You should display only one primary button at a time.
 
@@ -54,9 +53,7 @@ Mouseover and click to view `:hover` and `:active` states.
   `}
 />
 
-<Text as="h3">
-  sizes
-</Text>
+<Text as="h3">sizes</Text>
 
 <Playground
   scope={{ Button }}
@@ -73,9 +70,7 @@ Mouseover and click to view `:hover` and `:active` states.
   `}
 />
 
-<Text as="h3">
-  props
-</Text>
+<Text as="h3">props</Text>
 
 <PropsTableWrapper>
   <table>
@@ -136,9 +131,7 @@ Mouseover and click to view `:hover` and `:active` states.
   </table>
 </PropsTableWrapper>
 
-<Text as="h2">
-  outline buttons
-</Text>
+## outline buttons
 
 Outline buttons can be used as secondary roles. Secondary buttons present secondary actions when there's already a primary action in the same section or screen.
 
@@ -169,9 +162,7 @@ Mouseover and click to view `:hover` and `:active` states.
   `}
 />
 
-<Text as="h3">
-  sizes
-</Text>
+<Text as="h3">sizes</Text>
 
 <Playground
   scope={{ OutlineButton }}
@@ -188,9 +179,7 @@ Mouseover and click to view `:hover` and `:active` states.
   `}
 />
 
-<Text as="h3">
-  props
-</Text>
+<Text as="h3">props</Text>
 
 <PropsTableWrapper>
   <table>
@@ -251,9 +240,7 @@ Mouseover and click to view `:hover` and `:active` states.
   </table>
 </PropsTableWrapper>
 
-<Text as="h2">
-  icon buttons
-</Text>
+## icon buttons
 
 Icon buttons can be used for simple microinteractions and commands.
 
@@ -284,9 +271,7 @@ Mouseover and click to view `:hover` and `:active` states.
   `}
 />
 
-<Text as="h3">
-  sizes
-</Text>
+<Text as="h3">sizes</Text>
 
 <Playground
   scope={{ IconButton, IconCalendar }}
@@ -303,15 +288,11 @@ Mouseover and click to view `:hover` and `:active` states.
   `}
 />
 
-<Text as="h3">
-  props
-</Text>
+<Text as="h3">props</Text>
 
 Refer to iconlabel buttons below.
 
-<Text as="h2">
-  iconlabel buttons
-</Text>
+## iconlabel buttons
 
 To create an iconlabel button, first create a regular `IconButton`, plus the `iconlabel` prop. Then, if you want the icon to the left of the label, add an icon component inside the button and before its inner text. See our <Link to="/iconography">Iconography</Link> to learn how to use Astro icons.
 
@@ -341,9 +322,7 @@ Mouseover and click to view `:hover` and `:active` states.
   `}
 />
 
-<Text as="h3">
-  sizes
-</Text>
+<Text as="h3">sizes</Text>
 
 <Playground
   scope={{ IconButton, IconCalendar }}
@@ -363,9 +342,7 @@ Mouseover and click to view `:hover` and `:active` states.
   `}
 />
 
-<Text as="h3">
-  props
-</Text>
+<Text as="h3">props</Text>
 
 <PropsTableWrapper>
   <table>
@@ -444,9 +421,7 @@ Mouseover and click to view `:hover` and `:active` states.
   </table>
 </PropsTableWrapper>
 
-<Text as="h2">
-  icon outline buttons
-</Text>
+## icon outline buttons
 
 Icon outline buttons are commonly used in microinteractions and secondary commands.
 
@@ -477,9 +452,7 @@ Mouseover and click to view `:hover` and `:active` states.
   `}
 />
 
-<Text as="h3">
-  sizes
-</Text>
+<Text as="h3">sizes</Text>
 
 <Playground
   scope={{ IconOutlineButton, IconCalendar }}
@@ -496,15 +469,11 @@ Mouseover and click to view `:hover` and `:active` states.
   `}
 />
 
-<Text as="h3">
-  props
-</Text>
+<Text as="h3">props</Text>
 
 Refer to iconlabel outline buttons buttons below.
 
-<Text as="h2">
-  iconlabel outline buttons
-</Text>
+## iconlabel outline buttons
 
 Iconlabel outline buttons are commonly used in microinteractions and secondary commands.
 
@@ -534,9 +503,7 @@ Mouseover and click to view `:hover` and `:active` states.
   `}
 />
 
-<Text as="h3">
-  sizes
-</Text>
+<Text as="h3">sizes</Text>
 
 <Playground
   scope={{ IconOutlineButton, IconCalendar }}
@@ -556,9 +523,7 @@ Mouseover and click to view `:hover` and `:active` states.
   `}
 />
 
-<Text as="h3">
-  props
-</Text>
+<Text as="h3">props</Text>
 
 <PropsTableWrapper>
   <table>
@@ -637,9 +602,7 @@ Mouseover and click to view `:hover` and `:active` states.
   </table>
 </PropsTableWrapper>
 
-<Text as="h2">
-  ghost icon buttons
-</Text>
+## ghost icon buttons
 
 Ghost icon buttons can be used for simple microinteractions and commands.
 
@@ -670,9 +633,7 @@ Mouseover and click to view `:hover` and `:active` states.
   `}
 />
 
-<Text as="h3">
-  sizes
-</Text>
+<Text as="h3">sizes</Text>
 
 <Playground
   scope={{ IconGhostButton, IconCalendar }}
@@ -689,15 +650,11 @@ Mouseover and click to view `:hover` and `:active` states.
   `}
 />
 
-<Text as="h3">
-  props
-</Text>
+<Text as="h3">props</Text>
 
 Refer to ghost iconlabel buttons below.
 
-<Text as="h2">
-  ghost iconlabel buttons
-</Text>
+## ghost iconlabel buttons
 
 Ghost iconlabel buttons are also used in microinteractions and smaller commands.
 
@@ -735,9 +692,7 @@ Mouseover and click to view `:hover` and `:active` states.
   `}
 />
 
-<Text as="h3">
-  sizes
-</Text>
+<Text as="h3">sizes</Text>
 
 <Playground
   scope={{ IconGhostButton, IconCalendar }}
@@ -757,9 +712,7 @@ Mouseover and click to view `:hover` and `:active` states.
   `}
 />
 
-<Text as="h3">
-  props
-</Text>
+<Text as="h3">props</Text>
 
 <PropsTableWrapper>
   <table>
@@ -831,6 +784,118 @@ Mouseover and click to view `:hover` and `:active` states.
           <code>false</code>
         </td>
         <td>Flip icon position to the right.</td>
+      </tr>
+    </tbody>
+  </table>
+</PropsTableWrapper>
+
+## icon link buttons
+
+Icon link buttons can be used for menu items and simple interactions or commands.
+
+To create an icon link button, import `IconLinkButton`. Then, if you want the icon to the left of the label, add an icon component inside the button and before its inner text. See our <Link to="/iconography">Iconography</Link> to learn how to use Astro icons.
+
+If you want the icon to the right of the label, add the `iconlabelRight` prop in addition to the previous props and place the icon component inside the button and after its inner text, instead.
+
+To create an icon link button with bold text, just add the `bold` prop.
+
+Mouseover and click to view `:hover` and `:active` states.
+
+<Playground
+  dark
+  scope={{ IconLinkButton, IconCalendar }}
+  code={`
+    <IconLinkButton>
+      <IconCalendar />
+      icon link
+    </IconLinkButton>
+    <IconLinkButton bold>
+      <IconCalendar />
+      icon link bold
+    </IconLinkButton>
+    <IconLinkButton iconlabelRight>
+      icon link right
+      <IconCalendar />
+    </IconLinkButton>
+    <IconLinkButton disabled>
+      <IconCalendar />
+      disabled
+    </IconLinkButton>
+  `}
+/>
+
+<Text as="h3">props</Text>
+
+<PropsTableWrapper>
+  <table>
+    <thead>
+      <tr>
+        <th>property</th>
+        <th>PropType</th>
+        <th>required</th>
+        <th>default</th>
+        <th>description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>children</td>
+        <td>node</td>
+        <td>no</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>as</td>
+        <td>string</td>
+        <td>no</td>
+        <td></td>
+        <td>Change component's tag.</td>
+      </tr>
+      <tr>
+        <td>buttonSize</td>
+        <td>string</td>
+        <td>no</td>
+        <td>
+          <code>medium</code>
+        </td>
+        <td>Change button size. "small", "medium", "large". Although supported, small and large are not on our official collection for this button.</td>
+      </tr>
+      <tr>
+        <td>disabled</td>
+        <td>bool</td>
+        <td>no</td>
+        <td>
+          <code>false</code>
+        </td>
+        <td>Disable button</td>
+      </tr>
+      <tr>
+        <td>iconlabel</td>
+        <td>boolean</td>
+        <td>no</td>
+        <td>
+          <code>true</code>
+        </td>
+        <td>Add inner text.</td>
+      </tr>
+      <tr>
+        <td>iconlabelRight</td>
+        <td>boolean</td>
+        <td>no</td>
+        <td>
+          <code>false</code>
+        </td>
+        <td>Flip icon position to the right.</td>
+      </tr>
+      <tr>
+        <td>bold</td>
+        <td>boolean</td>
+        <td>no</td>
+        <td>
+          <code>false</code>
+        </td>
+        <td>Change font weight to bold.</td>
       </tr>
     </tbody>
   </table>

@@ -900,3 +900,23 @@ Mouseover and click to view `:hover` and `:active` states.
     </tbody>
   </table>
 </PropsTableWrapper>
+
+## buttons in `<a>` elements
+
+Although our button components are `<button>` elements by default, you may also use them as `<a>` elements when semantically recommended by passing the prop `as="a"`. Note that some browsers may render them slightly differently.
+
+`<a>` elements don't have a `:disabled` attribute/pseudo selector, so if you need such state, you'll have to add the `disabled` class like the example below.
+
+If your `<a>` button triggers in-page functionalities instead of linking (to other pages or within the current page), make them semantically accessible by adding a `role="button"`.
+
+<Playground
+  scope={{ Button }}
+  code={`
+    <Button as="a" variant="primary.uranus">
+      link button
+    </Button>
+    <Button as="a" className="disabled">
+      disabled
+    </Button>
+  `}
+/>

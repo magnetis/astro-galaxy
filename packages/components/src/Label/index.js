@@ -5,6 +5,7 @@ import { font } from '@magnetis/astro-galaxy-core';
 const Label = styled.label`
   cursor: pointer;
   font: ${props => props.theme.fonts.secondary};
+  color: ${props => props.theme.colors.moon900};
 
   ${font};
   ${space};

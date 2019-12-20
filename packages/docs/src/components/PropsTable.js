@@ -2,6 +2,8 @@ import styled from 'styled-components';
 
 const PropsTableWrapper = styled.div`
   margin-bottom: 32px;
+  width: 100%;
+  overflow-x: auto;
 
   & table {
     border-collapse: collapse;

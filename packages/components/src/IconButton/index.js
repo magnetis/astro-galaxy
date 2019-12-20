@@ -44,7 +44,7 @@ const buttonPadding = () => ({
   `,
 });
 
-const iconlabelMargin = props => {
+export const iconlabelMargin = props => {
   if (props.iconlabel && !props.iconlabelRight) {
     return '-4px 9px -3px 0';
   }

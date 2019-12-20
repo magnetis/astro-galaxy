@@ -13,6 +13,7 @@ const Wrapper = styled.div`
 const PreviewWrapper = styled.div`
   padding: 25px 15px;
   border-bottom: 1px solid ${props => props.theme.colors.space400};
+  overflow-x: scroll;
 
   & > div {
     margin: -8px;
@@ -24,7 +25,7 @@ const PreviewWrapper = styled.div`
 `;
 
 const EditorWrapper = styled.div`
-  background: ${props => props.theme.colors.space200};
+  background: ${props => props.theme.colors.moon900};
   padding: 15px 5px !important;
   display: ${props => (props.visible ? 'block' : 'none')};
 

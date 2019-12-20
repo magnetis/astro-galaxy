@@ -3,8 +3,6 @@ import { color, space, layout, typography } from 'styled-system';
 import { font } from '@magnetis/astro-galaxy-core';
 
 const Text = styled.p`
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   ${color}
   ${space}
   ${layout}

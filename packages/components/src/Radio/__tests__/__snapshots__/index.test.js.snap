@@ -1,0 +1,329 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Radio should render a disabled radio 1`] = `
+.c3 {
+  cursor: pointer;
+  font: normal normal 400 normal 16px/1.5 Lato,sans-serif;
+  color: #32383c;
+  padding-left: 8px;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  position: absolute;
+  margin-top: 4px;
+  opacity: 0;
+  cursor: pointer;
+  width: 18px;
+  height: 18px;
+}
+
+.c1:checked ~ span::before {
+  border: 5px solid #159ce4;
+}
+
+.c1:focus ~ span::before {
+  box-shadow: 0 0 0 3px rgba(21,156,228,0.4);
+}
+
+.c1:hover ~ span::before {
+  border-color: #159ce4;
+}
+
+.c1:disabled {
+  cursor: not-allowed;
+}
+
+.c1:disabled ~ span::before {
+  cursor: not-allowed;
+  border-color: #e9eef2;
+}
+
+.c1:disabled ~ label {
+  cursor: not-allowed;
+  color: #e9eef2;
+}
+
+.c2::before {
+  display: inline-block;
+  content: '';
+  margin-top: 4px;
+  border: 2px solid #597183;
+  border-radius: 100%;
+  background-color: #fff;
+  width: 18px;
+  height: 18px;
+}
+
+<div
+  className="c0"
+>
+  <input
+    className="c1"
+    disabled={true}
+    id="radio2"
+    type="radio"
+  />
+  <span
+    className="c2"
+  />
+  <label
+    className="c3"
+    htmlFor="radio2"
+  >
+    Disabled
+  </label>
+</div>
+`;
+
+exports[`Radio should render a disabled selected radio 1`] = `
+.c3 {
+  cursor: pointer;
+  font: normal normal 400 normal 16px/1.5 Lato,sans-serif;
+  color: #32383c;
+  padding-left: 8px;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  position: absolute;
+  margin-top: 4px;
+  opacity: 0;
+  cursor: pointer;
+  width: 18px;
+  height: 18px;
+}
+
+.c1:checked ~ span::before {
+  border: 5px solid #159ce4;
+}
+
+.c1:focus ~ span::before {
+  box-shadow: 0 0 0 3px rgba(21,156,228,0.4);
+}
+
+.c1:hover ~ span::before {
+  border-color: #159ce4;
+}
+
+.c1:disabled {
+  cursor: not-allowed;
+}
+
+.c1:disabled ~ span::before {
+  cursor: not-allowed;
+  border-color: #e9eef2;
+}
+
+.c1:disabled ~ label {
+  cursor: not-allowed;
+  color: #e9eef2;
+}
+
+.c2::before {
+  display: inline-block;
+  content: '';
+  margin-top: 4px;
+  border: 2px solid #597183;
+  border-radius: 100%;
+  background-color: #fff;
+  width: 18px;
+  height: 18px;
+}
+
+<div
+  className="c0"
+>
+  <input
+    className="c1"
+    defaultChecked={true}
+    disabled={true}
+    id="radio2"
+    type="radio"
+  />
+  <span
+    className="c2"
+  />
+  <label
+    className="c3"
+    htmlFor="radio2"
+  >
+    Selected disabled
+  </label>
+</div>
+`;
+
+exports[`Radio should render a selected radio 1`] = `
+.c3 {
+  cursor: pointer;
+  font: normal normal 400 normal 16px/1.5 Lato,sans-serif;
+  color: #32383c;
+  padding-left: 8px;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  position: absolute;
+  margin-top: 4px;
+  opacity: 0;
+  cursor: pointer;
+  width: 18px;
+  height: 18px;
+}
+
+.c1:checked ~ span::before {
+  border: 5px solid #159ce4;
+}
+
+.c1:focus ~ span::before {
+  box-shadow: 0 0 0 3px rgba(21,156,228,0.4);
+}
+
+.c1:hover ~ span::before {
+  border-color: #159ce4;
+}
+
+.c1:disabled {
+  cursor: not-allowed;
+}
+
+.c1:disabled ~ span::before {
+  cursor: not-allowed;
+  border-color: #e9eef2;
+}
+
+.c1:disabled ~ label {
+  cursor: not-allowed;
+  color: #e9eef2;
+}
+
+.c2::before {
+  display: inline-block;
+  content: '';
+  margin-top: 4px;
+  border: 2px solid #597183;
+  border-radius: 100%;
+  background-color: #fff;
+  width: 18px;
+  height: 18px;
+}
+
+<div
+  className="c0"
+>
+  <input
+    className="c1"
+    defaultChecked={true}
+    id="radio2"
+    type="radio"
+  />
+  <span
+    className="c2"
+  />
+  <label
+    className="c3"
+    htmlFor="radio2"
+  >
+    Selected
+  </label>
+</div>
+`;
+
+exports[`Radio should render radio 1`] = `
+.c3 {
+  cursor: pointer;
+  font: normal normal 400 normal 16px/1.5 Lato,sans-serif;
+  color: #32383c;
+  padding-left: 8px;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  position: absolute;
+  margin-top: 4px;
+  opacity: 0;
+  cursor: pointer;
+  width: 18px;
+  height: 18px;
+}
+
+.c1:checked ~ span::before {
+  border: 5px solid #159ce4;
+}
+
+.c1:focus ~ span::before {
+  box-shadow: 0 0 0 3px rgba(21,156,228,0.4);
+}
+
+.c1:hover ~ span::before {
+  border-color: #159ce4;
+}
+
+.c1:disabled {
+  cursor: not-allowed;
+}
+
+.c1:disabled ~ span::before {
+  cursor: not-allowed;
+  border-color: #e9eef2;
+}
+
+.c1:disabled ~ label {
+  cursor: not-allowed;
+  color: #e9eef2;
+}
+
+.c2::before {
+  display: inline-block;
+  content: '';
+  margin-top: 4px;
+  border: 2px solid #597183;
+  border-radius: 100%;
+  background-color: #fff;
+  width: 18px;
+  height: 18px;
+}
+
+<div
+  className="c0"
+>
+  <input
+    className="c1"
+    id="radio1"
+    type="radio"
+  />
+  <span
+    className="c2"
+  />
+  <label
+    className="c3"
+    htmlFor="radio1"
+  >
+    Radio
+  </label>
+</div>
+`;

@@ -1,0 +1,38 @@
+---
+title: controls & toggles
+---
+
+import {
+  CheckboxWrapper,
+  Checkbox,
+  CheckBoxShape,
+  Label,
+  Text,
+} from '@magnetis/astro-galaxy-components';
+import Playground from '../components/Playground';
+import PropsTableWrapper from '../components/PropsTable';
+
+<Text font="secondary" fontSize="large" color="moon400" marginBottom={5}>
+  Users can see different experiences throughout the platform that will demand different components
+  and interactions according to the context. These microinteractions help build excellent user
+  experience and enrich the product itself.
+</Text>
+
+## checkboxes
+
+Checkboxes are used when a user might select multiple options from a list, or when a single specific action is required - like agreeing to terms and conditions.
+
+Mouseover to view `:hover` state.
+
+To create the disabled state, add the disabled attribute on the `Checkbox` component.
+
+<Playground
+  scope={{ CheckboxWrapper, Checkbox, CheckBoxShape, Label }}
+  code={`
+    <CheckboxWrapper>
+      <Checkbox id="checkbox1" />
+      <CheckboxShape />
+      <Label htmlFor="checkbox1">Checkbox</Label>
+    </CheckboxWrapper>
+  `}
+/>

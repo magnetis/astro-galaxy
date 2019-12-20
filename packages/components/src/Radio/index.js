@@ -11,12 +11,6 @@ const RadioWrapper = styled.div`
     align-items: center;
   `};
 
-  > input[type='radio']:disabled ~ label,
-  > input[type='radio']:disabled ~ span::before {
-    cursor: not-allowed;
-    color: ${props => props.theme.colors.moon200};
-  }
-
   ${layout};
   ${space};
 `;
@@ -43,9 +37,18 @@ const Radio = styled.input.attrs(props => ({
     border-color: ${props => props.theme.colors.uranus500};
   }
 
+  :disabled {
+    cursor: not-allowed;
+  }
+
   :disabled ~ span::before {
     cursor: not-allowed;
     border-color: ${props => props.theme.colors.moon200};
+  }
+
+  :disabled ~ label {
+    cursor: not-allowed;
+    color: ${props => props.theme.colors.moon200};
   }
 `;
 

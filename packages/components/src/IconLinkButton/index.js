@@ -2,18 +2,7 @@ import styled from 'styled-components';
 import PropTypes from 'prop-types';
 import { color, space, border, layout, fontSize, typography } from 'styled-system';
 import { font, buttonSizes } from '@magnetis/astro-galaxy-core';
-
-const iconlabelMargin = props => {
-  if (props.iconlabel && !props.iconlabelRight) {
-    return '-4px 9px -3px 0';
-  }
-
-  if (props.iconlabel && props.iconlabelRight) {
-    return '-4px 0 -3px 9px';
-  }
-
-  return '-4px 0 -3px';
-};
+import { iconlabelMargin } from '../IconButton';
 
 const IconLinkButton = styled.button`
   ${font};

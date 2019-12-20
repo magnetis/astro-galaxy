@@ -13,6 +13,9 @@ const CheckboxWrapper = styled.div`
     color: ${props => props.theme.colors.moon200};
     cursor: not-allowed;
   }
+
+  ${layout};
+  ${space};
 `;
 
 const Checkbox = styled.input.attrs(() => ({

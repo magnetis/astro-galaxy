@@ -27,7 +27,7 @@ describe('Checkbox', () => {
     expect(json).toMatchSnapshot();
   });
 
-  it('should render a indeterminate checkbox', () => {
+  it('should render an indeterminate checkbox', () => {
     const json = rendererCreateWithTheme(
       <CheckboxWrapper>
         <Checkbox indeterminate id="checkbox3" />

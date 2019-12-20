@@ -1,8 +1,15 @@
 import styled from 'styled-components';
 import { space, layout } from 'styled-system';
+import PropTypes from 'prop-types';
 
 const RadioWrapper = styled.div`
   display: flex;
+
+  ${props =>
+    props.center &&
+    `
+    align-items: center;
+  `};
 
   > input[type='radio']:disabled ~ label,
   > input[type='radio']:disabled ~ span::before {
@@ -21,6 +28,8 @@ const Radio = styled.input.attrs(props => ({
   margin-top: 4px;
   opacity: 0;
   cursor: pointer;
+  width: ${props => props.theme.sizes[2]};
+  height: ${props => props.theme.sizes[2]};
 
   :checked ~ span::before {
     border: 5px solid ${props => props.theme.colors.uranus500};
@@ -38,13 +47,7 @@ const Radio = styled.input.attrs(props => ({
     cursor: not-allowed;
     border-color: ${props => props.theme.colors.moon200};
   }
-
-  ${layout}
 `;
-
-Radio.defaultProps = {
-  size: 2, // Same as width: 2, height: 2
-};
 
 const RadioShape = styled.span`
   ::before {
@@ -54,13 +57,17 @@ const RadioShape = styled.span`
     border: 2px solid ${props => props.theme.colors.moon500};
     border-radius: 100%;
     background-color: ${props => props.theme.colors.space100};
-
-    ${layout}
+    width: ${props => props.theme.sizes[2]};
+    height: ${props => props.theme.sizes[2]};
   }
 `;
 
-RadioShape.defaultProps = {
-  size: 2, // Same as width: 2, height: 2
+RadioWrapper.displayName = 'RadioWrapper';
+RadioShape.displayName = 'RadioShape';
+Radio.displayName = 'Radio';
+
+RadioWrapper.propTypes = {
+  center: PropTypes.bool,
 };
 
 export { RadioWrapper, Radio, RadioShape };

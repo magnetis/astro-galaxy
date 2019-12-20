@@ -49,20 +49,19 @@ const Button = styled.button`
   border-width: 2px;
   border-style: solid;
 
-  :disabled,
-  .disabled {
+  :disabled {
     cursor: not-allowed;
     background-color: ${props => props.theme.colors.moon200};
     border-color: ${props => props.theme.colors.moon200};
     color: ${props => props.theme.colors.space100};
   }
 
-  :hover:not(:disabled):not(.disabled),
-  :focus:not(:disabled):not(.disabled) {
+  :hover:not(:disabled),
+  :focus:not(:disabled) {
     ${props => hoverStyles(props)[props.variant]}
   }
 
-  :active:not(:disabled):not(.disabled) {
+  :active:not(:disabled) {
     ${props => activeStyles(props)[props.variant]}
   }
 

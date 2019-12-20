@@ -6,6 +6,9 @@ import {
   CheckboxWrapper,
   Checkbox,
   CheckboxShape,
+  RadioWrapper,
+  Radio,
+  RadioShape,
   Label,
   Text,
 } from '@magnetis/astro-galaxy-components';
@@ -17,6 +20,88 @@ import PropsTableWrapper from '../components/PropsTable';
   and interactions according to the context. These microinteractions help build excellent user
   experience and enrich the product itself.
 </Text>
+
+## radio buttons
+
+Radio buttons appear when the user must select only one option from more than two.
+
+You must create a unique `id` for each radio button shown in the same page.
+
+Mouseover to view `:hover` state.
+
+To create the disabled state, add the disabled attribute on the `Radio` component.
+
+<Playground
+  scope={{ RadioWrapper, Radio, RadioShape, Label }}
+  code={`
+    <RadioWrapper>
+      <Radio id="radio1" name="radiogroup1" />
+      <RadioShape />
+      <Label htmlFor="radio1">Radio</Label>
+    </RadioWrapper>
+    <RadioWrapper>
+      <Radio id="radio2" name="radiogroup1" defaultChecked />
+      <RadioShape />
+      <Label htmlFor="radio2">Selected</Label>
+    </RadioWrapper>
+    <RadioWrapper>
+      <Radio disabled id="radio3" name="radiogroup1" />
+      <RadioShape />
+      <Label htmlFor="radio3">Disabled</Label>
+    </RadioWrapper>
+  `}
+/>
+
+Default label behavior is top alignment. You can pass the `center` prop to the `RadioWrapper` component to switch to center alignment.
+
+<Playground
+  scope={{ RadioWrapper, Radio, RadioShape, Label }}
+  code={`
+    <RadioWrapper>
+      <Radio id="radio4" name="radiogroup3" />
+      <RadioShape />
+      <Label htmlFor="radio4">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+        ut labore et dolore magna aliqua. Sed risus pretium quam vulputate dignissim suspendisse.
+      </Label>
+    </RadioWrapper>
+    <RadioWrapper center>
+      <Radio id="radio5" name="radiogroup3" />
+      <RadioShape />
+      <Label htmlFor="radio5">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+        ut labore et dolore magna aliqua. Sed risus pretium quam vulputate dignissim suspendisse.
+      </Label>
+    </RadioWrapper>
+  `}
+/>
+
+<Text as="h3">props</Text>
+
+<PropsTableWrapper>
+  <table>
+    <thead>
+      <tr>
+        <th>property</th>
+        <th>PropType</th>
+        <th>required</th>
+        <th>default</th>
+        <th>description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>center</td>
+        <td>boolean</td>
+        <td>no</td>
+        <td>
+          <code>false</code>
+        </td>
+        <td>Change label text vertical alignment to center.</td>
+      </tr>
+    </tbody>
+  </table>
+</PropsTableWrapper>
 
 ## checkboxes
 

@@ -2,8 +2,6 @@ import styled from 'styled-components';
 import { color, space, layout, typography } from 'styled-system';
 
 const Heading = styled.h1`
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   ${color}
   ${space}
   ${layout}

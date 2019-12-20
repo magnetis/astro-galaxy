@@ -7,11 +7,14 @@ import breakpoints from '../utils/breakpoints';
 import Sidebar from './Sidebar';
 
 const Page = styled.div`
-  display: flex;
   font: ${props => props.theme.fonts.secondary};
   color: ${props => props.theme.colors.moon900};
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  ${breakpoints.min('md')} {
+    display: flex;
+  }
 `;
 
 const ContentWrapper = styled.div`

@@ -1,0 +1,688 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checkbox should render a checked checkbox 1`] = `
+.c3 {
+  cursor: pointer;
+  font: normal normal 400 normal 16px/1.5 Lato,sans-serif;
+  padding-left: 8px;
+}
+
+.c0 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 > input[type='checkbox']:disabled ~ label {
+  color: #e9eef2;
+  cursor: not-allowed;
+}
+
+.c1 {
+  position: absolute;
+  z-index: 10;
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.c1:disabled ~ label {
+  color: #e9eef2;
+  cursor: not-allowed;
+}
+
+.c1:focus ~ span::before {
+  box-shadow: 0 0 0 3px rgba(21,156,228,0.4);
+}
+
+.c1:checked ~ span::before {
+  background-color: #159ce4;
+  border-color: #159ce4;
+}
+
+.c1:disabled ~ span::before {
+  border-color: #e9eef2;
+}
+
+.c1:checked:disabled ~ span::before {
+  background-color: #e9eef2;
+}
+
+.c1:disabled {
+  cursor: not-allowed;
+}
+
+.c1:hover:not(:disabled) ~ span::before {
+  border-color: #159ce4;
+}
+
+.c2::before {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  content: '';
+  border: 2px solid #597183;
+  border-radius: 2px;
+  position: relative;
+  top: 2px;
+}
+
+.c2::after {
+  position: absolute;
+  top: 7px;
+  left: 3px;
+  width: 10px;
+  height: 6px;
+  color: #fff;
+  content: '';
+  border-bottom: 2px solid;
+  border-left: 2px solid;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+<div
+  className="c0"
+>
+  <input
+    className="c1"
+    defaultChecked={true}
+    id="checkbox2"
+    type="checkbox"
+  />
+  <span
+    className="c2"
+  />
+  <label
+    className="c3"
+    htmlFor="checkbox2"
+  >
+    Checked
+  </label>
+</div>
+`;
+
+exports[`Checkbox should render a checked disabled checkbox 1`] = `
+.c3 {
+  cursor: pointer;
+  font: normal normal 400 normal 16px/1.5 Lato,sans-serif;
+  padding-left: 8px;
+}
+
+.c0 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 > input[type='checkbox']:disabled ~ label {
+  color: #e9eef2;
+  cursor: not-allowed;
+}
+
+.c1 {
+  position: absolute;
+  z-index: 10;
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.c1:disabled ~ label {
+  color: #e9eef2;
+  cursor: not-allowed;
+}
+
+.c1:focus ~ span::before {
+  box-shadow: 0 0 0 3px rgba(21,156,228,0.4);
+}
+
+.c1:checked ~ span::before {
+  background-color: #159ce4;
+  border-color: #159ce4;
+}
+
+.c1:disabled ~ span::before {
+  border-color: #e9eef2;
+}
+
+.c1:checked:disabled ~ span::before {
+  background-color: #e9eef2;
+}
+
+.c1:disabled {
+  cursor: not-allowed;
+}
+
+.c1:hover:not(:disabled) ~ span::before {
+  border-color: #159ce4;
+}
+
+.c2::before {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  content: '';
+  border: 2px solid #597183;
+  border-radius: 2px;
+  position: relative;
+  top: 2px;
+}
+
+.c2::after {
+  position: absolute;
+  top: 7px;
+  left: 3px;
+  width: 10px;
+  height: 6px;
+  color: #fff;
+  content: '';
+  border-bottom: 2px solid;
+  border-left: 2px solid;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+<div
+  className="c0"
+>
+  <input
+    className="c1"
+    defaultChecked={true}
+    disabled={true}
+    id="checkbox5"
+    type="checkbox"
+  />
+  <span
+    className="c2"
+  />
+  <label
+    className="c3"
+    htmlFor="checkbox5"
+  >
+    Checked
+  </label>
+</div>
+`;
+
+exports[`Checkbox should render a disabled checkbox 1`] = `
+.c3 {
+  cursor: pointer;
+  font: normal normal 400 normal 16px/1.5 Lato,sans-serif;
+  padding-left: 8px;
+}
+
+.c0 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 > input[type='checkbox']:disabled ~ label {
+  color: #e9eef2;
+  cursor: not-allowed;
+}
+
+.c1 {
+  position: absolute;
+  z-index: 10;
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.c1:disabled ~ label {
+  color: #e9eef2;
+  cursor: not-allowed;
+}
+
+.c1:focus ~ span::before {
+  box-shadow: 0 0 0 3px rgba(21,156,228,0.4);
+}
+
+.c1:checked ~ span::before {
+  background-color: #159ce4;
+  border-color: #159ce4;
+}
+
+.c1:disabled ~ span::before {
+  border-color: #e9eef2;
+}
+
+.c1:checked:disabled ~ span::before {
+  background-color: #e9eef2;
+}
+
+.c1:disabled {
+  cursor: not-allowed;
+}
+
+.c1:hover:not(:disabled) ~ span::before {
+  border-color: #159ce4;
+}
+
+.c2::before {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  content: '';
+  border: 2px solid #597183;
+  border-radius: 2px;
+  position: relative;
+  top: 2px;
+}
+
+.c2::after {
+  position: absolute;
+  top: 7px;
+  left: 3px;
+  width: 10px;
+  height: 6px;
+  color: #fff;
+  content: '';
+  border-bottom: 2px solid;
+  border-left: 2px solid;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+<div
+  className="c0"
+>
+  <input
+    className="c1"
+    disabled={true}
+    id="checkbox4"
+    type="checkbox"
+  />
+  <span
+    className="c2"
+  />
+  <label
+    className="c3"
+    htmlFor="checkbox4"
+  >
+    Disabled checkbox
+  </label>
+</div>
+`;
+
+exports[`Checkbox should render a indeterminate checkbox 1`] = `
+.c3 {
+  cursor: pointer;
+  font: normal normal 400 normal 16px/1.5 Lato,sans-serif;
+  padding-left: 8px;
+}
+
+.c0 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 > input[type='checkbox']:disabled ~ label {
+  color: #e9eef2;
+  cursor: not-allowed;
+}
+
+.c1 {
+  position: absolute;
+  z-index: 10;
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.c1:disabled ~ label {
+  color: #e9eef2;
+  cursor: not-allowed;
+}
+
+.c1:focus ~ span::before {
+  box-shadow: 0 0 0 3px rgba(21,156,228,0.4);
+}
+
+.c1:checked ~ span::before {
+  background-color: #159ce4;
+  border-color: #159ce4;
+}
+
+.c1:disabled ~ span::before {
+  border-color: #e9eef2;
+}
+
+.c1:checked:disabled ~ span::before {
+  background-color: #e9eef2;
+}
+
+.c1:disabled {
+  cursor: not-allowed;
+}
+
+.c1:hover:not(:disabled) ~ span::before {
+  border-color: #159ce4;
+}
+
+.c1 ~ span::after {
+  top: 11px;
+  left: 4px;
+  width: 8px;
+  border-left: 0;
+  -webkit-transform: rotate(-180deg);
+  -ms-transform: rotate(-180deg);
+  transform: rotate(-180deg);
+}
+
+.c1:disabled ~ span::before {
+  background-color: #e9eef2;
+}
+
+.c2::before {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  content: '';
+  border: 2px solid #597183;
+  border-radius: 2px;
+  position: relative;
+  top: 2px;
+}
+
+.c2::after {
+  position: absolute;
+  top: 7px;
+  left: 3px;
+  width: 10px;
+  height: 6px;
+  color: #fff;
+  content: '';
+  border-bottom: 2px solid;
+  border-left: 2px solid;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+<div
+  className="c0"
+>
+  <input
+    className="c1"
+    id="checkbox3"
+    type="checkbox"
+  />
+  <span
+    className="c2"
+  />
+  <label
+    className="c3"
+    htmlFor="checkbox3"
+  >
+    Indeterminate
+  </label>
+</div>
+`;
+
+exports[`Checkbox should render a indeterminate disabled checkbox 1`] = `
+.c3 {
+  cursor: pointer;
+  font: normal normal 400 normal 16px/1.5 Lato,sans-serif;
+  padding-left: 8px;
+}
+
+.c0 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 > input[type='checkbox']:disabled ~ label {
+  color: #e9eef2;
+  cursor: not-allowed;
+}
+
+.c1 {
+  position: absolute;
+  z-index: 10;
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.c1:disabled ~ label {
+  color: #e9eef2;
+  cursor: not-allowed;
+}
+
+.c1:focus ~ span::before {
+  box-shadow: 0 0 0 3px rgba(21,156,228,0.4);
+}
+
+.c1:checked ~ span::before {
+  background-color: #159ce4;
+  border-color: #159ce4;
+}
+
+.c1:disabled ~ span::before {
+  border-color: #e9eef2;
+}
+
+.c1:checked:disabled ~ span::before {
+  background-color: #e9eef2;
+}
+
+.c1:disabled {
+  cursor: not-allowed;
+}
+
+.c1:hover:not(:disabled) ~ span::before {
+  border-color: #159ce4;
+}
+
+.c1 ~ span::after {
+  top: 11px;
+  left: 4px;
+  width: 8px;
+  border-left: 0;
+  -webkit-transform: rotate(-180deg);
+  -ms-transform: rotate(-180deg);
+  transform: rotate(-180deg);
+}
+
+.c1:disabled ~ span::before {
+  background-color: #e9eef2;
+}
+
+.c2::before {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  content: '';
+  border: 2px solid #597183;
+  border-radius: 2px;
+  position: relative;
+  top: 2px;
+}
+
+.c2::after {
+  position: absolute;
+  top: 7px;
+  left: 3px;
+  width: 10px;
+  height: 6px;
+  color: #fff;
+  content: '';
+  border-bottom: 2px solid;
+  border-left: 2px solid;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+<div
+  className="c0"
+>
+  <input
+    className="c1"
+    disabled={true}
+    id="checkbox4"
+    type="checkbox"
+  />
+  <span
+    className="c2"
+  />
+  <label
+    className="c3"
+    htmlFor="checkbox4"
+  >
+    Indeterminate disabled checkbox
+  </label>
+</div>
+`;
+
+exports[`Checkbox should render checkbox 1`] = `
+.c3 {
+  cursor: pointer;
+  font: normal normal 400 normal 16px/1.5 Lato,sans-serif;
+  padding-left: 8px;
+}
+
+.c0 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c0 > input[type='checkbox']:disabled ~ label {
+  color: #e9eef2;
+  cursor: not-allowed;
+}
+
+.c1 {
+  position: absolute;
+  z-index: 10;
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.c1:disabled ~ label {
+  color: #e9eef2;
+  cursor: not-allowed;
+}
+
+.c1:focus ~ span::before {
+  box-shadow: 0 0 0 3px rgba(21,156,228,0.4);
+}
+
+.c1:checked ~ span::before {
+  background-color: #159ce4;
+  border-color: #159ce4;
+}
+
+.c1:disabled ~ span::before {
+  border-color: #e9eef2;
+}
+
+.c1:checked:disabled ~ span::before {
+  background-color: #e9eef2;
+}
+
+.c1:disabled {
+  cursor: not-allowed;
+}
+
+.c1:hover:not(:disabled) ~ span::before {
+  border-color: #159ce4;
+}
+
+.c2::before {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  content: '';
+  border: 2px solid #597183;
+  border-radius: 2px;
+  position: relative;
+  top: 2px;
+}
+
+.c2::after {
+  position: absolute;
+  top: 7px;
+  left: 3px;
+  width: 10px;
+  height: 6px;
+  color: #fff;
+  content: '';
+  border-bottom: 2px solid;
+  border-left: 2px solid;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+<div
+  className="c0"
+>
+  <input
+    className="c1"
+    id="checkbox1"
+    type="checkbox"
+  />
+  <span
+    className="c2"
+  />
+  <label
+    className="c3"
+    htmlFor="checkbox1"
+  >
+    Checkbox
+  </label>
+</div>
+`;

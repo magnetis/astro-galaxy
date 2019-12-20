@@ -859,7 +859,10 @@ Mouseover and click to view `:hover` and `:active` states.
         <td>
           <code>medium</code>
         </td>
-        <td>Change button size. "small", "medium", "large". Although supported, small and large are not on our official collection for this button.</td>
+        <td>
+          Change button size. "small", "medium", "large". Although supported, small and large are
+          not on our official collection for this button.
+        </td>
       </tr>
       <tr>
         <td>disabled</td>
@@ -900,3 +903,18 @@ Mouseover and click to view `:hover` and `:active` states.
     </tbody>
   </table>
 </PropsTableWrapper>
+
+## buttons in `<a>` elements
+
+Although our button components are `<button>` elements by default, you may also use them as `<a>` elements when semantically recommended by passing the prop `as="a"`. Note that some browsers may render them slightly differently.
+
+If your `<a>` button triggers in-page functionalities instead of linking (to other pages or within the current page), make them semantically accessible by adding a `role="button"`.
+
+<Playground
+  scope={{ Button }}
+  code={`
+    <Button as="a" variant="primary.uranus">
+      link button
+    </Button>
+  `}
+/>

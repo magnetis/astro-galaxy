@@ -97,7 +97,7 @@ const CheckboxShape = styled.span`
 `;
 
 CheckboxWrapper.displayName = 'CheckboxWrapper';
-CheckboxShape.displayName = 'CheckBoxShape';
+CheckboxShape.displayName = 'CheckboxShape';
 Checkbox.displayName = 'Checkbox';
 
 Checkbox.propTypes = {

@@ -5,7 +5,7 @@ title: controls & toggles
 import {
   CheckboxWrapper,
   Checkbox,
-  CheckBoxShape,
+  CheckboxShape,
   Label,
   Text,
 } from '@magnetis/astro-galaxy-components';
@@ -27,12 +27,57 @@ Mouseover to view `:hover` state.
 To create the disabled state, add the disabled attribute on the `Checkbox` component.
 
 <Playground
-  scope={{ CheckboxWrapper, Checkbox, CheckBoxShape, Label }}
+  scope={{ CheckboxWrapper, Checkbox, CheckboxShape, Label }}
   code={`
     <CheckboxWrapper>
       <Checkbox id="checkbox1" />
       <CheckboxShape />
       <Label htmlFor="checkbox1">Checkbox</Label>
     </CheckboxWrapper>
+    
+    <CheckboxWrapper>
+      <Checkbox defaultChecked id="checkbox2" />
+      <CheckboxShape />
+      <Label htmlFor="checkbox2">Checked</Label>
+    </CheckboxWrapper>
+    
+    <CheckboxWrapper>
+      <Checkbox indeterminate defaultChecked id="checkbox3" />
+      <CheckboxShape />
+      <Label htmlFor="checkbox3">Indeterminate</Label>
+    </CheckboxWrapper>
+    
+    <CheckboxWrapper>
+      <Checkbox disabled id="checkbox4" />
+      <CheckboxShape />
+      <Label htmlFor="checkbox4">Disabled</Label>
+    </CheckboxWrapper>
   `}
 />
+
+<Text as="h3">props</Text>
+
+<PropsTableWrapper>
+  <table>
+    <thead>
+      <tr>
+        <th>property</th>
+        <th>PropType</th>
+        <th>required</th>
+        <th>default</th>
+        <th>description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>indeterminate</td>
+        <td>boolean</td>
+        <td>no</td>
+        <td>
+          <code>false</code>
+        </td>
+        <td>Set indeterminate checkbox style.</td>
+      </tr>
+    </tbody>
+  </table>
+</PropsTableWrapper>

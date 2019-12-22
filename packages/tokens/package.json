@@ -1,0 +1,18 @@
+{
+  "name": "@magnetis/astro-galaxy-tokens",
+  "version": "1.0.0-alpha.1",
+  "main": "lib/index.cjs.js",
+  "module": "lib/index.es.js",
+  "scripts": {
+    "compile": "rollup -c"
+  },
+  "files": [
+    "lib"
+  ],
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-load-plugins": "^2.0.1",
+    "gulp-theo": "^2.0.0",
+    "theo": "^8.1.4"
+  }
+}

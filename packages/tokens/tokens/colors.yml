@@ -1,0 +1,52 @@
+aliases:
+  moon-100: '#f6f7f8'
+  moon-200: '#e9eef2'
+  moon-300: '#afbec9'
+  moon-400: '#8296a4'
+  moon-500: '#597183'
+  moon-600: '#495c69'
+  moon-700: '#3f4c55'
+  moon-800: '#384248'
+  moon-900: '#32383c'
+  moon-1000: '#1c2124'
+  uranus-100: '#a6f7ff'
+  uranus-200: '#86e3f9'
+  uranus-300: '#67cff3'
+  uranus-400: '#3db5eb'
+  uranus-500: '#159ce4'
+  uranus-600: '#147ec1'
+  uranus-700: '#1663a0'
+  uranus-800: '#16518b'
+  uranus-900: '#183a6e'
+  uranus-1000: '#182758'
+props:
+  - name: moon-100
+    value: '{!moon-100}'
+  - name: moon-200
+    value: '{!moon-200}'
+  - name: moon-300
+    value: '{!moon-300}'
+  - name: moon-400
+    value: '{!moon-400}'
+  - name: moon-500
+    value: '{!moon-500}'
+  - name: moon-600
+    value: '{!moon-600}'
+  - name: moon-700
+    value: '{!moon-700}'
+  - name: moon-800
+    value: '{!moon-800}'
+  - name: moon-900
+    value: '{!moon-900}'
+  - name: moon-1000
+    value: '{!moon-1000}'
+  - name: color-black-text
+    value: '{!moon-900}'
+    category: text-color
+    comment: 'ACME Inc. brand color.'
+  - name: background-color-primary-button
+    value: '{!uranus-500}'
+    category: button-color
+global:
+  type: color
+  category: background-color

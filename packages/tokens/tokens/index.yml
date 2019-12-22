@@ -1,0 +1,6 @@
+imports:
+  - ./colors.yml
+  - ./spacing.yml
+global:
+  type: all
+  category: global

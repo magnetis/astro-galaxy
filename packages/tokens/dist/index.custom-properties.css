@@ -1,5 +1,25 @@
 
 :root {
+  --mars-100: rgb(255, 202, 206);
+  --mars-200: rgb(246, 177, 181);
+  --mars-300: rgb(234, 146, 151);
+  --mars-400: rgb(221, 103, 107);
+  --mars-500: rgb(212, 84, 89);
+  --mars-600: rgb(172, 60, 64);
+  --mars-700: rgb(154, 49, 53);
+  --mars-800: rgb(123, 30, 34);
+  --mars-900: rgb(101, 17, 21);
+  --mars-1000: rgb(80, 5, 8);
+  --earth-100: rgb(184, 252, 172);
+  --earth-200: rgb(156, 241, 132);
+  --earth-300: rgb(136, 233, 103);
+  --earth-400: rgb(116, 226, 74);
+  --earth-500: rgb(86, 181, 63);
+  --earth-600: rgb(70, 157, 57);
+  --earth-700: rgb(56, 136, 51);
+  --earth-800: rgb(39, 111, 45);
+  --earth-900: rgb(20, 83, 39);
+  --earth-1000: rgb(8, 66, 34);
   --moon-100: rgb(246, 247, 248);
   --moon-200: rgb(233, 238, 242);
   --moon-300: rgb(175, 190, 201);
@@ -10,7 +30,46 @@
   --moon-800: rgb(56, 66, 72);
   --moon-900: rgb(50, 56, 60);
   --moon-1000: rgb(28, 33, 36);
-  /* ACME Inc. brand color. */
+  --space-100: rgb(255, 255, 255);
+  --space-200: rgb(245, 245, 245);
+  --space-300: rgb(229, 229, 229);
+  --space-400: rgb(197, 197, 197);
+  --space-500: rgb(165, 165, 165);
+  --space-600: rgb(133, 133, 133);
+  --space-700: rgb(101, 101, 101);
+  --space-800: rgb(69, 69, 69);
+  --space-900: rgb(53, 53, 53);
+  --space-1000: rgb(32, 32, 32);
+  --sun-100: rgb(255, 254, 193);
+  --sun-200: rgb(251, 238, 136);
+  --sun-300: rgb(247, 224, 91);
+  --sun-400: rgb(244, 211, 48);
+  --sun-500: rgb(241, 197, 0);
+  --sun-600: rgb(206, 168, 0);
+  --sun-700: rgb(177, 145, 0);
+  --sun-800: rgb(143, 118, 0);
+  --sun-900: rgb(104, 85, 0);
+  --sun-1000: rgb(75, 62, 0);
+  --uranus-100: rgb(166, 247, 255);
+  --uranus-200: rgb(134, 227, 249);
+  --uranus-300: rgb(103, 207, 243);
+  --uranus-400: rgb(61, 181, 235);
+  --uranus-500: rgb(21, 156, 228);
+  --uranus-600: rgb(20, 126, 193);
+  --uranus-700: rgb(22, 99, 160);
+  --uranus-800: rgb(22, 81, 139);
+  --uranus-900: rgb(24, 58, 110);
+  --uranus-1000: rgb(24, 39, 88);
+  --venus-100: rgb(255, 195, 249);
+  --venus-200: rgb(240, 160, 233);
+  --venus-300: rgb(231, 138, 222);
+  --venus-400: rgb(224, 120, 214);
+  --venus-500: rgb(199, 99, 186);
+  --venus-600: rgb(171, 75, 154);
+  --venus-700: rgb(153, 60, 133);
+  --venus-800: rgb(132, 42, 109);
+  --venus-900: rgb(107, 21, 80);
+  --venus-1000: rgb(92, 8, 63);
   --color-black-text: rgb(50, 56, 60);
   --background-color-primary-button: rgb(21, 156, 228);
   --spacing-none: 0;
@@ -22,4 +81,16 @@
   --spacing-base-8: 64px;
   /* Not valid as css variable */
   --space: 0,8px,16px,24px,32px,40px,48px,64px;
+  --primary: Poppins, sans-serif;
+  --secondary: Lato, sans-serif;
+  --font-size-base-1-5: 12px;
+  --font-size-base-1-75: 14px;
+  --font-size-base-2: 16px;
+  --font-size-base-3: 24px;
+  --font-size-base-4: 32px;
+  --font-size-base-5: 40px;
+  --font-size-base-6: 48px;
+  --font-size-base-8: 64px;
+  /* Not valid as css variable */
+  --font-sizes: 12px,14px,16px,24px,32px,40px,48px,64px;
 }

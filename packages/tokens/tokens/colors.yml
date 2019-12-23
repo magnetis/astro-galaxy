@@ -1,4 +1,24 @@
 aliases:
+  earth-100: '#b8fcac'
+  earth-200: '#9cf184'
+  earth-300: '#88e967'
+  earth-400: '#74e24a'
+  earth-500: '#56b53f'
+  earth-600: '#469d39'
+  earth-700: '#388833'
+  earth-800: '#276f2d'
+  earth-900: '#145327'
+  earth-1000: '#084222'
+  mars-100: '#ffcace'
+  mars-200: '#f6b1b5'
+  mars-300: '#ea9297'
+  mars-400: '#dd676b'
+  mars-500: '#d45459'
+  mars-600: '#ac3c40'
+  mars-700: '#9a3135'
+  mars-800: '#7b1e22'
+  mars-900: '#651115'
+  mars-1000: '#500508'
   moon-100: '#f6f7f8'
   moon-200: '#e9eef2'
   moon-300: '#afbec9'
@@ -9,6 +29,26 @@ aliases:
   moon-800: '#384248'
   moon-900: '#32383c'
   moon-1000: '#1c2124'
+  space-100: '#fff'
+  space-200: '#f5f5f5'
+  space-300: '#e5e5e5'
+  space-400: '#c5c5c5'
+  space-500: '#a5a5a5'
+  space-600: '#858585'
+  space-700: '#656565'
+  space-800: '#454545'
+  space-900: '#353535'
+  space-1000: '#202020'
+  sun-100: '#fffec1'
+  sun-200: '#fbee88'
+  sun-300: '#f7e05b'
+  sun-400: '#f4d330'
+  sun-500: '#f1c500'
+  sun-600: '#cea800'
+  sun-700: '#b19100'
+  sun-800: '#8f7600'
+  sun-900: '#685500'
+  sun-1000: '#4b3e00'
   uranus-100: '#a6f7ff'
   uranus-200: '#86e3f9'
   uranus-300: '#67cff3'
@@ -19,7 +59,57 @@ aliases:
   uranus-800: '#16518b'
   uranus-900: '#183a6e'
   uranus-1000: '#182758'
+  venus-100: '#ffc3f9'
+  venus-200: '#f0a0e9'
+  venus-300: '#e78ade'
+  venus-400: '#e078d6'
+  venus-500: '#c763ba'
+  venus-600: '#ab4b9a'
+  venus-700: '#993c85'
+  venus-800: '#842a6d'
+  venus-900: '#6b1550'
+  venus-1000: '#5c083f'
 props:
+  - name: mars-100
+    value: '{!mars-100}'
+  - name: mars-200
+    value: '{!mars-200}'
+  - name: mars-300
+    value: '{!mars-300}'
+  - name: mars-400
+    value: '{!mars-400}'
+  - name: mars-500
+    value: '{!mars-500}'
+  - name: mars-600
+    value: '{!mars-600}'
+  - name: mars-700
+    value: '{!mars-700}'
+  - name: mars-800
+    value: '{!mars-800}'
+  - name: mars-900
+    value: '{!mars-900}'
+  - name: mars-1000
+    value: '{!mars-1000}'
+  - name: earth-100
+    value: '{!earth-100}'
+  - name: earth-200
+    value: '{!earth-200}'
+  - name: earth-300
+    value: '{!earth-300}'
+  - name: earth-400
+    value: '{!earth-400}'
+  - name: earth-500
+    value: '{!earth-500}'
+  - name: earth-600
+    value: '{!earth-600}'
+  - name: earth-700
+    value: '{!earth-700}'
+  - name: earth-800
+    value: '{!earth-800}'
+  - name: earth-900
+    value: '{!earth-900}'
+  - name: earth-1000
+    value: '{!earth-1000}'
   - name: moon-100
     value: '{!moon-100}'
   - name: moon-200
@@ -40,10 +130,89 @@ props:
     value: '{!moon-900}'
   - name: moon-1000
     value: '{!moon-1000}'
+  - name: space-100
+    value: '{!space-100}'
+  - name: space-200
+    value: '{!space-200}'
+  - name: space-300
+    value: '{!space-300}'
+  - name: space-400
+    value: '{!space-400}'
+  - name: space-500
+    value: '{!space-500}'
+  - name: space-600
+    value: '{!space-600}'
+  - name: space-700
+    value: '{!space-700}'
+  - name: space-800
+    value: '{!space-800}'
+  - name: space-900
+    value: '{!space-900}'
+  - name: space-1000
+    value: '{!space-1000}'
+  - name: sun-100
+    value: '{!sun-100}'
+  - name: sun-200
+    value: '{!sun-200}'
+  - name: sun-300
+    value: '{!sun-300}'
+  - name: sun-400
+    value: '{!sun-400}'
+  - name: sun-500
+    value: '{!sun-500}'
+  - name: sun-600
+    value: '{!sun-600}'
+  - name: sun-700
+    value: '{!sun-700}'
+  - name: sun-800
+    value: '{!sun-800}'
+  - name: sun-900
+    value: '{!sun-900}'
+  - name: sun-1000
+    value: '{!sun-1000}'
+  - name: uranus-100
+    value: '{!uranus-100}'
+  - name: uranus-200
+    value: '{!uranus-200}'
+  - name: uranus-300
+    value: '{!uranus-300}'
+  - name: uranus-400
+    value: '{!uranus-400}'
+  - name: uranus-500
+    value: '{!uranus-500}'
+  - name: uranus-600
+    value: '{!uranus-600}'
+  - name: uranus-700
+    value: '{!uranus-700}'
+  - name: uranus-800
+    value: '{!uranus-800}'
+  - name: uranus-900
+    value: '{!uranus-900}'
+  - name: uranus-1000
+    value: '{!uranus-1000}'
+  - name: venus-100
+    value: '{!venus-100}'
+  - name: venus-200
+    value: '{!venus-200}'
+  - name: venus-300
+    value: '{!venus-300}'
+  - name: venus-400
+    value: '{!venus-400}'
+  - name: venus-500
+    value: '{!venus-500}'
+  - name: venus-600
+    value: '{!venus-600}'
+  - name: venus-700
+    value: '{!venus-700}'
+  - name: venus-800
+    value: '{!venus-800}'
+  - name: venus-900
+    value: '{!venus-900}'
+  - name: venus-1000
+    value: '{!venus-1000}'
   - name: color-black-text
     value: '{!moon-900}'
     category: text-color
-    comment: 'ACME Inc. brand color.'
   - name: background-color-primary-button
     value: '{!uranus-500}'
     category: button-color

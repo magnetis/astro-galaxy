@@ -5,6 +5,7 @@ const gulpLoadPlugins = require('gulp-load-plugins');
 const $ = gulpLoadPlugins();
 
 const webFormats = [
+  { transformType: 'web', formatType: 'html' },
   { transformType: 'web', formatType: 'module.js' },
   { transformType: 'web', formatType: 'common.js' },
   { transformType: 'web', formatType: 'custom-properties.css' },
@@ -13,7 +14,7 @@ const webFormats = [
 gulp.task('web', done => {
   webFormats.map(({ transformType, formatType }) =>
     gulp
-      .src('./tokens/*.yml')
+      .src('./tokens/index.yml')
       .pipe(
         theo({
           transform: { type: transformType },

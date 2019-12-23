@@ -4,7 +4,7 @@
   "main": "lib/index.cjs.js",
   "module": "lib/index.es.js",
   "scripts": {
-    "compile": "rollup -c"
+    "compile": "gulp web"
   },
   "files": [
     "lib"

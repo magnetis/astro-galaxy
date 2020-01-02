@@ -1,0 +1,269 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Toggle should render a disabled toggle button 1`] = `
+.c0 {
+  color: #32383c;
+  background-color: transparent;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  font: normal normal 400 normal 16px/1.5 Lato,sans-serif;
+}
+
+.c0 span {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 8px;
+}
+
+.c0 span:before {
+  display: block;
+  width: 50px;
+  height: 30px;
+  content: '';
+  background-color: #8296a4;
+  border-radius: 28px;
+  -webkit-transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease;
+}
+
+.c0 span:after {
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  display: block;
+  width: 28px;
+  height: 28px;
+  visibility: visible;
+  content: '';
+  background-color: #fff;
+  border-radius: 28px;
+  -webkit-transition: left 0.3s ease;
+  transition: left 0.3s ease;
+}
+
+.c0[aria-pressed]:not(:disabled):hover span:before {
+  background-color: #afbec9;
+}
+
+.c0[aria-pressed='true'] span:before {
+  background-color: #159ce4;
+}
+
+.c0[aria-pressed='true'] span:after {
+  top: 1px;
+  left: 21px;
+}
+
+.c0[aria-pressed='true']:not(:disabled):hover span:before {
+  background-color: #3db5eb;
+}
+
+.c0:disabled {
+  color: #e9eef2;
+  cursor: not-allowed;
+}
+
+.c0:disabled span:before {
+  background-color: #e9eef2;
+}
+
+.c0:focus {
+  outline: none;
+}
+
+.c0:focus span:before {
+  box-shadow: 0 0 0 3px rgba(21,156,228,0.4);
+}
+
+<button
+  aria-pressed={false}
+  className="c0"
+  disabled={true}
+  type="button"
+>
+  resgate total
+  <span
+    aria-hidden="true"
+  />
+</button>
+`;
+
+exports[`Toggle should render a toggle button 1`] = `
+.c0 {
+  color: #32383c;
+  background-color: transparent;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  font: normal normal 400 normal 16px/1.5 Lato,sans-serif;
+}
+
+.c0 span {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 8px;
+}
+
+.c0 span:before {
+  display: block;
+  width: 50px;
+  height: 30px;
+  content: '';
+  background-color: #8296a4;
+  border-radius: 28px;
+  -webkit-transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease;
+}
+
+.c0 span:after {
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  display: block;
+  width: 28px;
+  height: 28px;
+  visibility: visible;
+  content: '';
+  background-color: #fff;
+  border-radius: 28px;
+  -webkit-transition: left 0.3s ease;
+  transition: left 0.3s ease;
+}
+
+.c0[aria-pressed]:not(:disabled):hover span:before {
+  background-color: #afbec9;
+}
+
+.c0[aria-pressed='true'] span:before {
+  background-color: #159ce4;
+}
+
+.c0[aria-pressed='true'] span:after {
+  top: 1px;
+  left: 21px;
+}
+
+.c0[aria-pressed='true']:not(:disabled):hover span:before {
+  background-color: #3db5eb;
+}
+
+.c0:disabled {
+  color: #e9eef2;
+  cursor: not-allowed;
+}
+
+.c0:disabled span:before {
+  background-color: #e9eef2;
+}
+
+.c0:focus {
+  outline: none;
+}
+
+.c0:focus span:before {
+  box-shadow: 0 0 0 3px rgba(21,156,228,0.4);
+}
+
+<button
+  aria-pressed={false}
+  className="c0"
+  type="button"
+>
+  resgate total
+  <span
+    aria-hidden="true"
+  />
+</button>
+`;
+
+exports[`Toggle should render a toggled toggle button 1`] = `
+.c0 {
+  color: #32383c;
+  background-color: transparent;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  font: normal normal 400 normal 16px/1.5 Lato,sans-serif;
+}
+
+.c0 span {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 8px;
+}
+
+.c0 span:before {
+  display: block;
+  width: 50px;
+  height: 30px;
+  content: '';
+  background-color: #8296a4;
+  border-radius: 28px;
+  -webkit-transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease;
+}
+
+.c0 span:after {
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  display: block;
+  width: 28px;
+  height: 28px;
+  visibility: visible;
+  content: '';
+  background-color: #fff;
+  border-radius: 28px;
+  -webkit-transition: left 0.3s ease;
+  transition: left 0.3s ease;
+}
+
+.c0[aria-pressed]:not(:disabled):hover span:before {
+  background-color: #afbec9;
+}
+
+.c0[aria-pressed='true'] span:before {
+  background-color: #159ce4;
+}
+
+.c0[aria-pressed='true'] span:after {
+  top: 1px;
+  left: 21px;
+}
+
+.c0[aria-pressed='true']:not(:disabled):hover span:before {
+  background-color: #3db5eb;
+}
+
+.c0:disabled {
+  color: #e9eef2;
+  cursor: not-allowed;
+}
+
+.c0:disabled span:before {
+  background-color: #e9eef2;
+}
+
+.c0:focus {
+  outline: none;
+}
+
+.c0:focus span:before {
+  box-shadow: 0 0 0 3px rgba(21,156,228,0.4);
+}
+
+<button
+  aria-pressed={true}
+  className="c0"
+  type="button"
+>
+  resgate total
+  <span
+    aria-hidden="true"
+  />
+</button>
+`;

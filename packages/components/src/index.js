@@ -7,6 +7,7 @@ export { default as IconOutlineButton } from './IconOutlineButton';
 export { default as IconLinkButton } from './IconLinkButton';
 export { default as Text } from './Text';
 export { default as Heading } from './Heading';
+export { default as Toggle } from './Toggle';
 
 export * from './Radio';
 export * from './Checkbox';

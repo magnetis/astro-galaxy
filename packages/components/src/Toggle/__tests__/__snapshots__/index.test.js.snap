@@ -52,7 +52,6 @@ exports[`Toggle should render a disabled toggle button 1`] = `
 }
 
 .c0[aria-pressed='true'] span:after {
-  top: 1px;
   left: 21px;
 }
 
@@ -142,7 +141,6 @@ exports[`Toggle should render a toggle button 1`] = `
 }
 
 .c0[aria-pressed='true'] span:after {
-  top: 1px;
   left: 21px;
 }
 
@@ -231,7 +229,6 @@ exports[`Toggle should render a toggled toggle button 1`] = `
 }
 
 .c0[aria-pressed='true'] span:after {
-  top: 1px;
   left: 21px;
 }
 

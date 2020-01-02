@@ -13,12 +13,14 @@ describe('Toggle', () => {
       <Toggle isToggled={true} label="resgate total" />
     ).toJSON();
 
+    expect(json.props['aria-pressed']).toBe(true);
     expect(json).toMatchSnapshot();
   });
 
   it('should render a disabled toggle button', () => {
     const json = rendererCreateWithTheme(<Toggle disabled label="resgate total" />).toJSON();
 
+    expect(json.props['disabled']).toBe(true);
     expect(json).toMatchSnapshot();
   });
 });

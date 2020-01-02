@@ -11,16 +11,15 @@
   },
   "dependencies": {
     "lodash": "^4.17.11",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "styled-components": "^4.3.2",
-    "styled-system": "^5.0.12"
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "styled-components": "^4.4.1",
+    "styled-system": "^5.1.4"
   },
   "peerDependencies": {
-    "react": "^15.0.0 || ^16.0.0",
-    "react-dom": "^15.0.0 || ^16.0.0",
-    "styled-components": "^4.0.0",
-    "styled-system": "^5.0.0"
+    "react": "*",
+    "react-dom": "*",
+    "styled-components": "*"
   },
   "devDependencies": {
     "@balajmarius/svg2jsx": "^1.1.0",

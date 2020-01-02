@@ -2,6 +2,7 @@
 title: controls & toggles
 ---
 
+import { useState } from 'react';
 import {
   CheckboxWrapper,
   Checkbox,
@@ -9,6 +10,7 @@ import {
   RadioWrapper,
   Radio,
   RadioShape,
+  Toggle,
   Label,
   Text,
 } from '@magnetis/astro-galaxy-components';
@@ -162,6 +164,73 @@ To create the disabled state, add the disabled attribute on the `Checkbox` compo
           <code>false</code>
         </td>
         <td>Set indeterminate checkbox style.</td>
+      </tr>
+    </tbody>
+  </table>
+</PropsTableWrapper>
+
+## toggles
+
+A simple control that is used to quickly switch between two possible states.
+
+Mouseover to view `:hover` state.
+
+To create the disabled state, add the `disabled` attribute to the `Toggle` component.
+
+<Playground
+  isPlaygroundWithFragment={false}
+  scope={{ Toggle, useState }}
+  code={`
+    () => {
+      const [isToggled, setToggle] = useState(false);
+      return (
+        <>
+          <Toggle label="toggle me" isToggled={isToggled} onClick={() => setToggle(!isToggled)} />
+          <Toggle disabled label="disabled" />
+        </>
+      )
+    }
+  `}
+/>
+
+<Text as="h3">props</Text>
+
+<PropsTableWrapper>
+  <table>
+    <thead>
+      <tr>
+        <th>property</th>
+        <th>PropType</th>
+        <th>required</th>
+        <th>default</th>
+        <th>description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>label</td>
+        <td>string</td>
+        <td>yes</td>
+        <td></td>
+        <td>Toggle's label.</td>
+      </tr>
+      <tr>
+        <td>isToggled</td>
+        <td>boolean</td>
+        <td>yes</td>
+        <td>
+          <code>false</code>
+        </td>
+        <td>Determine if Toggle is toggled.</td>
+      </tr>
+      <tr>
+        <td>onClick</td>
+        <td>function</td>
+        <td>no</td>
+        <td></td>
+        <td>
+          A function that must set the <code>isToggled</code> value to either true or false.
+        </td>
       </tr>
     </tbody>
   </table>

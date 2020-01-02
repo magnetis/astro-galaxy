@@ -69,7 +69,6 @@ const ToggleButton = styled.button`
       }
 
       &:after {
-        top: 1px;
         left: 21px;
       }
     }

@@ -45,7 +45,7 @@ const EditorToggle = styled.button`
   cursor: pointer;
 `;
 
-function Playground({ scope, code, dark }) {
+function Playground({ scope, code, dark, isPlaygroundWithFragment }) {
   const [showEditor, setShowEditor] = useState(false);
 
   function toggleEditor() {
@@ -55,9 +55,13 @@ function Playground({ scope, code, dark }) {
   return (
     <Wrapper dark={dark}>
       <LiveProvider
-        code={`<>
+        code={
+          isPlaygroundWithFragment
+            ? `<>
 ${code}
-</>`}
+</>`
+            : code
+        }
         scope={scope}>
         <PreviewWrapper>
           <LivePreview />
@@ -72,5 +76,9 @@ ${code}
     </Wrapper>
   );
 }
+
+Playground.defaultProps = {
+  isPlaygroundWithFragment: true,
+};
 
 export default Playground;

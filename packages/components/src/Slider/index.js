@@ -1,3 +1,4 @@
+import React from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
 import { space } from 'styled-system';
@@ -81,7 +82,21 @@ function thumbStyle(thumbName, props) {
 
 const SliderWrapper = styled.div``;
 
-const SliderInput = styled.input.attrs(props => ({
+const SliderLabel = styled.label`
+  display: flex;
+  margin-bottom: 20px;
+  font: ${props => props.theme.fonts.secondary};
+  color: ${props => (props.disabled ? props.theme.colors.moon200 : props.theme.colors.moon900)};
+  order: 1;
+  ${props => props.disabled && 'cursor: not-allowed;'}
+
+  & > span {
+    margin-left: auto;
+    font-weight: 600;
+  }
+`;
+
+export const SliderInput = styled.input.attrs(props => ({
   type: 'range',
   normalizedValue: (normalize(props.value, props.min, props.max) * 100).toFixed(3),
 }))`
@@ -112,6 +127,16 @@ const SliderInput = styled.input.attrs(props => ({
 
 SliderInput.displayName = 'Slider';
 
+const Slider = props => (
+  <SliderWrapper>
+    <SliderLabel disabled={props.disabled}>
+      {props.label}
+      <span>{props.text}</span>
+    </SliderLabel>
+    <SliderInput {...props} />
+  </SliderWrapper>
+);
+
 SliderInput.propTypes = {
   fullFill: PropTypes.bool,
   onChange: PropTypes.func,
@@ -122,4 +147,4 @@ SliderInput.defaultProps = {
   max: 100,
 };
 
-export default SliderInput;
+export default Slider;

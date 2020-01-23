@@ -89,11 +89,11 @@ const SliderLabel = styled.label`
   color: ${props => (props.disabled ? props.theme.colors.moon200 : props.theme.colors.moon900)};
   order: 1;
   ${props => props.disabled && 'cursor: not-allowed;'}
+`;
 
-  & > span {
-    margin-left: auto;
-    font-weight: 600;
-  }
+const SliderCounterLabel = styled.span`
+  margin-left: auto;
+  font-weight: 600;
 `;
 
 export const SliderInput = styled.input.attrs(props => ({
@@ -129,9 +129,9 @@ SliderInput.displayName = 'Slider';
 
 const Slider = props => (
   <SliderWrapper>
-    <SliderLabel disabled={props.disabled}>
-      {props.label}
-      <span>{props.text}</span>
+    <SliderLabel htmlFor={props.id} disabled={props.disabled}>
+      {props.label && <span>{props.label}</span>}
+      {props.counterLabel && <SliderCounterLabel>{props.counterLabel}</SliderCounterLabel>}
     </SliderLabel>
     <SliderInput {...props} />
   </SliderWrapper>

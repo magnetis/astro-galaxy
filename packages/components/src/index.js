@@ -12,3 +12,4 @@ export { default as Toggle } from './Toggle';
 export * from './Radio';
 export * from './Checkbox';
 export * from './TextArea';
+export * from './InputFilePreview';

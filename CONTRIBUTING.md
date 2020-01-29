@@ -98,6 +98,16 @@ Follow the steps below to create a new component:
 
 > For a more detailed overview of component's creation, please check our [CREATING COMPONENTS](CREATING_COMPONENTS.md) guide.
 
+### Writing docs
+
+We use Gatsby for our docs, so, you need to run:
+
+```
+yarn docs:dev
+```
+
+A server will start at `http://localhost:8000`.
+
 ### Adding new icons
 
 Please see [ADDING_NEW_ICONS](ADDING_NEW_ICONS.md).

@@ -20,19 +20,21 @@ const InputFilePreviewItem = styled.div`
   align-items: center;
 `;
 
-const InputFilePreviewRemoveButton = styled.button`
+const InputFilePreviewRemoveButton = styled.button.attrs(props => ({
+  'aria-label': props['aria-label'] || 'Clique para remover o arquivo.',
+}))`
   position: absolute;
   top: -6px;
   right: -6px;
   width: 20px;
   height: 20px;
   padding: 0;
-  font-size: 12px;
+  font-size: ${props => props.theme};
   cursor: pointer;
   border: 0;
   border-radius: 50%;
   outline: none;
-  background-color: ${props => props.theme.colors.moon100};
+  background-color: ${props => props.theme.fontSizes[0]};
 
   :focus,
   :hover {

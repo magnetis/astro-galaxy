@@ -1,0 +1,136 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextArea should render 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c1 {
+  width: 100%;
+  padding: 25px 16px 5px;
+  font: normal normal 400 normal 16px/1.5 Lato,sans-serif;
+  color: #32383c;
+  background-color: #fff;
+  border: 1px solid #597183;
+  border-radius: 8px;
+}
+
+.c1:disabled {
+  color: #afbec9;
+  cursor: not-allowed;
+  background-color: #f6f7f8;
+  border: 1px solid #e9eef2;
+}
+
+.c1:focus {
+  border: 1px solid #159ce4;
+  outline: none;
+}
+
+.c1:focus + label {
+  top: 8px;
+  font-weight: 700;
+  font-size: 12px;
+  color: #159ce4;
+}
+
+.c2 {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  font: normal normal 400 normal 16px/1.5 Lato,sans-serif;
+  color: #8296a4;
+  pointer-events: none;
+  -webkit-transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+<div
+  className="c0"
+>
+  <textarea
+    className="c1"
+  />
+  <label
+    className="c2"
+  >
+    Label
+  </label>
+</div>
+`;
+
+exports[`TextArea should render disabled 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c1 {
+  width: 100%;
+  padding: 25px 16px 5px;
+  font: normal normal 400 normal 16px/1.5 Lato,sans-serif;
+  color: #32383c;
+  background-color: #fff;
+  border: 1px solid #597183;
+  border-radius: 8px;
+}
+
+.c1:disabled {
+  color: #afbec9;
+  cursor: not-allowed;
+  background-color: #f6f7f8;
+  border: 1px solid #e9eef2;
+}
+
+.c1:focus {
+  border: 1px solid #159ce4;
+  outline: none;
+}
+
+.c1:focus + label {
+  top: 8px;
+  font-weight: 700;
+  font-size: 12px;
+  color: #159ce4;
+}
+
+.c2 {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  font: normal normal 400 normal 16px/1.5 Lato,sans-serif;
+  color: #8296a4;
+  pointer-events: none;
+  -webkit-transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+<div
+  className="c0"
+>
+  <textarea
+    className="c1"
+    disabled={true}
+  />
+  <label
+    className="c2"
+  >
+    Label
+  </label>
+</div>
+`;

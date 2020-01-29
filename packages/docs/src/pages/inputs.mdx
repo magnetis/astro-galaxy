@@ -1,0 +1,58 @@
+---
+title: inputs
+---
+
+import {
+  TextAreaWrapper,
+  TextAreaLabel,
+  TextArea,
+  Text
+} from '@magnetis/astro-galaxy-components';
+import Playground from '../components/Playground';
+import PropsTableWrapper from '../components/PropsTable';
+
+## text area inputs
+
+Text areas are used in contexts that demand long and descriptive texts.
+
+Focus the input to view `:focus` state.
+
+To create the disabled state, add the disabled attribute on the `TextArea` component.
+
+<Playground
+  scope={{ TextAreaWrapper, TextAreaLabel, TextArea }}
+  code={`
+    <TextAreaWrapper id="text1">
+      <TextArea />
+      <TextAreaLabel for="text1">Label</TextAreaLabel>
+    </TextAreaWrapper>
+  `}
+/>
+
+<Text as="h3">props</Text>
+
+<PropsTableWrapper>
+  <table>
+    <thead>
+      <tr>
+        <th>property</th>
+        <th>PropType</th>
+        <th>required</th>
+        <th>default</th>
+        <th>description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>disabled</td>
+        <td>boolean</td>
+        <td>no</td>
+        <td>
+          <code>false</code>
+        </td>
+        <td>Disable input</td>
+      </tr>
+    </tbody>
+  </table>
+</PropsTableWrapper>
+

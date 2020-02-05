@@ -9,6 +9,7 @@ export { default as Text } from './Text';
 export { default as Heading } from './Heading';
 export { default as Toggle } from './Toggle';
 export { default as Link } from './Link';
+export { default as InputText } from './InputText';
 
 export * from './Radio';
 export * from './Checkbox';

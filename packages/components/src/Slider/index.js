@@ -136,16 +136,25 @@ const Slider = props => (
   </SliderWrapper>
 );
 
-export function requiredBy(requiredProp, type) {
+export function requiredBy(propType, requiredProp) {
   return (props, propName, componentName) => {
-    if (props[requiredProp] && typeof props[requiredProp] !== type && !props[propName]) {
-      return new Error(`Invalid '${propName}' '${props[propName]}' supplied to '${componentName}'`);
+    if (props[propName] && typeof props[propName] !== propType) {
+      return new Error(
+        `Supplied '${propName}' has invalid type '${typeof props[
+          propName
+        ]}' in '${componentName}' component. It should be '${propType}'.`
+      );
+    }
+    if (!props[propName] && props[requiredProp]) {
+      return new Error(
+        `The '${propName}' should be defined when '${requiredProp}' prop is provided supplied to '${componentName}'`
+      );
     }
   };
 }
 
 SliderInput.propTypes = {
-  id: requiredBy('label', 'string'),
+  id: requiredBy('string', 'label'),
   min: PropTypes.number,
   max: PropTypes.number,
   value: PropTypes.number,

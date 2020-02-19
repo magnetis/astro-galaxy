@@ -13,33 +13,40 @@ const build = (props = {}) => {
     disabled: false,
     ...props,
   };
-  const slider = rendererCreateWithTheme(<Slider {...mergedProps} />).toJSON();
+  const slider = rendererCreateWithTheme(<Slider {...mergedProps} />);
+  const { root } = slider;
 
   return {
     slider,
-    input: slider.children.find(child => child.type === 'input'),
-    label: slider.children.find(child => child.type === 'label'),
+    label: root.findByType('label'),
+    contentLabel: root.findAllByType('span'),
+    input: root.findByType('input'),
   };
 };
 
 describe('Slider', () => {
   it('renders default slider', () => {
-    const { slider, input } = build();
+    const onChange = jest.fn();
+
+    const { slider, input, contentLabel } = build({
+      onChange,
+    });
     const { className, ...receivedProps } = input.props;
 
     const expectedProps = {
-      counterLabel: '50 coins',
-      disabled: false,
       id: 'slider-default',
-      label: 'Slider',
-      max: 150,
       min: -50,
-      type: 'range',
+      max: 150,
       value: 50,
+      label: 'Slider',
+      disabled: false,
+      type: 'range',
+      onChange,
     };
 
     expect(expectedProps).toEqual(receivedProps);
-    expect(slider).toMatchSnapshot();
+    expect(contentLabel.length).toEqual(2);
+    expect(slider.toJSON()).toMatchSnapshot();
   });
 
   it('renders Slider with correct ID', () => {
@@ -47,7 +54,7 @@ describe('Slider', () => {
 
     expect(label.props['htmlFor']).toEqual('slider-id');
     expect(input.props['id']).toEqual('slider-id');
-    expect(slider).toMatchSnapshot();
+    expect(slider.toJSON()).toMatchSnapshot();
   });
 
   it('reders disabled Slider', () => {
@@ -55,6 +62,40 @@ describe('Slider', () => {
 
     expect(label.props['disabled']).toBe(true);
     expect(input.props['disabled']).toBe(true);
-    expect(slider).toMatchSnapshot();
+    expect(slider.toJSON()).toMatchSnapshot();
+  });
+
+  it('renders with label only', () => {
+    const { slider, contentLabel } = build({
+      counterLabel: null,
+      label: 'Slider label',
+    });
+    const [labelText] = contentLabel[0].children;
+
+    expect(contentLabel.length).toEqual(1);
+    expect(labelText).toEqual('Slider label');
+    expect(slider.toJSON()).toMatchSnapshot();
+  });
+
+  it('renders with counter only', () => {
+    const { slider, contentLabel } = build({
+      counterLabel: '30 coins',
+      label: null,
+    });
+    const [counterText] = contentLabel[0].children;
+
+    expect(contentLabel.length).toEqual(1);
+    expect(counterText).toEqual('30 coins');
+    expect(slider.toJSON()).toMatchSnapshot();
+  });
+
+  it('renders with counter only', () => {
+    const { slider, contentLabel } = build({
+      counterLabel: null,
+      label: null,
+    });
+
+    expect(contentLabel.length).toEqual(0);
+    expect(slider.toJSON()).toMatchSnapshot();
   });
 });

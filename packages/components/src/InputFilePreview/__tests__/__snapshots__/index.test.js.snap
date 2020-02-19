@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`InputFilePreview should render mutiples items with image and text 1`] = `
-.c3 {
+.c4 {
   fill: currentcolor;
   color: #32383c;
 }
@@ -86,7 +86,7 @@ exports[`InputFilePreview should render mutiples items with image and text 1`] =
   object-fit: cover;
 }
 
-.c4 {
+.c3 {
   width: 20px;
   height: 20px;
   margin-left: -1px;
@@ -256,7 +256,7 @@ exports[`InputFilePreview should render mutiples items with image and text 1`] =
 `;
 
 exports[`InputFilePreview should render with image 1`] = `
-.c3 {
+.c4 {
   fill: currentcolor;
   color: #32383c;
 }
@@ -317,7 +317,7 @@ exports[`InputFilePreview should render with image 1`] = `
   object-fit: cover;
 }
 
-.c4 {
+.c3 {
   width: 20px;
   height: 20px;
   margin-left: -1px;
@@ -383,7 +383,7 @@ exports[`InputFilePreview should render with image 1`] = `
 `;
 
 exports[`InputFilePreview should render with text 1`] = `
-.c3 {
+.c4 {
   fill: currentcolor;
   color: #32383c;
 }
@@ -449,7 +449,7 @@ exports[`InputFilePreview should render with text 1`] = `
   white-space: normal;
 }
 
-.c4 {
+.c3 {
   width: 20px;
   height: 20px;
   margin-left: -1px;
@@ -515,7 +515,7 @@ exports[`InputFilePreview should render with text 1`] = `
 `;
 
 exports[`InputFilePreview should render with trucated text 1`] = `
-.c3 {
+.c4 {
   fill: currentcolor;
   color: #32383c;
 }
@@ -581,7 +581,7 @@ exports[`InputFilePreview should render with trucated text 1`] = `
   white-space: nowrap;
 }
 
-.c4 {
+.c3 {
   width: 20px;
   height: 20px;
   margin-left: -1px;

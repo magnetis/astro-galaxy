@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
-import { space } from 'styled-system';
 
 /**
  * Scales an number between 0 and 1 by given numeric range.
@@ -137,14 +136,35 @@ const Slider = props => (
   </SliderWrapper>
 );
 
+export function requiredBy(requiredProp, type) {
+  return (props, propName, componentName) => {
+    if (props[requiredProp] && typeof props[requiredProp] !== type && !props[propName]) {
+      return new Error(`Invalid '${propName}' '${props[propName]}' supplied to '${componentName}'`);
+    }
+  };
+}
+
 SliderInput.propTypes = {
+  id: requiredBy('label', 'string'),
+  min: PropTypes.number,
+  max: PropTypes.number,
+  value: PropTypes.number,
+  label: PropTypes.string,
+  counterLabel: PropTypes.string,
   fullFill: PropTypes.bool,
+  disabled: PropTypes.bool,
   onChange: PropTypes.func,
 };
 
 SliderInput.defaultProps = {
   min: 0,
   max: 100,
+  value: 0,
+  label: undefined,
+  counterLabel: '',
+  fullFill: false,
+  disabled: false,
+  onChange: () => {},
 };
 
 export default Slider;

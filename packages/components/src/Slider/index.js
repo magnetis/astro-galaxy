@@ -15,9 +15,17 @@ function normalize(value, min, max) {
   return (value - min) / (max - min);
 }
 
-// -ms-track
-// -moz-range-track
-// -webkit-slider-runnable-track
+/**
+ * Creates CSS style for the slider track pseudo-element.
+ *
+ * Valid track names are:
+ * - "-ms-track"
+ * - "-moz-range-track"
+ * - "-webkit-slider-runnable-track"
+ *
+ * @param {string} trackName Slider track pseudo-element name.
+ * @param {any} props Theme props
+ */
 function trackStyle(trackName, props) {
   return `&::${trackName} {
     display: flex;
@@ -45,9 +53,17 @@ function trackStyle(trackName, props) {
   `;
 }
 
-// -ms-thumb
-// -moz-range-thumb
-// -webkit-slider-thumb
+/**
+ * Creates CSS style for the slider thumb pseudo-element.
+ *
+ * Valid track names are:
+ * - "-ms-track"
+ * - "-moz-range-thumb"
+ * - "-webkit-slider-thumb"
+ *
+ * @param {string} thumbName
+ * @param {any} props
+ */
 function thumbStyle(thumbName, props) {
   return `&::${thumbName} {
     width: 28px;
@@ -78,8 +94,6 @@ function thumbStyle(thumbName, props) {
   }
   `;
 }
-
-const SliderWrapper = styled.div``;
 
 const SliderLabel = styled.label`
   display: flex;
@@ -127,13 +141,13 @@ export const SliderInput = styled.input.attrs(props => ({
 SliderInput.displayName = 'Slider';
 
 const Slider = props => (
-  <SliderWrapper>
+  <div>
     <SliderLabel htmlFor={props.id} disabled={props.disabled}>
       {props.label && <span>{props.label}</span>}
       {props.counterLabel && <SliderCounterLabel>{props.counterLabel}</SliderCounterLabel>}
     </SliderLabel>
     <SliderInput {...props} />
-  </SliderWrapper>
+  </div>
 );
 
 export function requiredBy(propType, requiredProp) {

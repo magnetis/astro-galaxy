@@ -4,7 +4,7 @@ title: typography
 
 import Playground from '../components/Playground';
 import PropsTableWrapper from '../components/PropsTable';
-import { Text, Heading } from '@magnetis/astro-galaxy-components';
+import { Link, Text, Heading } from '@magnetis/astro-galaxy-components';
 
 <Text font="secondary" fontSize="large" color="moon400" marginBottom={5}>
   Astro has a purposeful set of typographic styles that provide content organization, hierarchy
@@ -156,3 +156,62 @@ To modify font size for both `Heading` or `Text` components, use the prop `fontS
     </tbody>
   </table>
 </PropsTableWrapper>
+
+
+## links
+
+For inline links in paragraphs and informative texts. Regular links navigate to other pages or external content.
+
+Mouseover and click to view `:hover` and `:active` states.
+
+<Playground
+  scope={{ Link }}
+  code={`
+    <Link id="link1">
+      primary font - medium size
+    </Link>
+    <br />
+    <Link id="link2" font="secondary" fontSize="small">
+      secondary font - small size
+    </Link>
+  `}
+/>
+
+<Text as="h3">props</Text>
+
+<PropsTableWrapper>
+  <table>
+    <thead>
+      <tr>
+        <th>property</th>
+        <th>PropType</th>
+        <th>required</th>
+        <th>default</th>
+        <th>description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>fontSize</td>
+        <td>string</td>
+        <td>no</td>
+        <td>
+          <code>medium</code>
+        </td>
+        <td>Change font size. "small", "medium", "large"</td>
+      </tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td>font</td>
+        <td>string</td>
+        <td>no</td>
+        <td>
+          <code>primary</code>
+        </td>
+        <td>Change font. "primary", "secondary"</td>
+      </tr>
+    </tbody>
+  </table>
+</PropsTableWrapper>
+

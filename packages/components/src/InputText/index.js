@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styled, { css } from 'styled-components';
+import styled from 'styled-components';
 import { space, layout } from 'styled-system';
 import { IconCircleCheck, IconAlert } from '@magnetis/astro-galaxy-icons';
 
@@ -86,19 +86,20 @@ const InputField = styled.input`
     ${props => inputValidationStyles({ ...props, defaultColor: props.theme.colors.moon500 })};
   }
 
-  &:focus + ${InputLabel} {
+  &:focus + label {
     ${props => labelValidationStyles({ ...props, defaultColor: props.theme.colors.uranus500 })};
   }
 
   &:focus,
   &:not(:placeholder-shown) {
-    & + ${InputLabel} {
+    & + label {
       font-weight: 700;
       transform: translate(5%, -10%) scale(0.8);
     }
+    ${props => inputValidationStyles({ ...props, defaultColor: props.theme.colors.uranus500 })};
   }
 
-  & + ${InputLabel} {
+  & + label {
     left: 0;
     position: absolute;
     top: 0;
@@ -107,19 +108,11 @@ const InputField = styled.input`
   }
 `;
 
-const iconStyles = css`
-  position: absolute;
-  top: 12px;
-  right: 8px;
-`;
-
-const StyledIconCircleCheck = styled(IconCircleCheck)`
-  ${iconStyles}
-`;
-
-const StyledIconIconAlert = styled(IconAlert)`
-  ${iconStyles}
-`;
+const iconStyles = {
+  position: 'absolute',
+  top: '12px',
+  right: '8px',
+};
 
 const ErrorMessage = styled.div`
   color: ${props => props.theme.colors.mars500};
@@ -135,6 +128,7 @@ const InputText = ({
   isValidated,
   isInvalid,
   errorMessage,
+  labelProps,
   ...rest
 }) => (
   <>
@@ -144,27 +138,34 @@ const InputText = ({
         id={inputId}
         aria-labelledby={labelId}
         placeholder={labelText}
-        {...rest}
         isValidated={isValidated}
         isInvalid={isInvalid}
+        {...rest}
       />
-      <InputLabel id={labelId} htmlFor={inputId} isValidated={isValidated} isInvalid={isInvalid}>
+      <InputLabel
+        id={labelId}
+        htmlFor={inputId}
+        isValidated={isValidated}
+        isInvalid={isInvalid}
+        {...labelProps}>
         {labelText}
       </InputLabel>
-      {isValidated && <StyledIconCircleCheck color="earth400" size="32" />}
-      {isInvalid && <StyledIconIconAlert color="mars500" size="32" />}
+      {isValidated && <IconCircleCheck color="earth400" size="32" style={{ ...iconStyles }} />}
+      {isInvalid && <IconAlert color="mars500" size="32" style={{ ...iconStyles }} />}
       {isInvalid && errorMessage && <ErrorMessage>{errorMessage}</ErrorMessage>}
     </InputWrapper>
   </>
 );
 
 InputText.displayName = 'InputText';
+ErrorMessage.displayName = 'ErrorMessage';
 
 InputText.defaultProps = {
   labelText: 'Standard',
   isValidated: false,
   isInvalid: false,
   disabled: false,
+  labelProps: {},
 };
 
 InputText.propTypes = {
@@ -175,6 +176,7 @@ InputText.propTypes = {
   isValidated: PropTypes.bool,
   isInvalid: PropTypes.bool,
   errorMessage: PropTypes.string,
+  labelProps: PropTypes.object,
 };
 
 export default InputText;

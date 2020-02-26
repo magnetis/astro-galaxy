@@ -1,0 +1,410 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputText renders correctly the invalid input 1`] = `
+.c3 {
+  fill: currentcolor;
+  color: #d45459;
+}
+
+.c0 {
+  border: 0;
+  padding: 0;
+  position: relative;
+}
+
+.c2 {
+  font: normal normal 400 normal 16px/1.5 Lato,sans-serif;
+  height: 4em;
+  padding: 1em;
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #d45459;
+}
+
+.c1 {
+  background-color: #fff;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 8px;
+  color: #32383c;
+  font: normal normal 400 normal 16px/1.5 Lato,sans-serif;
+  padding: 25px 16px 5px;
+  position: relative;
+  width: 100%;
+  border-color: #d45459;
+}
+
+.c1::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.c1::-moz-placeholder {
+  color: transparent;
+}
+
+.c1:-ms-input-placeholder {
+  color: transparent;
+}
+
+.c1::placeholder {
+  color: transparent;
+}
+
+.c1:focus {
+  outline: none;
+  border-color: #d45459;
+}
+
+.c1:focus + label {
+  color: #d45459;
+}
+
+.c1:focus,
+.c1:not(:placeholder-shown) {
+  border-color: #d45459;
+}
+
+.c1:focus + label,
+.c1:not(:placeholder-shown) + label {
+  font-weight: 700;
+  -webkit-transform: translate(5%,-10%) scale(0.8);
+  -ms-transform: translate(5%,-10%) scale(0.8);
+  transform: translate(5%,-10%) scale(0.8);
+}
+
+.c1 + label {
+  left: 0;
+  position: absolute;
+  top: 0;
+  -webkit-transition: -webkit-transform 0.25s,opacity 0.25s ease-in-out;
+  -webkit-transition: transform 0.25s,opacity 0.25s ease-in-out;
+  transition: transform 0.25s,opacity 0.25s ease-in-out;
+  -webkit-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+}
+
+.c4 {
+  color: #d45459;
+  font: normal normal 400 normal 16px/1.5 Lato,sans-serif;
+  font-size: 12px;
+  margin: 4px 16px;
+}
+
+<fieldset
+  className="c0"
+>
+  <input
+    className="c1"
+    defaultValue="Astro Team"
+    disabled={false}
+    id="input3"
+    placeholder="Invalid"
+    type="text"
+  />
+  <label
+    className="c2"
+    htmlFor="input3"
+  >
+    Invalid
+  </label>
+  <svg
+    className="c3"
+    color="mars500"
+    height="32"
+    style={
+      Object {
+        "position": "absolute",
+        "right": "8px",
+        "top": "12px",
+      }
+    }
+    viewBox="0 0 32 32"
+    width="32"
+  >
+    <defs>
+      <path
+        d="M16.5 25.7a9.2 9.2 0 1 0 0-18.4 9.2 9.2 0 0 0 0 18.4zm0 2.3C10.149 28 5 22.851 5 16.5S10.149 5 16.5 5 28 10.149 28 16.5 22.851 28 16.5 28zm0-13.8c.635 0 1.15.515 1.15 1.15v5.75a1.15 1.15 0 1 1-2.3 0v-5.75c0-.635.515-1.15 1.15-1.15zm0-1.15a1.15 1.15 0 1 1 0-2.3 1.15 1.15 0 0 1 0 2.3z"
+        id="icon-alert-a"
+      />
+    </defs>
+    <g
+      id="icon/secondary/alert"
+    >
+      <mask
+        id="mask-2"
+      >
+        <use
+          xlinkHref="#icon-alert-a"
+        />
+      </mask>
+      <use
+        id="Combined-Shape"
+        transform="rotate(-180 16.5 16.5)"
+        xlinkHref="#icon-alert-a"
+      />
+    </g>
+  </svg>
+  <div
+    className="c4"
+  >
+    Invalid data
+  </div>
+</fieldset>
+`;
+
+exports[`InputText renders correctly the standard input 1`] = `
+.c0 {
+  border: 0;
+  padding: 0;
+  position: relative;
+}
+
+.c2 {
+  font: normal normal 400 normal 16px/1.5 Lato,sans-serif;
+  height: 4em;
+  padding: 1em;
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #8296a4;
+}
+
+.c1 {
+  background-color: #fff;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 8px;
+  color: #32383c;
+  font: normal normal 400 normal 16px/1.5 Lato,sans-serif;
+  padding: 25px 16px 5px;
+  position: relative;
+  width: 100%;
+  border-color: #597183;
+}
+
+.c1::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.c1::-moz-placeholder {
+  color: transparent;
+}
+
+.c1:-ms-input-placeholder {
+  color: transparent;
+}
+
+.c1::placeholder {
+  color: transparent;
+}
+
+.c1:focus {
+  outline: none;
+  border-color: #597183;
+}
+
+.c1:focus + label {
+  color: #159ce4;
+}
+
+.c1:focus,
+.c1:not(:placeholder-shown) {
+  border-color: #159ce4;
+}
+
+.c1:focus + label,
+.c1:not(:placeholder-shown) + label {
+  font-weight: 700;
+  -webkit-transform: translate(5%,-10%) scale(0.8);
+  -ms-transform: translate(5%,-10%) scale(0.8);
+  transform: translate(5%,-10%) scale(0.8);
+}
+
+.c1 + label {
+  left: 0;
+  position: absolute;
+  top: 0;
+  -webkit-transition: -webkit-transform 0.25s,opacity 0.25s ease-in-out;
+  -webkit-transition: transform 0.25s,opacity 0.25s ease-in-out;
+  transition: transform 0.25s,opacity 0.25s ease-in-out;
+  -webkit-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+}
+
+<fieldset
+  className="c0"
+>
+  <input
+    className="c1"
+    disabled={false}
+    id="input2"
+    placeholder="Standard"
+    type="text"
+  />
+  <label
+    className="c2"
+    htmlFor="input2"
+  >
+    Standard
+  </label>
+</fieldset>
+`;
+
+exports[`InputText renders correctly the validated input 1`] = `
+.c3 {
+  fill: currentcolor;
+  color: #74e24a;
+}
+
+.c0 {
+  border: 0;
+  padding: 0;
+  position: relative;
+}
+
+.c2 {
+  font: normal normal 400 normal 16px/1.5 Lato,sans-serif;
+  height: 4em;
+  padding: 1em;
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #74e24a;
+}
+
+.c1 {
+  background-color: #fff;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 8px;
+  color: #32383c;
+  font: normal normal 400 normal 16px/1.5 Lato,sans-serif;
+  padding: 25px 16px 5px;
+  position: relative;
+  width: 100%;
+  border-color: #74e24a;
+}
+
+.c1::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.c1::-moz-placeholder {
+  color: transparent;
+}
+
+.c1:-ms-input-placeholder {
+  color: transparent;
+}
+
+.c1::placeholder {
+  color: transparent;
+}
+
+.c1:focus {
+  outline: none;
+  border-color: #74e24a;
+}
+
+.c1:focus + label {
+  color: #74e24a;
+}
+
+.c1:focus,
+.c1:not(:placeholder-shown) {
+  border-color: #74e24a;
+}
+
+.c1:focus + label,
+.c1:not(:placeholder-shown) + label {
+  font-weight: 700;
+  -webkit-transform: translate(5%,-10%) scale(0.8);
+  -ms-transform: translate(5%,-10%) scale(0.8);
+  transform: translate(5%,-10%) scale(0.8);
+}
+
+.c1 + label {
+  left: 0;
+  position: absolute;
+  top: 0;
+  -webkit-transition: -webkit-transform 0.25s,opacity 0.25s ease-in-out;
+  -webkit-transition: transform 0.25s,opacity 0.25s ease-in-out;
+  transition: transform 0.25s,opacity 0.25s ease-in-out;
+  -webkit-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+}
+
+<fieldset
+  className="c0"
+>
+  <input
+    className="c1"
+    defaultValue="Astro Team"
+    disabled={false}
+    id="input2"
+    placeholder="Validated"
+    type="text"
+  />
+  <label
+    className="c2"
+    htmlFor="input2"
+  >
+    Validated
+  </label>
+  <svg
+    className="c3"
+    color="earth400"
+    height="32"
+    style={
+      Object {
+        "position": "absolute",
+        "right": "8px",
+        "top": "12px",
+      }
+    }
+    viewBox="0 0 32 32"
+    width="32"
+  >
+    <defs>
+      <path
+        d="M15.51 18.52l5.992-6.682a1 1 0 1 1 1.49 1.335l-6.698 7.468a1 1 0 0 1-1.452.04l-3.957-3.957a1 1 0 0 1 1.414-1.414l3.21 3.21zM16 28.5C9.096 28.5 3.5 22.904 3.5 16S9.096 3.5 16 3.5 28.5 9.096 28.5 16 22.904 28.5 16 28.5zm0-2c5.799 0 10.5-4.701 10.5-10.5S21.799 5.5 16 5.5 5.5 10.201 5.5 16 10.201 26.5 16 26.5z"
+        id="icon-circle-check-a"
+      />
+    </defs>
+    <g
+      id="icon/secondary/circle/check"
+    >
+      <mask
+        id="icon-circle-check-b"
+      >
+        <use
+          xlinkHref="#icon-circle-check-a"
+        />
+      </mask>
+      <use
+        id="Mask"
+        xlinkHref="#icon-circle-check-a"
+      />
+      <g
+        id="color/moon-900"
+        mask="url(#icon-circle-check-b)"
+      >
+        <path
+          d="M0 0h32v32H0z"
+          id="Rectangle"
+        />
+      </g>
+    </g>
+  </svg>
+</fieldset>
+`;

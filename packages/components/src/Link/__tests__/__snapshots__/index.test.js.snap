@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Link default render should render 1`] = `
+.c0 {
+  color: #1663a0;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  word-wrap: break-word;
+  cursor: pointer;
+  font: normal normal 600 normal 16px/1.5 Poppins,sans-serif;
+  font-size: medium;
+}
+
+.c0:hover {
+  color: #159ce4;
+}
+
+.c0:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(21,156,228,0.4);
+}
+
+<a
+  className="c0"
+  fontSize="medium"
+/>
+`;
+
+exports[`Link when font is secondary should render 1`] = `
+.c0 {
+  color: #1663a0;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  word-wrap: break-word;
+  cursor: pointer;
+  font: normal normal 400 normal 16px/1.5 Lato,sans-serif;
+  font-size: medium;
+}
+
+.c0:hover {
+  color: #159ce4;
+}
+
+.c0:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(21,156,228,0.4);
+}
+
+<a
+  className="c0"
+  fontSize="medium"
+/>
+`;
+
+exports[`Link when size is small should render 1`] = `
+.c0 {
+  color: #1663a0;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+  word-wrap: break-word;
+  cursor: pointer;
+  font: normal normal 600 normal 16px/1.5 Poppins,sans-serif;
+  font-size: small;
+}
+
+.c0:hover {
+  color: #159ce4;
+}
+
+.c0:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(21,156,228,0.4);
+}
+
+<a
+  className="c0"
+  fontSize="small"
+/>
+`;

@@ -122,10 +122,10 @@ function Sidebar({ ...props }) {
             {showMenu ? <IconClose {...menuIconProps} /> : <IconMenu {...menuIconProps} />}
           </ShowMenu>
           <ScrollView>
-          <LogoWrapper>
-            <Logo>Astro</Logo>
-          </LogoWrapper>
-          <Menu currentPath={props.currentPath} pages={props.pages} mdx={props.mdx} />
+            <LogoWrapper>
+              <Logo>Astro</Logo>
+            </LogoWrapper>
+            <Menu currentPath={props.currentPath} pages={props.pages} mdx={props.mdx} />
           </ScrollView>
         </Content>
       </Wrapper>

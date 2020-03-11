@@ -2,14 +2,128 @@
 title: inputs
 ---
 
+import { Link } from 'gatsby';
 import {
+  InputText,
   TextAreaWrapper,
   TextAreaLabel,
   TextArea,
-  Text
+  Text,
+  InputFilePreview,
+  InputFilePreviewItem,
+  InputFilePreviewRemoveButton,
+  InputFilePreviewText,
+  InputFilePreviewImage,
+  InputFilePreviewCloseIcon,
 } from '@magnetis/astro-galaxy-components';
+import { IconCalendar } from '@magnetis/astro-galaxy-icons';
 import Playground from '../components/Playground';
 import PropsTableWrapper from '../components/PropsTable';
+
+<Text font="secondary" fontSize="large" color="moon400" marginBottom={5}>
+  Inputs appear when the user needs to input data. They are mostly used in forms and in contexts
+  that require data such as money, text and numbers.
+</Text>
+
+## standard text inputs
+
+The regular input. Labels appear on the default state and slightly move upwards when the user starts interacting and typing on the component.
+
+<Playground
+  scope={{ InputText }}
+  code={`
+    <InputText />
+    <InputText isValidated labelText="Validated" defaultValue="Astro Team" />
+    <InputText isInvalid labelText="Invalid" defaultValue="Astro Team" errorMessage="Invalid data" />
+    <InputText labelText="Disabled" disabled />
+  `}
+/>
+
+<Text as="h3">props</Text>
+
+<PropsTableWrapper>
+  <table>
+    <thead>
+      <tr>
+        <th>property</th>
+        <th>PropType</th>
+        <th>required</th>
+        <th>default</th>
+        <th>description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>inputId</td>
+        <td>string</td>
+        <td>yes</td>
+        <td></td>
+        <td>Property to use on input's "id" and lable's "htmlFor"</td>
+      </tr>
+      <tr>
+        <td>labelId</td>
+        <td>string</td>
+        <td>yes</td>
+        <td></td>
+        <td>Property to use on label's "id" and input's "aria-labelledby" </td>
+      </tr>
+      <tr>
+        <td>labelText</td>
+        <td>string</td>
+        <td>no</td>
+        <td>
+          <code>standard</code>
+        </td>
+        <td>Text form floating label</td>
+      </tr>
+      <tr>
+        <td>labelProps</td>
+        <td>object</td>
+        <td>no</td>
+        <td>
+          <code>{'{name: Astro Galaxy}'}</code>
+        </td>
+        <td>Text form floating label</td>
+      </tr>
+      <tr>
+        <td>disabled</td>
+        <td>boolean</td>
+        <td>no</td>
+        <td>
+          <code>false</code>
+        </td>
+        <td>Property to disable the input</td>
+      </tr>
+      <tr>
+        <td>isValidated</td>
+        <td>boolean</td>
+        <td>no</td>
+        <td>
+          <code>false</code>
+        </td>
+        <td>Property change the input style to a valid state</td>
+      </tr>
+      <tr>
+        <td>isInvalid</td>
+        <td>boolean</td>
+        <td>no</td>
+        <td>
+          <code>false</code>
+        </td>
+        <td>Property to change the input style to an invalid state</td>
+      </tr>
+      <tr>
+        <td>errorMessage</td>
+        <td>string</td>
+        <td>no</td>
+        <td>
+          <code>Invalid data</code>
+        </td>
+        <td>Property to show an error message</td>
+      </tr>
+    </tbody>
+  </table>
+</PropsTableWrapper>
 
 ## text area inputs
 
@@ -56,3 +170,73 @@ To create the disabled state, add the disabled attribute on the `TextArea` compo
   </table>
 </PropsTableWrapper>
 
+## uploaded files preview
+
+Used to display a preview for uploaded files.
+
+```
+Any prop that would be applicable to a default component like `p`, `div`, `img` and so on is also applicable to this components.
+```
+
+<Playground
+  scope={{
+    InputFilePreview,
+    InputFilePreviewItem,
+    InputFilePreviewRemoveButton,
+    InputFilePreviewText,
+    InputFilePreviewImage,
+    InputFilePreviewCloseIcon,
+  }}
+  code={`
+    <InputFilePreview>
+      <InputFilePreviewItem>
+        <InputFilePreviewRemoveButton>
+          <InputFilePreviewCloseIcon />
+        </InputFilePreviewRemoveButton>
+        <InputFilePreviewImage
+          alt="Logo Magnetis"
+          src="https://i.ytimg.com/vi/t07h052QLG8/maxresdefault.jpg"
+        />
+      </InputFilePreviewItem>
+      <InputFilePreviewItem>
+        <InputFilePreviewRemoveButton>
+          <InputFilePreviewCloseIcon />
+        </InputFilePreviewRemoveButton>
+        <InputFilePreviewText truncate>financialreport.csv</InputFilePreviewText>
+      </InputFilePreviewItem>
+      <InputFilePreviewItem>
+        <InputFilePreviewRemoveButton>
+          <InputFilePreviewCloseIcon />
+        </InputFilePreviewRemoveButton>
+        <InputFilePreviewText>financialreport.csv</InputFilePreviewText>
+      </InputFilePreviewItem>
+    </InputFilePreview>
+  `}
+/>
+
+<Text as="h3">props for InputFilePreviewText</Text>
+
+<PropsTableWrapper>
+  <table>
+    <thead>
+      <tr>
+        <th>property</th>
+        <th>PropType</th>
+        <th>required</th>
+        <th>default</th>
+        <th>description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>truncate</td>
+        <td>boolean</td>
+        <td>no</td>
+        <td>
+          <code>false</code>
+        </td>
+        <td>Uses "..." to truncate the text when it reaches the max width</td>
+      </tr>
+    </tbody>
+  </table>
+</PropsTableWrapper>

@@ -65,7 +65,9 @@ lib/
 .jest-cache
 .DS_Store
 
-
 # gatsby files
 packages/docs/.cache/
 packages/docs/public
+
+# Local Configs
+.vscode

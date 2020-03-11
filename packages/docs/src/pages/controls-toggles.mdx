@@ -12,14 +12,20 @@ import {
   RadioShape,
   Toggle,
   Label,
+  Heading,
   Text,
+  Tab,
+  TabItem,
+  TabLabel,
+  TabContent,
 } from '@magnetis/astro-galaxy-components';
+import { IconCalendar, IconMail, IconProfile } from '@magnetis/astro-galaxy-icons';
 import Playground from '../components/Playground';
 import PropsTableWrapper from '../components/PropsTable';
 
 <Text font="secondary" fontSize="large" color="moon400" marginBottom={5}>
   Users can see different experiences throughout the platform that will demand different components
-  and interactions according to the context. These microinteractions help build excellent user
+  and interactions according to the context. These micro interactions help build excellent user
   experience and enrich the product itself.
 </Text>
 
@@ -121,19 +127,16 @@ To create the disabled state, add the disabled attribute on the `Checkbox` compo
       <CheckboxShape />
       <Label htmlFor="checkbox1">Checkbox</Label>
     </CheckboxWrapper>
-    
     <CheckboxWrapper>
       <Checkbox defaultChecked id="checkbox2" />
       <CheckboxShape />
       <Label htmlFor="checkbox2">Checked</Label>
     </CheckboxWrapper>
-    
     <CheckboxWrapper>
       <Checkbox indeterminate defaultChecked id="checkbox3" />
       <CheckboxShape />
       <Label htmlFor="checkbox3">Indeterminate</Label>
     </CheckboxWrapper>
-    
     <CheckboxWrapper>
       <Checkbox disabled id="checkbox4" />
       <CheckboxShape />
@@ -231,6 +234,101 @@ To create the disabled state, add the `disabled` attribute to the `Toggle` compo
         <td>
           A function that must set the <code>isToggled</code> value to either true or false.
         </td>
+      </tr>
+    </tbody>
+  </table>
+</PropsTableWrapper>
+
+## tabs
+
+Tabs are used when the user can quickly navigate and switch between views and states of the same context.
+
+Each tab can be created both with or without Astro icons. To add an icon, follow the markup structure suggested in the sample below.
+
+Mouseover to view `:hover` state, and click on a tab to see its content.
+
+To ensure a horizontal tabs alignment in all screens (including mobile), you can apply the `horizontal` prop to the `Tab` component.
+
+<Playground
+  scope={{ Tab, TabItem, TabLabel, TabContent, Text, Heading, IconCalendar, IconMail, IconProfile }}
+  code={`
+    <Tab>
+      <TabItem id="tab1" name="tabs" defaultChecked />
+      <TabLabel htmlFor="tab1">
+        <IconCalendar />
+        <span>tab 1</span>
+      </TabLabel>
+      <TabContent>
+        <Heading as="h2">tab 1</Heading>
+        <Text font="secondary">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In euismod nisi in orci mattis,
+          ac iaculis orci lobortis.
+        </Text>
+        <Text font="secondary">
+          Nullam imperdiet dolor a erat commodo laoreet a ut felis. Nam consequat nisl eu efficitur
+          suscipit. Nulla dapibus cursus diam in convallis.
+        </Text>
+      </TabContent>
+      <TabItem id="tab2" name="tabs" />
+      <TabLabel htmlFor="tab2">
+        <IconMail />
+        <span>tab 2</span>
+      </TabLabel>
+      <TabContent>
+        <Heading as="h2">tab 2</Heading>
+        <Text font="secondary">
+          Integer id pulvinar odio, sit amet accumsan lacus. Pellentesque accumsan sapien eget orci
+          auctor, ac pulvinar orci porttitor. Sed fermentum turpis sed egestas commodo. In euismod
+          nisi in orci mattis, ac iaculis orci lobortis.
+        </Text>
+      </TabContent>
+      <TabItem id="tab3" name="tabs" />
+      <TabLabel htmlFor="tab3">
+        <IconProfile />
+        <span>tab 3</span>
+      </TabLabel>
+      <TabContent>
+        <Heading as="h2">tab 3</Heading>
+        <Text font="secondary">
+          Quisque dictum erat lectus, ac dapibus orci ultricies vitae. Suspendisse id vestibulum turpis.
+        </Text>
+      </TabContent>
+      <TabItem id="tab4" name="tabs" />
+      <TabLabel htmlFor="tab4">
+        <span>tab 4</span>
+      </TabLabel>
+      <TabContent>
+        <Heading as="h2">tab 4</Heading>
+        <Text font="secondary">
+          Quisque dictum erat lectus, ac dapibus orci ultricies vitae. Suspendisse id vestibulum turpis.
+        </Text>
+      </TabContent>
+    </Tab>
+  `}
+/>
+
+<Text as="h3">props</Text>
+
+<PropsTableWrapper>
+  <table>
+    <thead>
+      <tr>
+        <th>property</th>
+        <th>PropType</th>
+        <th>required</th>
+        <th>default</th>
+        <th>description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>horizontal</td>
+        <td>boolean</td>
+        <td>no</td>
+        <td>
+          <code>false</code>
+        </td>
+        <td>Ensure a horizontal tabs alignment.</td>
       </tr>
     </tbody>
   </table>

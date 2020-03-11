@@ -15,3 +15,4 @@ export * from './Radio';
 export * from './Checkbox';
 export * from './TextArea';
 export * from './InputFilePreview';
+export * from './Tab';

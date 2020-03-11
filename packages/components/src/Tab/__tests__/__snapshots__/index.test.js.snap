@@ -1,0 +1,287 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tab should render tab component 1`] = `
+.c3 {
+  fill: currentcolor;
+  color: #32383c;
+}
+
+.c6 {
+  color: #32383c;
+  font-size: medium;
+  font: normal normal 400 normal 16px/1.5 Lato,sans-serif;
+  font-size: 16px;
+}
+
+.c5 {
+  color: #32383c;
+  font-size: large;
+  font: normal normal 600 normal 16px/1.5 Poppins,sans-serif;
+  font-size: 48px;
+}
+
+.c0 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.c0 > input:checked + label + div {
+  display: block;
+}
+
+.c0 > input:focus + label {
+  box-shadow: 0 0 0 3px rgba(21,156,228,0.4);
+}
+
+.c0 > input:checked + label {
+  color: #fff;
+  background-color: #159ce4;
+}
+
+.c0 > input:checked + label svg {
+  color: #f6f7f8;
+}
+
+.c0 > input:not(:checked):hover + label {
+  cursor: pointer;
+  background-color: #e9eef2;
+}
+
+.c0:after {
+  content: ' ';
+  display: block;
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+  height: 48px;
+  border: solid 1px #afbec9;
+  border-radius: 24px;
+}
+
+.c1 {
+  position: absolute;
+  opacity: 0;
+}
+
+.c2 {
+  z-index: 20;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  min-width: 0;
+  min-height: 40px;
+  padding: 8px 32px;
+  margin: 4px 0;
+  font: normal normal 600 normal 16px/1.5 Poppins,sans-serif;
+  font-weight: 600;
+  color: #597183;
+  text-align: center;
+  text-transform: lowercase;
+  white-space: nowrap;
+  border: none;
+  border-radius: 24px;
+  -webkit-transition: background-color 0.3s ease,color 0.3s ease;
+  transition: background-color 0.3s ease,color 0.3s ease;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c2:first-of-type {
+  margin-left: 4px;
+}
+
+.c2:last-of-type {
+  margin-left: 4px;
+}
+
+.c2 > svg {
+  margin-right: 8px;
+  min-width: 16px;
+  color: #597183;
+}
+
+.c4 {
+  display: none;
+  width: 100%;
+  padding: 16px;
+  -webkit-order: 99;
+  -ms-flex-order: 99;
+  order: 99;
+}
+
+<div
+  className="c0"
+>
+  <input
+    className="c1"
+    defaultChecked={true}
+    id="tab1"
+    name="tabs"
+    type="radio"
+  />
+  <label
+    className="c2"
+    htmlFor="tab1"
+  >
+    <svg
+      className="c3"
+      color="moon900"
+      height={24}
+      viewBox="0 0 32 32"
+      width={24}
+    >
+      <defs>
+        <path
+          d="M7.262 25.548c.072 0 .143-.01.21-.028l5.456-1.474a.814.814 0 0 0 .361-.209l11.465-11.465a2.714 2.714 0 0 0 0-3.83l-1.293-1.294a2.69 2.69 0 0 0-1.915-.793 2.69 2.69 0 0 0-1.916.793L8.165 18.713c-.1.1-.17.223-.209.361l-1.473 5.457a.801.801 0 0 0 .78 1.017zm1.887-4.705l2.006 2.005-2.752.742.746-2.747zm3.57 1.283l-2.843-2.843 6.655-6.654 2.838 2.838-6.65 6.659zm4.958-10.638l1.212-1.212 2.837 2.838-1.212 1.212-2.837-2.838zm3.864-3.413c.29 0 .566.114.775.319l1.293 1.293a1.09 1.09 0 0 1 0 1.545l-.742.741-2.838-2.838.742-.741c.204-.205.48-.319.77-.319z"
+          id="icon-pencil-a"
+        />
+      </defs>
+      <g
+        id="icon/secondary/pencil"
+      >
+        <mask
+          id="icon-pencil-b"
+        >
+          <use
+            xlinkHref="#icon-pencil-a"
+          />
+        </mask>
+        <use
+          id="Mask"
+          xlinkHref="#icon-pencil-a"
+        />
+        <g
+          id="color/moon-900"
+          mask="url(#icon-pencil-b)"
+        >
+          <path
+            d="M0 0h32v32H0z"
+            id="Rectangle"
+          />
+        </g>
+      </g>
+    </svg>
+    <span>
+      tab 1
+    </span>
+  </label>
+  <div
+    className="c4"
+  >
+    <h2
+      className="c5"
+      color="moon900"
+      fontSize="large"
+    >
+      tab 1
+    </h2>
+    <p
+      className="c6"
+      color="moon900"
+      fontSize="medium"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. In euismod nisi in orci mattis, ac iaculis orci lobortis.
+    </p>
+    <p
+      className="c6"
+      color="moon900"
+      fontSize="medium"
+    >
+      Nullam imperdiet dolor a erat commodo laoreet a ut felis. Nam consequat nisl eu efficitur suscipit. Nulla dapibus cursus diam in convallis.
+    </p>
+  </div>
+  <input
+    className="c1"
+    id="tab2"
+    name="tabs"
+    type="radio"
+  />
+  <label
+    className="c2"
+    htmlFor="tab2"
+  >
+    <svg
+      className="c3"
+      color="moon900"
+      height={24}
+      viewBox="0 0 32 32"
+      width={24}
+    >
+      <defs>
+        <path
+          d="M16 4H8v2a1 1 0 1 1-2 0V4H3a1 1 0 0 0-1 1v4.111h20V5a1 1 0 0 0-1-1h-3v2a1 1 0 0 1-2 0V4zm1 0v2-2zm1-2v2h1V2h2a3 3 0 0 1 3 3v18a3 3 0 0 1-3 3H3a3 3 0 0 1-3-3V5a3 3 0 0 1 3-3h2v2h1V1a1 1 0 1 1 2 0v3h1V2h6v2h1V1a1 1 0 0 1 2 0v1zm-1 0V1v1zM7 4v2-2zm0-2V1v1zm15 9.111H2V23a1 1 0 0 0 1 1h18a1 1 0 0 0 1-1V11.111zM7 17a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm0 4a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm5-4a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm0 4a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm5-4a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm0 4a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"
+          id="icon-calendar-a"
+        />
+      </defs>
+      <g
+        id="icon/secondary/calendar"
+      >
+        <g
+          id="color/earth-400"
+          transform="translate(4 3)"
+        >
+          <mask
+            id="icon-calendar-b"
+          >
+            <use
+              xlinkHref="#icon-calendar-a"
+            />
+          </mask>
+          <use
+            id="Mask"
+            xlinkHref="#icon-calendar-a"
+          />
+          <g
+            id="color/moon-900"
+            mask="url(#icon-calendar-b)"
+          >
+            <path
+              d="M0 0h32v32H0z"
+              id="Rectangle"
+              transform="translate(-4 -3)"
+            />
+          </g>
+        </g>
+      </g>
+    </svg>
+    <span>
+      tab 2
+    </span>
+  </label>
+  <div
+    className="c4"
+  >
+    <h2
+      className="c5"
+      color="moon900"
+      fontSize="large"
+    >
+      tab 2
+    </h2>
+    <p
+      className="c6"
+      color="moon900"
+      fontSize="medium"
+    >
+      Integer id pulvinar odio, sit amet accumsan lacus. Pellentesque accumsan sapien eget orci auctor, ac pulvinar orci porttitor. Sed fermentum turpis sed egestas commodo. In euismod nisi in orci mattis, ac iaculis orci lobortis.
+    </p>
+  </div>
+</div>
+`;

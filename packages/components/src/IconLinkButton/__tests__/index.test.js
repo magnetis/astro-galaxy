@@ -1,5 +1,4 @@
 import React from 'react';
-import { theme } from '@magnetis/astro-galaxy-core';
 import { IconCalendar } from '@magnetis/astro-galaxy-icons';
 import IconLinkButton from '../index';
 

@@ -189,9 +189,7 @@ exports[`Slider reders disabled Slider 1`] = `
   visibility: hidden;
 }
 
-<div
-  className=""
->
+<div>
   <label
     className="c0"
     disabled={true}
@@ -408,9 +406,7 @@ exports[`Slider renders Slider with correct ID 1`] = `
   visibility: hidden;
 }
 
-<div
-  className=""
->
+<div>
   <label
     className="c0"
     disabled={false}
@@ -627,9 +623,7 @@ exports[`Slider renders default slider 1`] = `
   visibility: hidden;
 }
 
-<div
-  className=""
->
+<div>
   <label
     className="c0"
     disabled={false}
@@ -846,9 +840,7 @@ exports[`Slider renders with counter only 1`] = `
   visibility: hidden;
 }
 
-<div
-  className=""
->
+<div>
   <label
     className="c0"
     disabled={false}
@@ -1057,9 +1049,7 @@ exports[`Slider renders with counter only 2`] = `
   visibility: hidden;
 }
 
-<div
-  className=""
->
+<div>
   <label
     className="c0"
     disabled={false}
@@ -1262,9 +1252,7 @@ exports[`Slider renders with label only 1`] = `
   visibility: hidden;
 }
 
-<div
-  className=""
->
+<div>
   <label
     className="c0"
     disabled={false}

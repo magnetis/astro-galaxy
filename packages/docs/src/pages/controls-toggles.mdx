@@ -18,6 +18,7 @@ import {
   TabItem,
   TabLabel,
   TabContent,
+  Slider,
 } from '@magnetis/astro-galaxy-components';
 import { IconCalendar, IconMail, IconProfile } from '@magnetis/astro-galaxy-icons';
 import Playground from '../components/Playground';
@@ -329,6 +330,134 @@ To ensure a horizontal tabs alignment in all screens (including mobile), you can
           <code>false</code>
         </td>
         <td>Ensure a horizontal tabs alignment.</td>
+      </tr>
+    </tbody>
+  </table>
+</PropsTableWrapper>
+
+## sliders
+
+Sliders give users a visual indication of adjustable content, mostly numerical (for time, money, etc).
+They can be used with or without text labels.
+
+Adjust `min` and `max` attributes to set the value range.
+If you need to manipulate the slider handle position, use the `value` attribute.
+You must also set an unique `id` for each slider in your page.
+
+Sliders contains built-in label and counter label components.
+To define the label use the `label` attribute and for counter label, `counterLabel` attribute.
+If you don't want to display the Slider labels, just ignore the two attributes.
+
+To display the gradient full fill, set `fullFill` property to `true`.
+
+To set the disabled state, add the `disabled` attribute.
+
+<Playground
+  isPlaygroundWithFragment={false}
+  scope={{ Slider, useState }}
+  code={`
+    () => {
+      const [value, setValue] = useState(2500);
+      const counterLabel = value + " Coins";
+      return (
+        <>
+          <Slider label="Wallet" counterLabel={counterLabel} value={value} max={5000} onChange={(e) => setValue(e.target.value)}/>
+          <Slider id="full-slider" label="Full Fill" fullFill={true} />
+          <Slider id="disabled-slider" label="Disabled" disabled />
+        </>
+      )
+    }
+  `}
+/>
+
+### props
+
+<PropsTableWrapper>
+  <table>
+    <thead>
+      <tr>
+        <th>property</th>
+        <th>PropType</th>
+        <th>required</th>
+        <th>default</th>
+        <th>description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>value</td>
+        <td>number</td>
+        <td>no</td>
+        <td>
+          <code>0</code>
+        </td>
+        <td>Slider's value.</td>
+      </tr>
+      <tr>
+        <td>min</td>
+        <td>number</td>
+        <td>no</td>
+        <td>
+          <code>0</code>
+        </td>
+        <td>Specifies the minimum value of the slider.</td>
+      </tr>
+      <tr>
+        <td>max</td>
+        <td>number</td>
+        <td>no</td>
+        <td>
+          <code>100</code>
+        </td>
+        <td>Specifies the maximum value of the slider.</td>
+      </tr>
+      <tr>
+        <td>fullFill</td>
+        <td>boolean</td>
+        <td>no</td>
+        <td>
+          <code>false</code>
+        </td>
+        <td>Fills the Slider's background with gradient.</td>
+      </tr>
+      <tr>
+        <td>label</td>
+        <td>string</td>
+        <td>no</td>
+        <td></td>
+        <td>Slider's label.</td>
+      </tr>
+      <tr>
+        <td>counterLabel</td>
+        <td>string</td>
+        <td>no</td>
+        <td></td>
+        <td>
+          Displays the Slider's current value with a custom <code>string</code>.
+        </td>
+      </tr>
+      <tr>
+        <td>id</td>
+        <td>string</td>
+        <td>
+          only if <code>label</code> is defined
+        </td>
+        <td></td>
+        <td>Specifies unique id for Slider HTML element.</td>
+      </tr>
+      <tr>
+        <td>disabled</td>
+        <td>boolean</td>
+        <td>no</td>
+        <td></td>
+        <td>Sets the disabled state, preventing the user from making changes.</td>
+      </tr>
+      <tr>
+        <td>onChange</td>
+        <td>function</td>
+        <td>no</td>
+        <td></td>
+        <td>A callback that fires the instant when value of the slider has been changed.</td>
       </tr>
     </tbody>
   </table>

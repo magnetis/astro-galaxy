@@ -1,6 +1,6 @@
 {
   "name": "@magnetis/astro-galaxy-docs",
-  "version": "1.0.0-alpha.1",
+  "version": "1.0.0-alpha.2",
   "dependencies": {
     "@mdx-js/mdx": "^1.5.1",
     "@mdx-js/react": "^1.5.1",

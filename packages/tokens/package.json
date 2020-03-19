@@ -1,0 +1,10 @@
+{
+  "name": "@magnetis/astro-galaxy-tokens",
+  "version": "1.0.0-alpha.0",
+  "main": "src/index.js",
+  "module": "src/index.js",
+  "types": "./src/index.d.ts",
+  "files": [
+    "src"
+  ]
+}

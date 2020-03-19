@@ -14,7 +14,7 @@
     "url": "https://github.com/magnetis/astro-galaxy"
   },
   "scripts": {
-    "compile": "npx lerna run compile --ignore @magnetis/astro-galaxy-docs",
+    "compile": "npx lerna run compile --ignore @magnetis/astro-galaxy-docs @magnetis/astro-galaxy-tokens",
     "bootstrap": "npx lerna bootstrap --use-workspaces",
     "icons:compile": "yarn compile --scope @magnetis/astro-galaxy-icons",
     "dev": "yarn icons:compile && start-storybook -p 5555",

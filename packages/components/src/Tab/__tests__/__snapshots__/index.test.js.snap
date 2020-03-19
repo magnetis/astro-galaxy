@@ -40,7 +40,7 @@ exports[`Tab should render tab component 1`] = `
 }
 
 .c0 > input:checked + label {
-  color: #fff;
+  color: #ffffff;
   background-color: #159ce4;
 }
 

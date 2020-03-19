@@ -18,7 +18,7 @@ exports[`IconButton should change background-color and border-color when variant
   font: normal normal 600 normal 16px/1.5 Poppins,sans-serif;
   display: inline-block;
   background-color: #d45459;
-  color: #fff;
+  color: #ffffff;
   border-color: #d45459;
   padding: 8px 38px;
   font-size: 16px;
@@ -31,7 +31,7 @@ exports[`IconButton should change background-color and border-color when variant
   cursor: not-allowed;
   background-color: #e9eef2;
   border-color: #e9eef2;
-  color: #fff;
+  color: #ffffff;
 }
 
 .c0:hover:not(:disabled),
@@ -54,7 +54,7 @@ exports[`IconButton should change background-color and border-color when variant
   transition: all 0.3s ease;
   vertical-align: middle;
   margin: -4px 0 -3px;
-  color: #fff;
+  color: #ffffff;
   width: 32px;
   height: 32px;
 }
@@ -128,7 +128,7 @@ exports[`IconButton should change background-color and border-color when variant
   font: normal normal 600 normal 16px/1.5 Poppins,sans-serif;
   display: inline-block;
   background-color: #e078d6;
-  color: #fff;
+  color: #ffffff;
   border-color: #e078d6;
   padding: 8px 38px;
   font-size: 16px;
@@ -141,7 +141,7 @@ exports[`IconButton should change background-color and border-color when variant
   cursor: not-allowed;
   background-color: #e9eef2;
   border-color: #e9eef2;
-  color: #fff;
+  color: #ffffff;
 }
 
 .c0:hover:not(:disabled),
@@ -164,7 +164,7 @@ exports[`IconButton should change background-color and border-color when variant
   transition: all 0.3s ease;
   vertical-align: middle;
   margin: -4px 0 -3px;
-  color: #fff;
+  color: #ffffff;
   width: 32px;
   height: 32px;
 }
@@ -251,7 +251,7 @@ exports[`IconButton should change color, background-color and border-color when 
   cursor: not-allowed;
   background-color: #e9eef2;
   border-color: #e9eef2;
-  color: #fff;
+  color: #ffffff;
 }
 
 .c0:hover:not(:disabled),
@@ -348,7 +348,7 @@ exports[`IconButton should change padding when icon button size is large 1`] = `
   font: normal normal 600 normal 16px/1.5 Poppins,sans-serif;
   display: inline-block;
   background-color: #159ce4;
-  color: #fff;
+  color: #ffffff;
   border-color: #159ce4;
   padding: 12px 46px;
   font-size: 24px;
@@ -361,7 +361,7 @@ exports[`IconButton should change padding when icon button size is large 1`] = `
   cursor: not-allowed;
   background-color: #e9eef2;
   border-color: #e9eef2;
-  color: #fff;
+  color: #ffffff;
 }
 
 .c0:hover:not(:disabled),
@@ -384,7 +384,7 @@ exports[`IconButton should change padding when icon button size is large 1`] = `
   transition: all 0.3s ease;
   vertical-align: middle;
   margin: -4px 0 -3px;
-  color: #fff;
+  color: #ffffff;
   width: 40px;
   height: 40px;
 }
@@ -458,7 +458,7 @@ exports[`IconButton should change padding when icon button size is small 1`] = `
   font: normal normal 600 normal 16px/1.5 Poppins,sans-serif;
   display: inline-block;
   background-color: #159ce4;
-  color: #fff;
+  color: #ffffff;
   border-color: #159ce4;
   padding: 5px 28px;
   font-size: 12px;
@@ -471,7 +471,7 @@ exports[`IconButton should change padding when icon button size is small 1`] = `
   cursor: not-allowed;
   background-color: #e9eef2;
   border-color: #e9eef2;
-  color: #fff;
+  color: #ffffff;
 }
 
 .c0:hover:not(:disabled),
@@ -494,7 +494,7 @@ exports[`IconButton should change padding when icon button size is small 1`] = `
   transition: all 0.3s ease;
   vertical-align: middle;
   margin: -4px 0 -3px;
-  color: #fff;
+  color: #ffffff;
   width: 24px;
   height: 24px;
 }
@@ -568,7 +568,7 @@ exports[`IconButton should render an icon button with calendar icon 1`] = `
   font: normal normal 600 normal 16px/1.5 Poppins,sans-serif;
   display: inline-block;
   background-color: #159ce4;
-  color: #fff;
+  color: #ffffff;
   border-color: #159ce4;
   padding: 8px 38px;
   font-size: 16px;
@@ -581,7 +581,7 @@ exports[`IconButton should render an icon button with calendar icon 1`] = `
   cursor: not-allowed;
   background-color: #e9eef2;
   border-color: #e9eef2;
-  color: #fff;
+  color: #ffffff;
 }
 
 .c0:hover:not(:disabled),
@@ -604,7 +604,7 @@ exports[`IconButton should render an icon button with calendar icon 1`] = `
   transition: all 0.3s ease;
   vertical-align: middle;
   margin: -4px 0 -3px;
-  color: #fff;
+  color: #ffffff;
   width: 32px;
   height: 32px;
 }

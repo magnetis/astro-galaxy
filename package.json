@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "author": "Magnetis (https://github.com/magnetis)",
-  "homepage": "https://astro.magnetis.com.br/",
+  "homepage": "https://astro-galaxy.magnetis.com.br/",
   "description": "Magnetis design system",
   "workspaces": [
     "packages/*"

@@ -31,7 +31,7 @@ exports[`IconGhostButton should change background-color and border-color when va
   cursor: not-allowed;
   background-color: #e9eef2;
   border-color: #e9eef2;
-  color: #fff;
+  color: #ffffff;
 }
 
 .c0:focus {
@@ -161,7 +161,7 @@ exports[`IconGhostButton should change background-color and border-color when va
   cursor: not-allowed;
   background-color: #e9eef2;
   border-color: #e9eef2;
-  color: #fff;
+  color: #ffffff;
 }
 
 .c0:focus {
@@ -291,7 +291,7 @@ exports[`IconGhostButton should change color, background-color and border-color 
   cursor: not-allowed;
   background-color: #e9eef2;
   border-color: #e9eef2;
-  color: #fff;
+  color: #ffffff;
 }
 
 .c0:focus {
@@ -421,7 +421,7 @@ exports[`IconGhostButton should change padding when icon button size is large 1`
   cursor: not-allowed;
   background-color: #e9eef2;
   border-color: #e9eef2;
-  color: #fff;
+  color: #ffffff;
 }
 
 .c0:focus {
@@ -551,7 +551,7 @@ exports[`IconGhostButton should change padding when icon button size is small 1`
   cursor: not-allowed;
   background-color: #e9eef2;
   border-color: #e9eef2;
-  color: #fff;
+  color: #ffffff;
 }
 
 .c0:focus {
@@ -681,7 +681,7 @@ exports[`IconGhostButton should render an icon button with calendar icon 1`] = `
   cursor: not-allowed;
   background-color: #e9eef2;
   border-color: #e9eef2;
-  color: #fff;
+  color: #ffffff;
 }
 
 .c0:focus {

@@ -31,7 +31,7 @@ exports[`IconOutlineButton should border-color when variant is outline.earth 1`]
   cursor: not-allowed;
   background-color: #e9eef2;
   border-color: #e9eef2;
-  color: #fff;
+  color: #ffffff;
 }
 
 .c0:focus {
@@ -163,7 +163,7 @@ exports[`IconOutlineButton should change border-color when variant is outline.ma
   cursor: not-allowed;
   background-color: #e9eef2;
   border-color: #e9eef2;
-  color: #fff;
+  color: #ffffff;
 }
 
 .c0:focus {
@@ -181,7 +181,7 @@ exports[`IconOutlineButton should change border-color when variant is outline.ma
 .c0:focus:not(:disabled) {
   background-color: #dd676b;
   border-color: #dd676b;
-  color: #fff;
+  color: #ffffff;
 }
 
 .c0:active:not(:disabled) {
@@ -210,7 +210,7 @@ exports[`IconOutlineButton should change border-color when variant is outline.ma
 .c0:hover:not(:disabled) svg,
 .c0:focus:not(:disabled) svg,
 .c0:active:not(:disabled) svg {
-  color: #fff;
+  color: #ffffff;
 }
 
 <button
@@ -295,7 +295,7 @@ exports[`IconOutlineButton should change border-color when variant is outline.ve
   cursor: not-allowed;
   background-color: #e9eef2;
   border-color: #e9eef2;
-  color: #fff;
+  color: #ffffff;
 }
 
 .c0:focus {
@@ -313,7 +313,7 @@ exports[`IconOutlineButton should change border-color when variant is outline.ve
 .c0:focus:not(:disabled) {
   background-color: #e78ade;
   border-color: #e78ade;
-  color: #fff;
+  color: #ffffff;
 }
 
 .c0:active:not(:disabled) {
@@ -342,7 +342,7 @@ exports[`IconOutlineButton should change border-color when variant is outline.ve
 .c0:hover:not(:disabled) svg,
 .c0:focus:not(:disabled) svg,
 .c0:active:not(:disabled) svg {
-  color: #fff;
+  color: #ffffff;
 }
 
 <button
@@ -427,7 +427,7 @@ exports[`IconOutlineButton should change padding when icon button size is large 
   cursor: not-allowed;
   background-color: #e9eef2;
   border-color: #e9eef2;
-  color: #fff;
+  color: #ffffff;
 }
 
 .c0:focus {
@@ -445,7 +445,7 @@ exports[`IconOutlineButton should change padding when icon button size is large 
 .c0:focus:not(:disabled) {
   background-color: #3db5eb;
   border-color: #3db5eb;
-  color: #fff;
+  color: #ffffff;
 }
 
 .c0:active:not(:disabled) {
@@ -474,7 +474,7 @@ exports[`IconOutlineButton should change padding when icon button size is large 
 .c0:hover:not(:disabled) svg,
 .c0:focus:not(:disabled) svg,
 .c0:active:not(:disabled) svg {
-  color: #fff;
+  color: #ffffff;
 }
 
 <button
@@ -559,7 +559,7 @@ exports[`IconOutlineButton should change padding when icon button size is small 
   cursor: not-allowed;
   background-color: #e9eef2;
   border-color: #e9eef2;
-  color: #fff;
+  color: #ffffff;
 }
 
 .c0:focus {
@@ -577,7 +577,7 @@ exports[`IconOutlineButton should change padding when icon button size is small 
 .c0:focus:not(:disabled) {
   background-color: #3db5eb;
   border-color: #3db5eb;
-  color: #fff;
+  color: #ffffff;
 }
 
 .c0:active:not(:disabled) {
@@ -606,7 +606,7 @@ exports[`IconOutlineButton should change padding when icon button size is small 
 .c0:hover:not(:disabled) svg,
 .c0:focus:not(:disabled) svg,
 .c0:active:not(:disabled) svg {
-  color: #fff;
+  color: #ffffff;
 }
 
 <button
@@ -691,7 +691,7 @@ exports[`IconOutlineButton should render an icon button with calendar icon 1`] =
   cursor: not-allowed;
   background-color: #e9eef2;
   border-color: #e9eef2;
-  color: #fff;
+  color: #ffffff;
 }
 
 .c0:focus {
@@ -709,7 +709,7 @@ exports[`IconOutlineButton should render an icon button with calendar icon 1`] =
 .c0:focus:not(:disabled) {
   background-color: #3db5eb;
   border-color: #3db5eb;
-  color: #fff;
+  color: #ffffff;
 }
 
 .c0:active:not(:disabled) {
@@ -738,7 +738,7 @@ exports[`IconOutlineButton should render an icon button with calendar icon 1`] =
 .c0:hover:not(:disabled) svg,
 .c0:focus:not(:disabled) svg,
 .c0:active:not(:disabled) svg {
-  color: #fff;
+  color: #ffffff;
 }
 
 <button

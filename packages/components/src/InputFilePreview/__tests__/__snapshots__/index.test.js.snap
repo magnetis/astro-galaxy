@@ -47,7 +47,7 @@ exports[`InputFilePreview should render mutiples items with image and text 1`] =
   border: 0;
   border-radius: 50%;
   outline: none;
-  background-color: #fff;
+  background-color: #ffffff;
 }
 
 .c2:focus,
@@ -302,7 +302,7 @@ exports[`InputFilePreview should render with image 1`] = `
   border: 0;
   border-radius: 50%;
   outline: none;
-  background-color: #fff;
+  background-color: #ffffff;
 }
 
 .c2:focus,
@@ -429,7 +429,7 @@ exports[`InputFilePreview should render with text 1`] = `
   border: 0;
   border-radius: 50%;
   outline: none;
-  background-color: #fff;
+  background-color: #ffffff;
 }
 
 .c2:focus,
@@ -561,7 +561,7 @@ exports[`InputFilePreview should render with trucated text 1`] = `
   border: 0;
   border-radius: 50%;
   outline: none;
-  background-color: #fff;
+  background-color: #ffffff;
 }
 
 .c2:focus,

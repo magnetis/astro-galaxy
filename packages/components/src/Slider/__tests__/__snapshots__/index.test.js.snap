@@ -58,7 +58,7 @@ exports[`Slider reders disabled Slider 1`] = `
   width: 28px;
   height: 28px;
   cursor: pointer;
-  background-color: #fff;
+  background-color: #ffffff;
   border-radius: 100%;
   box-shadow: 0 1px 4px 0 rgba(135,135,135,0.5);
   -webkit-transition: all 0.3s ease;
@@ -110,7 +110,7 @@ exports[`Slider reders disabled Slider 1`] = `
   width: 28px;
   height: 28px;
   cursor: pointer;
-  background-color: #fff;
+  background-color: #ffffff;
   border-radius: 100%;
   box-shadow: 0 1px 4px 0 rgba(135,135,135,0.5);
   -webkit-transition: all 0.3s ease;
@@ -162,7 +162,7 @@ exports[`Slider reders disabled Slider 1`] = `
   width: 28px;
   height: 28px;
   cursor: pointer;
-  background-color: #fff;
+  background-color: #ffffff;
   border-radius: 100%;
   box-shadow: 0 1px 4px 0 rgba(135,135,135,0.5);
   -webkit-transition: all 0.3s ease;
@@ -275,7 +275,7 @@ exports[`Slider renders Slider with correct ID 1`] = `
   width: 28px;
   height: 28px;
   cursor: pointer;
-  background-color: #fff;
+  background-color: #ffffff;
   border-radius: 100%;
   box-shadow: 0 1px 4px 0 rgba(135,135,135,0.5);
   -webkit-transition: all 0.3s ease;
@@ -327,7 +327,7 @@ exports[`Slider renders Slider with correct ID 1`] = `
   width: 28px;
   height: 28px;
   cursor: pointer;
-  background-color: #fff;
+  background-color: #ffffff;
   border-radius: 100%;
   box-shadow: 0 1px 4px 0 rgba(135,135,135,0.5);
   -webkit-transition: all 0.3s ease;
@@ -379,7 +379,7 @@ exports[`Slider renders Slider with correct ID 1`] = `
   width: 28px;
   height: 28px;
   cursor: pointer;
-  background-color: #fff;
+  background-color: #ffffff;
   border-radius: 100%;
   box-shadow: 0 1px 4px 0 rgba(135,135,135,0.5);
   -webkit-transition: all 0.3s ease;
@@ -492,7 +492,7 @@ exports[`Slider renders default slider 1`] = `
   width: 28px;
   height: 28px;
   cursor: pointer;
-  background-color: #fff;
+  background-color: #ffffff;
   border-radius: 100%;
   box-shadow: 0 1px 4px 0 rgba(135,135,135,0.5);
   -webkit-transition: all 0.3s ease;
@@ -544,7 +544,7 @@ exports[`Slider renders default slider 1`] = `
   width: 28px;
   height: 28px;
   cursor: pointer;
-  background-color: #fff;
+  background-color: #ffffff;
   border-radius: 100%;
   box-shadow: 0 1px 4px 0 rgba(135,135,135,0.5);
   -webkit-transition: all 0.3s ease;
@@ -596,7 +596,7 @@ exports[`Slider renders default slider 1`] = `
   width: 28px;
   height: 28px;
   cursor: pointer;
-  background-color: #fff;
+  background-color: #ffffff;
   border-radius: 100%;
   box-shadow: 0 1px 4px 0 rgba(135,135,135,0.5);
   -webkit-transition: all 0.3s ease;
@@ -709,7 +709,7 @@ exports[`Slider renders with counter only 1`] = `
   width: 28px;
   height: 28px;
   cursor: pointer;
-  background-color: #fff;
+  background-color: #ffffff;
   border-radius: 100%;
   box-shadow: 0 1px 4px 0 rgba(135,135,135,0.5);
   -webkit-transition: all 0.3s ease;
@@ -761,7 +761,7 @@ exports[`Slider renders with counter only 1`] = `
   width: 28px;
   height: 28px;
   cursor: pointer;
-  background-color: #fff;
+  background-color: #ffffff;
   border-radius: 100%;
   box-shadow: 0 1px 4px 0 rgba(135,135,135,0.5);
   -webkit-transition: all 0.3s ease;
@@ -813,7 +813,7 @@ exports[`Slider renders with counter only 1`] = `
   width: 28px;
   height: 28px;
   cursor: pointer;
-  background-color: #fff;
+  background-color: #ffffff;
   border-radius: 100%;
   box-shadow: 0 1px 4px 0 rgba(135,135,135,0.5);
   -webkit-transition: all 0.3s ease;
@@ -918,7 +918,7 @@ exports[`Slider renders with counter only 2`] = `
   width: 28px;
   height: 28px;
   cursor: pointer;
-  background-color: #fff;
+  background-color: #ffffff;
   border-radius: 100%;
   box-shadow: 0 1px 4px 0 rgba(135,135,135,0.5);
   -webkit-transition: all 0.3s ease;
@@ -970,7 +970,7 @@ exports[`Slider renders with counter only 2`] = `
   width: 28px;
   height: 28px;
   cursor: pointer;
-  background-color: #fff;
+  background-color: #ffffff;
   border-radius: 100%;
   box-shadow: 0 1px 4px 0 rgba(135,135,135,0.5);
   -webkit-transition: all 0.3s ease;
@@ -1022,7 +1022,7 @@ exports[`Slider renders with counter only 2`] = `
   width: 28px;
   height: 28px;
   cursor: pointer;
-  background-color: #fff;
+  background-color: #ffffff;
   border-radius: 100%;
   box-shadow: 0 1px 4px 0 rgba(135,135,135,0.5);
   -webkit-transition: all 0.3s ease;
@@ -1121,7 +1121,7 @@ exports[`Slider renders with label only 1`] = `
   width: 28px;
   height: 28px;
   cursor: pointer;
-  background-color: #fff;
+  background-color: #ffffff;
   border-radius: 100%;
   box-shadow: 0 1px 4px 0 rgba(135,135,135,0.5);
   -webkit-transition: all 0.3s ease;
@@ -1173,7 +1173,7 @@ exports[`Slider renders with label only 1`] = `
   width: 28px;
   height: 28px;
   cursor: pointer;
-  background-color: #fff;
+  background-color: #ffffff;
   border-radius: 100%;
   box-shadow: 0 1px 4px 0 rgba(135,135,135,0.5);
   -webkit-transition: all 0.3s ease;
@@ -1225,7 +1225,7 @@ exports[`Slider renders with label only 1`] = `
   width: 28px;
   height: 28px;
   cursor: pointer;
-  background-color: #fff;
+  background-color: #ffffff;
   border-radius: 100%;
   box-shadow: 0 1px 4px 0 rgba(135,135,135,0.5);
   -webkit-transition: all 0.3s ease;

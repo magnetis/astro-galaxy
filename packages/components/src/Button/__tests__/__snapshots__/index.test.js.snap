@@ -13,7 +13,7 @@ exports[`Button component should change background-color and border-color when v
   font: normal normal 600 normal 16px/1.5 Poppins,sans-serif;
   display: inline-block;
   background-color: #d45459;
-  color: #fff;
+  color: #ffffff;
   border-color: #d45459;
   padding: 8px 38px;
   font-size: 16px;
@@ -25,7 +25,7 @@ exports[`Button component should change background-color and border-color when v
   cursor: not-allowed;
   background-color: #e9eef2;
   border-color: #e9eef2;
-  color: #fff;
+  color: #ffffff;
 }
 
 .c0:hover:not(:disabled),
@@ -64,7 +64,7 @@ exports[`Button component should change font-size and padding when button size i
   font: normal normal 600 normal 16px/1.5 Poppins,sans-serif;
   display: inline-block;
   background-color: #159ce4;
-  color: #fff;
+  color: #ffffff;
   border-color: #159ce4;
   padding: 5px 28px;
   font-size: 12px;
@@ -76,7 +76,7 @@ exports[`Button component should change font-size and padding when button size i
   cursor: not-allowed;
   background-color: #e9eef2;
   border-color: #e9eef2;
-  color: #fff;
+  color: #ffffff;
 }
 
 .c0:hover:not(:disabled),
@@ -115,7 +115,7 @@ exports[`Button component should render a button 1`] = `
   font: normal normal 600 normal 16px/1.5 Poppins,sans-serif;
   display: inline-block;
   background-color: #159ce4;
-  color: #fff;
+  color: #ffffff;
   border-color: #159ce4;
   padding: 8px 38px;
   font-size: 16px;
@@ -127,7 +127,7 @@ exports[`Button component should render a button 1`] = `
   cursor: not-allowed;
   background-color: #e9eef2;
   border-color: #e9eef2;
-  color: #fff;
+  color: #ffffff;
 }
 
 .c0:hover:not(:disabled),

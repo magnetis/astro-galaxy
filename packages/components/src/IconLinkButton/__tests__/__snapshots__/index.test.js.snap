@@ -14,7 +14,7 @@ exports[`IconLinkButton should change font-weight when icon link button has bold
   border-radius: 24px;
   display: inline-block;
   overflow: hidden;
-  color: #fff;
+  color: #ffffff;
   text-align: center;
   white-space: nowrap;
   cursor: pointer;
@@ -29,7 +29,7 @@ exports[`IconLinkButton should change font-weight when icon link button has bold
 .c0 svg {
   margin: -4px 9px -3px 0;
   vertical-align: middle;
-  color: #fff;
+  color: #ffffff;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
@@ -127,7 +127,7 @@ exports[`IconLinkButton should render an icon link button with calendar icon 1`]
   border-radius: 24px;
   display: inline-block;
   overflow: hidden;
-  color: #fff;
+  color: #ffffff;
   text-align: center;
   white-space: nowrap;
   cursor: pointer;
@@ -141,7 +141,7 @@ exports[`IconLinkButton should render an icon link button with calendar icon 1`]
 .c0 svg {
   margin: -4px 9px -3px 0;
   vertical-align: middle;
-  color: #fff;
+  color: #ffffff;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
@@ -239,7 +239,7 @@ exports[`IconLinkButton should render an icon link button with calendar icon on 
   border-radius: 24px;
   display: inline-block;
   overflow: hidden;
-  color: #fff;
+  color: #ffffff;
   text-align: center;
   white-space: nowrap;
   cursor: pointer;
@@ -253,7 +253,7 @@ exports[`IconLinkButton should render an icon link button with calendar icon on 
 .c0 svg {
   margin: -4px 0 -3px 9px;
   vertical-align: middle;
-  color: #fff;
+  color: #ffffff;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }

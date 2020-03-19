@@ -1,6 +1,6 @@
 {
   "name": "@magnetis/astro-galaxy-core",
-  "version": "1.0.0-alpha.2",
+  "version": "1.0.0-alpha.3",
   "main": "lib/index.cjs.js",
   "module": "lib/index.es.js",
   "scripts": {

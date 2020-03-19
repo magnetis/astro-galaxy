@@ -1,10 +1,14 @@
 {
   "name": "@magnetis/astro-galaxy-tokens",
-  "version": "1.0.0-alpha.0",
+  "version": "1.0.0-alpha.2",
   "main": "src/index.js",
   "module": "src/index.js",
   "types": "./src/index.d.ts",
   "files": [
     "src"
-  ]
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "26e42e6d9a8dd1931a3e75523bb22d7c896c23a4"
 }

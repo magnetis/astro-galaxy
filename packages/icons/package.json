@@ -1,6 +1,6 @@
 {
   "name": "@magnetis/astro-galaxy-icons",
-  "version": "1.0.0-alpha.1",
+  "version": "1.0.0-alpha.2",
   "main": "lib/index.cjs.js",
   "module": "lib/index.es.js",
   "files": [
@@ -30,5 +30,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "91162d27c8c054701bf1557a38a9541b130e8583"
+  "gitHead": "26e42e6d9a8dd1931a3e75523bb22d7c896c23a4"
 }

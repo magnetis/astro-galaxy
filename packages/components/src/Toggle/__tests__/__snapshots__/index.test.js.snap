@@ -37,7 +37,7 @@ exports[`Toggle should render a disabled toggle button 1`] = `
   height: 28px;
   visibility: visible;
   content: '';
-  background-color: #fff;
+  background-color: #ffffff;
   border-radius: 28px;
   -webkit-transition: left 0.3s ease;
   transition: left 0.3s ease;
@@ -126,7 +126,7 @@ exports[`Toggle should render a toggle button 1`] = `
   height: 28px;
   visibility: visible;
   content: '';
-  background-color: #fff;
+  background-color: #ffffff;
   border-radius: 28px;
   -webkit-transition: left 0.3s ease;
   transition: left 0.3s ease;
@@ -214,7 +214,7 @@ exports[`Toggle should render a toggled toggle button 1`] = `
   height: 28px;
   visibility: visible;
   content: '';
-  background-color: #fff;
+  background-color: #ffffff;
   border-radius: 28px;
   -webkit-transition: left 0.3s ease;
   transition: left 0.3s ease;

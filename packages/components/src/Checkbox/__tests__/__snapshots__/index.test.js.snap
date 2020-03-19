@@ -81,7 +81,7 @@ exports[`Checkbox should render a checked checkbox 1`] = `
   left: 3px;
   width: 10px;
   height: 6px;
-  color: #fff;
+  color: #ffffff;
   content: '';
   border-bottom: 2px solid;
   border-left: 2px solid;
@@ -192,7 +192,7 @@ exports[`Checkbox should render a checked disabled checkbox 1`] = `
   left: 3px;
   width: 10px;
   height: 6px;
-  color: #fff;
+  color: #ffffff;
   content: '';
   border-bottom: 2px solid;
   border-left: 2px solid;
@@ -304,7 +304,7 @@ exports[`Checkbox should render a disabled checkbox 1`] = `
   left: 3px;
   width: 10px;
   height: 6px;
-  color: #fff;
+  color: #ffffff;
   content: '';
   border-bottom: 2px solid;
   border-left: 2px solid;
@@ -429,7 +429,7 @@ exports[`Checkbox should render a indeterminate disabled checkbox 1`] = `
   left: 3px;
   width: 10px;
   height: 6px;
-  color: #fff;
+  color: #ffffff;
   content: '';
   border-bottom: 2px solid;
   border-left: 2px solid;
@@ -554,7 +554,7 @@ exports[`Checkbox should render an indeterminate checkbox 1`] = `
   left: 3px;
   width: 10px;
   height: 6px;
-  color: #fff;
+  color: #ffffff;
   content: '';
   border-bottom: 2px solid;
   border-left: 2px solid;
@@ -664,7 +664,7 @@ exports[`Checkbox should render checkbox 1`] = `
   left: 3px;
   width: 10px;
   height: 6px;
-  color: #fff;
+  color: #ffffff;
   content: '';
   border-bottom: 2px solid;
   border-left: 2px solid;

@@ -1,6 +1,6 @@
 {
   "name": "@magnetis/astro-galaxy-components",
-  "version": "1.0.0-alpha.1",
+  "version": "1.0.0-alpha.3",
   "main": "lib/index.cjs.js",
   "module": "lib/index.es.js",
   "scripts": {
@@ -23,5 +23,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "91162d27c8c054701bf1557a38a9541b130e8583"
+  "gitHead": "287441434b73f2dfeb01ddfd47eef221390f143d"
 }

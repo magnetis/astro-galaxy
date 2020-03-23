@@ -7,6 +7,7 @@
   "globals": {
     "renderWithTheme": "readonly",
     "rendererCreateWithTheme": "readonly",
-    "requestAnimationFrame": "readonly"
+    "requestAnimationFrame": "readonly",
+    "mountWithTheme": "readonly"
   }
 }

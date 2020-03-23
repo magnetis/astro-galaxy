@@ -1,8 +1,8 @@
-import React from 'react';
+import { IconAlert, IconCircleCheck } from '@magnetis/astro-galaxy-icons';
 import PropTypes from 'prop-types';
+import React from 'react';
 import styled from 'styled-components';
-import { space, layout } from 'styled-system';
-import { IconCircleCheck, IconAlert } from '@magnetis/astro-galaxy-icons';
+import { layout, space } from 'styled-system';
 
 const labelValidationStyles = props => {
   if (props.isValidated && !props.disabled) {
@@ -15,7 +15,7 @@ const labelValidationStyles = props => {
 
   if (props.disabled) {
     return `
-      color: ${props.theme.colors.moon300}; 
+      color: ${props.theme.colors.moon300};
       cursor: not-allowed;
     `;
   }
@@ -34,7 +34,7 @@ const inputValidationStyles = props => {
 
   if (props.disabled) {
     return `
-      color: ${props.theme.colors.moon300}; 
+      color: ${props.theme.colors.moon300};
       cursor: not-allowed;
       background-color: ${props.theme.colors.moon100};
       border-color:  ${props.theme.colors.moon200};
@@ -80,6 +80,11 @@ const InputField = styled.input`
     color: transparent;
   }
 
+  &:focus::placeholder,
+  &.--no-animate::placeholder {
+    color: ${props => props.theme.colors.moon300};
+  }
+
   &:focus {
     outline: none;
 
@@ -91,7 +96,8 @@ const InputField = styled.input`
   }
 
   &:focus,
-  &:not(:placeholder-shown) {
+  &:not(:placeholder-shown),
+  &.--no-animate {
     & + label {
       font-weight: 700;
       transform: translate(5%, -10%) scale(0.8);
@@ -129,6 +135,8 @@ const InputText = ({
   isInvalid,
   errorMessage,
   labelProps,
+  noAnimate,
+  className,
   ...rest
 }) => (
   <>
@@ -140,6 +148,7 @@ const InputText = ({
         placeholder={labelText}
         isValidated={isValidated}
         isInvalid={isInvalid}
+        className={`${className} ${noAnimate ? '--no-animate' : ''}`}
         {...rest}
       />
       <InputLabel
@@ -164,17 +173,18 @@ InputText.defaultProps = {
   labelText: 'Standard',
   isValidated: false,
   isInvalid: false,
-  disabled: false,
+  noAnimate: false,
   labelProps: {},
+  className: '',
 };
 
 InputText.propTypes = {
   inputId: PropTypes.string.isRequired,
   labelId: PropTypes.string.isRequired,
   labelText: PropTypes.string,
-  disabled: PropTypes.bool,
   isValidated: PropTypes.bool,
   isInvalid: PropTypes.bool,
+  noAnimate: PropTypes.bool,
   errorMessage: PropTypes.string,
   labelProps: PropTypes.object,
 };

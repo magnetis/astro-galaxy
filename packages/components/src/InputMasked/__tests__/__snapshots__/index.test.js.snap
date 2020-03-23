@@ -1,0 +1,2400 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputMasked renders CPF masked input 1`] = `
+.c0 {
+  border: 0;
+  padding: 0;
+  position: relative;
+}
+
+.c2 {
+  font: normal normal 400 normal 16px/1.5 Lato,sans-serif;
+  height: 4em;
+  padding: 1em;
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #8296a4;
+}
+
+.c1 {
+  background-color: #fff;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 8px;
+  color: #32383c;
+  font: normal normal 400 normal 16px/1.5 Lato,sans-serif;
+  padding: 25px 16px 5px;
+  position: relative;
+  width: 100%;
+  border-color: #597183;
+}
+
+.c1::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.c1::-moz-placeholder {
+  color: transparent;
+}
+
+.c1:-ms-input-placeholder {
+  color: transparent;
+}
+
+.c1::placeholder {
+  color: transparent;
+}
+
+.c1:focus::-webkit-input-placeholder,
+.c1.--no-animate::-webkit-input-placeholder {
+  color: #afbec9;
+}
+
+.c1:focus::-moz-placeholder,
+.c1.--no-animate::-moz-placeholder {
+  color: #afbec9;
+}
+
+.c1:focus:-ms-input-placeholder,
+.c1.--no-animate:-ms-input-placeholder {
+  color: #afbec9;
+}
+
+.c1:focus::placeholder,
+.c1.--no-animate::placeholder {
+  color: #afbec9;
+}
+
+.c1:focus {
+  outline: none;
+  border-color: #597183;
+}
+
+.c1:focus + label {
+  color: #159ce4;
+}
+
+.c1:focus,
+.c1:not(:placeholder-shown),
+.c1.--no-animate {
+  border-color: #159ce4;
+}
+
+.c1:focus + label,
+.c1:not(:placeholder-shown) + label,
+.c1.--no-animate + label {
+  font-weight: 700;
+  -webkit-transform: translate(5%,-10%) scale(0.8);
+  -ms-transform: translate(5%,-10%) scale(0.8);
+  transform: translate(5%,-10%) scale(0.8);
+}
+
+.c1 + label {
+  left: 0;
+  position: absolute;
+  top: 0;
+  -webkit-transition: -webkit-transform 0.25s,opacity 0.25s ease-in-out;
+  -webkit-transition: transform 0.25s,opacity 0.25s ease-in-out;
+  transition: transform 0.25s,opacity 0.25s ease-in-out;
+  -webkit-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+}
+
+<index
+  theme={
+    Object {
+      "buttonSizes": Object {
+        "large": Object {
+          "borderRadius": 32,
+          "fontSize": 24,
+          "lineHeight": "35px",
+          "padding": "12px 46px",
+        },
+        "medium": Object {
+          "borderRadius": 24,
+          "fontSize": 16,
+          "lineHeight": "28px",
+          "padding": "8px 38px",
+        },
+        "small": Object {
+          "borderRadius": 16,
+          "fontSize": 12,
+          "lineHeight": "18px",
+          "padding": "5px 28px",
+        },
+      },
+      "buttons": Object {
+        "ghost": Object {
+          "earth": Object {
+            "backgroundColor": "transparent",
+            "borderColor": "transparent",
+            "color": "#469d39",
+          },
+          "mars": Object {
+            "backgroundColor": "transparent",
+            "borderColor": "transparent",
+            "color": "#d45459",
+          },
+          "uranus": Object {
+            "backgroundColor": "transparent",
+            "borderColor": "transparent",
+            "color": "#159ce4",
+          },
+          "venus": Object {
+            "backgroundColor": "transparent",
+            "borderColor": "transparent",
+            "color": "#e078d6",
+          },
+        },
+        "outline": Object {
+          "earth": Object {
+            "borderColor": "#469d39",
+            "color": "#469d39",
+          },
+          "mars": Object {
+            "borderColor": "#d45459",
+            "color": "#d45459",
+          },
+          "uranus": Object {
+            "borderColor": "#159ce4",
+            "color": "#159ce4",
+          },
+          "venus": Object {
+            "borderColor": "#e078d6",
+            "color": "#e078d6",
+          },
+        },
+        "primary": Object {
+          "earth": Object {
+            "backgroundColor": "#74e24a",
+            "borderColor": "#74e24a",
+            "color": "#32383c",
+          },
+          "mars": Object {
+            "backgroundColor": "#d45459",
+            "borderColor": "#d45459",
+            "color": "#fff",
+          },
+          "uranus": Object {
+            "backgroundColor": "#159ce4",
+            "borderColor": "#159ce4",
+            "color": "#fff",
+          },
+          "venus": Object {
+            "backgroundColor": "#e078d6",
+            "borderColor": "#e078d6",
+            "color": "#fff",
+          },
+        },
+      },
+      "colors": Object {
+        "earth100": "#b8fcac",
+        "earth1000": "#084222",
+        "earth200": "#9cf184",
+        "earth300": "#88e967",
+        "earth400": "#74e24a",
+        "earth500": "#56b53f",
+        "earth600": "#469d39",
+        "earth700": "#388833",
+        "earth800": "#276f2d",
+        "earth900": "#145327",
+        "mars100": "#ffcace",
+        "mars1000": "#500508",
+        "mars200": "#f6b1b5",
+        "mars300": "#ea9297",
+        "mars400": "#dd676b",
+        "mars500": "#d45459",
+        "mars600": "#ac3c40",
+        "mars700": "#9a3135",
+        "mars800": "#7b1e22",
+        "mars900": "#651115",
+        "moon100": "#f6f7f8",
+        "moon1000": "#1c2124",
+        "moon200": "#e9eef2",
+        "moon300": "#afbec9",
+        "moon400": "#8296a4",
+        "moon500": "#597183",
+        "moon600": "#495c69",
+        "moon700": "#3f4c55",
+        "moon800": "#384248",
+        "moon900": "#32383c",
+        "space100": "#fff",
+        "space1000": "#202020",
+        "space200": "#f5f5f5",
+        "space300": "#e5e5e5",
+        "space400": "#c5c5c5",
+        "space500": "#a5a5a5",
+        "space600": "#858585",
+        "space700": "#656565",
+        "space800": "#454545",
+        "space900": "#353535",
+        "sun100": "#fffec1",
+        "sun1000": "#4b3e00",
+        "sun200": "#fbee88",
+        "sun300": "#f7e05b",
+        "sun400": "#f4d330",
+        "sun500": "#f1c500",
+        "sun600": "#cea800",
+        "sun700": "#b19100",
+        "sun800": "#8f7600",
+        "sun900": "#685500",
+        "uranus100": "#a6f7ff",
+        "uranus1000": "#182758",
+        "uranus200": "#86e3f9",
+        "uranus300": "#67cff3",
+        "uranus400": "#3db5eb",
+        "uranus500": "#159ce4",
+        "uranus600": "#147ec1",
+        "uranus700": "#1663a0",
+        "uranus800": "#16518b",
+        "uranus900": "#183a6e",
+        "venus100": "#ffc3f9",
+        "venus1000": "#5c083f",
+        "venus200": "#f0a0e9",
+        "venus300": "#e78ade",
+        "venus400": "#e078d6",
+        "venus500": "#c763ba",
+        "venus600": "#ab4b9a",
+        "venus700": "#993c85",
+        "venus800": "#842a6d",
+        "venus900": "#6b1550",
+      },
+      "fontSizes": Object {
+        "headings": Object {
+          "huge": "64px",
+          "large": "48px",
+          "medium": "40px",
+          "small": "32px",
+        },
+        "texts": Object {
+          "large": "24px",
+          "medium": "16px",
+          "small": "14px",
+          "verySmall": "12px",
+        },
+      },
+      "fonts": Object {
+        "primary": "normal normal 600 normal 16px/1.5 Poppins, sans-serif",
+        "secondary": "normal normal 400 normal 16px/1.5 Lato, sans-serif",
+      },
+      "gradients": Object {
+        "andromeda": "linear-gradient(45deg, #ea9297 0%, #e078d6 100%)",
+        "blackhole": "linear-gradient(225deg, #3f4c55 0%, #1c2124 100%)",
+        "cartwheel": "linear-gradient(45deg, #147ec1 0%, #3db5eb 100%)",
+        "centaurus": "linear-gradient(225deg, #e078d6 0%, #993c85 100%)",
+        "hoag": "linear-gradient(223.9deg, #fbee88 0%, #f1c500 100%)",
+        "mayall": "linear-gradient(225deg, #ea9297 0%, #dd676b 100%)",
+        "milkyway": "linear-gradient(44.64deg, #159ce4 0%, #e078d6 100%)",
+        "nebulosa": "linear-gradient(47.32deg, #d991e0 0%, #00c6d4 60.06%, #00ea60 100%)",
+        "pinwheel": "linear-gradient(45deg, #8296a4 0%, #bac8d1 100%)",
+        "sombrero": "linear-gradient(45.52deg, #9cf184 0%, #3db5eb 100%)",
+        "whirlpool": "linear-gradient(225deg, #9cf184 0%, #56b53f 100%)",
+      },
+      "lineHeights": Array [
+        0,
+        "18px",
+        "28px",
+        "35px",
+      ],
+      "radii": Array [
+        0,
+        2,
+        8,
+        16,
+        24,
+        32,
+      ],
+      "sizes": Array [
+        0,
+        "8px",
+        "18px",
+      ],
+      "space": Array [
+        0,
+        8,
+        16,
+        24,
+        32,
+        40,
+        48,
+        64,
+      ],
+      "zIndices": Array [
+        0,
+        10,
+        20,
+        30,
+        40,
+        50,
+        60,
+        70,
+        80,
+        90,
+        100,
+      ],
+    }
+  }
+>
+  <ThemeProvider
+    theme={
+      Object {
+        "buttonSizes": Object {
+          "large": Object {
+            "borderRadius": 32,
+            "fontSize": 24,
+            "lineHeight": "35px",
+            "padding": "12px 46px",
+          },
+          "medium": Object {
+            "borderRadius": 24,
+            "fontSize": 16,
+            "lineHeight": "28px",
+            "padding": "8px 38px",
+          },
+          "small": Object {
+            "borderRadius": 16,
+            "fontSize": 12,
+            "lineHeight": "18px",
+            "padding": "5px 28px",
+          },
+        },
+        "buttons": Object {
+          "ghost": Object {
+            "earth": Object {
+              "backgroundColor": "transparent",
+              "borderColor": "transparent",
+              "color": "#469d39",
+            },
+            "mars": Object {
+              "backgroundColor": "transparent",
+              "borderColor": "transparent",
+              "color": "#d45459",
+            },
+            "uranus": Object {
+              "backgroundColor": "transparent",
+              "borderColor": "transparent",
+              "color": "#159ce4",
+            },
+            "venus": Object {
+              "backgroundColor": "transparent",
+              "borderColor": "transparent",
+              "color": "#e078d6",
+            },
+          },
+          "outline": Object {
+            "earth": Object {
+              "borderColor": "#469d39",
+              "color": "#469d39",
+            },
+            "mars": Object {
+              "borderColor": "#d45459",
+              "color": "#d45459",
+            },
+            "uranus": Object {
+              "borderColor": "#159ce4",
+              "color": "#159ce4",
+            },
+            "venus": Object {
+              "borderColor": "#e078d6",
+              "color": "#e078d6",
+            },
+          },
+          "primary": Object {
+            "earth": Object {
+              "backgroundColor": "#74e24a",
+              "borderColor": "#74e24a",
+              "color": "#32383c",
+            },
+            "mars": Object {
+              "backgroundColor": "#d45459",
+              "borderColor": "#d45459",
+              "color": "#fff",
+            },
+            "uranus": Object {
+              "backgroundColor": "#159ce4",
+              "borderColor": "#159ce4",
+              "color": "#fff",
+            },
+            "venus": Object {
+              "backgroundColor": "#e078d6",
+              "borderColor": "#e078d6",
+              "color": "#fff",
+            },
+          },
+        },
+        "colors": Object {
+          "earth100": "#b8fcac",
+          "earth1000": "#084222",
+          "earth200": "#9cf184",
+          "earth300": "#88e967",
+          "earth400": "#74e24a",
+          "earth500": "#56b53f",
+          "earth600": "#469d39",
+          "earth700": "#388833",
+          "earth800": "#276f2d",
+          "earth900": "#145327",
+          "mars100": "#ffcace",
+          "mars1000": "#500508",
+          "mars200": "#f6b1b5",
+          "mars300": "#ea9297",
+          "mars400": "#dd676b",
+          "mars500": "#d45459",
+          "mars600": "#ac3c40",
+          "mars700": "#9a3135",
+          "mars800": "#7b1e22",
+          "mars900": "#651115",
+          "moon100": "#f6f7f8",
+          "moon1000": "#1c2124",
+          "moon200": "#e9eef2",
+          "moon300": "#afbec9",
+          "moon400": "#8296a4",
+          "moon500": "#597183",
+          "moon600": "#495c69",
+          "moon700": "#3f4c55",
+          "moon800": "#384248",
+          "moon900": "#32383c",
+          "space100": "#fff",
+          "space1000": "#202020",
+          "space200": "#f5f5f5",
+          "space300": "#e5e5e5",
+          "space400": "#c5c5c5",
+          "space500": "#a5a5a5",
+          "space600": "#858585",
+          "space700": "#656565",
+          "space800": "#454545",
+          "space900": "#353535",
+          "sun100": "#fffec1",
+          "sun1000": "#4b3e00",
+          "sun200": "#fbee88",
+          "sun300": "#f7e05b",
+          "sun400": "#f4d330",
+          "sun500": "#f1c500",
+          "sun600": "#cea800",
+          "sun700": "#b19100",
+          "sun800": "#8f7600",
+          "sun900": "#685500",
+          "uranus100": "#a6f7ff",
+          "uranus1000": "#182758",
+          "uranus200": "#86e3f9",
+          "uranus300": "#67cff3",
+          "uranus400": "#3db5eb",
+          "uranus500": "#159ce4",
+          "uranus600": "#147ec1",
+          "uranus700": "#1663a0",
+          "uranus800": "#16518b",
+          "uranus900": "#183a6e",
+          "venus100": "#ffc3f9",
+          "venus1000": "#5c083f",
+          "venus200": "#f0a0e9",
+          "venus300": "#e78ade",
+          "venus400": "#e078d6",
+          "venus500": "#c763ba",
+          "venus600": "#ab4b9a",
+          "venus700": "#993c85",
+          "venus800": "#842a6d",
+          "venus900": "#6b1550",
+        },
+        "fontSizes": Object {
+          "headings": Object {
+            "huge": "64px",
+            "large": "48px",
+            "medium": "40px",
+            "small": "32px",
+          },
+          "texts": Object {
+            "large": "24px",
+            "medium": "16px",
+            "small": "14px",
+            "verySmall": "12px",
+          },
+        },
+        "fonts": Object {
+          "primary": "normal normal 600 normal 16px/1.5 Poppins, sans-serif",
+          "secondary": "normal normal 400 normal 16px/1.5 Lato, sans-serif",
+        },
+        "gradients": Object {
+          "andromeda": "linear-gradient(45deg, #ea9297 0%, #e078d6 100%)",
+          "blackhole": "linear-gradient(225deg, #3f4c55 0%, #1c2124 100%)",
+          "cartwheel": "linear-gradient(45deg, #147ec1 0%, #3db5eb 100%)",
+          "centaurus": "linear-gradient(225deg, #e078d6 0%, #993c85 100%)",
+          "hoag": "linear-gradient(223.9deg, #fbee88 0%, #f1c500 100%)",
+          "mayall": "linear-gradient(225deg, #ea9297 0%, #dd676b 100%)",
+          "milkyway": "linear-gradient(44.64deg, #159ce4 0%, #e078d6 100%)",
+          "nebulosa": "linear-gradient(47.32deg, #d991e0 0%, #00c6d4 60.06%, #00ea60 100%)",
+          "pinwheel": "linear-gradient(45deg, #8296a4 0%, #bac8d1 100%)",
+          "sombrero": "linear-gradient(45.52deg, #9cf184 0%, #3db5eb 100%)",
+          "whirlpool": "linear-gradient(225deg, #9cf184 0%, #56b53f 100%)",
+        },
+        "lineHeights": Array [
+          0,
+          "18px",
+          "28px",
+          "35px",
+        ],
+        "radii": Array [
+          0,
+          2,
+          8,
+          16,
+          24,
+          32,
+        ],
+        "sizes": Array [
+          0,
+          "8px",
+          "18px",
+        ],
+        "space": Array [
+          0,
+          8,
+          16,
+          24,
+          32,
+          40,
+          48,
+          64,
+        ],
+        "zIndices": Array [
+          0,
+          10,
+          20,
+          30,
+          40,
+          50,
+          60,
+          70,
+          80,
+          90,
+          100,
+        ],
+      }
+    }
+  >
+    <GlobalStyleComponent />
+    <InputMasked
+      className=""
+      inputId="inputId"
+      isInvalid={false}
+      isValidated={false}
+      labelId="labelId"
+      labelProps={Object {}}
+      labelText="Standard"
+      mask=""
+      maskPlaceholder=""
+      maskType={
+        Object {
+          "mask": "999.999.999-99",
+          "placeholder": "000.000.000-00",
+        }
+      }
+      noAnimate={true}
+    >
+      <InputMask
+        alwaysShowMask={false}
+        mask="999.999.999-99"
+        maskPlaceholder=""
+      >
+        <InputMaskChildrenWrapper
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onMouseDown={[Function]}
+        >
+          <InputText
+            className=""
+            inputId="inputId"
+            isInvalid={false}
+            isValidated={false}
+            labelId="labelId"
+            labelProps={Object {}}
+            labelText="Standard"
+            noAnimate={true}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            onMouseDown={[Function]}
+            placeholder="000.000.000-00"
+          >
+            <InputText__InputWrapper>
+              <StyledComponent
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "InputText__InputWrapper-bgwxz4-0",
+                      "isStatic": false,
+                      "lastClassName": "c0",
+                      "rules": Array [
+                        "border:0;padding:0;position:relative;",
+                        [Function],
+                        ";",
+                        [Function],
+                        ";",
+                      ],
+                    },
+                    "displayName": "InputText__InputWrapper",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "InputText__InputWrapper-bgwxz4-0",
+                    "target": "fieldset",
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+              >
+                <fieldset
+                  className="c0"
+                >
+                  <InputText__InputField
+                    aria-labelledby="labelId"
+                    className=" --no-animate"
+                    id="inputId"
+                    isInvalid={false}
+                    isValidated={false}
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    onMouseDown={[Function]}
+                    placeholder="000.000.000-00"
+                    type="text"
+                  >
+                    <StyledComponent
+                      aria-labelledby="labelId"
+                      className=" --no-animate"
+                      forwardedComponent={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": Array [],
+                          "componentStyle": ComponentStyle {
+                            "componentId": "InputText__InputField-bgwxz4-2",
+                            "isStatic": false,
+                            "lastClassName": "c1",
+                            "rules": Array [
+                              "background-color:",
+                              [Function],
+                              ";border-width:1px;border-style:solid;border-radius:8px;color:",
+                              [Function],
+                              ";font:",
+                              [Function],
+                              ";padding:25px 16px 5px;position:relative;width:100%;",
+                              [Function],
+                              ";&::placeholder{color:transparent;}&:focus::placeholder,&.--no-animate::placeholder{color:",
+                              [Function],
+                              ";}&:focus{outline:none;",
+                              [Function],
+                              ";}&:focus + label{",
+                              [Function],
+                              ";}&:focus,&:not(:placeholder-shown),&.--no-animate{& + label{font-weight:700;transform:translate(5%,-10%) scale(0.8);}",
+                              [Function],
+                              ";}& + label{left:0;position:absolute;top:0;transition:transform 0.25s,opacity 0.25s ease-in-out;transform-origin:0 0;}",
+                            ],
+                          },
+                          "displayName": "InputText__InputField",
+                          "foldedComponentIds": Array [],
+                          "render": [Function],
+                          "styledComponentId": "InputText__InputField-bgwxz4-2",
+                          "target": "input",
+                          "toString": [Function],
+                          "warnTooManyClasses": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                      id="inputId"
+                      isInvalid={false}
+                      isValidated={false}
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      onMouseDown={[Function]}
+                      placeholder="000.000.000-00"
+                      type="text"
+                    >
+                      <input
+                        aria-labelledby="labelId"
+                        className="c1  --no-animate"
+                        id="inputId"
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onFocus={[Function]}
+                        onMouseDown={[Function]}
+                        placeholder="000.000.000-00"
+                        type="text"
+                      />
+                    </StyledComponent>
+                  </InputText__InputField>
+                  <InputText__InputLabel
+                    htmlFor="inputId"
+                    id="labelId"
+                    isInvalid={false}
+                    isValidated={false}
+                  >
+                    <StyledComponent
+                      forwardedComponent={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": Array [],
+                          "componentStyle": ComponentStyle {
+                            "componentId": "InputText__InputLabel-bgwxz4-1",
+                            "isStatic": false,
+                            "lastClassName": "c2",
+                            "rules": Array [
+                              "font:",
+                              [Function],
+                              ";height:4em;padding:1em;pointer-events:none;user-select:none;",
+                              [Function],
+                              ";",
+                            ],
+                          },
+                          "displayName": "InputText__InputLabel",
+                          "foldedComponentIds": Array [],
+                          "render": [Function],
+                          "styledComponentId": "InputText__InputLabel-bgwxz4-1",
+                          "target": "label",
+                          "toString": [Function],
+                          "warnTooManyClasses": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                      htmlFor="inputId"
+                      id="labelId"
+                      isInvalid={false}
+                      isValidated={false}
+                    >
+                      <label
+                        className="c2"
+                        htmlFor="inputId"
+                        id="labelId"
+                      >
+                        Standard
+                      </label>
+                    </StyledComponent>
+                  </InputText__InputLabel>
+                </fieldset>
+              </StyledComponent>
+            </InputText__InputWrapper>
+          </InputText>
+        </InputMaskChildrenWrapper>
+      </InputMask>
+    </InputMasked>
+  </ThemeProvider>
+</index>
+`;
+
+exports[`InputMasked renders currency masked input 1`] = `
+.c0 {
+  border: 0;
+  padding: 0;
+  position: relative;
+}
+
+.c2 {
+  font: normal normal 400 normal 16px/1.5 Lato,sans-serif;
+  height: 4em;
+  padding: 1em;
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #8296a4;
+}
+
+.c1 {
+  background-color: #fff;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 8px;
+  color: #32383c;
+  font: normal normal 400 normal 16px/1.5 Lato,sans-serif;
+  padding: 25px 16px 5px;
+  position: relative;
+  width: 100%;
+  border-color: #597183;
+}
+
+.c1::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.c1::-moz-placeholder {
+  color: transparent;
+}
+
+.c1:-ms-input-placeholder {
+  color: transparent;
+}
+
+.c1::placeholder {
+  color: transparent;
+}
+
+.c1:focus::-webkit-input-placeholder,
+.c1.--no-animate::-webkit-input-placeholder {
+  color: #afbec9;
+}
+
+.c1:focus::-moz-placeholder,
+.c1.--no-animate::-moz-placeholder {
+  color: #afbec9;
+}
+
+.c1:focus:-ms-input-placeholder,
+.c1.--no-animate:-ms-input-placeholder {
+  color: #afbec9;
+}
+
+.c1:focus::placeholder,
+.c1.--no-animate::placeholder {
+  color: #afbec9;
+}
+
+.c1:focus {
+  outline: none;
+  border-color: #597183;
+}
+
+.c1:focus + label {
+  color: #159ce4;
+}
+
+.c1:focus,
+.c1:not(:placeholder-shown),
+.c1.--no-animate {
+  border-color: #159ce4;
+}
+
+.c1:focus + label,
+.c1:not(:placeholder-shown) + label,
+.c1.--no-animate + label {
+  font-weight: 700;
+  -webkit-transform: translate(5%,-10%) scale(0.8);
+  -ms-transform: translate(5%,-10%) scale(0.8);
+  transform: translate(5%,-10%) scale(0.8);
+}
+
+.c1 + label {
+  left: 0;
+  position: absolute;
+  top: 0;
+  -webkit-transition: -webkit-transform 0.25s,opacity 0.25s ease-in-out;
+  -webkit-transition: transform 0.25s,opacity 0.25s ease-in-out;
+  transition: transform 0.25s,opacity 0.25s ease-in-out;
+  -webkit-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+}
+
+<index
+  theme={
+    Object {
+      "buttonSizes": Object {
+        "large": Object {
+          "borderRadius": 32,
+          "fontSize": 24,
+          "lineHeight": "35px",
+          "padding": "12px 46px",
+        },
+        "medium": Object {
+          "borderRadius": 24,
+          "fontSize": 16,
+          "lineHeight": "28px",
+          "padding": "8px 38px",
+        },
+        "small": Object {
+          "borderRadius": 16,
+          "fontSize": 12,
+          "lineHeight": "18px",
+          "padding": "5px 28px",
+        },
+      },
+      "buttons": Object {
+        "ghost": Object {
+          "earth": Object {
+            "backgroundColor": "transparent",
+            "borderColor": "transparent",
+            "color": "#469d39",
+          },
+          "mars": Object {
+            "backgroundColor": "transparent",
+            "borderColor": "transparent",
+            "color": "#d45459",
+          },
+          "uranus": Object {
+            "backgroundColor": "transparent",
+            "borderColor": "transparent",
+            "color": "#159ce4",
+          },
+          "venus": Object {
+            "backgroundColor": "transparent",
+            "borderColor": "transparent",
+            "color": "#e078d6",
+          },
+        },
+        "outline": Object {
+          "earth": Object {
+            "borderColor": "#469d39",
+            "color": "#469d39",
+          },
+          "mars": Object {
+            "borderColor": "#d45459",
+            "color": "#d45459",
+          },
+          "uranus": Object {
+            "borderColor": "#159ce4",
+            "color": "#159ce4",
+          },
+          "venus": Object {
+            "borderColor": "#e078d6",
+            "color": "#e078d6",
+          },
+        },
+        "primary": Object {
+          "earth": Object {
+            "backgroundColor": "#74e24a",
+            "borderColor": "#74e24a",
+            "color": "#32383c",
+          },
+          "mars": Object {
+            "backgroundColor": "#d45459",
+            "borderColor": "#d45459",
+            "color": "#fff",
+          },
+          "uranus": Object {
+            "backgroundColor": "#159ce4",
+            "borderColor": "#159ce4",
+            "color": "#fff",
+          },
+          "venus": Object {
+            "backgroundColor": "#e078d6",
+            "borderColor": "#e078d6",
+            "color": "#fff",
+          },
+        },
+      },
+      "colors": Object {
+        "earth100": "#b8fcac",
+        "earth1000": "#084222",
+        "earth200": "#9cf184",
+        "earth300": "#88e967",
+        "earth400": "#74e24a",
+        "earth500": "#56b53f",
+        "earth600": "#469d39",
+        "earth700": "#388833",
+        "earth800": "#276f2d",
+        "earth900": "#145327",
+        "mars100": "#ffcace",
+        "mars1000": "#500508",
+        "mars200": "#f6b1b5",
+        "mars300": "#ea9297",
+        "mars400": "#dd676b",
+        "mars500": "#d45459",
+        "mars600": "#ac3c40",
+        "mars700": "#9a3135",
+        "mars800": "#7b1e22",
+        "mars900": "#651115",
+        "moon100": "#f6f7f8",
+        "moon1000": "#1c2124",
+        "moon200": "#e9eef2",
+        "moon300": "#afbec9",
+        "moon400": "#8296a4",
+        "moon500": "#597183",
+        "moon600": "#495c69",
+        "moon700": "#3f4c55",
+        "moon800": "#384248",
+        "moon900": "#32383c",
+        "space100": "#fff",
+        "space1000": "#202020",
+        "space200": "#f5f5f5",
+        "space300": "#e5e5e5",
+        "space400": "#c5c5c5",
+        "space500": "#a5a5a5",
+        "space600": "#858585",
+        "space700": "#656565",
+        "space800": "#454545",
+        "space900": "#353535",
+        "sun100": "#fffec1",
+        "sun1000": "#4b3e00",
+        "sun200": "#fbee88",
+        "sun300": "#f7e05b",
+        "sun400": "#f4d330",
+        "sun500": "#f1c500",
+        "sun600": "#cea800",
+        "sun700": "#b19100",
+        "sun800": "#8f7600",
+        "sun900": "#685500",
+        "uranus100": "#a6f7ff",
+        "uranus1000": "#182758",
+        "uranus200": "#86e3f9",
+        "uranus300": "#67cff3",
+        "uranus400": "#3db5eb",
+        "uranus500": "#159ce4",
+        "uranus600": "#147ec1",
+        "uranus700": "#1663a0",
+        "uranus800": "#16518b",
+        "uranus900": "#183a6e",
+        "venus100": "#ffc3f9",
+        "venus1000": "#5c083f",
+        "venus200": "#f0a0e9",
+        "venus300": "#e78ade",
+        "venus400": "#e078d6",
+        "venus500": "#c763ba",
+        "venus600": "#ab4b9a",
+        "venus700": "#993c85",
+        "venus800": "#842a6d",
+        "venus900": "#6b1550",
+      },
+      "fontSizes": Object {
+        "headings": Object {
+          "huge": "64px",
+          "large": "48px",
+          "medium": "40px",
+          "small": "32px",
+        },
+        "texts": Object {
+          "large": "24px",
+          "medium": "16px",
+          "small": "14px",
+          "verySmall": "12px",
+        },
+      },
+      "fonts": Object {
+        "primary": "normal normal 600 normal 16px/1.5 Poppins, sans-serif",
+        "secondary": "normal normal 400 normal 16px/1.5 Lato, sans-serif",
+      },
+      "gradients": Object {
+        "andromeda": "linear-gradient(45deg, #ea9297 0%, #e078d6 100%)",
+        "blackhole": "linear-gradient(225deg, #3f4c55 0%, #1c2124 100%)",
+        "cartwheel": "linear-gradient(45deg, #147ec1 0%, #3db5eb 100%)",
+        "centaurus": "linear-gradient(225deg, #e078d6 0%, #993c85 100%)",
+        "hoag": "linear-gradient(223.9deg, #fbee88 0%, #f1c500 100%)",
+        "mayall": "linear-gradient(225deg, #ea9297 0%, #dd676b 100%)",
+        "milkyway": "linear-gradient(44.64deg, #159ce4 0%, #e078d6 100%)",
+        "nebulosa": "linear-gradient(47.32deg, #d991e0 0%, #00c6d4 60.06%, #00ea60 100%)",
+        "pinwheel": "linear-gradient(45deg, #8296a4 0%, #bac8d1 100%)",
+        "sombrero": "linear-gradient(45.52deg, #9cf184 0%, #3db5eb 100%)",
+        "whirlpool": "linear-gradient(225deg, #9cf184 0%, #56b53f 100%)",
+      },
+      "lineHeights": Array [
+        0,
+        "18px",
+        "28px",
+        "35px",
+      ],
+      "radii": Array [
+        0,
+        2,
+        8,
+        16,
+        24,
+        32,
+      ],
+      "sizes": Array [
+        0,
+        "8px",
+        "18px",
+      ],
+      "space": Array [
+        0,
+        8,
+        16,
+        24,
+        32,
+        40,
+        48,
+        64,
+      ],
+      "zIndices": Array [
+        0,
+        10,
+        20,
+        30,
+        40,
+        50,
+        60,
+        70,
+        80,
+        90,
+        100,
+      ],
+    }
+  }
+>
+  <ThemeProvider
+    theme={
+      Object {
+        "buttonSizes": Object {
+          "large": Object {
+            "borderRadius": 32,
+            "fontSize": 24,
+            "lineHeight": "35px",
+            "padding": "12px 46px",
+          },
+          "medium": Object {
+            "borderRadius": 24,
+            "fontSize": 16,
+            "lineHeight": "28px",
+            "padding": "8px 38px",
+          },
+          "small": Object {
+            "borderRadius": 16,
+            "fontSize": 12,
+            "lineHeight": "18px",
+            "padding": "5px 28px",
+          },
+        },
+        "buttons": Object {
+          "ghost": Object {
+            "earth": Object {
+              "backgroundColor": "transparent",
+              "borderColor": "transparent",
+              "color": "#469d39",
+            },
+            "mars": Object {
+              "backgroundColor": "transparent",
+              "borderColor": "transparent",
+              "color": "#d45459",
+            },
+            "uranus": Object {
+              "backgroundColor": "transparent",
+              "borderColor": "transparent",
+              "color": "#159ce4",
+            },
+            "venus": Object {
+              "backgroundColor": "transparent",
+              "borderColor": "transparent",
+              "color": "#e078d6",
+            },
+          },
+          "outline": Object {
+            "earth": Object {
+              "borderColor": "#469d39",
+              "color": "#469d39",
+            },
+            "mars": Object {
+              "borderColor": "#d45459",
+              "color": "#d45459",
+            },
+            "uranus": Object {
+              "borderColor": "#159ce4",
+              "color": "#159ce4",
+            },
+            "venus": Object {
+              "borderColor": "#e078d6",
+              "color": "#e078d6",
+            },
+          },
+          "primary": Object {
+            "earth": Object {
+              "backgroundColor": "#74e24a",
+              "borderColor": "#74e24a",
+              "color": "#32383c",
+            },
+            "mars": Object {
+              "backgroundColor": "#d45459",
+              "borderColor": "#d45459",
+              "color": "#fff",
+            },
+            "uranus": Object {
+              "backgroundColor": "#159ce4",
+              "borderColor": "#159ce4",
+              "color": "#fff",
+            },
+            "venus": Object {
+              "backgroundColor": "#e078d6",
+              "borderColor": "#e078d6",
+              "color": "#fff",
+            },
+          },
+        },
+        "colors": Object {
+          "earth100": "#b8fcac",
+          "earth1000": "#084222",
+          "earth200": "#9cf184",
+          "earth300": "#88e967",
+          "earth400": "#74e24a",
+          "earth500": "#56b53f",
+          "earth600": "#469d39",
+          "earth700": "#388833",
+          "earth800": "#276f2d",
+          "earth900": "#145327",
+          "mars100": "#ffcace",
+          "mars1000": "#500508",
+          "mars200": "#f6b1b5",
+          "mars300": "#ea9297",
+          "mars400": "#dd676b",
+          "mars500": "#d45459",
+          "mars600": "#ac3c40",
+          "mars700": "#9a3135",
+          "mars800": "#7b1e22",
+          "mars900": "#651115",
+          "moon100": "#f6f7f8",
+          "moon1000": "#1c2124",
+          "moon200": "#e9eef2",
+          "moon300": "#afbec9",
+          "moon400": "#8296a4",
+          "moon500": "#597183",
+          "moon600": "#495c69",
+          "moon700": "#3f4c55",
+          "moon800": "#384248",
+          "moon900": "#32383c",
+          "space100": "#fff",
+          "space1000": "#202020",
+          "space200": "#f5f5f5",
+          "space300": "#e5e5e5",
+          "space400": "#c5c5c5",
+          "space500": "#a5a5a5",
+          "space600": "#858585",
+          "space700": "#656565",
+          "space800": "#454545",
+          "space900": "#353535",
+          "sun100": "#fffec1",
+          "sun1000": "#4b3e00",
+          "sun200": "#fbee88",
+          "sun300": "#f7e05b",
+          "sun400": "#f4d330",
+          "sun500": "#f1c500",
+          "sun600": "#cea800",
+          "sun700": "#b19100",
+          "sun800": "#8f7600",
+          "sun900": "#685500",
+          "uranus100": "#a6f7ff",
+          "uranus1000": "#182758",
+          "uranus200": "#86e3f9",
+          "uranus300": "#67cff3",
+          "uranus400": "#3db5eb",
+          "uranus500": "#159ce4",
+          "uranus600": "#147ec1",
+          "uranus700": "#1663a0",
+          "uranus800": "#16518b",
+          "uranus900": "#183a6e",
+          "venus100": "#ffc3f9",
+          "venus1000": "#5c083f",
+          "venus200": "#f0a0e9",
+          "venus300": "#e78ade",
+          "venus400": "#e078d6",
+          "venus500": "#c763ba",
+          "venus600": "#ab4b9a",
+          "venus700": "#993c85",
+          "venus800": "#842a6d",
+          "venus900": "#6b1550",
+        },
+        "fontSizes": Object {
+          "headings": Object {
+            "huge": "64px",
+            "large": "48px",
+            "medium": "40px",
+            "small": "32px",
+          },
+          "texts": Object {
+            "large": "24px",
+            "medium": "16px",
+            "small": "14px",
+            "verySmall": "12px",
+          },
+        },
+        "fonts": Object {
+          "primary": "normal normal 600 normal 16px/1.5 Poppins, sans-serif",
+          "secondary": "normal normal 400 normal 16px/1.5 Lato, sans-serif",
+        },
+        "gradients": Object {
+          "andromeda": "linear-gradient(45deg, #ea9297 0%, #e078d6 100%)",
+          "blackhole": "linear-gradient(225deg, #3f4c55 0%, #1c2124 100%)",
+          "cartwheel": "linear-gradient(45deg, #147ec1 0%, #3db5eb 100%)",
+          "centaurus": "linear-gradient(225deg, #e078d6 0%, #993c85 100%)",
+          "hoag": "linear-gradient(223.9deg, #fbee88 0%, #f1c500 100%)",
+          "mayall": "linear-gradient(225deg, #ea9297 0%, #dd676b 100%)",
+          "milkyway": "linear-gradient(44.64deg, #159ce4 0%, #e078d6 100%)",
+          "nebulosa": "linear-gradient(47.32deg, #d991e0 0%, #00c6d4 60.06%, #00ea60 100%)",
+          "pinwheel": "linear-gradient(45deg, #8296a4 0%, #bac8d1 100%)",
+          "sombrero": "linear-gradient(45.52deg, #9cf184 0%, #3db5eb 100%)",
+          "whirlpool": "linear-gradient(225deg, #9cf184 0%, #56b53f 100%)",
+        },
+        "lineHeights": Array [
+          0,
+          "18px",
+          "28px",
+          "35px",
+        ],
+        "radii": Array [
+          0,
+          2,
+          8,
+          16,
+          24,
+          32,
+        ],
+        "sizes": Array [
+          0,
+          "8px",
+          "18px",
+        ],
+        "space": Array [
+          0,
+          8,
+          16,
+          24,
+          32,
+          40,
+          48,
+          64,
+        ],
+        "zIndices": Array [
+          0,
+          10,
+          20,
+          30,
+          40,
+          50,
+          60,
+          70,
+          80,
+          90,
+          100,
+        ],
+      }
+    }
+  >
+    <GlobalStyleComponent />
+    <InputMasked
+      className=""
+      inputId="inputId"
+      isInvalid={false}
+      isValidated={false}
+      labelId="labelId"
+      labelProps={Object {}}
+      labelText="Standard"
+      mask=""
+      maskPlaceholder=""
+      maskType={
+        Object {
+          "mask": "",
+          "placeholder": "0,00",
+        }
+      }
+      noAnimate={true}
+    >
+      <NumberFormat
+        allowEmptyFormatting={false}
+        allowLeadingZeros={false}
+        allowNegative={true}
+        customInput={[Function]}
+        decimalScale={2}
+        decimalSeparator=","
+        displayType="input"
+        fixedDecimalScale={false}
+        inputId="inputId"
+        isAllowed={[Function]}
+        isInvalid={false}
+        isNumericString={false}
+        isValidated={false}
+        labelId="labelId"
+        labelProps={Object {}}
+        labelText="Standard"
+        noAnimate={true}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onMouseUp={[Function]}
+        onValueChange={[Function]}
+        placeholder="0,00"
+        prefix=""
+        suffix=""
+        thousandSeparator="."
+        thousandsGroupStyle="thousand"
+        type="text"
+      >
+        <InputText
+          className=""
+          inputId="inputId"
+          inputMode="numeric"
+          isInvalid={false}
+          isValidated={false}
+          labelId="labelId"
+          labelProps={Object {}}
+          labelText="Standard"
+          noAnimate={true}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onMouseUp={[Function]}
+          placeholder="0,00"
+          type="text"
+          value=""
+        >
+          <InputText__InputWrapper>
+            <StyledComponent
+              forwardedComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": Array [],
+                  "componentStyle": ComponentStyle {
+                    "componentId": "InputText__InputWrapper-bgwxz4-0",
+                    "isStatic": false,
+                    "lastClassName": "c0",
+                    "rules": Array [
+                      "border:0;padding:0;position:relative;",
+                      [Function],
+                      ";",
+                      [Function],
+                      ";",
+                    ],
+                  },
+                  "displayName": "InputText__InputWrapper",
+                  "foldedComponentIds": Array [],
+                  "render": [Function],
+                  "styledComponentId": "InputText__InputWrapper-bgwxz4-0",
+                  "target": "fieldset",
+                  "toString": [Function],
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+            >
+              <fieldset
+                className="c0"
+              >
+                <InputText__InputField
+                  aria-labelledby="labelId"
+                  className=" --no-animate"
+                  id="inputId"
+                  inputMode="numeric"
+                  isInvalid={false}
+                  isValidated={false}
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  onMouseUp={[Function]}
+                  placeholder="0,00"
+                  type="text"
+                  value=""
+                >
+                  <StyledComponent
+                    aria-labelledby="labelId"
+                    className=" --no-animate"
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "InputText__InputField-bgwxz4-2",
+                          "isStatic": false,
+                          "lastClassName": "c1",
+                          "rules": Array [
+                            "background-color:",
+                            [Function],
+                            ";border-width:1px;border-style:solid;border-radius:8px;color:",
+                            [Function],
+                            ";font:",
+                            [Function],
+                            ";padding:25px 16px 5px;position:relative;width:100%;",
+                            [Function],
+                            ";&::placeholder{color:transparent;}&:focus::placeholder,&.--no-animate::placeholder{color:",
+                            [Function],
+                            ";}&:focus{outline:none;",
+                            [Function],
+                            ";}&:focus + label{",
+                            [Function],
+                            ";}&:focus,&:not(:placeholder-shown),&.--no-animate{& + label{font-weight:700;transform:translate(5%,-10%) scale(0.8);}",
+                            [Function],
+                            ";}& + label{left:0;position:absolute;top:0;transition:transform 0.25s,opacity 0.25s ease-in-out;transform-origin:0 0;}",
+                          ],
+                        },
+                        "displayName": "InputText__InputField",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "InputText__InputField-bgwxz4-2",
+                        "target": "input",
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                    id="inputId"
+                    inputMode="numeric"
+                    isInvalid={false}
+                    isValidated={false}
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    onMouseUp={[Function]}
+                    placeholder="0,00"
+                    type="text"
+                    value=""
+                  >
+                    <input
+                      aria-labelledby="labelId"
+                      className="c1  --no-animate"
+                      id="inputId"
+                      inputMode="numeric"
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onMouseUp={[Function]}
+                      placeholder="0,00"
+                      type="text"
+                      value=""
+                    />
+                  </StyledComponent>
+                </InputText__InputField>
+                <InputText__InputLabel
+                  htmlFor="inputId"
+                  id="labelId"
+                  isInvalid={false}
+                  isValidated={false}
+                >
+                  <StyledComponent
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "InputText__InputLabel-bgwxz4-1",
+                          "isStatic": false,
+                          "lastClassName": "c2",
+                          "rules": Array [
+                            "font:",
+                            [Function],
+                            ";height:4em;padding:1em;pointer-events:none;user-select:none;",
+                            [Function],
+                            ";",
+                          ],
+                        },
+                        "displayName": "InputText__InputLabel",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "InputText__InputLabel-bgwxz4-1",
+                        "target": "label",
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+                    htmlFor="inputId"
+                    id="labelId"
+                    isInvalid={false}
+                    isValidated={false}
+                  >
+                    <label
+                      className="c2"
+                      htmlFor="inputId"
+                      id="labelId"
+                    >
+                      Standard
+                    </label>
+                  </StyledComponent>
+                </InputText__InputLabel>
+              </fieldset>
+            </StyledComponent>
+          </InputText__InputWrapper>
+        </InputText>
+      </NumberFormat>
+    </InputMasked>
+  </ThemeProvider>
+</index>
+`;
+
+exports[`InputMasked renders date masked input 1`] = `
+.c0 {
+  border: 0;
+  padding: 0;
+  position: relative;
+}
+
+.c2 {
+  font: normal normal 400 normal 16px/1.5 Lato,sans-serif;
+  height: 4em;
+  padding: 1em;
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #8296a4;
+}
+
+.c1 {
+  background-color: #fff;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 8px;
+  color: #32383c;
+  font: normal normal 400 normal 16px/1.5 Lato,sans-serif;
+  padding: 25px 16px 5px;
+  position: relative;
+  width: 100%;
+  border-color: #597183;
+}
+
+.c1::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.c1::-moz-placeholder {
+  color: transparent;
+}
+
+.c1:-ms-input-placeholder {
+  color: transparent;
+}
+
+.c1::placeholder {
+  color: transparent;
+}
+
+.c1:focus::-webkit-input-placeholder,
+.c1.--no-animate::-webkit-input-placeholder {
+  color: #afbec9;
+}
+
+.c1:focus::-moz-placeholder,
+.c1.--no-animate::-moz-placeholder {
+  color: #afbec9;
+}
+
+.c1:focus:-ms-input-placeholder,
+.c1.--no-animate:-ms-input-placeholder {
+  color: #afbec9;
+}
+
+.c1:focus::placeholder,
+.c1.--no-animate::placeholder {
+  color: #afbec9;
+}
+
+.c1:focus {
+  outline: none;
+  border-color: #597183;
+}
+
+.c1:focus + label {
+  color: #159ce4;
+}
+
+.c1:focus,
+.c1:not(:placeholder-shown),
+.c1.--no-animate {
+  border-color: #159ce4;
+}
+
+.c1:focus + label,
+.c1:not(:placeholder-shown) + label,
+.c1.--no-animate + label {
+  font-weight: 700;
+  -webkit-transform: translate(5%,-10%) scale(0.8);
+  -ms-transform: translate(5%,-10%) scale(0.8);
+  transform: translate(5%,-10%) scale(0.8);
+}
+
+.c1 + label {
+  left: 0;
+  position: absolute;
+  top: 0;
+  -webkit-transition: -webkit-transform 0.25s,opacity 0.25s ease-in-out;
+  -webkit-transition: transform 0.25s,opacity 0.25s ease-in-out;
+  transition: transform 0.25s,opacity 0.25s ease-in-out;
+  -webkit-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+}
+
+<index
+  theme={
+    Object {
+      "buttonSizes": Object {
+        "large": Object {
+          "borderRadius": 32,
+          "fontSize": 24,
+          "lineHeight": "35px",
+          "padding": "12px 46px",
+        },
+        "medium": Object {
+          "borderRadius": 24,
+          "fontSize": 16,
+          "lineHeight": "28px",
+          "padding": "8px 38px",
+        },
+        "small": Object {
+          "borderRadius": 16,
+          "fontSize": 12,
+          "lineHeight": "18px",
+          "padding": "5px 28px",
+        },
+      },
+      "buttons": Object {
+        "ghost": Object {
+          "earth": Object {
+            "backgroundColor": "transparent",
+            "borderColor": "transparent",
+            "color": "#469d39",
+          },
+          "mars": Object {
+            "backgroundColor": "transparent",
+            "borderColor": "transparent",
+            "color": "#d45459",
+          },
+          "uranus": Object {
+            "backgroundColor": "transparent",
+            "borderColor": "transparent",
+            "color": "#159ce4",
+          },
+          "venus": Object {
+            "backgroundColor": "transparent",
+            "borderColor": "transparent",
+            "color": "#e078d6",
+          },
+        },
+        "outline": Object {
+          "earth": Object {
+            "borderColor": "#469d39",
+            "color": "#469d39",
+          },
+          "mars": Object {
+            "borderColor": "#d45459",
+            "color": "#d45459",
+          },
+          "uranus": Object {
+            "borderColor": "#159ce4",
+            "color": "#159ce4",
+          },
+          "venus": Object {
+            "borderColor": "#e078d6",
+            "color": "#e078d6",
+          },
+        },
+        "primary": Object {
+          "earth": Object {
+            "backgroundColor": "#74e24a",
+            "borderColor": "#74e24a",
+            "color": "#32383c",
+          },
+          "mars": Object {
+            "backgroundColor": "#d45459",
+            "borderColor": "#d45459",
+            "color": "#fff",
+          },
+          "uranus": Object {
+            "backgroundColor": "#159ce4",
+            "borderColor": "#159ce4",
+            "color": "#fff",
+          },
+          "venus": Object {
+            "backgroundColor": "#e078d6",
+            "borderColor": "#e078d6",
+            "color": "#fff",
+          },
+        },
+      },
+      "colors": Object {
+        "earth100": "#b8fcac",
+        "earth1000": "#084222",
+        "earth200": "#9cf184",
+        "earth300": "#88e967",
+        "earth400": "#74e24a",
+        "earth500": "#56b53f",
+        "earth600": "#469d39",
+        "earth700": "#388833",
+        "earth800": "#276f2d",
+        "earth900": "#145327",
+        "mars100": "#ffcace",
+        "mars1000": "#500508",
+        "mars200": "#f6b1b5",
+        "mars300": "#ea9297",
+        "mars400": "#dd676b",
+        "mars500": "#d45459",
+        "mars600": "#ac3c40",
+        "mars700": "#9a3135",
+        "mars800": "#7b1e22",
+        "mars900": "#651115",
+        "moon100": "#f6f7f8",
+        "moon1000": "#1c2124",
+        "moon200": "#e9eef2",
+        "moon300": "#afbec9",
+        "moon400": "#8296a4",
+        "moon500": "#597183",
+        "moon600": "#495c69",
+        "moon700": "#3f4c55",
+        "moon800": "#384248",
+        "moon900": "#32383c",
+        "space100": "#fff",
+        "space1000": "#202020",
+        "space200": "#f5f5f5",
+        "space300": "#e5e5e5",
+        "space400": "#c5c5c5",
+        "space500": "#a5a5a5",
+        "space600": "#858585",
+        "space700": "#656565",
+        "space800": "#454545",
+        "space900": "#353535",
+        "sun100": "#fffec1",
+        "sun1000": "#4b3e00",
+        "sun200": "#fbee88",
+        "sun300": "#f7e05b",
+        "sun400": "#f4d330",
+        "sun500": "#f1c500",
+        "sun600": "#cea800",
+        "sun700": "#b19100",
+        "sun800": "#8f7600",
+        "sun900": "#685500",
+        "uranus100": "#a6f7ff",
+        "uranus1000": "#182758",
+        "uranus200": "#86e3f9",
+        "uranus300": "#67cff3",
+        "uranus400": "#3db5eb",
+        "uranus500": "#159ce4",
+        "uranus600": "#147ec1",
+        "uranus700": "#1663a0",
+        "uranus800": "#16518b",
+        "uranus900": "#183a6e",
+        "venus100": "#ffc3f9",
+        "venus1000": "#5c083f",
+        "venus200": "#f0a0e9",
+        "venus300": "#e78ade",
+        "venus400": "#e078d6",
+        "venus500": "#c763ba",
+        "venus600": "#ab4b9a",
+        "venus700": "#993c85",
+        "venus800": "#842a6d",
+        "venus900": "#6b1550",
+      },
+      "fontSizes": Object {
+        "headings": Object {
+          "huge": "64px",
+          "large": "48px",
+          "medium": "40px",
+          "small": "32px",
+        },
+        "texts": Object {
+          "large": "24px",
+          "medium": "16px",
+          "small": "14px",
+          "verySmall": "12px",
+        },
+      },
+      "fonts": Object {
+        "primary": "normal normal 600 normal 16px/1.5 Poppins, sans-serif",
+        "secondary": "normal normal 400 normal 16px/1.5 Lato, sans-serif",
+      },
+      "gradients": Object {
+        "andromeda": "linear-gradient(45deg, #ea9297 0%, #e078d6 100%)",
+        "blackhole": "linear-gradient(225deg, #3f4c55 0%, #1c2124 100%)",
+        "cartwheel": "linear-gradient(45deg, #147ec1 0%, #3db5eb 100%)",
+        "centaurus": "linear-gradient(225deg, #e078d6 0%, #993c85 100%)",
+        "hoag": "linear-gradient(223.9deg, #fbee88 0%, #f1c500 100%)",
+        "mayall": "linear-gradient(225deg, #ea9297 0%, #dd676b 100%)",
+        "milkyway": "linear-gradient(44.64deg, #159ce4 0%, #e078d6 100%)",
+        "nebulosa": "linear-gradient(47.32deg, #d991e0 0%, #00c6d4 60.06%, #00ea60 100%)",
+        "pinwheel": "linear-gradient(45deg, #8296a4 0%, #bac8d1 100%)",
+        "sombrero": "linear-gradient(45.52deg, #9cf184 0%, #3db5eb 100%)",
+        "whirlpool": "linear-gradient(225deg, #9cf184 0%, #56b53f 100%)",
+      },
+      "lineHeights": Array [
+        0,
+        "18px",
+        "28px",
+        "35px",
+      ],
+      "radii": Array [
+        0,
+        2,
+        8,
+        16,
+        24,
+        32,
+      ],
+      "sizes": Array [
+        0,
+        "8px",
+        "18px",
+      ],
+      "space": Array [
+        0,
+        8,
+        16,
+        24,
+        32,
+        40,
+        48,
+        64,
+      ],
+      "zIndices": Array [
+        0,
+        10,
+        20,
+        30,
+        40,
+        50,
+        60,
+        70,
+        80,
+        90,
+        100,
+      ],
+    }
+  }
+>
+  <ThemeProvider
+    theme={
+      Object {
+        "buttonSizes": Object {
+          "large": Object {
+            "borderRadius": 32,
+            "fontSize": 24,
+            "lineHeight": "35px",
+            "padding": "12px 46px",
+          },
+          "medium": Object {
+            "borderRadius": 24,
+            "fontSize": 16,
+            "lineHeight": "28px",
+            "padding": "8px 38px",
+          },
+          "small": Object {
+            "borderRadius": 16,
+            "fontSize": 12,
+            "lineHeight": "18px",
+            "padding": "5px 28px",
+          },
+        },
+        "buttons": Object {
+          "ghost": Object {
+            "earth": Object {
+              "backgroundColor": "transparent",
+              "borderColor": "transparent",
+              "color": "#469d39",
+            },
+            "mars": Object {
+              "backgroundColor": "transparent",
+              "borderColor": "transparent",
+              "color": "#d45459",
+            },
+            "uranus": Object {
+              "backgroundColor": "transparent",
+              "borderColor": "transparent",
+              "color": "#159ce4",
+            },
+            "venus": Object {
+              "backgroundColor": "transparent",
+              "borderColor": "transparent",
+              "color": "#e078d6",
+            },
+          },
+          "outline": Object {
+            "earth": Object {
+              "borderColor": "#469d39",
+              "color": "#469d39",
+            },
+            "mars": Object {
+              "borderColor": "#d45459",
+              "color": "#d45459",
+            },
+            "uranus": Object {
+              "borderColor": "#159ce4",
+              "color": "#159ce4",
+            },
+            "venus": Object {
+              "borderColor": "#e078d6",
+              "color": "#e078d6",
+            },
+          },
+          "primary": Object {
+            "earth": Object {
+              "backgroundColor": "#74e24a",
+              "borderColor": "#74e24a",
+              "color": "#32383c",
+            },
+            "mars": Object {
+              "backgroundColor": "#d45459",
+              "borderColor": "#d45459",
+              "color": "#fff",
+            },
+            "uranus": Object {
+              "backgroundColor": "#159ce4",
+              "borderColor": "#159ce4",
+              "color": "#fff",
+            },
+            "venus": Object {
+              "backgroundColor": "#e078d6",
+              "borderColor": "#e078d6",
+              "color": "#fff",
+            },
+          },
+        },
+        "colors": Object {
+          "earth100": "#b8fcac",
+          "earth1000": "#084222",
+          "earth200": "#9cf184",
+          "earth300": "#88e967",
+          "earth400": "#74e24a",
+          "earth500": "#56b53f",
+          "earth600": "#469d39",
+          "earth700": "#388833",
+          "earth800": "#276f2d",
+          "earth900": "#145327",
+          "mars100": "#ffcace",
+          "mars1000": "#500508",
+          "mars200": "#f6b1b5",
+          "mars300": "#ea9297",
+          "mars400": "#dd676b",
+          "mars500": "#d45459",
+          "mars600": "#ac3c40",
+          "mars700": "#9a3135",
+          "mars800": "#7b1e22",
+          "mars900": "#651115",
+          "moon100": "#f6f7f8",
+          "moon1000": "#1c2124",
+          "moon200": "#e9eef2",
+          "moon300": "#afbec9",
+          "moon400": "#8296a4",
+          "moon500": "#597183",
+          "moon600": "#495c69",
+          "moon700": "#3f4c55",
+          "moon800": "#384248",
+          "moon900": "#32383c",
+          "space100": "#fff",
+          "space1000": "#202020",
+          "space200": "#f5f5f5",
+          "space300": "#e5e5e5",
+          "space400": "#c5c5c5",
+          "space500": "#a5a5a5",
+          "space600": "#858585",
+          "space700": "#656565",
+          "space800": "#454545",
+          "space900": "#353535",
+          "sun100": "#fffec1",
+          "sun1000": "#4b3e00",
+          "sun200": "#fbee88",
+          "sun300": "#f7e05b",
+          "sun400": "#f4d330",
+          "sun500": "#f1c500",
+          "sun600": "#cea800",
+          "sun700": "#b19100",
+          "sun800": "#8f7600",
+          "sun900": "#685500",
+          "uranus100": "#a6f7ff",
+          "uranus1000": "#182758",
+          "uranus200": "#86e3f9",
+          "uranus300": "#67cff3",
+          "uranus400": "#3db5eb",
+          "uranus500": "#159ce4",
+          "uranus600": "#147ec1",
+          "uranus700": "#1663a0",
+          "uranus800": "#16518b",
+          "uranus900": "#183a6e",
+          "venus100": "#ffc3f9",
+          "venus1000": "#5c083f",
+          "venus200": "#f0a0e9",
+          "venus300": "#e78ade",
+          "venus400": "#e078d6",
+          "venus500": "#c763ba",
+          "venus600": "#ab4b9a",
+          "venus700": "#993c85",
+          "venus800": "#842a6d",
+          "venus900": "#6b1550",
+        },
+        "fontSizes": Object {
+          "headings": Object {
+            "huge": "64px",
+            "large": "48px",
+            "medium": "40px",
+            "small": "32px",
+          },
+          "texts": Object {
+            "large": "24px",
+            "medium": "16px",
+            "small": "14px",
+            "verySmall": "12px",
+          },
+        },
+        "fonts": Object {
+          "primary": "normal normal 600 normal 16px/1.5 Poppins, sans-serif",
+          "secondary": "normal normal 400 normal 16px/1.5 Lato, sans-serif",
+        },
+        "gradients": Object {
+          "andromeda": "linear-gradient(45deg, #ea9297 0%, #e078d6 100%)",
+          "blackhole": "linear-gradient(225deg, #3f4c55 0%, #1c2124 100%)",
+          "cartwheel": "linear-gradient(45deg, #147ec1 0%, #3db5eb 100%)",
+          "centaurus": "linear-gradient(225deg, #e078d6 0%, #993c85 100%)",
+          "hoag": "linear-gradient(223.9deg, #fbee88 0%, #f1c500 100%)",
+          "mayall": "linear-gradient(225deg, #ea9297 0%, #dd676b 100%)",
+          "milkyway": "linear-gradient(44.64deg, #159ce4 0%, #e078d6 100%)",
+          "nebulosa": "linear-gradient(47.32deg, #d991e0 0%, #00c6d4 60.06%, #00ea60 100%)",
+          "pinwheel": "linear-gradient(45deg, #8296a4 0%, #bac8d1 100%)",
+          "sombrero": "linear-gradient(45.52deg, #9cf184 0%, #3db5eb 100%)",
+          "whirlpool": "linear-gradient(225deg, #9cf184 0%, #56b53f 100%)",
+        },
+        "lineHeights": Array [
+          0,
+          "18px",
+          "28px",
+          "35px",
+        ],
+        "radii": Array [
+          0,
+          2,
+          8,
+          16,
+          24,
+          32,
+        ],
+        "sizes": Array [
+          0,
+          "8px",
+          "18px",
+        ],
+        "space": Array [
+          0,
+          8,
+          16,
+          24,
+          32,
+          40,
+          48,
+          64,
+        ],
+        "zIndices": Array [
+          0,
+          10,
+          20,
+          30,
+          40,
+          50,
+          60,
+          70,
+          80,
+          90,
+          100,
+        ],
+      }
+    }
+  >
+    <GlobalStyleComponent />
+    <InputMasked
+      className=""
+      inputId="inputId"
+      isInvalid={false}
+      isValidated={false}
+      labelId="labelId"
+      labelProps={Object {}}
+      labelText="Standard"
+      mask=""
+      maskPlaceholder=""
+      maskType={
+        Object {
+          "mask": "99/99/9999",
+          "placeholder": "00/00/0000",
+        }
+      }
+      noAnimate={true}
+    >
+      <InputMask
+        alwaysShowMask={false}
+        mask="99/99/9999"
+        maskPlaceholder=""
+      >
+        <InputMaskChildrenWrapper
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onMouseDown={[Function]}
+        >
+          <InputText
+            className=""
+            inputId="inputId"
+            isInvalid={false}
+            isValidated={false}
+            labelId="labelId"
+            labelProps={Object {}}
+            labelText="Standard"
+            noAnimate={true}
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            onMouseDown={[Function]}
+            placeholder="00/00/0000"
+          >
+            <InputText__InputWrapper>
+              <StyledComponent
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "InputText__InputWrapper-bgwxz4-0",
+                      "isStatic": false,
+                      "lastClassName": "c0",
+                      "rules": Array [
+                        "border:0;padding:0;position:relative;",
+                        [Function],
+                        ";",
+                        [Function],
+                        ";",
+                      ],
+                    },
+                    "displayName": "InputText__InputWrapper",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "InputText__InputWrapper-bgwxz4-0",
+                    "target": "fieldset",
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+              >
+                <fieldset
+                  className="c0"
+                >
+                  <InputText__InputField
+                    aria-labelledby="labelId"
+                    className=" --no-animate"
+                    id="inputId"
+                    isInvalid={false}
+                    isValidated={false}
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    onMouseDown={[Function]}
+                    placeholder="00/00/0000"
+                    type="text"
+                  >
+                    <StyledComponent
+                      aria-labelledby="labelId"
+                      className=" --no-animate"
+                      forwardedComponent={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": Array [],
+                          "componentStyle": ComponentStyle {
+                            "componentId": "InputText__InputField-bgwxz4-2",
+                            "isStatic": false,
+                            "lastClassName": "c1",
+                            "rules": Array [
+                              "background-color:",
+                              [Function],
+                              ";border-width:1px;border-style:solid;border-radius:8px;color:",
+                              [Function],
+                              ";font:",
+                              [Function],
+                              ";padding:25px 16px 5px;position:relative;width:100%;",
+                              [Function],
+                              ";&::placeholder{color:transparent;}&:focus::placeholder,&.--no-animate::placeholder{color:",
+                              [Function],
+                              ";}&:focus{outline:none;",
+                              [Function],
+                              ";}&:focus + label{",
+                              [Function],
+                              ";}&:focus,&:not(:placeholder-shown),&.--no-animate{& + label{font-weight:700;transform:translate(5%,-10%) scale(0.8);}",
+                              [Function],
+                              ";}& + label{left:0;position:absolute;top:0;transition:transform 0.25s,opacity 0.25s ease-in-out;transform-origin:0 0;}",
+                            ],
+                          },
+                          "displayName": "InputText__InputField",
+                          "foldedComponentIds": Array [],
+                          "render": [Function],
+                          "styledComponentId": "InputText__InputField-bgwxz4-2",
+                          "target": "input",
+                          "toString": [Function],
+                          "warnTooManyClasses": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                      id="inputId"
+                      isInvalid={false}
+                      isValidated={false}
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      onMouseDown={[Function]}
+                      placeholder="00/00/0000"
+                      type="text"
+                    >
+                      <input
+                        aria-labelledby="labelId"
+                        className="c1  --no-animate"
+                        id="inputId"
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onFocus={[Function]}
+                        onMouseDown={[Function]}
+                        placeholder="00/00/0000"
+                        type="text"
+                      />
+                    </StyledComponent>
+                  </InputText__InputField>
+                  <InputText__InputLabel
+                    htmlFor="inputId"
+                    id="labelId"
+                    isInvalid={false}
+                    isValidated={false}
+                  >
+                    <StyledComponent
+                      forwardedComponent={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": Array [],
+                          "componentStyle": ComponentStyle {
+                            "componentId": "InputText__InputLabel-bgwxz4-1",
+                            "isStatic": false,
+                            "lastClassName": "c2",
+                            "rules": Array [
+                              "font:",
+                              [Function],
+                              ";height:4em;padding:1em;pointer-events:none;user-select:none;",
+                              [Function],
+                              ";",
+                            ],
+                          },
+                          "displayName": "InputText__InputLabel",
+                          "foldedComponentIds": Array [],
+                          "render": [Function],
+                          "styledComponentId": "InputText__InputLabel-bgwxz4-1",
+                          "target": "label",
+                          "toString": [Function],
+                          "warnTooManyClasses": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                      htmlFor="inputId"
+                      id="labelId"
+                      isInvalid={false}
+                      isValidated={false}
+                    >
+                      <label
+                        className="c2"
+                        htmlFor="inputId"
+                        id="labelId"
+                      >
+                        Standard
+                      </label>
+                    </StyledComponent>
+                  </InputText__InputLabel>
+                </fieldset>
+              </StyledComponent>
+            </InputText__InputWrapper>
+          </InputText>
+        </InputMaskChildrenWrapper>
+      </InputMask>
+    </InputMasked>
+  </ThemeProvider>
+</index>
+`;

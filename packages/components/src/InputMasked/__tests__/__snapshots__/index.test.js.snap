@@ -577,6 +577,7 @@ exports[`InputMasked renders CPF masked input 1`] = `
     <GlobalStyleComponent />
     <InputMasked
       className=""
+      decimalScale={2}
       inputId="inputId"
       isInvalid={false}
       isValidated={false}
@@ -1366,6 +1367,7 @@ exports[`InputMasked renders currency masked input 1`] = `
     <GlobalStyleComponent />
     <InputMasked
       className=""
+      decimalScale={2}
       inputId="inputId"
       isInvalid={false}
       isValidated={false}
@@ -2187,6 +2189,7 @@ exports[`InputMasked renders date masked input 1`] = `
     <GlobalStyleComponent />
     <InputMasked
       className=""
+      decimalScale={2}
       inputId="inputId"
       isInvalid={false}
       isValidated={false}

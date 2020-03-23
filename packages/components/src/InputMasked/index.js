@@ -32,6 +32,7 @@ const InputMasked = ({
   mask,
   maskType,
   maskPlaceholder,
+  decimalScale,
   rest,
 }) => {
   const commonProps = {
@@ -53,7 +54,7 @@ const InputMasked = ({
       placeholder={maskType.placeholder}
       thousandSeparator="."
       decimalSeparator=","
-      decimalScale={2}
+      decimalScale={decimalScale}
     />
   ) : (
     <InputMask mask={maskType ? maskType.mask : mask} maskPlaceholder={maskPlaceholder}>
@@ -69,6 +70,7 @@ InputMasked.defaultProps = {
   noAnimate: true,
   mask: '',
   maskPlaceholder: '',
+  decimalScale: 2,
 };
 
 InputMasked.propTypes = {
@@ -76,6 +78,7 @@ InputMasked.propTypes = {
   mask: PropTypes.string,
   maskType: PropTypes.oneOf([maskTypes.cpf, maskTypes.currency, maskTypes.date]),
   maskPlaceholder: PropTypes.string,
+  decimalScale: PropTypes.number,
 };
 
 export default InputMasked;

@@ -20,7 +20,7 @@ exports[`InputMasked renders CPF masked input 1`] = `
 }
 
 .c1 {
-  background-color: #fff;
+  background-color: #ffffff;
   border-width: 1px;
   border-style: solid;
   border-radius: 8px;
@@ -177,17 +177,17 @@ exports[`InputMasked renders CPF masked input 1`] = `
           "mars": Object {
             "backgroundColor": "#d45459",
             "borderColor": "#d45459",
-            "color": "#fff",
+            "color": "#ffffff",
           },
           "uranus": Object {
             "backgroundColor": "#159ce4",
             "borderColor": "#159ce4",
-            "color": "#fff",
+            "color": "#ffffff",
           },
           "venus": Object {
             "backgroundColor": "#e078d6",
             "borderColor": "#e078d6",
-            "color": "#fff",
+            "color": "#ffffff",
           },
         },
       },
@@ -222,7 +222,7 @@ exports[`InputMasked renders CPF masked input 1`] = `
         "moon700": "#3f4c55",
         "moon800": "#384248",
         "moon900": "#32383c",
-        "space100": "#fff",
+        "space100": "#ffffff",
         "space1000": "#202020",
         "space200": "#f5f5f5",
         "space300": "#e5e5e5",
@@ -412,17 +412,17 @@ exports[`InputMasked renders CPF masked input 1`] = `
             "mars": Object {
               "backgroundColor": "#d45459",
               "borderColor": "#d45459",
-              "color": "#fff",
+              "color": "#ffffff",
             },
             "uranus": Object {
               "backgroundColor": "#159ce4",
               "borderColor": "#159ce4",
-              "color": "#fff",
+              "color": "#ffffff",
             },
             "venus": Object {
               "backgroundColor": "#e078d6",
               "borderColor": "#e078d6",
-              "color": "#fff",
+              "color": "#ffffff",
             },
           },
         },
@@ -457,7 +457,7 @@ exports[`InputMasked renders CPF masked input 1`] = `
           "moon700": "#3f4c55",
           "moon800": "#384248",
           "moon900": "#32383c",
-          "space100": "#fff",
+          "space100": "#ffffff",
           "space1000": "#202020",
           "space200": "#f5f5f5",
           "space300": "#e5e5e5",
@@ -810,7 +810,7 @@ exports[`InputMasked renders currency masked input 1`] = `
 }
 
 .c1 {
-  background-color: #fff;
+  background-color: #ffffff;
   border-width: 1px;
   border-style: solid;
   border-radius: 8px;
@@ -967,17 +967,17 @@ exports[`InputMasked renders currency masked input 1`] = `
           "mars": Object {
             "backgroundColor": "#d45459",
             "borderColor": "#d45459",
-            "color": "#fff",
+            "color": "#ffffff",
           },
           "uranus": Object {
             "backgroundColor": "#159ce4",
             "borderColor": "#159ce4",
-            "color": "#fff",
+            "color": "#ffffff",
           },
           "venus": Object {
             "backgroundColor": "#e078d6",
             "borderColor": "#e078d6",
-            "color": "#fff",
+            "color": "#ffffff",
           },
         },
       },
@@ -1012,7 +1012,7 @@ exports[`InputMasked renders currency masked input 1`] = `
         "moon700": "#3f4c55",
         "moon800": "#384248",
         "moon900": "#32383c",
-        "space100": "#fff",
+        "space100": "#ffffff",
         "space1000": "#202020",
         "space200": "#f5f5f5",
         "space300": "#e5e5e5",
@@ -1202,17 +1202,17 @@ exports[`InputMasked renders currency masked input 1`] = `
             "mars": Object {
               "backgroundColor": "#d45459",
               "borderColor": "#d45459",
-              "color": "#fff",
+              "color": "#ffffff",
             },
             "uranus": Object {
               "backgroundColor": "#159ce4",
               "borderColor": "#159ce4",
-              "color": "#fff",
+              "color": "#ffffff",
             },
             "venus": Object {
               "backgroundColor": "#e078d6",
               "borderColor": "#e078d6",
-              "color": "#fff",
+              "color": "#ffffff",
             },
           },
         },
@@ -1247,7 +1247,7 @@ exports[`InputMasked renders currency masked input 1`] = `
           "moon700": "#3f4c55",
           "moon800": "#384248",
           "moon900": "#32383c",
-          "space100": "#fff",
+          "space100": "#ffffff",
           "space1000": "#202020",
           "space200": "#f5f5f5",
           "space300": "#e5e5e5",
@@ -1632,7 +1632,7 @@ exports[`InputMasked renders date masked input 1`] = `
 }
 
 .c1 {
-  background-color: #fff;
+  background-color: #ffffff;
   border-width: 1px;
   border-style: solid;
   border-radius: 8px;
@@ -1789,17 +1789,17 @@ exports[`InputMasked renders date masked input 1`] = `
           "mars": Object {
             "backgroundColor": "#d45459",
             "borderColor": "#d45459",
-            "color": "#fff",
+            "color": "#ffffff",
           },
           "uranus": Object {
             "backgroundColor": "#159ce4",
             "borderColor": "#159ce4",
-            "color": "#fff",
+            "color": "#ffffff",
           },
           "venus": Object {
             "backgroundColor": "#e078d6",
             "borderColor": "#e078d6",
-            "color": "#fff",
+            "color": "#ffffff",
           },
         },
       },
@@ -1834,7 +1834,7 @@ exports[`InputMasked renders date masked input 1`] = `
         "moon700": "#3f4c55",
         "moon800": "#384248",
         "moon900": "#32383c",
-        "space100": "#fff",
+        "space100": "#ffffff",
         "space1000": "#202020",
         "space200": "#f5f5f5",
         "space300": "#e5e5e5",
@@ -2024,17 +2024,17 @@ exports[`InputMasked renders date masked input 1`] = `
             "mars": Object {
               "backgroundColor": "#d45459",
               "borderColor": "#d45459",
-              "color": "#fff",
+              "color": "#ffffff",
             },
             "uranus": Object {
               "backgroundColor": "#159ce4",
               "borderColor": "#159ce4",
-              "color": "#fff",
+              "color": "#ffffff",
             },
             "venus": Object {
               "backgroundColor": "#e078d6",
               "borderColor": "#e078d6",
-              "color": "#fff",
+              "color": "#ffffff",
             },
           },
         },
@@ -2069,7 +2069,7 @@ exports[`InputMasked renders date masked input 1`] = `
           "moon700": "#3f4c55",
           "moon800": "#384248",
           "moon900": "#32383c",
-          "space100": "#fff",
+          "space100": "#ffffff",
           "space1000": "#202020",
           "space200": "#f5f5f5",
           "space300": "#e5e5e5",

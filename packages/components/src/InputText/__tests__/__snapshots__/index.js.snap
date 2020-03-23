@@ -20,7 +20,7 @@ exports[`InputText renders correctly the input without animation 1`] = `
 }
 
 .c1 {
-  background-color: #fff;
+  background-color: #ffffff;
   border-width: 1px;
   border-style: solid;
   border-radius: 8px;

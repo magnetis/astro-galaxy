@@ -1,12 +1,11 @@
-import React from 'react';
 import { storiesOf } from '@storybook/react';
+import React from 'react';
 import InputText from './index.js';
 
 storiesOf('InputText', module)
-  .add('default', () => <InputText m={8} inputId="input0" labelId="label0" />)
+  .add('default', () => <InputText inputId="input0" labelId="label0" />)
   .add('validated', () => (
     <InputText
-      m={8}
       inputId="input1"
       labelId="label1"
       labelText="Validated"
@@ -16,7 +15,6 @@ storiesOf('InputText', module)
   ))
   .add('invalid', () => (
     <InputText
-      m={8}
       inputId="input2"
       labelId="label2"
       labelText="Invalid"
@@ -26,5 +24,8 @@ storiesOf('InputText', module)
     />
   ))
   .add('disabled', () => (
-    <InputText m={8} inputId="input3" labelId="label3" labelText="Disabled" disabled />
+    <InputText inputId="input3" labelId="label3" labelText="Disabled" disabled />
+  ))
+  .add('without animation', () => (
+    <InputText inputId="input4" labelId="label4" placeholder="Placeholder" noAnimate />
   ));

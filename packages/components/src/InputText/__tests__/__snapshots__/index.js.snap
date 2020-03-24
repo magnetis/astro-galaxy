@@ -1,5 +1,129 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`InputText renders correctly the input without animation 1`] = `
+.c0 {
+  border: 0;
+  padding: 0;
+  position: relative;
+}
+
+.c2 {
+  font: normal normal 400 normal 16px/1.5 Lato,sans-serif;
+  height: 4em;
+  padding: 1em;
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #8296a4;
+}
+
+.c1 {
+  background-color: #ffffff;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 8px;
+  color: #32383c;
+  font: normal normal 400 normal 16px/1.5 Lato,sans-serif;
+  padding: 25px 16px 5px;
+  position: relative;
+  width: 100%;
+  border-color: #597183;
+}
+
+.c1::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.c1::-moz-placeholder {
+  color: transparent;
+}
+
+.c1:-ms-input-placeholder {
+  color: transparent;
+}
+
+.c1::placeholder {
+  color: transparent;
+}
+
+.c1:focus::-webkit-input-placeholder,
+.c1.--no-animate::-webkit-input-placeholder {
+  color: #afbec9;
+}
+
+.c1:focus::-moz-placeholder,
+.c1.--no-animate::-moz-placeholder {
+  color: #afbec9;
+}
+
+.c1:focus:-ms-input-placeholder,
+.c1.--no-animate:-ms-input-placeholder {
+  color: #afbec9;
+}
+
+.c1:focus::placeholder,
+.c1.--no-animate::placeholder {
+  color: #afbec9;
+}
+
+.c1:focus {
+  outline: none;
+  border-color: #597183;
+}
+
+.c1:focus + label {
+  color: #159ce4;
+}
+
+.c1:focus,
+.c1:not(:placeholder-shown),
+.c1.--no-animate {
+  border-color: #159ce4;
+}
+
+.c1:focus + label,
+.c1:not(:placeholder-shown) + label,
+.c1.--no-animate + label {
+  font-weight: 700;
+  -webkit-transform: translate(5%,-10%) scale(0.8);
+  -ms-transform: translate(5%,-10%) scale(0.8);
+  transform: translate(5%,-10%) scale(0.8);
+}
+
+.c1 + label {
+  left: 0;
+  position: absolute;
+  top: 0;
+  -webkit-transition: -webkit-transform 0.25s,opacity 0.25s ease-in-out;
+  -webkit-transition: transform 0.25s,opacity 0.25s ease-in-out;
+  transition: transform 0.25s,opacity 0.25s ease-in-out;
+  -webkit-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+}
+
+<fieldset
+  className="c0"
+>
+  <input
+    aria-labelledby="label4"
+    className="c1  --no-animate"
+    id="input4"
+    placeholder="Standard"
+    type="text"
+  />
+  <label
+    className="c2"
+    htmlFor="input4"
+    id="label4"
+  >
+    Standard
+  </label>
+</fieldset>
+`;
+
 exports[`InputText renders correctly the invalid input 1`] = `
 .c3 {
   fill: currentcolor;
@@ -53,6 +177,26 @@ exports[`InputText renders correctly the invalid input 1`] = `
   color: transparent;
 }
 
+.c1:focus::-webkit-input-placeholder,
+.c1.--no-animate::-webkit-input-placeholder {
+  color: #afbec9;
+}
+
+.c1:focus::-moz-placeholder,
+.c1.--no-animate::-moz-placeholder {
+  color: #afbec9;
+}
+
+.c1:focus:-ms-input-placeholder,
+.c1.--no-animate:-ms-input-placeholder {
+  color: #afbec9;
+}
+
+.c1:focus::placeholder,
+.c1.--no-animate::placeholder {
+  color: #afbec9;
+}
+
 .c1:focus {
   outline: none;
   border-color: #d45459;
@@ -63,12 +207,14 @@ exports[`InputText renders correctly the invalid input 1`] = `
 }
 
 .c1:focus,
-.c1:not(:placeholder-shown) {
+.c1:not(:placeholder-shown),
+.c1.--no-animate {
   border-color: #d45459;
 }
 
 .c1:focus + label,
-.c1:not(:placeholder-shown) + label {
+.c1:not(:placeholder-shown) + label,
+.c1.--no-animate + label {
   font-weight: 700;
   -webkit-transform: translate(5%,-10%) scale(0.8);
   -ms-transform: translate(5%,-10%) scale(0.8);
@@ -98,9 +244,9 @@ exports[`InputText renders correctly the invalid input 1`] = `
   className="c0"
 >
   <input
-    className="c1"
+    aria-labelledby="label3"
+    className="c1  "
     defaultValue="Astro Team"
-    disabled={false}
     id="input3"
     placeholder="Invalid"
     type="text"
@@ -108,6 +254,7 @@ exports[`InputText renders correctly the invalid input 1`] = `
   <label
     className="c2"
     htmlFor="input3"
+    id="label3"
   >
     Invalid
   </label>
@@ -204,6 +351,26 @@ exports[`InputText renders correctly the standard input 1`] = `
   color: transparent;
 }
 
+.c1:focus::-webkit-input-placeholder,
+.c1.--no-animate::-webkit-input-placeholder {
+  color: #afbec9;
+}
+
+.c1:focus::-moz-placeholder,
+.c1.--no-animate::-moz-placeholder {
+  color: #afbec9;
+}
+
+.c1:focus:-ms-input-placeholder,
+.c1.--no-animate:-ms-input-placeholder {
+  color: #afbec9;
+}
+
+.c1:focus::placeholder,
+.c1.--no-animate::placeholder {
+  color: #afbec9;
+}
+
 .c1:focus {
   outline: none;
   border-color: #597183;
@@ -214,12 +381,14 @@ exports[`InputText renders correctly the standard input 1`] = `
 }
 
 .c1:focus,
-.c1:not(:placeholder-shown) {
+.c1:not(:placeholder-shown),
+.c1.--no-animate {
   border-color: #159ce4;
 }
 
 .c1:focus + label,
-.c1:not(:placeholder-shown) + label {
+.c1:not(:placeholder-shown) + label,
+.c1.--no-animate + label {
   font-weight: 700;
   -webkit-transform: translate(5%,-10%) scale(0.8);
   -ms-transform: translate(5%,-10%) scale(0.8);
@@ -242,15 +411,16 @@ exports[`InputText renders correctly the standard input 1`] = `
   className="c0"
 >
   <input
-    className="c1"
-    disabled={false}
-    id="input2"
+    aria-labelledby="label1"
+    className="c1  "
+    id="input1"
     placeholder="Standard"
     type="text"
   />
   <label
     className="c2"
-    htmlFor="input2"
+    htmlFor="input1"
+    id="label1"
   >
     Standard
   </label>
@@ -310,6 +480,26 @@ exports[`InputText renders correctly the validated input 1`] = `
   color: transparent;
 }
 
+.c1:focus::-webkit-input-placeholder,
+.c1.--no-animate::-webkit-input-placeholder {
+  color: #afbec9;
+}
+
+.c1:focus::-moz-placeholder,
+.c1.--no-animate::-moz-placeholder {
+  color: #afbec9;
+}
+
+.c1:focus:-ms-input-placeholder,
+.c1.--no-animate:-ms-input-placeholder {
+  color: #afbec9;
+}
+
+.c1:focus::placeholder,
+.c1.--no-animate::placeholder {
+  color: #afbec9;
+}
+
 .c1:focus {
   outline: none;
   border-color: #74e24a;
@@ -320,12 +510,14 @@ exports[`InputText renders correctly the validated input 1`] = `
 }
 
 .c1:focus,
-.c1:not(:placeholder-shown) {
+.c1:not(:placeholder-shown),
+.c1.--no-animate {
   border-color: #74e24a;
 }
 
 .c1:focus + label,
-.c1:not(:placeholder-shown) + label {
+.c1:not(:placeholder-shown) + label,
+.c1.--no-animate + label {
   font-weight: 700;
   -webkit-transform: translate(5%,-10%) scale(0.8);
   -ms-transform: translate(5%,-10%) scale(0.8);
@@ -348,9 +540,9 @@ exports[`InputText renders correctly the validated input 1`] = `
   className="c0"
 >
   <input
-    className="c1"
+    aria-labelledby="label2"
+    className="c1  "
     defaultValue="Astro Team"
-    disabled={false}
     id="input2"
     placeholder="Validated"
     type="text"
@@ -358,6 +550,7 @@ exports[`InputText renders correctly the validated input 1`] = `
   <label
     className="c2"
     htmlFor="input2"
+    id="label2"
   >
     Validated
   </label>

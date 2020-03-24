@@ -7,7 +7,7 @@ storiesOf('InputGhost', module)
   .addParameters({
     backgrounds: [
       { name: 'moon 900', value: theme.colors.moon900, default: true },
-      { name: 'uranus 500', value: theme.colors.uranus500, default: true },
+      { name: 'uranus 500', value: theme.colors.uranus500 },
     ],
   })
   .add('default', () => <InputGhost inputId="input0" labelId="label0" />)

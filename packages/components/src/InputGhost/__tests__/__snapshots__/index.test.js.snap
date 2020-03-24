@@ -1,0 +1,151 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputGhost renders correctly 1`] = `
+.c0 {
+  border: 0;
+  padding: 0;
+  position: relative;
+}
+
+.c3 {
+  font: normal normal 400 normal 16px/1.5 Lato,sans-serif;
+  height: 4em;
+  padding: 1em;
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #8296a4;
+}
+
+.c1 {
+  background-color: #ffffff;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 8px;
+  color: #32383c;
+  font: normal normal 400 normal 16px/1.5 Lato,sans-serif;
+  padding: 25px 16px 5px;
+  position: relative;
+  width: 100%;
+  border-color: #597183;
+}
+
+.c1::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.c1::-moz-placeholder {
+  color: transparent;
+}
+
+.c1:-ms-input-placeholder {
+  color: transparent;
+}
+
+.c1::placeholder {
+  color: transparent;
+}
+
+.c1:focus::-webkit-input-placeholder,
+.c1.--no-animate::-webkit-input-placeholder {
+  color: #afbec9;
+}
+
+.c1:focus::-moz-placeholder,
+.c1.--no-animate::-moz-placeholder {
+  color: #afbec9;
+}
+
+.c1:focus:-ms-input-placeholder,
+.c1.--no-animate:-ms-input-placeholder {
+  color: #afbec9;
+}
+
+.c1:focus::placeholder,
+.c1.--no-animate::placeholder {
+  color: #afbec9;
+}
+
+.c1:focus {
+  outline: none;
+  border-color: #597183;
+}
+
+.c1:focus + label {
+  color: #159ce4;
+}
+
+.c1:focus,
+.c1:not(:placeholder-shown),
+.c1.--no-animate {
+  border-color: #159ce4;
+}
+
+.c1:focus + label,
+.c1:not(:placeholder-shown) + label,
+.c1.--no-animate + label {
+  font-weight: 700;
+  -webkit-transform: translate(5%,-10%) scale(0.8);
+  -ms-transform: translate(5%,-10%) scale(0.8);
+  transform: translate(5%,-10%) scale(0.8);
+}
+
+.c1 + label {
+  left: 0;
+  position: absolute;
+  top: 0;
+  -webkit-transition: -webkit-transform 0.25s,opacity 0.25s ease-in-out;
+  -webkit-transition: transform 0.25s,opacity 0.25s ease-in-out;
+  transition: transform 0.25s,opacity 0.25s ease-in-out;
+  -webkit-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+}
+
+.c2 {
+  background-color: transparent;
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+.c2[disabled] {
+  background-color: #ffffff20;
+}
+
+.c2:focus,
+.c2:not(:placeholder-shown) {
+  border-color: #ffffff;
+}
+
+.c2 ~ label,
+.c2 ~ div,
+.c2:focus,
+.c2:focus + label {
+  color: #ffffff;
+}
+
+.c2 ~ svg {
+  fill: #ffffff;
+}
+
+<fieldset
+  className="c0"
+>
+  <input
+    aria-labelledby="labelId"
+    className="c1 c2 "
+    id="inputId"
+    placeholder="Standard"
+    type="text"
+  />
+  <label
+    className="c3"
+    htmlFor="inputId"
+    id="labelId"
+  >
+    Standard
+  </label>
+</fieldset>
+`;

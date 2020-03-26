@@ -4,6 +4,33 @@ import React from 'react';
 import styled from 'styled-components';
 import { layout, space } from 'styled-system';
 
+export const inputSizes = {
+  medium: 'medium',
+  large: 'large',
+};
+
+const inputSizeStyles = props => {
+  if (props.inputSize === inputSizes.large) {
+    return {
+      label: {
+        initial: `
+          font-size: ${props.theme.fontSizes.texts.large};
+          padding: 0.6em;
+        `,
+        focus: `transform: translate(8px, -3px) scale(0.6);`,
+      },
+      input: `font-size: ${props.theme.fontSizes.texts.large};`,
+    };
+  }
+
+  return {
+    label: {
+      initial: `font-size: ${props.theme.fontSizes.texts.medium};`,
+      focus: `transform: translate(3px, -6px) scale(0.8);`,
+    },
+  };
+};
+
 const labelValidationStyles = props => {
   if (props.isValidated && !props.disabled) {
     return `color: ${props.theme.colors.earth400}`;
@@ -24,12 +51,14 @@ const labelValidationStyles = props => {
 };
 
 const inputValidationStyles = props => {
+  const iconPadding = props.theme.space[6];
+
   if (props.isValidated && !props.disabled) {
-    return `border-color: ${props.theme.colors.earth400}`;
+    return `border-color: ${props.theme.colors.earth400}; padding-right: ${iconPadding}px;`;
   }
 
   if (props.isInvalid && !props.disabled) {
-    return `border-color: ${props.theme.colors.mars500}`;
+    return `border-color: ${props.theme.colors.mars500}; padding-right: ${iconPadding}px;`;
   }
 
   if (props.disabled) {
@@ -61,6 +90,7 @@ const InputLabel = styled.label`
   user-select: none;
 
   ${props => labelValidationStyles({ ...props, defaultColor: props.theme.colors.moon400 })};
+  ${props => inputSizeStyles(props).label.initial};
 `;
 
 const InputField = styled.input`
@@ -75,6 +105,7 @@ const InputField = styled.input`
   width: 100%;
 
   ${props => inputValidationStyles({ ...props, defaultColor: props.theme.colors.moon500 })};
+  ${props => inputSizeStyles(props).input};
 
   &::placeholder {
     color: transparent;
@@ -100,7 +131,8 @@ const InputField = styled.input`
   &.--no-animate {
     & + label {
       font-weight: 700;
-      transform: translate(5%, -10%) scale(0.8);
+
+      ${props => inputSizeStyles(props).label.focus};
     }
     ${props => inputValidationStyles({ ...props, defaultColor: props.theme.colors.uranus500 })};
   }
@@ -114,11 +146,11 @@ const InputField = styled.input`
   }
 `;
 
-const iconStyles = {
+const iconStyles = inputSize => ({
   position: 'absolute',
-  top: '12px',
+  top: `${inputSize === inputSizes.large ? 16 : 10}px`,
   right: '8px',
-};
+});
 
 const ErrorMessage = styled.div`
   color: ${props => props.theme.colors.mars500};
@@ -137,6 +169,7 @@ const InputText = ({
   labelProps,
   noAnimate,
   className,
+  inputSize,
   ...rest
 }) => (
   <>
@@ -148,6 +181,7 @@ const InputText = ({
         placeholder={labelText}
         isValidated={isValidated}
         isInvalid={isInvalid}
+        inputSize={inputSize}
         className={`${className} ${noAnimate ? '--no-animate' : ''}`}
         {...rest}
       />
@@ -156,11 +190,14 @@ const InputText = ({
         htmlFor={inputId}
         isValidated={isValidated}
         isInvalid={isInvalid}
+        inputSize={inputSize}
         {...labelProps}>
         {labelText}
       </InputLabel>
-      {isValidated && <IconCircleCheck color="earth400" size="32" style={{ ...iconStyles }} />}
-      {isInvalid && <IconAlert color="mars500" size="32" style={{ ...iconStyles }} />}
+      {isValidated && (
+        <IconCircleCheck color="earth400" size="32" style={{ ...iconStyles(inputSize) }} />
+      )}
+      {isInvalid && <IconAlert color="mars500" size="32" style={{ ...iconStyles(inputSize) }} />}
       {isInvalid && errorMessage && <ErrorMessage>{errorMessage}</ErrorMessage>}
     </InputWrapper>
   </>
@@ -176,6 +213,7 @@ InputText.defaultProps = {
   noAnimate: false,
   labelProps: {},
   className: '',
+  inputSize: inputSizes.medium,
 };
 
 InputText.propTypes = {
@@ -187,6 +225,7 @@ InputText.propTypes = {
   noAnimate: PropTypes.bool,
   errorMessage: PropTypes.string,
   labelProps: PropTypes.object,
+  inputSize: PropTypes.oneOf([inputSizes.medium, inputSizes.large]),
 };
 
 export default InputText;

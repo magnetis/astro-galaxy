@@ -17,6 +17,7 @@ exports[`InputMasked renders CPF masked input 1`] = `
   -ms-user-select: none;
   user-select: none;
   color: #8296a4;
+  font-size: 16px;
 }
 
 .c1 {
@@ -87,9 +88,9 @@ exports[`InputMasked renders CPF masked input 1`] = `
 .c1:not(:placeholder-shown) + label,
 .c1.--no-animate + label {
   font-weight: 700;
-  -webkit-transform: translate(5%,-10%) scale(0.8);
-  -ms-transform: translate(5%,-10%) scale(0.8);
-  transform: translate(5%,-10%) scale(0.8);
+  -webkit-transform: translate(3px,-6px) scale(0.8);
+  -ms-transform: translate(3px,-6px) scale(0.8);
+  transform: translate(3px,-6px) scale(0.8);
 }
 
 .c1 + label {
@@ -579,6 +580,7 @@ exports[`InputMasked renders CPF masked input 1`] = `
       className=""
       decimalScale={2}
       inputId="inputId"
+      inputSize="medium"
       isInvalid={false}
       isValidated={false}
       labelId="labelId"
@@ -608,6 +610,7 @@ exports[`InputMasked renders CPF masked input 1`] = `
           <InputText
             className=""
             inputId="inputId"
+            inputSize="medium"
             isInvalid={false}
             isValidated={false}
             labelId="labelId"
@@ -657,6 +660,7 @@ exports[`InputMasked renders CPF masked input 1`] = `
                     aria-labelledby="labelId"
                     className=" --no-animate"
                     id="inputId"
+                    inputSize="medium"
                     isInvalid={false}
                     isValidated={false}
                     onBlur={[Function]}
@@ -686,13 +690,17 @@ exports[`InputMasked renders CPF masked input 1`] = `
                               [Function],
                               ";padding:25px 16px 5px;position:relative;width:100%;",
                               [Function],
+                              ";",
+                              [Function],
                               ";&::placeholder{color:transparent;}&:focus::placeholder,&.--no-animate::placeholder{color:",
                               [Function],
                               ";}&:focus{outline:none;",
                               [Function],
                               ";}&:focus + label{",
                               [Function],
-                              ";}&:focus,&:not(:placeholder-shown),&.--no-animate{& + label{font-weight:700;transform:translate(5%,-10%) scale(0.8);}",
+                              ";}&:focus,&:not(:placeholder-shown),&.--no-animate{& + label{font-weight:700;",
+                              [Function],
+                              ";}",
                               [Function],
                               ";}& + label{left:0;position:absolute;top:0;transition:transform 0.25s,opacity 0.25s ease-in-out;transform-origin:0 0;}",
                             ],
@@ -709,6 +717,7 @@ exports[`InputMasked renders CPF masked input 1`] = `
                       }
                       forwardedRef={null}
                       id="inputId"
+                      inputSize="medium"
                       isInvalid={false}
                       isValidated={false}
                       onBlur={[Function]}
@@ -734,6 +743,7 @@ exports[`InputMasked renders CPF masked input 1`] = `
                   <InputText__InputLabel
                     htmlFor="inputId"
                     id="labelId"
+                    inputSize="medium"
                     isInvalid={false}
                     isValidated={false}
                   >
@@ -752,6 +762,8 @@ exports[`InputMasked renders CPF masked input 1`] = `
                               ";height:4em;padding:1em;pointer-events:none;user-select:none;",
                               [Function],
                               ";",
+                              [Function],
+                              ";",
                             ],
                           },
                           "displayName": "InputText__InputLabel",
@@ -767,6 +779,7 @@ exports[`InputMasked renders CPF masked input 1`] = `
                       forwardedRef={null}
                       htmlFor="inputId"
                       id="labelId"
+                      inputSize="medium"
                       isInvalid={false}
                       isValidated={false}
                     >
@@ -807,6 +820,7 @@ exports[`InputMasked renders currency masked input 1`] = `
   -ms-user-select: none;
   user-select: none;
   color: #8296a4;
+  font-size: 16px;
 }
 
 .c1 {
@@ -877,9 +891,9 @@ exports[`InputMasked renders currency masked input 1`] = `
 .c1:not(:placeholder-shown) + label,
 .c1.--no-animate + label {
   font-weight: 700;
-  -webkit-transform: translate(5%,-10%) scale(0.8);
-  -ms-transform: translate(5%,-10%) scale(0.8);
-  transform: translate(5%,-10%) scale(0.8);
+  -webkit-transform: translate(3px,-6px) scale(0.8);
+  -ms-transform: translate(3px,-6px) scale(0.8);
+  transform: translate(3px,-6px) scale(0.8);
 }
 
 .c1 + label {
@@ -1369,6 +1383,7 @@ exports[`InputMasked renders currency masked input 1`] = `
       className=""
       decimalScale={2}
       inputId="inputId"
+      inputSize="medium"
       isInvalid={false}
       isValidated={false}
       labelId="labelId"
@@ -1419,6 +1434,7 @@ exports[`InputMasked renders currency masked input 1`] = `
           className=""
           inputId="inputId"
           inputMode="numeric"
+          inputSize="medium"
           isInvalid={false}
           isValidated={false}
           labelId="labelId"
@@ -1472,6 +1488,7 @@ exports[`InputMasked renders currency masked input 1`] = `
                   className=" --no-animate"
                   id="inputId"
                   inputMode="numeric"
+                  inputSize="medium"
                   isInvalid={false}
                   isValidated={false}
                   onBlur={[Function]}
@@ -1503,13 +1520,17 @@ exports[`InputMasked renders currency masked input 1`] = `
                             [Function],
                             ";padding:25px 16px 5px;position:relative;width:100%;",
                             [Function],
+                            ";",
+                            [Function],
                             ";&::placeholder{color:transparent;}&:focus::placeholder,&.--no-animate::placeholder{color:",
                             [Function],
                             ";}&:focus{outline:none;",
                             [Function],
                             ";}&:focus + label{",
                             [Function],
-                            ";}&:focus,&:not(:placeholder-shown),&.--no-animate{& + label{font-weight:700;transform:translate(5%,-10%) scale(0.8);}",
+                            ";}&:focus,&:not(:placeholder-shown),&.--no-animate{& + label{font-weight:700;",
+                            [Function],
+                            ";}",
                             [Function],
                             ";}& + label{left:0;position:absolute;top:0;transition:transform 0.25s,opacity 0.25s ease-in-out;transform-origin:0 0;}",
                           ],
@@ -1527,6 +1548,7 @@ exports[`InputMasked renders currency masked input 1`] = `
                     forwardedRef={null}
                     id="inputId"
                     inputMode="numeric"
+                    inputSize="medium"
                     isInvalid={false}
                     isValidated={false}
                     onBlur={[Function]}
@@ -1557,6 +1579,7 @@ exports[`InputMasked renders currency masked input 1`] = `
                 <InputText__InputLabel
                   htmlFor="inputId"
                   id="labelId"
+                  inputSize="medium"
                   isInvalid={false}
                   isValidated={false}
                 >
@@ -1575,6 +1598,8 @@ exports[`InputMasked renders currency masked input 1`] = `
                             ";height:4em;padding:1em;pointer-events:none;user-select:none;",
                             [Function],
                             ";",
+                            [Function],
+                            ";",
                           ],
                         },
                         "displayName": "InputText__InputLabel",
@@ -1590,6 +1615,7 @@ exports[`InputMasked renders currency masked input 1`] = `
                     forwardedRef={null}
                     htmlFor="inputId"
                     id="labelId"
+                    inputSize="medium"
                     isInvalid={false}
                     isValidated={false}
                   >
@@ -1629,6 +1655,7 @@ exports[`InputMasked renders date masked input 1`] = `
   -ms-user-select: none;
   user-select: none;
   color: #8296a4;
+  font-size: 16px;
 }
 
 .c1 {
@@ -1699,9 +1726,9 @@ exports[`InputMasked renders date masked input 1`] = `
 .c1:not(:placeholder-shown) + label,
 .c1.--no-animate + label {
   font-weight: 700;
-  -webkit-transform: translate(5%,-10%) scale(0.8);
-  -ms-transform: translate(5%,-10%) scale(0.8);
-  transform: translate(5%,-10%) scale(0.8);
+  -webkit-transform: translate(3px,-6px) scale(0.8);
+  -ms-transform: translate(3px,-6px) scale(0.8);
+  transform: translate(3px,-6px) scale(0.8);
 }
 
 .c1 + label {
@@ -2191,6 +2218,7 @@ exports[`InputMasked renders date masked input 1`] = `
       className=""
       decimalScale={2}
       inputId="inputId"
+      inputSize="medium"
       isInvalid={false}
       isValidated={false}
       labelId="labelId"
@@ -2220,6 +2248,7 @@ exports[`InputMasked renders date masked input 1`] = `
           <InputText
             className=""
             inputId="inputId"
+            inputSize="medium"
             isInvalid={false}
             isValidated={false}
             labelId="labelId"
@@ -2269,6 +2298,7 @@ exports[`InputMasked renders date masked input 1`] = `
                     aria-labelledby="labelId"
                     className=" --no-animate"
                     id="inputId"
+                    inputSize="medium"
                     isInvalid={false}
                     isValidated={false}
                     onBlur={[Function]}
@@ -2298,13 +2328,17 @@ exports[`InputMasked renders date masked input 1`] = `
                               [Function],
                               ";padding:25px 16px 5px;position:relative;width:100%;",
                               [Function],
+                              ";",
+                              [Function],
                               ";&::placeholder{color:transparent;}&:focus::placeholder,&.--no-animate::placeholder{color:",
                               [Function],
                               ";}&:focus{outline:none;",
                               [Function],
                               ";}&:focus + label{",
                               [Function],
-                              ";}&:focus,&:not(:placeholder-shown),&.--no-animate{& + label{font-weight:700;transform:translate(5%,-10%) scale(0.8);}",
+                              ";}&:focus,&:not(:placeholder-shown),&.--no-animate{& + label{font-weight:700;",
+                              [Function],
+                              ";}",
                               [Function],
                               ";}& + label{left:0;position:absolute;top:0;transition:transform 0.25s,opacity 0.25s ease-in-out;transform-origin:0 0;}",
                             ],
@@ -2321,6 +2355,7 @@ exports[`InputMasked renders date masked input 1`] = `
                       }
                       forwardedRef={null}
                       id="inputId"
+                      inputSize="medium"
                       isInvalid={false}
                       isValidated={false}
                       onBlur={[Function]}
@@ -2346,6 +2381,7 @@ exports[`InputMasked renders date masked input 1`] = `
                   <InputText__InputLabel
                     htmlFor="inputId"
                     id="labelId"
+                    inputSize="medium"
                     isInvalid={false}
                     isValidated={false}
                   >
@@ -2364,6 +2400,8 @@ exports[`InputMasked renders date masked input 1`] = `
                               ";height:4em;padding:1em;pointer-events:none;user-select:none;",
                               [Function],
                               ";",
+                              [Function],
+                              ";",
                             ],
                           },
                           "displayName": "InputText__InputLabel",
@@ -2379,6 +2417,7 @@ exports[`InputMasked renders date masked input 1`] = `
                       forwardedRef={null}
                       htmlFor="inputId"
                       id="labelId"
+                      inputSize="medium"
                       isInvalid={false}
                       isValidated={false}
                     >

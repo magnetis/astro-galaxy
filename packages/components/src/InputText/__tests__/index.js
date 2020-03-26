@@ -1,20 +1,24 @@
+import { theme } from '@magnetis/astro-galaxy-core';
 import React from 'react';
-import InputText from '../index';
+import InputText, { inputSizes } from '../index';
 
 function mount(props = {}) {
-  return rendererCreateWithTheme(<InputText {...props} />).toJSON();
+  const mergedProps = {
+    inputId: 'inputId',
+    labelId: 'labelId',
+    ...props,
+  };
+  return rendererCreateWithTheme(<InputText {...mergedProps} />).toJSON();
 }
 
-describe('InputText', () => {
+describe('input text', () => {
   it('renders correctly the standard input', () => {
-    const wrapper = mount({ inputId: 'input1', labelId: 'label1' });
+    const wrapper = mount();
     expect(wrapper).toMatchSnapshot();
   });
 
   it('renders correctly the validated input', () => {
     const wrapper = mount({
-      inputId: 'input2',
-      labelId: 'label2',
       isValidated: true,
       labelText: 'Validated',
       defaultValue: 'Astro Team',
@@ -24,19 +28,23 @@ describe('InputText', () => {
 
   it('renders correctly the invalid input', () => {
     const wrapper = mount({
-      inputId: 'input3',
-      labelId: 'label3',
       isInvalid: true,
       labelText: 'Invalid',
       defaultValue: 'Astro Team',
       errorMessage: 'Invalid data',
     });
-
     expect(wrapper).toMatchSnapshot();
   });
 
   it('renders correctly the input without animation', () => {
-    const wrapper = mount({ inputId: 'input4', labelId: 'label4', noAnimate: true });
+    const wrapper = mount({ noAnimate: true });
+    expect(wrapper).toMatchSnapshot();
+  });
+
+  it('renders correctly the large input and checks its font size', () => {
+    const wrapper = mount({ inputSize: inputSizes.large });
+    const input = wrapper.children[0];
+    expect(input).toHaveStyleRule('font-size', theme.fontSizes.texts.large);
     expect(wrapper).toMatchSnapshot();
   });
 });

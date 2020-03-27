@@ -2,7 +2,7 @@ import { storiesOf } from '@storybook/react';
 import React from 'react';
 import InputMasked, { maskTypes } from './index.js';
 
-storiesOf('InputMasked', module)
+storiesOf('input masked', module)
   .add('CPF', () => (
     <InputMasked
       inputId="cpfMaskedInput"

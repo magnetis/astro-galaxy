@@ -17,6 +17,7 @@ exports[`InputGhost renders correctly 1`] = `
   -ms-user-select: none;
   user-select: none;
   color: #8296a4;
+  font-size: 16px;
 }
 
 .c1 {
@@ -87,9 +88,9 @@ exports[`InputGhost renders correctly 1`] = `
 .c1:not(:placeholder-shown) + label,
 .c1.--no-animate + label {
   font-weight: 700;
-  -webkit-transform: translate(5%,-10%) scale(0.8);
-  -ms-transform: translate(5%,-10%) scale(0.8);
-  transform: translate(5%,-10%) scale(0.8);
+  -webkit-transform: translate(3px,-6px) scale(0.8);
+  -ms-transform: translate(3px,-6px) scale(0.8);
+  transform: translate(3px,-6px) scale(0.8);
 }
 
 .c1 + label {

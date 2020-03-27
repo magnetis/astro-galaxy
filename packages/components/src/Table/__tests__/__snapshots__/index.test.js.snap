@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Table should render correctly 1`] = `
+.c0 {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.c0 td {
+  color: #32383c;
+  font: normal normal 400 normal 16px/1.5 Lato,sans-serif;
+}
+
+.c0 th {
+  color: #597183;
+  font: normal normal 600 normal 16px/1.5 Poppins,sans-serif;
+}
+
+.c0 td,
+.c0 th {
+  padding: 32px 16px;
+  text-align: inherit;
+}
+
+.c0 td:first-child,
+.c0 th:first-child {
+  padding-left: 32px;
+}
+
+.c0 td:last-child,
+.c0 th:last-child {
+  padding-right: 32px;
+}
+
+.c0 tr:nth-child(odd) td {
+  background-color: #1c212408;
+}
+
+.c0 tr[disabled] {
+  opacity: 0.3;
+}
+
+<table
+  className="c0"
+/>
+`;

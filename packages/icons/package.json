@@ -10,10 +10,10 @@
     "compile": "node ./scripts/build-icons && rollup -c"
   },
   "dependencies": {
-    "lodash": "^4.17.11",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "styled-components": "^4.4.1",
+    "lodash": "^4.17.15",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "styled-components": "^5.0.1",
     "styled-system": "^5.1.4"
   },
   "peerDependencies": {

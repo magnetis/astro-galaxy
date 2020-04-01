@@ -1,0 +1,252 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tabbed should render correctly 1`] = `
+.c3 {
+  fill: currentcolor;
+  color: #32383c;
+}
+
+.c0 {
+  padding: 0;
+}
+
+.c1 {
+  display: inline-block;
+}
+
+.c1 [aria-selected='true'] {
+  color: #159ce4;
+  border-bottom: 2px solid #159ce4;
+}
+
+.c1 [aria-selected='true'] svg {
+  fill: #159ce4;
+}
+
+.c2 {
+  border-bottom: 2px solid #afbec9;
+  color: #597183;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font: normal normal 600 normal 16px/1.5 Poppins,sans-serif;
+  font-size: 14px;
+  line-height: 26px;
+  padding: 10px 20px 8px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c2 svg {
+  fill: #32383c;
+  margin-right: 4px;
+}
+
+.c2:hover {
+  color: #afbec9;
+  border-bottom: 2px solid #e9eef2;
+}
+
+.c2:hover svg {
+  fill: #c5c5c5;
+}
+
+.c4 {
+  color: #32383c;
+  font-size: medium;
+  font: normal normal 400 normal 16px/1.5 Lato,sans-serif;
+  font-size: 16px;
+}
+
+<div
+  className="a-tabbed"
+>
+  <ul
+    className="c0"
+  >
+    <li
+      className="c1"
+    >
+      <a
+        className="c2"
+        href="#section1"
+      >
+        <svg
+          className="c3"
+          color="moon900"
+          height={24}
+          viewBox="0 0 32 32"
+          width={24}
+        >
+          <defs>
+            <path
+              d="M22 18v-4H10v4a6 6 0 1 0 12 0zm2-5h1a4 4 0 1 1 0 8h-1.582A8.003 8.003 0 0 1 8 18v-5a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1zm0 2v4h1a2 2 0 1 0 0-4h-1zM7 27h18a1 1 0 0 1 0 2H7a1 1 0 0 1 0-2zm6.728-20.094c.063-.102.128-.205.19-.31.473-.804.353-1.162-.365-2.343-.245-.403-.093-.915.34-1.144.432-.228.982-.087 1.227.317.808 1.33 1.308 2.393.375 3.978-.068.116-.14.23-.21.345-.476.764-.715 1.147-.178 1.978.258.397.12.913-.305 1.152a.946.946 0 0 1-.464.121.916.916 0 0 1-.772-.406c-1.088-1.68-.366-2.84.162-3.688zm3.677.886c.032-.067.064-.135.094-.204.176-.396.177-.517-.184-1.31-.189-.411-.072-.934.262-1.167.333-.233.755-.087.943.325.36.787.768 1.68.193 2.976-.036.082-.073.162-.11.24-.24.51-.297.631-.093 1.048.198.406.093.932-.235 1.177a.595.595 0 0 1-.357.123c-.235 0-.464-.148-.594-.414-.627-1.286-.2-2.193.081-2.794z"
+              id="icon-cup-a"
+            />
+          </defs>
+          <g
+            id="icon/secondary/cup"
+          >
+            <mask
+              id="mask-2"
+            >
+              <use
+                xlinkHref="#icon-cup-a"
+              />
+            </mask>
+            <use
+              id="Combined-Shape"
+              xlinkHref="#icon-cup-a"
+            />
+            <path
+              d="M0 0h32v32H0z"
+              fillOpacity="0"
+              id="Canvas"
+            />
+          </g>
+        </svg>
+        section 1
+      </a>
+    </li>
+    <li
+      className="c1"
+    >
+      <a
+        className="c2"
+        href="#section2"
+      >
+        <svg
+          className="c3"
+          color="moon900"
+          height={24}
+          viewBox="0 0 32 32"
+          width={24}
+        >
+          <defs>
+            <path
+              d="M16 4H8v2a1 1 0 1 1-2 0V4H3a1 1 0 0 0-1 1v4.111h20V5a1 1 0 0 0-1-1h-3v2a1 1 0 0 1-2 0V4zm1 0v2-2zm1-2v2h1V2h2a3 3 0 0 1 3 3v18a3 3 0 0 1-3 3H3a3 3 0 0 1-3-3V5a3 3 0 0 1 3-3h2v2h1V1a1 1 0 1 1 2 0v3h1V2h6v2h1V1a1 1 0 0 1 2 0v1zm-1 0V1v1zM7 4v2-2zm0-2V1v1zm15 9.111H2V23a1 1 0 0 0 1 1h18a1 1 0 0 0 1-1V11.111zM7 17a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm0 4a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm5-4a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm0 4a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm5-4a1 1 0 1 1 0-2 1 1 0 0 1 0 2zm0 4a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"
+              id="icon-calendar-a"
+            />
+          </defs>
+          <g
+            id="icon/secondary/calendar"
+          >
+            <g
+              id="color/earth-400"
+              transform="translate(4 3)"
+            >
+              <mask
+                id="icon-calendar-b"
+              >
+                <use
+                  xlinkHref="#icon-calendar-a"
+                />
+              </mask>
+              <use
+                id="Mask"
+                xlinkHref="#icon-calendar-a"
+              />
+              <g
+                id="color/moon-900"
+                mask="url(#icon-calendar-b)"
+              >
+                <path
+                  d="M0 0h32v32H0z"
+                  id="Rectangle"
+                  transform="translate(-4 -3)"
+                />
+              </g>
+            </g>
+          </g>
+        </svg>
+        section 2
+      </a>
+    </li>
+    <li
+      className="c1"
+    >
+      <a
+        className="c2"
+        href="#section3"
+      >
+        <svg
+          className="c3"
+          color="moon900"
+          height={24}
+          viewBox="0 0 32 32"
+          width={24}
+        >
+          <defs>
+            <path
+              d="M17 15.586l3.207 3.207a1 1 0 0 1-1.414 1.414l-3.261-3.26a1 1 0 0 1-.532-.885V8.483a1 1 0 0 1 2 0v7.103zM16 3.5c6.904 0 12.5 5.596 12.5 12.5S22.904 28.5 16 28.5 3.5 22.904 3.5 16 9.096 3.5 16 3.5zm0 2C10.201 5.5 5.5 10.201 5.5 16S10.201 26.5 16 26.5 26.5 21.799 26.5 16 21.799 5.5 16 5.5z"
+              id="icon-clock-a"
+            />
+          </defs>
+          <g
+            id="icon/secondary/clock"
+          >
+            <mask
+              id="icon-clock-b"
+            >
+              <use
+                xlinkHref="#icon-clock-a"
+              />
+            </mask>
+            <use
+              id="Mask"
+              xlinkHref="#icon-clock-a"
+            />
+            <g
+              id="color/moon-900"
+              mask="url(#icon-clock-b)"
+            >
+              <path
+                d="M0 0h32v32H0z"
+                id="Rectangle"
+              />
+            </g>
+          </g>
+        </svg>
+        section 3
+      </a>
+    </li>
+  </ul>
+  <section
+    className=""
+    id="section1"
+  >
+    <p
+      className="c4"
+      color="moon900"
+      fontSize="medium"
+    >
+      Nullam imperdiet dolor a erat commodo laoreet a ut felis. Nam consequat nisl eu efficitur suscipit. Nulla dapibus cursus diam in convallis.
+    </p>
+  </section>
+  <section
+    className=""
+    id="section2"
+  >
+    <p
+      className="c4"
+      color="moon900"
+      fontSize="medium"
+    >
+      Mauris sit amet egestas velit. Maecenas pulvinar sed nibh vel tincidunt. In vitae vestibulum ante. Morbi bibendum mi vitae purus vehicula, id bibendum arcu cursus.
+    </p>
+  </section>
+  <section
+    className=""
+    id="section3"
+  >
+    <p
+      className="c4"
+      color="moon900"
+      fontSize="medium"
+    >
+      Nunc dolor justo, congue id malesuada ac, bibendum id odio. Integer dictum, lacus vitae rutrum faucibus, dolor diam lacinia erat, maximus mattis ligula libero at risus.
+    </p>
+  </section>
+</div>
+`;

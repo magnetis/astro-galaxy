@@ -1,15 +1,15 @@
-import React from 'react';
 import { storiesOf } from '@storybook/react';
+import React from 'react';
 import {
   InputFilePreview,
+  InputFilePreviewCloseIcon,
+  InputFilePreviewImage,
   InputFilePreviewItem,
   InputFilePreviewRemoveButton,
   InputFilePreviewText,
-  InputFilePreviewImage,
-  InputFilePreviewCloseIcon,
 } from './index.js';
 
-storiesOf('input file preview', module).add('default', () => (
+storiesOf('inputs|uploaded files preview', module).add('default', () => (
   <>
     <InputFilePreview>
       <InputFilePreviewItem>

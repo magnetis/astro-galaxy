@@ -1,15 +1,15 @@
-import React from 'react';
-import { storiesOf } from '@storybook/react';
-import IconGhostButton from './index.js';
 import { IconCalendar } from '@magnetis/astro-galaxy-icons';
+import { storiesOf } from '@storybook/react';
+import React from 'react';
+import IconGhostButton from './index.js';
 
-storiesOf('icon ghost buttons', module)
-  .add('icon ghost button default', () => (
+storiesOf('buttons|ghost icon buttons', module)
+  .add('default', () => (
     <IconGhostButton>
       <IconCalendar />
     </IconGhostButton>
   ))
-  .add('icon ghost buttons variants', () => (
+  .add('variants', () => (
     <>
       <IconGhostButton variant="ghost.uranus" iconlabel>
         <IconCalendar />
@@ -29,7 +29,28 @@ storiesOf('icon ghost buttons', module)
       </IconGhostButton>
     </>
   ))
-  .add('iconlabel ghost buttons', () => (
+  .add('sizes', () => (
+    <>
+      <IconGhostButton buttonSize="small">
+        <IconCalendar />
+      </IconGhostButton>
+      <IconGhostButton buttonSize="medium">
+        <IconCalendar />
+      </IconGhostButton>
+      <IconGhostButton buttonSize="large">
+        <IconCalendar />
+      </IconGhostButton>
+    </>
+  ));
+
+storiesOf('buttons|ghost iconlabel buttons', module)
+  .add('default', () => (
+    <IconGhostButton iconlabel>
+      <IconCalendar />
+      label
+    </IconGhostButton>
+  ))
+  .add('variants', () => (
     <>
       <IconGhostButton variant="ghost.uranus" iconlabel>
         <IconCalendar />
@@ -53,7 +74,7 @@ storiesOf('icon ghost buttons', module)
       </IconGhostButton>
     </>
   ))
-  .add('iconlabelRight ghost buttons', () => (
+  .add('right label', () => (
     <>
       <IconGhostButton variant="ghost.uranus" iconlabel iconlabelRight>
         uranus
@@ -77,17 +98,3 @@ storiesOf('icon ghost buttons', module)
       </IconGhostButton>
     </>
   ));
-
-storiesOf('icon ghost button sizes', module).add('icon ghost buttons sizes', () => (
-  <>
-    <IconGhostButton buttonSize="small">
-      <IconCalendar />
-    </IconGhostButton>
-    <IconGhostButton buttonSize="medium">
-      <IconCalendar />
-    </IconGhostButton>
-    <IconGhostButton buttonSize="large">
-      <IconCalendar />
-    </IconGhostButton>
-  </>
-));

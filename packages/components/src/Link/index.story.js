@@ -1,8 +1,8 @@
-import React from 'react';
 import { storiesOf } from '@storybook/react';
+import React from 'react';
 import Link from './index.js';
 
-storiesOf('Link', module).add('default', () => (
+storiesOf('buttons|links', module).add('default', () => (
   <>
     <Link>primary font - medium size</Link>
     <br />

@@ -1,19 +1,17 @@
-import React from 'react';
 import { storiesOf } from '@storybook/react';
-import { TextAreaWrapper, TextArea, TextAreaLabel } from './index.js';
+import React from 'react';
+import { TextArea, TextAreaLabel, TextAreaWrapper } from './index.js';
 
-const TextAreaSample = () => (
-  <>
+storiesOf('inputs|textarea inputs', module)
+  .add('default', () => (
     <TextAreaWrapper>
       <TextArea />
       <TextAreaLabel>Label</TextAreaLabel>
     </TextAreaWrapper>
-
+  ))
+  .add('disabled', () => (
     <TextAreaWrapper>
       <TextArea disabled />
       <TextAreaLabel>Label</TextAreaLabel>
     </TextAreaWrapper>
-  </>
-);
-
-storiesOf('TextArea', module).add('default', () => <TextAreaSample />);
+  ));

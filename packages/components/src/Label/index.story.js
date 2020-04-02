@@ -1,5 +1,5 @@
-import React from 'react';
 import { storiesOf } from '@storybook/react';
+import React from 'react';
 import Label from './index.js';
 
-storiesOf('label', module).add('label', () => <Label>Label</Label>);
+storiesOf('typography|labels', module).add('default', () => <Label>Label</Label>);

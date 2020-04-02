@@ -2,8 +2,8 @@ import { storiesOf } from '@storybook/react';
 import React from 'react';
 import InputMasked, { maskTypes } from './index.js';
 
-storiesOf('input masked', module)
-  .add('CPF', () => (
+storiesOf('inputs|masked inputs', module)
+  .add('cpf', () => (
     <InputMasked
       inputId="cpfMaskedInput"
       labelId="cpfMaskedLabel"
@@ -11,7 +11,7 @@ storiesOf('input masked', module)
       maskType={maskTypes.cpf}
     />
   ))
-  .add('Currency', () => (
+  .add('currency', () => (
     <InputMasked
       inputId="currencyMaskedInput"
       labelId="currencyMaskedLabel"
@@ -19,7 +19,7 @@ storiesOf('input masked', module)
       maskType={maskTypes.currency}
     />
   ))
-  .add('Date', () => (
+  .add('date', () => (
     <InputMasked
       inputId="dateMaskedInput"
       labelId="dateMaskedLabel"

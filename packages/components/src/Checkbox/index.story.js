@@ -1,9 +1,9 @@
-import React from 'react';
 import { storiesOf } from '@storybook/react';
-import { CheckboxWrapper, Checkbox, CheckboxShape } from './index.js';
+import React from 'react';
 import Label from '../Label';
+import { Checkbox, CheckboxShape, CheckboxWrapper } from './index.js';
 
-storiesOf('checkbox', module)
+storiesOf('controls & toggles|checkboxes', module)
   .add('default', () => (
     <>
       <CheckboxWrapper>
@@ -20,7 +20,7 @@ storiesOf('checkbox', module)
   ))
   .add('indeterminate', () => (
     <CheckboxWrapper>
-      <Checkbox indeterminate id="checkbox2" />
+      <Checkbox indeterminate id="checkbox2" checked />
       <CheckboxShape />
       <Label htmlFor="checkbox2">Checkbox</Label>
     </CheckboxWrapper>

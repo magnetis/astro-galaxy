@@ -17,7 +17,7 @@ const buildProps = (props = {}) => ({
   ...props,
 });
 
-storiesOf('input text', module)
+storiesOf('inputs|standard text inputs', module)
   .addDecorator(withKnobs)
   .add('default', () => <InputText {...buildProps()} />)
   .add('validated', () => (

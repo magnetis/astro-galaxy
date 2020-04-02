@@ -1,6 +1,6 @@
-import React from 'react';
 import { storiesOf } from '@storybook/react';
 import map from 'lodash/map';
+import React from 'react';
 import * as icons from './lib/index.es';
 
 /**
@@ -8,9 +8,9 @@ import * as icons from './lib/index.es';
   small = 24
   medium = 32
   large = 40
-  
+
   - To apply spacing (margin-left and margin-right) we shall use ml (marginLeft) and mr (marginRight) with the following values:
-  
+
   8px = 1 (space array index 1)
 **/
 const Story = () => {
@@ -19,4 +19,4 @@ const Story = () => {
   ));
 };
 
-storiesOf('iconography', module).add('Astro icons', () => <Story />);
+storiesOf('iconography|icons', module).add('all', () => <Story />);

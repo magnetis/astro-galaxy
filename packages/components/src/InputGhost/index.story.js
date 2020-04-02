@@ -3,7 +3,7 @@ import { storiesOf } from '@storybook/react';
 import React from 'react';
 import InputGhost from './index.js';
 
-storiesOf('input ghost', module)
+storiesOf('inputs|ghost inputs', module)
   .addParameters({
     backgrounds: [
       { name: 'moon 900', value: theme.colors.moon900, default: true },

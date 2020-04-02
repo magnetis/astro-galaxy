@@ -1,10 +1,10 @@
-import React from 'react';
 import { storiesOf } from '@storybook/react';
-import { RadioWrapper, Radio, RadioShape } from './index.js';
+import React from 'react';
 import Label from '../Label';
+import { Radio, RadioShape, RadioWrapper } from './index.js';
 
-storiesOf('radio', module)
-  .add('radio', () => (
+storiesOf('controls & toggles|radio buttons', module)
+  .add('default', () => (
     <>
       <RadioWrapper>
         <Radio id="radio1" name="radiogroup1" />
@@ -18,7 +18,7 @@ storiesOf('radio', module)
       </RadioWrapper>
     </>
   ))
-  .add('radio with center align', () => (
+  .add('long label', () => (
     <>
       <RadioWrapper>
         <Radio id="radio4" name="radiogroup3" />
@@ -38,7 +38,7 @@ storiesOf('radio', module)
       </RadioWrapper>
     </>
   ))
-  .add('radio disabled', () => (
+  .add('disabled', () => (
     <RadioWrapper>
       <Radio disabled id="radio3" name="radiogroup2" />
       <RadioShape />

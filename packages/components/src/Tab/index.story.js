@@ -1,10 +1,10 @@
-import React from 'react';
+import { Heading, Text } from '@magnetis/astro-galaxy-components';
+import { IconCalendar, IconMoneyBag, IconPencil } from '@magnetis/astro-galaxy-icons';
 import { storiesOf } from '@storybook/react';
-import { Text, Heading } from '@magnetis/astro-galaxy-components';
-import { IconPencil, IconMoneyBag, IconCalendar } from '@magnetis/astro-galaxy-icons';
-import { Tab, TabItem, TabLabel, TabContent } from './index.js';
+import React from 'react';
+import { Tab, TabContent, TabItem, TabLabel } from './index.js';
 
-storiesOf('Tab', module)
+storiesOf('controls & toggles|tabs', module)
   .add('default', () => (
     <Tab>
       <TabItem id="tab1" name="tabs" defaultChecked />

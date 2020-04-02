@@ -1,8 +1,8 @@
-import React from 'react';
 import { storiesOf } from '@storybook/react';
+import React from 'react';
 import Heading from './index.js';
 
-storiesOf('Heading', module)
+storiesOf('typography|heading', module)
   .add('default', () => <Heading>Astro Galaxy</Heading>)
   .add('colors', () => (
     <>

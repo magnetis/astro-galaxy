@@ -1,15 +1,15 @@
-import React from 'react';
-import { storiesOf } from '@storybook/react';
-import IconButton from './index.js';
 import { IconCalendar } from '@magnetis/astro-galaxy-icons';
+import { storiesOf } from '@storybook/react';
+import React from 'react';
+import IconButton from './index.js';
 
-storiesOf('icon buttons', module)
-  .add('icon button default', () => (
+storiesOf('buttons|icon buttons', module)
+  .add('default', () => (
     <IconButton>
       <IconCalendar />
     </IconButton>
   ))
-  .add('primary icon buttons variants', () => (
+  .add('variants', () => (
     <>
       <IconButton variant="primary.uranus" iconlabel>
         <IconCalendar />
@@ -28,18 +28,17 @@ storiesOf('icon buttons', module)
         <IconCalendar />
       </IconButton>
     </>
+  ))
+  .add('sizes', () => (
+    <>
+      <IconButton buttonSize="small">
+        <IconCalendar />
+      </IconButton>
+      <IconButton buttonSize="medium">
+        <IconCalendar />
+      </IconButton>
+      <IconButton buttonSize="large">
+        <IconCalendar />
+      </IconButton>
+    </>
   ));
-
-storiesOf('icon button sizes', module).add('primary icon buttons sizes', () => (
-  <>
-    <IconButton buttonSize="small">
-      <IconCalendar />
-    </IconButton>
-    <IconButton buttonSize="medium">
-      <IconCalendar />
-    </IconButton>
-    <IconButton buttonSize="large">
-      <IconCalendar />
-    </IconButton>
-  </>
-));

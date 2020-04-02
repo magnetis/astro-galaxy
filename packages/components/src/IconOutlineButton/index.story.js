@@ -1,15 +1,15 @@
-import React from 'react';
-import { storiesOf } from '@storybook/react';
-import IconOutlineButton from './index.js';
 import { IconCalendar } from '@magnetis/astro-galaxy-icons';
+import { storiesOf } from '@storybook/react';
+import React from 'react';
+import IconOutlineButton from './index.js';
 
-storiesOf('icon outline buttons', module)
-  .add('icon button default', () => (
+storiesOf('buttons|outline buttons', module)
+  .add('default', () => (
     <IconOutlineButton>
       <IconCalendar />
     </IconOutlineButton>
   ))
-  .add('icon outline buttons variants', () => (
+  .add('variants', () => (
     <>
       <IconOutlineButton variant="outline.uranus">
         <IconCalendar />
@@ -27,24 +27,29 @@ storiesOf('icon outline buttons', module)
         <IconCalendar />
       </IconOutlineButton>
     </>
+  ))
+  .add('sizes', () => (
+    <>
+      <IconOutlineButton buttonSize="small">
+        <IconCalendar />
+      </IconOutlineButton>
+      <IconOutlineButton buttonSize="medium">
+        <IconCalendar />
+      </IconOutlineButton>
+      <IconOutlineButton buttonSize="large">
+        <IconCalendar />
+      </IconOutlineButton>
+    </>
   ));
 
-storiesOf('icon outline button sizes', module).add('icon outline buttons sizes', () => (
-  <>
-    <IconOutlineButton buttonSize="small">
+storiesOf('buttons|outline iconlabel buttons', module)
+  .add('default', () => (
+    <IconOutlineButton iconlabel>
       <IconCalendar />
+      uranus
     </IconOutlineButton>
-    <IconOutlineButton buttonSize="medium">
-      <IconCalendar />
-    </IconOutlineButton>
-    <IconOutlineButton buttonSize="large">
-      <IconCalendar />
-    </IconOutlineButton>
-  </>
-));
-
-storiesOf('iconlabel outline button', module)
-  .add('iconlabel', () => (
+  ))
+  .add('variants', () => (
     <>
       <IconOutlineButton variant="outline.uranus" iconlabel>
         <IconCalendar />
@@ -68,7 +73,7 @@ storiesOf('iconlabel outline button', module)
       </IconOutlineButton>
     </>
   ))
-  .add('iconlabelRight', () => (
+  .add('right label', () => (
     <>
       <IconOutlineButton variant="outline.uranus" iconlabel iconlabelRight>
         uranus
@@ -92,7 +97,7 @@ storiesOf('iconlabel outline button', module)
       </IconOutlineButton>
     </>
   ))
-  .add('iconlabel button sizes', () => (
+  .add('sizes', () => (
     <>
       <IconOutlineButton buttonSize="small" iconlabel>
         <IconCalendar />

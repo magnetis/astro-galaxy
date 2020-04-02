@@ -1,8 +1,8 @@
-import React from 'react';
 import { storiesOf } from '@storybook/react';
+import React from 'react';
 import Text from './index.js';
 
-storiesOf('Text', module)
+storiesOf('typography|texts', module)
   .add('primary', () => <Text>Astro Galaxy</Text>)
   .add('secondary', () => <Text font="secondary">Astro Galaxy</Text>)
   .add('colors', () => (

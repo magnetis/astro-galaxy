@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
 import { storiesOf } from '@storybook/react';
+import React, { useState } from 'react';
 import Slider from './index.js';
 
-storiesOf('Slider', module)
+storiesOf('controls & toggles|sliders', module)
   .add('default', () => {
     const SliderDefault = props => {
       const [value, setValue] = useState(50);
@@ -45,7 +45,6 @@ storiesOf('Slider', module)
     };
     return <SliderFullFill />;
   })
-
   .add('only label', () => {
     const SliderOnlyLabel = props => {
       const [value, setValue] = useState(25);

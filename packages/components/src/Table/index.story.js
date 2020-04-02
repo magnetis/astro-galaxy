@@ -67,7 +67,7 @@ const DemoTable = props => (
   </Table>
 );
 
-storiesOf('table', module)
+storiesOf('tables|tables', module)
   .addDecorator(withKnobs)
   .add('default', () => <DemoTable />, backgroundSelector(false))
   .add('dark mode', () => <DemoTable darkMode />, backgroundSelector(true));

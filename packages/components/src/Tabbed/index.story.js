@@ -4,7 +4,7 @@ import React from 'react';
 import Tabbed, { Section, Tab } from '.';
 import Text from '../Text';
 
-storiesOf('tabbed', module).add('default', () => (
+storiesOf('controls & toggles|tabbeds', module).add('default', () => (
   <Tabbed
     tabs={
       <>

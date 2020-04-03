@@ -93,6 +93,14 @@ exports[`input text renders correctly the input without animation 1`] = `
   transform: translate(3px,-6px) scale(0.8);
 }
 
+.c1.--no-animate {
+  border-color: #597183;
+}
+
+.c1.--no-animate:focus {
+  border-color: #159ce4;
+}
+
 .c1 + label {
   left: 0;
   position: absolute;
@@ -224,6 +232,16 @@ exports[`input text renders correctly the invalid input 1`] = `
   -webkit-transform: translate(3px,-6px) scale(0.8);
   -ms-transform: translate(3px,-6px) scale(0.8);
   transform: translate(3px,-6px) scale(0.8);
+}
+
+.c1.--no-animate {
+  border-color: #d45459;
+  padding-right: 48px;
+}
+
+.c1.--no-animate:focus {
+  border-color: #d45459;
+  padding-right: 48px;
 }
 
 .c1 + label {
@@ -403,6 +421,14 @@ exports[`input text renders correctly the large input and checks its font size 1
   transform: translate(8px,-3px) scale(0.6);
 }
 
+.c1.--no-animate {
+  border-color: #597183;
+}
+
+.c1.--no-animate:focus {
+  border-color: #159ce4;
+}
+
 .c1 + label {
   left: 0;
   position: absolute;
@@ -526,6 +552,14 @@ exports[`input text renders correctly the standard input 1`] = `
   -webkit-transform: translate(3px,-6px) scale(0.8);
   -ms-transform: translate(3px,-6px) scale(0.8);
   transform: translate(3px,-6px) scale(0.8);
+}
+
+.c1.--no-animate {
+  border-color: #597183;
+}
+
+.c1.--no-animate:focus {
+  border-color: #159ce4;
 }
 
 .c1 + label {
@@ -659,6 +693,16 @@ exports[`input text renders correctly the validated input 1`] = `
   -webkit-transform: translate(3px,-6px) scale(0.8);
   -ms-transform: translate(3px,-6px) scale(0.8);
   transform: translate(3px,-6px) scale(0.8);
+}
+
+.c1.--no-animate {
+  border-color: #74e24a;
+  padding-right: 48px;
+}
+
+.c1.--no-animate:focus {
+  border-color: #74e24a;
+  padding-right: 48px;
 }
 
 .c1 + label {

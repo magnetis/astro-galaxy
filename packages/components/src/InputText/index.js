@@ -137,6 +137,14 @@ const InputField = styled.input`
     ${props => inputValidationStyles({ ...props, defaultColor: props.theme.colors.uranus500 })};
   }
 
+  &.--no-animate {
+    ${props => inputValidationStyles({ ...props, defaultColor: props.theme.colors.moon500 })};
+
+    &:focus {
+      ${props => inputValidationStyles({ ...props, defaultColor: props.theme.colors.uranus500 })};
+    }
+  }
+
   & + label {
     left: 0;
     position: absolute;
@@ -170,6 +178,7 @@ const InputText = ({
   noAnimate,
   className,
   inputSize,
+  displayValidationIcon,
   ...rest
 }) => (
   <>
@@ -194,10 +203,12 @@ const InputText = ({
         {...labelProps}>
         {labelText}
       </InputLabel>
-      {isValidated && (
+      {isValidated && displayValidationIcon && (
         <IconCircleCheck color="earth400" size="32" style={{ ...iconStyles(inputSize) }} />
       )}
-      {isInvalid && <IconAlert color="mars500" size="32" style={{ ...iconStyles(inputSize) }} />}
+      {isInvalid && displayValidationIcon && (
+        <IconAlert color="mars500" size="32" style={{ ...iconStyles(inputSize) }} />
+      )}
       {isInvalid && errorMessage && <ErrorMessage>{errorMessage}</ErrorMessage>}
     </InputWrapper>
   </>
@@ -214,6 +225,7 @@ InputText.defaultProps = {
   labelProps: {},
   className: '',
   inputSize: inputSizes.medium,
+  displayValidationIcon: true,
 };
 
 InputText.propTypes = {
@@ -226,6 +238,7 @@ InputText.propTypes = {
   errorMessage: PropTypes.string,
   labelProps: PropTypes.object,
   inputSize: PropTypes.oneOf([inputSizes.medium, inputSizes.large]),
+  displayValidationIcon: PropTypes.bool,
 };
 
 export default InputText;

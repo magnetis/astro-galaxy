@@ -93,6 +93,14 @@ exports[`InputMasked renders CPF masked input 1`] = `
   transform: translate(3px,-6px) scale(0.8);
 }
 
+.c1.--no-animate {
+  border-color: #597183;
+}
+
+.c1.--no-animate:focus {
+  border-color: #159ce4;
+}
+
 .c1 + label {
   left: 0;
   position: absolute;
@@ -139,6 +147,11 @@ exports[`InputMasked renders CPF masked input 1`] = `
             "backgroundColor": "transparent",
             "borderColor": "transparent",
             "color": "#d45459",
+          },
+          "moon": Object {
+            "backgroundColor": "transparent",
+            "borderColor": "transparent",
+            "color": "#597183",
           },
           "uranus": Object {
             "backgroundColor": "transparent",
@@ -375,6 +388,11 @@ exports[`InputMasked renders CPF masked input 1`] = `
               "borderColor": "transparent",
               "color": "#d45459",
             },
+            "moon": Object {
+              "backgroundColor": "transparent",
+              "borderColor": "transparent",
+              "color": "#597183",
+            },
             "uranus": Object {
               "backgroundColor": "transparent",
               "borderColor": "transparent",
@@ -579,6 +597,8 @@ exports[`InputMasked renders CPF masked input 1`] = `
     <InputMasked
       className=""
       decimalScale={2}
+      decimalSeparator=","
+      displayValidationIcon={true}
       inputId="inputId"
       inputSize="medium"
       isInvalid={false}
@@ -595,6 +615,7 @@ exports[`InputMasked renders CPF masked input 1`] = `
         }
       }
       noAnimate={true}
+      thousandSeparator="."
     >
       <InputMask
         alwaysShowMask={false}
@@ -609,6 +630,7 @@ exports[`InputMasked renders CPF masked input 1`] = `
         >
           <InputText
             className=""
+            displayValidationIcon={true}
             inputId="inputId"
             inputSize="medium"
             isInvalid={false}
@@ -702,7 +724,11 @@ exports[`InputMasked renders CPF masked input 1`] = `
                               [Function],
                               ";}",
                               [Function],
-                              ";}& + label{left:0;position:absolute;top:0;transition:transform 0.25s,opacity 0.25s ease-in-out;transform-origin:0 0;}",
+                              ";}&.--no-animate{",
+                              [Function],
+                              ";&:focus{",
+                              [Function],
+                              ";}}& + label{left:0;position:absolute;top:0;transition:transform 0.25s,opacity 0.25s ease-in-out;transform-origin:0 0;}",
                             ],
                           },
                           "displayName": "InputText__InputField",
@@ -896,6 +922,14 @@ exports[`InputMasked renders currency masked input 1`] = `
   transform: translate(3px,-6px) scale(0.8);
 }
 
+.c1.--no-animate {
+  border-color: #597183;
+}
+
+.c1.--no-animate:focus {
+  border-color: #159ce4;
+}
+
 .c1 + label {
   left: 0;
   position: absolute;
@@ -942,6 +976,11 @@ exports[`InputMasked renders currency masked input 1`] = `
             "backgroundColor": "transparent",
             "borderColor": "transparent",
             "color": "#d45459",
+          },
+          "moon": Object {
+            "backgroundColor": "transparent",
+            "borderColor": "transparent",
+            "color": "#597183",
           },
           "uranus": Object {
             "backgroundColor": "transparent",
@@ -1178,6 +1217,11 @@ exports[`InputMasked renders currency masked input 1`] = `
               "borderColor": "transparent",
               "color": "#d45459",
             },
+            "moon": Object {
+              "backgroundColor": "transparent",
+              "borderColor": "transparent",
+              "color": "#597183",
+            },
             "uranus": Object {
               "backgroundColor": "transparent",
               "borderColor": "transparent",
@@ -1382,6 +1426,8 @@ exports[`InputMasked renders currency masked input 1`] = `
     <InputMasked
       className=""
       decimalScale={2}
+      decimalSeparator=","
+      displayValidationIcon={true}
       inputId="inputId"
       inputSize="medium"
       isInvalid={false}
@@ -1398,17 +1444,21 @@ exports[`InputMasked renders currency masked input 1`] = `
         }
       }
       noAnimate={true}
+      thousandSeparator="."
     >
       <NumberFormat
         allowEmptyFormatting={false}
         allowLeadingZeros={false}
         allowNegative={true}
+        className=""
         customInput={[Function]}
         decimalScale={2}
         decimalSeparator=","
         displayType="input"
+        displayValidationIcon={true}
         fixedDecimalScale={false}
         inputId="inputId"
+        inputSize="medium"
         isAllowed={[Function]}
         isInvalid={false}
         isNumericString={false}
@@ -1432,6 +1482,7 @@ exports[`InputMasked renders currency masked input 1`] = `
       >
         <InputText
           className=""
+          displayValidationIcon={true}
           inputId="inputId"
           inputMode="numeric"
           inputSize="medium"
@@ -1532,7 +1583,11 @@ exports[`InputMasked renders currency masked input 1`] = `
                             [Function],
                             ";}",
                             [Function],
-                            ";}& + label{left:0;position:absolute;top:0;transition:transform 0.25s,opacity 0.25s ease-in-out;transform-origin:0 0;}",
+                            ";}&.--no-animate{",
+                            [Function],
+                            ";&:focus{",
+                            [Function],
+                            ";}}& + label{left:0;position:absolute;top:0;transition:transform 0.25s,opacity 0.25s ease-in-out;transform-origin:0 0;}",
                           ],
                         },
                         "displayName": "InputText__InputField",
@@ -1731,6 +1786,14 @@ exports[`InputMasked renders date masked input 1`] = `
   transform: translate(3px,-6px) scale(0.8);
 }
 
+.c1.--no-animate {
+  border-color: #597183;
+}
+
+.c1.--no-animate:focus {
+  border-color: #159ce4;
+}
+
 .c1 + label {
   left: 0;
   position: absolute;
@@ -1777,6 +1840,11 @@ exports[`InputMasked renders date masked input 1`] = `
             "backgroundColor": "transparent",
             "borderColor": "transparent",
             "color": "#d45459",
+          },
+          "moon": Object {
+            "backgroundColor": "transparent",
+            "borderColor": "transparent",
+            "color": "#597183",
           },
           "uranus": Object {
             "backgroundColor": "transparent",
@@ -2013,6 +2081,11 @@ exports[`InputMasked renders date masked input 1`] = `
               "borderColor": "transparent",
               "color": "#d45459",
             },
+            "moon": Object {
+              "backgroundColor": "transparent",
+              "borderColor": "transparent",
+              "color": "#597183",
+            },
             "uranus": Object {
               "backgroundColor": "transparent",
               "borderColor": "transparent",
@@ -2217,6 +2290,8 @@ exports[`InputMasked renders date masked input 1`] = `
     <InputMasked
       className=""
       decimalScale={2}
+      decimalSeparator=","
+      displayValidationIcon={true}
       inputId="inputId"
       inputSize="medium"
       isInvalid={false}
@@ -2233,6 +2308,7 @@ exports[`InputMasked renders date masked input 1`] = `
         }
       }
       noAnimate={true}
+      thousandSeparator="."
     >
       <InputMask
         alwaysShowMask={false}
@@ -2247,6 +2323,7 @@ exports[`InputMasked renders date masked input 1`] = `
         >
           <InputText
             className=""
+            displayValidationIcon={true}
             inputId="inputId"
             inputSize="medium"
             isInvalid={false}
@@ -2340,7 +2417,11 @@ exports[`InputMasked renders date masked input 1`] = `
                               [Function],
                               ";}",
                               [Function],
-                              ";}& + label{left:0;position:absolute;top:0;transition:transform 0.25s,opacity 0.25s ease-in-out;transform-origin:0 0;}",
+                              ";}&.--no-animate{",
+                              [Function],
+                              ";&:focus{",
+                              [Function],
+                              ";}}& + label{left:0;position:absolute;top:0;transition:transform 0.25s,opacity 0.25s ease-in-out;transform-origin:0 0;}",
                             ],
                           },
                           "displayName": "InputText__InputField",

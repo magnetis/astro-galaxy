@@ -233,8 +233,11 @@ exports[`InputControl renders correctly 1`] = `
     className="c4"
   >
     <button
+      aria-label="decrement"
       className="c5"
       display="inline-block"
+      onClick={[Function]}
+      title="decrement"
     >
       <svg
         className="c6"
@@ -254,8 +257,11 @@ exports[`InputControl renders correctly 1`] = `
       </svg>
     </button>
     <button
+      aria-label="increment"
       className="c5"
       display="inline-block"
+      onClick={[Function]}
+      title="increment"
     >
       <svg
         className="c6"

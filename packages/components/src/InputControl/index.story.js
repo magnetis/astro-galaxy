@@ -16,6 +16,8 @@ const InputControlSample = ({ ...props }) => {
       labelText="Control input"
       onIncrement={() => handleValue(+step)}
       onDecrement={() => handleValue(-step)}
+      incrementLabel="increment"
+      decrementLabel="decrement"
       onChange={event => setValue(event.target.value)}
       thousandSeparator=""
       placeholder="0"

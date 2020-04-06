@@ -15,6 +15,9 @@ const iconColor = props => ({
   'ghost.mars': `
     color: ${props.theme.colors.mars500};
   `,
+  'ghost.moon': `
+    color: ${props.theme.colors.moon500};
+  `,
 });
 
 const buttonHoverStyles = props => ({
@@ -30,6 +33,9 @@ const buttonHoverStyles = props => ({
   'ghost.mars': `
     color: ${props.theme.colors.mars400};
   `,
+  'ghost.moon': `
+    color: ${props.theme.colors.moon400};
+  `,
 });
 
 const buttonActiveStyles = props => ({
@@ -44,6 +50,9 @@ const buttonActiveStyles = props => ({
   `,
   'ghost.mars': `
     color: ${props.theme.colors.mars600};
+  `,
+  'ghost.moon': `
+    color: ${props.theme.colors.moon600};
   `,
 });
 
@@ -84,7 +93,13 @@ const IconGhostButton = styled(IconButton)`
 IconGhostButton.displayName = 'IconGhostButton';
 
 IconGhostButton.propTypes = {
-  variant: PropTypes.oneOf(['ghost.uranus', 'ghost.earth', 'ghost.venus', 'ghost.mars']),
+  variant: PropTypes.oneOf([
+    'ghost.uranus',
+    'ghost.earth',
+    'ghost.venus',
+    'ghost.mars',
+    'ghost.moon',
+  ]),
   buttonSize: PropTypes.oneOf(['small', 'medium', 'large']),
   iconlabel: PropTypes.bool,
 };

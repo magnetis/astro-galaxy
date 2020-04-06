@@ -20,45 +20,29 @@ export const maskTypes = {
 };
 
 const InputMasked = ({
-  inputId,
-  labelId,
-  labelText,
-  isValidated,
-  isInvalid,
-  errorMessage,
-  labelProps,
-  noAnimate,
-  placeholder,
   mask,
   maskType,
   maskPlaceholder,
+  thousandSeparator,
+  decimalSeparator,
   decimalScale,
-  rest,
+  ...inputProps
 }) => {
-  const commonProps = {
-    inputId,
-    labelId,
-    labelText,
-    isValidated,
-    isInvalid,
-    errorMessage,
-    labelProps,
-    rest,
-    noAnimate,
-  };
-
   return maskType === maskTypes.currency ? (
     <NumberFormat
-      {...commonProps}
+      {...inputProps}
       customInput={InputText}
-      placeholder={maskType.placeholder}
-      thousandSeparator="."
-      decimalSeparator=","
+      placeholder={inputProps.placeholder ? inputProps.placeholder : maskType.placeholder}
+      thousandSeparator={thousandSeparator}
+      decimalSeparator={decimalSeparator}
       decimalScale={decimalScale}
     />
   ) : (
     <InputMask mask={maskType ? maskType.mask : mask} maskPlaceholder={maskPlaceholder}>
-      <InputText {...commonProps} placeholder={maskType ? maskType.placeholder : placeholder} />
+      <InputText
+        {...inputProps}
+        placeholder={inputProps.placeholder ? inputProps.placeholder : maskType.placeholder}
+      />
     </InputMask>
   );
 };
@@ -66,19 +50,23 @@ const InputMasked = ({
 InputMasked.displayName = 'InputMasked';
 
 InputMasked.defaultProps = {
-  ...InputText.defaultProps,
-  noAnimate: true,
   mask: '',
   maskPlaceholder: '',
+  thousandSeparator: '.',
+  decimalSeparator: ',',
   decimalScale: 2,
+  ...InputText.defaultProps,
+  noAnimate: true,
 };
 
 InputMasked.propTypes = {
-  ...InputText.propTypes,
   mask: PropTypes.string,
   maskType: PropTypes.oneOf([maskTypes.cpf, maskTypes.currency, maskTypes.date]),
   maskPlaceholder: PropTypes.string,
+  thousandSeparator: PropTypes.string,
+  decimalSeparator: PropTypes.string,
   decimalScale: PropTypes.number,
+  ...InputText.propTypes,
 };
 
 export default InputMasked;

@@ -93,6 +93,11 @@ const theme = {
         color: baseTheme.colors.mars500,
         borderColor: 'transparent',
       },
+      moon: {
+        backgroundColor: 'transparent',
+        color: baseTheme.colors.moon500,
+        borderColor: 'transparent',
+      },
     },
   },
   buttonSizes: {

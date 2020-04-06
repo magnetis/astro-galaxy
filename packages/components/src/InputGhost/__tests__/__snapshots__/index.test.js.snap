@@ -93,6 +93,14 @@ exports[`InputGhost renders correctly 1`] = `
   transform: translate(3px,-6px) scale(0.8);
 }
 
+.c1.--no-animate {
+  border-color: #597183;
+}
+
+.c1.--no-animate:focus {
+  border-color: #159ce4;
+}
+
 .c1 + label {
   left: 0;
   position: absolute;

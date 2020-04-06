@@ -21,6 +21,7 @@ const InputControl = ({
   onDecrement,
   incrementLabel,
   decrementLabel,
+  buttonProps,
   ...inputProps
 }) => {
   const buttonSize =
@@ -43,18 +44,16 @@ const InputControl = ({
           onClick={onDecrement}
           buttonSize={buttonSize}
           variant={buttonVariant}
-          aria-label={decrementLabel}
-          title={decrementLabel}
-          disabled={inputProps.disabled}>
+          disabled={inputProps.disabled}
+          {...buttonProps.decrementButtonProps}>
           <IconCircleLess />
         </IconGhostButton>
         <IconGhostButton
           onClick={onIncrement}
           buttonSize={buttonSize}
           variant={buttonVariant}
-          aria-label={incrementLabel}
-          title={incrementLabel}
-          disabled={inputProps.disabled}>
+          disabled={inputProps.disabled}
+          {...buttonProps.incrementButtonProps}>
           <IconCircleMore />
         </IconGhostButton>
       </InputControlButtons>
@@ -64,11 +63,20 @@ const InputControl = ({
 
 InputControl.displayName = 'InputControl';
 
+InputControl.defaultProps = {
+  buttonProps: {
+    incrementButtonProps: {},
+    decrementButtonProps: {},
+  },
+};
+
 InputControl.propTypes = {
   onIncrement: PropTypes.func.isRequired,
   onDecrement: PropTypes.func.isRequired,
-  incrementLabel: PropTypes.string.isRequired,
-  decrementLabel: PropTypes.string.isRequired,
+  buttonProps: PropTypes.shape({
+    incrementButtonProps: PropTypes.object,
+    decrementButtonProps: PropTypes.object,
+  }),
   ...InputMasked.propTypes,
 };
 export default InputControl;

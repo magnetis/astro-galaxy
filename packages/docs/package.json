@@ -1,6 +1,6 @@
 {
   "name": "@magnetis/astro-galaxy-docs",
-  "version": "1.0.0-alpha.3",
+  "version": "1.0.0-alpha.4",
   "dependencies": {
     "@mdx-js/mdx": "^1.5.1",
     "@mdx-js/react": "^1.5.1",
@@ -26,5 +26,5 @@
     "compile": "gatsby build",
     "develop": "gatsby develop"
   },
-  "gitHead": "287441434b73f2dfeb01ddfd47eef221390f143d"
+  "gitHead": "18750abcb1594cb2d0e20103e21fc084eff57bbc"
 }

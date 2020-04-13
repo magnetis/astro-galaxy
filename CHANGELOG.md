@@ -1,5 +1,15 @@
 # Changelog
 
+### [1.0.0-alpha.4] - 2020-04-13
+
+- Introduce MaskedInput component.
+- Introduce GhostInput component.
+- Update Input component, add large size.
+- Introduce Table component.
+- Introduce Tabbed component.
+- Storybook improvements.
+- Introduce ControlInput component.
+
 ### [1.0.0-alpha.3] - 2020-03-20
 
 - Introduce @magnetis/astro-galaxy-tokens.

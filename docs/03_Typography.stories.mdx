@@ -1,0 +1,73 @@
+import { Meta, Preview, Story } from '@storybook/addon-docs/blocks';
+import { Heading, Text } from '@magnetis/astro-galaxy-components';
+import PreviewDivider from './components/PreviewDivider';
+
+<Meta title="/typography" />
+
+# typography
+
+#### Astro has a purposeful set of typographic styles that provide content organization, hierarchy patterns and consistent information architecture which is essential for good understanding and a solid user experience.
+
+### components & sizes
+
+There are two types of typography components: `Heading` and `Text`. You should modify the component tag for semantic purposes with the prop `as`, passing a tag like `"h1"` for example. We advise to keep style and semantics independent, so you can modify the size regardless of the tag - see all size variations under "sizes" below.
+
+To modify font size for both `Heading` or `Text` components, use the prop `fontSize` with the values `small`, `medium` or `large`. Default size is `medium`. See prop details on the table below.
+
+## poppins
+
+Poppins is our primary font, used in the whole product’s interfaces for interactive components, contextual titles and texts. Poppins provides good legibility in small and large sizes.
+
+<Preview>
+  <Story name="poppins">
+    <>
+      <Heading fontSize="small">A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</Heading>
+      <Heading fontSize="small">a b c d e f g h i j k l m n o p q r s t u v w x y z</Heading>
+      <Heading fontSize="small">0 1 2 3 4 5 6 7 8 9</Heading>
+      <PreviewDivider />
+      <Heading fontSize="huge">display. huge</Heading>
+      <PreviewDivider />
+      <Heading fontSize="large">title. large</Heading>
+      <Heading fontSize="medium">title. medium</Heading>
+      <Heading fontSize="small">title. small</Heading>
+      <PreviewDivider />
+      <Text fontSize="large">text. large</Text>
+      <Text fontSize="medium">text. medium</Text>
+      <Text fontSize="small">text. small</Text>
+      <Text fontSize="verySmall">text. very small</Text>
+    </>
+  </Story>
+</Preview>
+
+## lato
+
+Lato is our secondary font. Used in informative texts and components that demand smaller labels, Lato provides good and dynamic legibility, with a serious but friendly structure.
+
+<Preview>
+  <Story name="lato">
+    <>
+      <Text fontSize="large" font="secondary">
+        A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+      </Text>
+      <Text fontSize="large" font="secondary">
+        a b c d e f g h i j k l m n o p q r s t u v w x y z
+      </Text>
+      <Text fontSize="large" font="secondary">
+        0 1 2 3 4 5 6 7 8 9
+      </Text>
+      <PreviewDivider />
+      <Text fontSize="large" font="secondary">
+        text. large
+      </Text>
+      <Text fontSize="medium" font="secondary">
+        text. medium
+      </Text>
+      <Text fontSize="small" font="secondary">
+        text. small
+      </Text>
+      <Text fontSize="verySmall" font="secondary">
+        text. very small
+      </Text>
+    </>
+  </Story>
+</Preview>

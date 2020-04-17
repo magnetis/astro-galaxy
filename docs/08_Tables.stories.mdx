@@ -1,0 +1,69 @@
+import { Meta, Preview, Story } from '@storybook/addon-docs/blocks';
+import { IconGhostButton } from '@magnetis/astro-galaxy-components';
+import Table from '@magnetis/astro-galaxy-components/Table';
+
+<Meta title="/tables" />
+
+# tables
+
+## standard tables
+
+To apply the Astro table design just wrap the HTML table ordinary childs (`<thead>`, `<tr>`, `<td>`, etc.) with the `<Table>` compoment.
+
+<Preview>
+  <Story name="standard tables">
+    <>
+      <Table>
+        <thead>
+          <tr>
+            <th>Category</th>
+            <th>Fund</th>
+            <th>Investment</th>
+            <th>&nbsp;</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Monthly Income</td>
+            <td>FI Alaska Private Plus</td>
+            <td>$ 87,900.00</td>
+            <td>
+              <IconGhostButton variant="ghost.uranus">
+                <IconPencil />
+              </IconGhostButton>
+              <IconGhostButton variant="ghost.mars">
+                <IconTrash />
+              </IconGhostButton>
+            </td>
+          </tr>
+          <tr>
+            <td>Retirement Plan</td>
+            <td>Icatu FAFI Future</td>
+            <td>$ 143,273.00</td>
+            <td>
+              <IconGhostButton variant="ghost.uranus">
+                <IconPencil />
+              </IconGhostButton>
+              <IconGhostButton variant="ghost.mars">
+                <IconTrash />
+              </IconGhostButton>
+            </td>
+          </tr>
+          <tr disabled>
+            <td>Stocks</td>
+            <td>ETF Small 11</td>
+            <td>$ 1,230.35</td>
+            <td>
+              <IconGhostButton variant="ghost.uranus">
+                <IconPencil />
+              </IconGhostButton>
+              <IconGhostButton variant="ghost.mars">
+                <IconTrash />
+              </IconGhostButton>
+            </td>
+          </tr>
+        </tbody>
+      </Table>
+    </>
+  </Story>
+</Preview>

@@ -1,0 +1,227 @@
+import { useState } from 'react';
+import { Meta, Preview, Story } from '@storybook/addon-docs/blocks';
+import {
+  Checkbox,
+  CheckboxShape,
+  CheckboxWrapper,
+  Heading,
+  Label,
+  Radio,
+  RadioShape,
+  RadioWrapper,
+  Slider,
+  Text,
+  Toggle,
+} from '@magnetis/astro-galaxy-components';
+import { IconCalendar, IconClock, IconCup } from '@magnetis/astro-galaxy-icons';
+import Tabbed, { Section, Tab } from '@magnetis/astro-galaxy-components/Tabbed';
+import PreviewDivider from './components/PreviewDivider';
+
+<Meta title="/controls & toggles" />
+
+# controls & toggles
+
+#### Users can see different experiences throughout the platform that will demand different components and interactions according to the context. These microinteractions help build excellent user experience and enrich the product itself.
+
+## radio buttons
+
+Radio buttons appear when the user must select only one option from more than two.
+
+You must create a unique `id` for each radio button shown in the same page.
+
+Mouseover to view `:hover` state.
+
+To create the disabled state, add the `disabled` attribute on the `Radio` component.
+
+Default label behavior is top alignment. You can pass the `center` prop to the `RadioWrapper` component to switch to center alignment.
+
+<Preview>
+  <Story name="radio buttons">
+    <>
+      <RadioWrapper>
+        <Radio id="radio1" name="radiogroup1" />
+        <RadioShape />
+        <Label htmlFor="radio1">Radio</Label>
+      </RadioWrapper>
+      <RadioWrapper>
+        <Radio id="radio2" name="radiogroup1" defaultChecked />
+        <RadioShape />
+        <Label htmlFor="radio2">Selected</Label>
+      </RadioWrapper>
+      <RadioWrapper>
+        <Radio disabled id="radio3" name="radiogroup1" />
+        <RadioShape />
+        <Label htmlFor="radio3">Disabled</Label>
+      </RadioWrapper>
+      <PreviewDivider />
+      <RadioWrapper>
+        <Radio id="radio4" name="radiogroup2" />
+        <RadioShape />
+        <Label htmlFor="radio4">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+          ut labore et dolore magna aliqua. Sed risus pretium quam vulputate dignissim suspendisse.
+        </Label>
+      </RadioWrapper>
+      <PreviewDivider />
+      <RadioWrapper center>
+        <Radio id="radio5" name="radiogroup2" />
+        <RadioShape />
+        <Label htmlFor="radio5">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+          ut labore et dolore magna aliqua. Sed risus pretium quam vulputate dignissim suspendisse.
+        </Label>
+      </RadioWrapper>
+    </>
+  </Story>
+</Preview>
+
+## checkboxes
+
+Checkboxes are used when a user might select multiple options from a list, or when a single specific action is required - like agreeing to terms and conditions.
+
+Mouseover to view `:hover` state.
+
+To create the disabled state, add the disabled attribute on the `Checkbox` component.
+
+<Preview>
+  <Story name="checkboxes">
+    <>
+      <CheckboxWrapper>
+        <Checkbox id="checkbox1" />
+        <CheckboxShape />
+        <Label htmlFor="checkbox1">Checkbox</Label>
+      </CheckboxWrapper>
+      <CheckboxWrapper>
+        <Checkbox defaultChecked id="checkbox2" />
+        <CheckboxShape />
+        <Label htmlFor="checkbox2">Checked</Label>
+      </CheckboxWrapper>
+      <CheckboxWrapper>
+        <Checkbox indeterminate id="checkbox3" checked />
+        <CheckboxShape />
+        <Label htmlFor="checkbox3">Checkbox</Label>
+      </CheckboxWrapper>
+      <CheckboxWrapper>
+        <Checkbox id="checkbox4" disabled />
+        <CheckboxShape />
+        <Label htmlFor="checkbox4">Disabled</Label>
+      </CheckboxWrapper>
+    </>
+  </Story>
+</Preview>
+
+## toggles
+
+A simple control that is used to quickly switch between two possible states.
+
+Mouseover to view `:hover` state.
+
+To create the disabled state, add the `disabled` attribute to the `Toggle` component.
+
+<Preview>
+  <Story name="toggles">
+    {() => {
+      const [isToggled, setToggle] = useState(false);
+      return (
+        <>
+          <Toggle label="toggle me" isToggled={isToggled} onClick={() => setToggle(!isToggled)} />
+          <Toggle disabled label="disabled" />
+        </>
+      );
+    }}
+  </Story>
+</Preview>
+
+## sliders
+
+Sliders give users a visual indication of adjustable content, mostly numerical (for time, money, etc).
+They can be used with or without text labels.
+
+Adjust `min` and `max` attributes to set the value range.
+If you need to manipulate the slider handle position, use the `value` attribute.
+You must also set an unique `id` for each slider in your page.
+
+Sliders contains built-in label and counter label components.
+To define the label use the `label` attribute and for counter label, `counterLabel` attribute.
+If you don't want to display the Slider labels, just ignore the two attributes.
+
+To display the gradient full fill, set `fullFill` property to `true`.
+
+To set the disabled state, add the `disabled` attribute.
+
+<Preview>
+  <Story name="sliders">
+    {() => {
+      const [value, setValue] = useState(2500);
+      const counterLabel = value + ' Coins';
+      return (
+        <>
+          <Slider
+            label="Wallet"
+            counterLabel={counterLabel}
+            value={value}
+            max={5000}
+            onChange={e => setValue(e.target.value)}
+          />
+          <Slider id="full-slider" label="Full Fill" fullFill={true} />
+          <Slider id="disabled-slider" label="Disabled" disabled />
+        </>
+      );
+    }}
+  </Story>
+</Preview>
+
+## tabs
+
+Tabs are used when the user can quickly navigate and switch between views and states of the same context.
+
+Each tab can be created both with or without Astro icons. To add an icon, follow the markup structure suggested in the sample below.
+
+Mouseover to view `:hover` state, and click on a tab to see its content.
+
+<Preview>
+  <Story name="tabs">
+    <>
+      <Tabbed
+        tabs={
+          <>
+            <Tab id="section1">
+              <IconCup />
+              section 1
+            </Tab>
+            <Tab id="section2">
+              <IconCalendar />
+              section 2
+            </Tab>
+            <Tab id="section3">
+              <IconClock />
+              section 3
+            </Tab>
+          </>
+        }
+        sections={
+          <>
+            <Section id="section1">
+              <Text font="secondary">
+                Nullam imperdiet dolor a erat commodo laoreet a ut felis. Nam consequat nisl eu
+                efficitur suscipit. Nulla dapibus cursus diam in convallis.
+              </Text>
+            </Section>
+            <Section id="section2">
+              <Text font="secondary">
+                Mauris sit amet egestas velit. Maecenas pulvinar sed nibh vel tincidunt. In vitae
+                vestibulum ante. Morbi bibendum mi vitae purus vehicula, id bibendum arcu cursus.
+              </Text>
+            </Section>
+            <Section id="section3">
+              <Text font="secondary">
+                Nunc dolor justo, congue id malesuada ac, bibendum id odio. Integer dictum, lacus
+                vitae rutrum faucibus, dolor diam lacinia erat, maximus mattis ligula libero at
+                risus.
+              </Text>
+            </Section>
+          </>
+        }></Tabbed>
+    </>
+  </Story>
+</Preview>

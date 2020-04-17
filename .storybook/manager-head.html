@@ -1,0 +1,61 @@
+<link rel="stylesheet" href="https://unpkg.com/@magnetis/astro/dist/astro.css" />
+
+<style>
+  body {
+    color: var(--color-moon-900) !important;
+    font: var(--font-secondary) !important;
+    font-size: var(--font-size-2base) !important;
+  }
+
+  /* root menu */
+  .simplebar-content section > div > a {
+    border-top: 1px solid var(--color-moon-200) !important;
+    padding: 16px 0 !important;
+  }
+
+  .simplebar-content section > div > a span {
+    color: var(--color-moon-900);
+  }
+
+  /* root menu arrow */
+  .simplebar-content section > div > a > div > span.sidebar-expander {
+    border-left: 3.5px solid var(--color-moon-900);
+  }
+
+  /* child menu */
+  .simplebar-content section > div > div > a {
+    margin-bottom: 16px !important;
+    margin-top: -8px !important;
+  }
+
+  /* menu icons */
+  .sidebar-item span + svg {
+    display: none !important;
+  }
+
+  /* menu font */
+  .sidebar-item span {
+    color: var(--color-moon-400);
+    font: var(--font-primary) !important;
+    font-size: var(--font-size-2base) !important;
+    font-weight: 500 !important;
+  }
+
+  /* hover menu */
+  .sidebar-item:hover {
+    background-color: transparent !important;
+  }
+
+  .sidebar-item:hover span {
+    color: var(--color-moon-300) !important;
+  }
+
+  /* selected menu */
+  .sidebar-item.selected {
+    background-color: transparent !important;
+  }
+
+  .sidebar-item.selected span {
+    color: var(--color-moon-900) !important;
+  }
+</style>

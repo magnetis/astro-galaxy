@@ -1,5 +1,4 @@
 const path = require('path');
-const includePath = path.resolve(__dirname, '..');
 
 module.exports = {
   devtool: 'source-map',

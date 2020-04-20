@@ -1,0 +1,49 @@
+import { Meta, Preview, Story } from '@storybook/addon-docs/blocks';
+import InputMasked, { maskTypes } from '@magnetis/astro-galaxy-components/InputMasked';
+import InputText, { inputSizes } from '@magnetis/astro-galaxy-components/InputText';
+import PreviewDivider from './components/PreviewDivider';
+
+<Meta title="/inputs" />
+
+# inputs
+
+#### Inputs appear when the user needs to input data. They are mostly used in forms and in contexts that require data such as money, text and numbers.
+
+## standard text inputs
+
+The regular input. Labels appear on the default state and slightly move upwards when the user starts interacting and typing on the component.
+
+<Preview>
+  <Story name="standard text inputs">
+    <InputText inputId="standardInput" labelId="stadardLabel" defaultValue="Astro Team" />
+  </Story>
+</Preview>
+
+## masked inputs
+
+Inputs that have a specific value structure for certain kinds of data.
+
+<Preview>
+  <Story name="masked inputs">
+    <>
+      <InputMasked
+        inputId="cpfMaskedInput"
+        labelId="cpfMaskedLabel"
+        labelText="CPF"
+        maskType={maskTypes.cpf}
+      />
+      <InputMasked
+        inputId="currencyMaskedInput"
+        labelId="currencyMaskedLabel"
+        labelText="Currency"
+        maskType={maskTypes.currency}
+      />
+      <InputMasked
+        inputId="dateMaskedInput"
+        labelId="dateMaskedLabel"
+        labelText="Date"
+        maskType={maskTypes.date}
+      />
+    </>
+  </Story>
+</Preview>

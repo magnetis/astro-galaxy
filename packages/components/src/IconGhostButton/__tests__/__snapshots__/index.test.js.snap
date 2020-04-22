@@ -15,6 +15,8 @@ exports[`IconGhostButton should change background-color and border-color when va
   overflow: hidden;
   border-width: 2px;
   border-style: solid;
+  -webkit-text-decoration: none;
+  text-decoration: none;
   font: normal normal 600 normal 16px/1.5 Poppins,sans-serif;
   display: inline-block;
   background-color: transparent;
@@ -145,6 +147,8 @@ exports[`IconGhostButton should change background-color and border-color when va
   overflow: hidden;
   border-width: 2px;
   border-style: solid;
+  -webkit-text-decoration: none;
+  text-decoration: none;
   font: normal normal 600 normal 16px/1.5 Poppins,sans-serif;
   display: inline-block;
   background-color: transparent;
@@ -275,6 +279,8 @@ exports[`IconGhostButton should change color, background-color and border-color 
   overflow: hidden;
   border-width: 2px;
   border-style: solid;
+  -webkit-text-decoration: none;
+  text-decoration: none;
   font: normal normal 600 normal 16px/1.5 Poppins,sans-serif;
   display: inline-block;
   background-color: transparent;
@@ -405,6 +411,8 @@ exports[`IconGhostButton should change padding when icon button size is large 1`
   overflow: hidden;
   border-width: 2px;
   border-style: solid;
+  -webkit-text-decoration: none;
+  text-decoration: none;
   font: normal normal 600 normal 16px/1.5 Poppins,sans-serif;
   display: inline-block;
   background-color: transparent;
@@ -535,6 +543,8 @@ exports[`IconGhostButton should change padding when icon button size is small 1`
   overflow: hidden;
   border-width: 2px;
   border-style: solid;
+  -webkit-text-decoration: none;
+  text-decoration: none;
   font: normal normal 600 normal 16px/1.5 Poppins,sans-serif;
   display: inline-block;
   background-color: transparent;
@@ -665,6 +675,8 @@ exports[`IconGhostButton should render an icon button with calendar icon 1`] = `
   overflow: hidden;
   border-width: 2px;
   border-style: solid;
+  -webkit-text-decoration: none;
+  text-decoration: none;
   font: normal normal 600 normal 16px/1.5 Poppins,sans-serif;
   display: inline-block;
   background-color: transparent;

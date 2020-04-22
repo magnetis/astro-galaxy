@@ -15,6 +15,8 @@ exports[`IconButton should change background-color and border-color when variant
   overflow: hidden;
   border-width: 2px;
   border-style: solid;
+  -webkit-text-decoration: none;
+  text-decoration: none;
   font: normal normal 600 normal 16px/1.5 Poppins,sans-serif;
   display: inline-block;
   background-color: #d45459;
@@ -125,6 +127,8 @@ exports[`IconButton should change background-color and border-color when variant
   overflow: hidden;
   border-width: 2px;
   border-style: solid;
+  -webkit-text-decoration: none;
+  text-decoration: none;
   font: normal normal 600 normal 16px/1.5 Poppins,sans-serif;
   display: inline-block;
   background-color: #e078d6;
@@ -235,6 +239,8 @@ exports[`IconButton should change color, background-color and border-color when 
   overflow: hidden;
   border-width: 2px;
   border-style: solid;
+  -webkit-text-decoration: none;
+  text-decoration: none;
   font: normal normal 600 normal 16px/1.5 Poppins,sans-serif;
   display: inline-block;
   background-color: #74e24a;
@@ -345,6 +351,8 @@ exports[`IconButton should change padding when icon button size is large 1`] = `
   overflow: hidden;
   border-width: 2px;
   border-style: solid;
+  -webkit-text-decoration: none;
+  text-decoration: none;
   font: normal normal 600 normal 16px/1.5 Poppins,sans-serif;
   display: inline-block;
   background-color: #159ce4;
@@ -455,6 +463,8 @@ exports[`IconButton should change padding when icon button size is small 1`] = `
   overflow: hidden;
   border-width: 2px;
   border-style: solid;
+  -webkit-text-decoration: none;
+  text-decoration: none;
   font: normal normal 600 normal 16px/1.5 Poppins,sans-serif;
   display: inline-block;
   background-color: #159ce4;
@@ -565,6 +575,8 @@ exports[`IconButton should render an icon button with calendar icon 1`] = `
   overflow: hidden;
   border-width: 2px;
   border-style: solid;
+  -webkit-text-decoration: none;
+  text-decoration: none;
   font: normal normal 600 normal 16px/1.5 Poppins,sans-serif;
   display: inline-block;
   background-color: #159ce4;

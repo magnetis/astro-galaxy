@@ -1,4 +1,5 @@
 import { Meta, Story } from '@storybook/addon-docs/blocks';
+import { ColorPalette, GradientCollection, GradientSwatch } from './components/ColorsCollection';
 
 <Meta title="/colors" />
 
@@ -12,10 +13,27 @@ Colors have their variations that may be used depending on the contextual need.
 
 ### usage
 
-Usage text.
+If your component lives inside `AstroThemeProvider`, you can access the colors via `theme` prop, for instance, instead of declaring a hexadecimal code like #fff, do this: `theme.colors.space100` (which is white, if you look in the Space palette below). If you need the darkest shade of green, for example, use `theme.colors.earth1000` and so forth.
+
+If you need to access the colors outside `AstroThemeProvider`, you might want to use it via `@magnetis/astro-galaxy-tokens`, to do so, make sure you install the package and then import the `colors` object: `import { colors } from '@magnetis/astro-galaxy-tokens'`.
 
 <Story name="tints">
-  <>tints colors swatches.</>
+  <>
+    <h3>earth</h3>
+    <ColorPalette family='earth' lightTextStart={500} />
+    <h3>venus</h3>
+    <ColorPalette family='venus' lightTextStart={400} />
+    <h3>uranus</h3>
+    <ColorPalette family='uranus' lightTextStart={400} />
+    <h3>moon</h3>
+    <ColorPalette family='moon' lightTextStart={400} />
+    <h3>mars</h3>
+    <ColorPalette family='mars' lightTextStart={400} />
+    <h3>sun</h3>
+    <ColorPalette family='sun' lightTextStart={600} />
+    <h3>space</h3>
+    <ColorPalette family='space' lightTextStart={500} />
+  </>
 </Story>
 
 ## gradients
@@ -24,8 +42,22 @@ Based on our brand guideline, they are normally used in main actions and macrost
 
 ### usage
 
-Usage text.
+You can access the colors via `theme` prop, for instance, instead of declaring a gradient code like linear-gradient(47.32deg, #d991e0 0%, #00c6d4 60.06%, #00ea60 100%), do this: `theme.gradients.nebulosa`. If you need the Andromeda gradient, for example, use `theme.gradients.andromeda` and so forth.
 
 <Story name="gradients">
-  <>gradient colors swatches.</>
+  <>
+    <GradientCollection>
+      <GradientSwatch gradient='nebulosa' />
+      <GradientSwatch gradient='andromeda' />
+      <GradientSwatch gradient='sombrero' />
+      <GradientSwatch gradient='milkyway' />
+      <GradientSwatch gradient='hoag' darkText />
+      <GradientSwatch gradient='centaurus' />
+      <GradientSwatch gradient='whirlpool' />
+      <GradientSwatch gradient='cartwheel' />
+      <GradientSwatch gradient='blackhole' />
+      <GradientSwatch gradient='mayall' />
+      <GradientSwatch gradient='pinwheel' />
+    </GradientCollection>
+  </>
 </Story>

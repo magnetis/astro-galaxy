@@ -1,22 +1,126 @@
 import { Meta, Story } from '@storybook/addon-docs/blocks';
+import {
+  Card,
+  CardCode,
+  CardImage,
+  CardText,
+  CardTitle,
+  CardButton,
+  GitHubButtons,
+  PreviewGrid,
+  SectionTitle,
+} from './components';
+
+import AtomicIllustration from './assets/illustrations/atomic.png';
+import OpenIllustration from './assets/illustrations/open.png';
+import AccessibleIllustration from './assets/illustrations/accessible.png';
 
 <Meta title="/home" />
 
 # introduction
 
+<GitHubButtons star fork />
+
 Made for **Magnetis**' designers, developers, product managers, data analysts, data scientists, stakeholders and enthusiasts, **Astro** helps us protect the brand concepts, elevate consistency of user experience and increase the speed and efficiency of how we design and build products for our customers.
 
-## manifesto
+<SectionTitle>manifesto</SectionTitle>
 
 We believe that a good user experience is built with **consistent design**, well defined **visual and interaction patterns**, carefully built **emotions** and **made for all**.
 Therefore, Astro is essentially:
 
+<br /><br />
+
 <Story name="manifesto">
-  <>manifesto cards.</>
+  <PreviewGrid columns={3}>
+    <Card>
+      <CardImage src={AtomicIllustration} />
+      <CardTitle>atomic</CardTitle>
+      <CardText>
+        Astro is built based on <strong>Atomic Design</strong>, so our designers and developers can
+        use its style set and components to enhance our product interface, as a
+        <strong>modular system</strong> that can be easily <strong>managed and updated</strong>.
+      </CardText>
+      <CardButton href="http://bradfrost.com/blog/post/atomic-web-design/" target="_blank">
+        read more
+      </CardButton>
+    </Card>
+    <Card>
+      <CardImage src={OpenIllustration} />
+      <CardTitle>open</CardTitle>
+      <CardText>
+        Magnetis believes that good design and experiences can
+        <strong>impact the product market and society itself</strong>. Our
+        <strong>design and code assets are open</strong>
+        so we can contribute to the community and help new product teams.
+      </CardText>
+      <CardButton href="https://github.com/magnetis/astro-galaxy" target="_blank">
+        go to repository
+      </CardButton>
+    </Card>
+    <Card>
+      <CardImage src={AccessibleIllustration} />
+      <CardTitle>accessible</CardTitle>
+      <CardText>
+        Design is meant to be <strong>for all</strong>. Astro style and components follow basic
+        recommendations from the <strong>WCAG guidelines</strong> for accessibility, with tested
+        contrast ratios and good practices in legibility and screen reading solutions.
+      </CardText>
+      <CardButton href="https://www.w3.org/TR/WCAG21/" target="_blank">
+        see wcag guidelines
+      </CardButton>
+    </Card>
+  </PreviewGrid>
 </Story>
 
-## get started
+<br /><br />
+<SectionTitle>get started</SectionTitle>
 
 <Story name="get started">
-  <>get started cards.</>
+  <PreviewGrid columns={3}>
+    <Card>
+      <CardTitle>install</CardTitle>
+      <CardText>
+        Install via terminal:
+        <CardCode>yarn add @magnetis/astro-galaxy-core @magnetis/astro-galaxy-components</CardCode>
+      </CardText>
+      <CardButton
+        href="https://github.com/magnetis/astro-galaxy/blob/master/README.md"
+        target="_blank">
+        read more
+      </CardButton>
+    </Card>
+    <Card>
+      <CardTitle>usage</CardTitle>
+      <CardText>
+        Astro components are atomic and can be used in isolation:
+        <CardCode>
+          {`import {Button} from '@magnetis/astro-galaxy-components';`}
+          <br />
+          <br />
+          {`<Button>Click me</Button>`}
+        </CardCode>
+      </CardText>
+      <CardButton
+        href="https://github.com/magnetis/astro-galaxy#using-astro-galaxy"
+        target="_blank">
+        view usage docs
+      </CardButton>
+    </Card>
+    <Card>
+      <CardTitle>contribute</CardTitle>
+      <CardText>
+        Fork and install Astro Galaxy:
+        <p>
+          <GitHubButtons fork />
+        </p>
+        Run on terminal:
+        <CardCode>yarn dev</CardCode>
+      </CardText>
+      <CardButton
+        href="https://github.com/magnetis/astro-galaxy/blob/master/CONTRIBUTING.md"
+        target="_blank">
+        see contributing guide
+      </CardButton>
+    </Card>
+  </PreviewGrid>
 </Story>

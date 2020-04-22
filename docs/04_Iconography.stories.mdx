@@ -1,4 +1,7 @@
 import { Meta, Preview, Story } from '@storybook/addon-docs/blocks';
+import { DashboardIcons, SupportIcons } from './components/IconsCollection';
+import { IconCalendar } from '@magnetis/astro-galaxy-icons';
+import { colors } from '@magnetis/astro-galaxy-tokens';
 
 <Meta title="/iconography" />
 
@@ -11,31 +14,60 @@ import { Meta, Preview, Story } from '@storybook/addon-docs/blocks';
 All icons have a 32x32px bound as default format. They can be resized in our 16px baseline as required.
 
 <Story name="dashboard icons">
-  <>dashboard icons.</>
+  <DashboardIcons />
 </Story>
 
 ## support icons
 
 <Story name="support icons">
-  <>support icons.</>
+  <SupportIcons />
 </Story>
 
 ## icons usage
 
 ### minimum
 
-<Story name="icons usage">
-  <>icons usage.</>
-</Story>
+To use an icon, import it (by one of the names above) from `@magnetis/astro-galaxy-icons` and use it as a React component.
+
+<Preview>
+  <Story name="icons usage">
+    <IconCalendar />
+  </Story>
+</Preview>
 
 ### sizes
 
+You can modify an icon's size by using the prop `size` with one of the following values: `24`, `32` or `40`.
+
 <Preview>
-  <>Icons sizes.</>
+  <>
+    <IconCalendar size="24" />
+    <IconCalendar size="32" />
+    <IconCalendar size="40" />
+  </>
+</Preview>
+
+### colors
+
+You can also modify the color with the prop `color`.
+
+<Preview>
+  <>
+    <IconCalendar color={colors.uranus500} size="40" />
+    <IconCalendar color={colors.mars400} size="40" />
+    <IconCalendar color={colors.earth300} size="40" />
+    <IconCalendar color={colors.venus200} size="40" />
+  </>
 </Preview>
 
 ### spacers
 
+You can apply spacing using the props `margin`, `marginLeft`, `marginRight`, `marginTop`, `marginBottom` or their shorthands; `m`, `ml`, `mr`, `mt`, `mb` respectively.
+
 <Preview>
-  <>Icons spacers.</>
+  <>
+    <IconCalendar margin={3} size="24" />
+    <IconCalendar margin={3} size="32" />
+    <IconCalendar margin={3} size="40" />
+  </>
 </Preview>

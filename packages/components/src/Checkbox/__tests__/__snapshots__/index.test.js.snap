@@ -1,13 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Checkbox should render a checked checkbox 1`] = `
-.c3 {
-  cursor: pointer;
-  font: normal normal 400 normal 16px/1.5 Lato,sans-serif;
-  color: #32383c;
-  padding-left: 8px;
-}
-
 .c0 {
   position: relative;
   display: -webkit-box;
@@ -88,6 +81,13 @@ exports[`Checkbox should render a checked checkbox 1`] = `
   -webkit-transform: rotate(-45deg);
   -ms-transform: rotate(-45deg);
   transform: rotate(-45deg);
+}
+
+.c3 {
+  cursor: pointer;
+  font: normal normal 400 normal 16px/1.5 Lato,sans-serif;
+  color: #32383c;
+  padding-left: 8px;
 }
 
 <div
@@ -112,13 +112,6 @@ exports[`Checkbox should render a checked checkbox 1`] = `
 `;
 
 exports[`Checkbox should render a checked disabled checkbox 1`] = `
-.c3 {
-  cursor: pointer;
-  font: normal normal 400 normal 16px/1.5 Lato,sans-serif;
-  color: #32383c;
-  padding-left: 8px;
-}
-
 .c0 {
   position: relative;
   display: -webkit-box;
@@ -199,6 +192,13 @@ exports[`Checkbox should render a checked disabled checkbox 1`] = `
   -webkit-transform: rotate(-45deg);
   -ms-transform: rotate(-45deg);
   transform: rotate(-45deg);
+}
+
+.c3 {
+  cursor: pointer;
+  font: normal normal 400 normal 16px/1.5 Lato,sans-serif;
+  color: #32383c;
+  padding-left: 8px;
 }
 
 <div
@@ -224,13 +224,6 @@ exports[`Checkbox should render a checked disabled checkbox 1`] = `
 `;
 
 exports[`Checkbox should render a disabled checkbox 1`] = `
-.c3 {
-  cursor: pointer;
-  font: normal normal 400 normal 16px/1.5 Lato,sans-serif;
-  color: #32383c;
-  padding-left: 8px;
-}
-
 .c0 {
   position: relative;
   display: -webkit-box;
@@ -311,6 +304,13 @@ exports[`Checkbox should render a disabled checkbox 1`] = `
   -webkit-transform: rotate(-45deg);
   -ms-transform: rotate(-45deg);
   transform: rotate(-45deg);
+}
+
+.c3 {
+  cursor: pointer;
+  font: normal normal 400 normal 16px/1.5 Lato,sans-serif;
+  color: #32383c;
+  padding-left: 8px;
 }
 
 <div
@@ -335,13 +335,6 @@ exports[`Checkbox should render a disabled checkbox 1`] = `
 `;
 
 exports[`Checkbox should render a indeterminate disabled checkbox 1`] = `
-.c3 {
-  cursor: pointer;
-  font: normal normal 400 normal 16px/1.5 Lato,sans-serif;
-  color: #32383c;
-  padding-left: 8px;
-}
-
 .c0 {
   position: relative;
   display: -webkit-box;
@@ -436,6 +429,13 @@ exports[`Checkbox should render a indeterminate disabled checkbox 1`] = `
   -webkit-transform: rotate(-45deg);
   -ms-transform: rotate(-45deg);
   transform: rotate(-45deg);
+}
+
+.c3 {
+  cursor: pointer;
+  font: normal normal 400 normal 16px/1.5 Lato,sans-serif;
+  color: #32383c;
+  padding-left: 8px;
 }
 
 <div
@@ -460,13 +460,6 @@ exports[`Checkbox should render a indeterminate disabled checkbox 1`] = `
 `;
 
 exports[`Checkbox should render an indeterminate checkbox 1`] = `
-.c3 {
-  cursor: pointer;
-  font: normal normal 400 normal 16px/1.5 Lato,sans-serif;
-  color: #32383c;
-  padding-left: 8px;
-}
-
 .c0 {
   position: relative;
   display: -webkit-box;
@@ -563,6 +556,13 @@ exports[`Checkbox should render an indeterminate checkbox 1`] = `
   transform: rotate(-45deg);
 }
 
+.c3 {
+  cursor: pointer;
+  font: normal normal 400 normal 16px/1.5 Lato,sans-serif;
+  color: #32383c;
+  padding-left: 8px;
+}
+
 <div
   className="c0"
 >
@@ -584,13 +584,6 @@ exports[`Checkbox should render an indeterminate checkbox 1`] = `
 `;
 
 exports[`Checkbox should render checkbox 1`] = `
-.c3 {
-  cursor: pointer;
-  font: normal normal 400 normal 16px/1.5 Lato,sans-serif;
-  color: #32383c;
-  padding-left: 8px;
-}
-
 .c0 {
   position: relative;
   display: -webkit-box;
@@ -671,6 +664,13 @@ exports[`Checkbox should render checkbox 1`] = `
   -webkit-transform: rotate(-45deg);
   -ms-transform: rotate(-45deg);
   transform: rotate(-45deg);
+}
+
+.c3 {
+  cursor: pointer;
+  font: normal normal 400 normal 16px/1.5 Lato,sans-serif;
+  color: #32383c;
+  padding-left: 8px;
 }
 
 <div

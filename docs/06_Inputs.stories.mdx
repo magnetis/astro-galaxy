@@ -1,7 +1,24 @@
+import { useState } from 'react';
 import { Meta, Preview, Story } from '@storybook/addon-docs/blocks';
-import InputMasked, { maskTypes } from '@magnetis/astro-galaxy-components/InputMasked';
-import InputText, { inputSizes } from '@magnetis/astro-galaxy-components/InputText';
-import PreviewDivider from './components/PreviewDivider';
+import { theme } from '@magnetis/astro-galaxy-core';
+import {
+  InputMasked,
+  maskTypes,
+  InputControl,
+  InputFilePreview,
+  InputFilePreviewCloseIcon,
+  InputFilePreviewImage,
+  InputFilePreviewItem,
+  InputFilePreviewRemoveButton,
+  InputFilePreviewText,
+  InputGhost,
+  InputText,
+  inputSizes,
+  TextArea,
+  TextAreaLabel,
+  TextAreaWrapper,
+} from '@magnetis/astro-galaxy-components';
+import { PreviewDivider, PreviewGrid } from './components';
 
 <Meta title="/inputs" />
 
@@ -13,9 +30,34 @@ import PreviewDivider from './components/PreviewDivider';
 
 The regular input. Labels appear on the default state and slightly move upwards when the user starts interacting and typing on the component.
 
+Use `isValidated` prop to activate the success state, `isInvalid` to activate the error state, `disabled` to block the component and `noAnimate` to disable the label animation.
+
 <Preview>
   <Story name="standard text inputs">
-    <InputText inputId="standardInput" labelId="stadardLabel" defaultValue="Astro Team" />
+    <PreviewGrid columns={2}>
+      <InputText inputId="standardInput" labelId="stadardLabel" />
+      <InputText
+        inputId="validatedInput"
+        labelId="validatedLabel"
+        isValidated
+        defaultValue="Astro Team"
+      />
+      <InputText
+        inputId="invalidInput"
+        labelId="invalidLabel"
+        defaultValue="XYZK2"
+        isInvalid
+        errorMessage="Invalid data"
+      />
+      <InputText inputId="filledInput" labelId="filledLabel" defaultValue="Filled" />
+      <InputText
+        inputId="noAnimateInput"
+        labelId="noAnimateLabel"
+        noAnimate
+        labelText="Fixed label"
+      />
+      <InputText inputId="disabledInput" labelId="disabledLabel" disabled labelText="Disabled" />
+    </PreviewGrid>
   </Story>
 </Preview>
 
@@ -23,14 +65,18 @@ The regular input. Labels appear on the default state and slightly move upwards 
 
 Inputs that have a specific value structure for certain kinds of data.
 
+Using `maskType` prop you can masking with one of pre-defined current types (date, currency or CPF).
+
+You can use a custom mask with the `mask` and `placeholder` props.
+
 <Preview>
   <Story name="masked inputs">
-    <>
+    <PreviewGrid columns={2}>
       <InputMasked
-        inputId="cpfMaskedInput"
-        labelId="cpfMaskedLabel"
-        labelText="CPF"
-        maskType={maskTypes.cpf}
+        inputId="dateMaskedInput"
+        labelId="dateMaskedLabel"
+        labelText="Date"
+        maskType={maskTypes.date}
       />
       <InputMasked
         inputId="currencyMaskedInput"
@@ -39,11 +85,219 @@ Inputs that have a specific value structure for certain kinds of data.
         maskType={maskTypes.currency}
       />
       <InputMasked
-        inputId="dateMaskedInput"
-        labelId="dateMaskedLabel"
-        labelText="Date"
+        inputId="cpfMaskedInput"
+        labelId="cpfMaskedLabel"
+        labelText="CPF"
+        maskType={maskTypes.cpf}
+      />
+      <InputMasked
+        inputId="customMaskedInput"
+        labelId="customMaskedLabel"
+        labelText="Custom mask"
+        mask="999-9"
+        placeholder="000-0"
+      />
+    </PreviewGrid>
+  </Story>
+</Preview>
+
+## textarea inputs
+
+Text areas are used in contexts that demand long and descriptive texts.
+
+<Preview>
+  <Story name="textarea inputs">
+    <PreviewGrid columns={2}>
+      <TextAreaWrapper>
+        <TextArea />
+        <TextAreaLabel>Label</TextAreaLabel>
+      </TextAreaWrapper>
+      <TextAreaWrapper>
+        <TextArea disabled />
+        <TextAreaLabel>Label</TextAreaLabel>
+      </TextAreaWrapper>
+    </PreviewGrid>
+  </Story>
+</Preview>
+
+## ghost inputs
+
+Ghost inputs are used in the foreground of colorful backgrounds or images, always displayed in white color in order to preserve good usability and legibility. Depending on the context, when the user starts typing, a white icon might appear on the right side of the component, fading in.
+
+<Preview style={{ backgroundColor: theme.colors.moon900 }}>
+  <Story name="ghost inputs">
+    <PreviewGrid columns={2}>
+      <InputGhost inputId="inputGhost" labelId="labelGhost" />
+      <InputGhost
+        inputId="inputGhostValidated"
+        labelId="labelGhostValidated"
+        labelText="Validated"
+        defaultValue="Astro Team"
+        isValidated
+      />
+    </PreviewGrid>
+  </Story>
+</Preview>
+
+## uploaded files preview
+
+Used to display a preview for uploaded files.
+
+<Preview>
+  <Story name="uploaded files preview">
+    <>
+      <InputFilePreview>
+        <InputFilePreviewItem>
+          <InputFilePreviewRemoveButton>
+            <InputFilePreviewCloseIcon />
+          </InputFilePreviewRemoveButton>
+          <InputFilePreviewImage
+            alt="Logo Magnetis"
+            src="https://i.ytimg.com/vi/t07h052QLG8/maxresdefault.jpg"
+          />
+        </InputFilePreviewItem>
+        <InputFilePreviewItem>
+          <InputFilePreviewRemoveButton>
+            <InputFilePreviewCloseIcon />
+          </InputFilePreviewRemoveButton>
+          <InputFilePreviewText truncate>financialreport.csv</InputFilePreviewText>
+        </InputFilePreviewItem>
+        <InputFilePreviewItem>
+          <InputFilePreviewRemoveButton>
+            <InputFilePreviewCloseIcon />
+          </InputFilePreviewRemoveButton>
+          <InputFilePreviewText>financialreport.csv</InputFilePreviewText>
+        </InputFilePreviewItem>
+      </InputFilePreview>
+    </>
+  </Story>
+</Preview>
+
+## control inputs
+
+These inputs are commonly used for money input data, in contexts that require increasing and decreasing the value in large amounts while still enabling users to type in numbers manually.
+
+<Preview>
+  <Story name="control inputs">
+    {() => {
+      const [value, setValue] = useState(0);
+      const step = 100;
+      const incrementLabel = 'increment';
+      const decrementLabel = 'decrement';
+      const handleValue = step => setValue(isNaN(value) ? 0 : parseInt(value, 10) + step);
+      return (
+        <PreviewGrid columns={2}>
+          <InputControl
+            inputId="controlInputId"
+            labelId="controlInputLabel"
+            labelText="Control input"
+            onIncrement={() => handleValue(+step)}
+            onDecrement={() => handleValue(-step)}
+            buttonProps={{
+              incrementButtonProps: {
+                'aria-label': incrementLabel,
+                title: incrementLabel,
+              },
+              decrementButtonProps: {
+                'aria-label': decrementLabel,
+                title: decrementLabel,
+              },
+            }}
+            onChange={event => setValue(event.target.value)}
+            thousandSeparator=""
+            placeholder="0"
+            decimalScale={0}
+            value={value}
+          />
+          <InputControl
+            inputId="controlInputValidated"
+            labelId="controlInputValidatedLabel"
+            labelText="Control input validated"
+            thousandSeparator=""
+            placeholder="0"
+            decimalScale={0}
+            value={200}
+            isValidated
+          />
+          <InputControl
+            inputId="controlInputInvalid"
+            labelId="controlInputInvalidLabel"
+            labelText="Control input invalid"
+            thousandSeparator=""
+            placeholder="0"
+            decimalScale={0}
+            value={-100}
+            isInvalid
+            errorMessage="Invalid data"
+          />
+          <InputControl
+            inputId="controlInputDisabled"
+            labelId="controlInputDisabledLabel"
+            labelText="Control input disabled"
+            thousandSeparator=""
+            placeholder="0"
+            decimalScale={0}
+            value={0}
+            disabled
+          />
+        </PreviewGrid>
+      );
+    }}
+  </Story>
+</Preview>
+
+## sizes
+
+Inputs can be used in different sizes depending on the context.
+
+You can use `maskType` prop and `maskTypes` constant to change the input size.
+
+<Preview>
+  <Story name="sizes">
+    <PreviewGrid columns={2}>
+      <InputText
+        inputId="standardInputMedium"
+        labelId="standardLabelMedium"
+        labelText="Standard medium"
+      />
+      <InputText
+        inputId="standardInputLarge"
+        labelId="standardLabelLarge"
+        labelText="Standard large"
+        inputSize={inputSizes.large}
+      />
+      <InputMasked
+        inputId="dateMaskedInputMedium"
+        labelId="dateMaskedLabelMedium"
+        labelText="Masked input medium"
         maskType={maskTypes.date}
       />
-    </>
+      <InputMasked
+        inputId="dateMaskedInputLarge"
+        labelId="dateMaskedLabelLarge"
+        labelText="Masked input large"
+        inputSize={inputSizes.large}
+        maskType={maskTypes.date}
+      />
+      <InputControl
+        inputId="controlInputMedium"
+        labelId="controlInputLabelMedium"
+        labelText="Control input medium"
+        thousandSeparator=""
+        placeholder="0"
+        decimalScale={0}
+        value={0}
+      />
+      <InputControl
+        inputId="controlInputLarge"
+        labelId="controlInputLabelLarge"
+        labelText="Control input large"
+        inputSize={inputSizes.large}
+        thousandSeparator=""
+        placeholder="0"
+        decimalScale={0}
+        value={0}
+      />
+    </PreviewGrid>
   </Story>
 </Preview>

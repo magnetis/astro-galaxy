@@ -1,6 +1,6 @@
+import { buttonSizes, font } from '@magnetis/astro-galaxy-core';
 import styled from 'styled-components';
-import { color, space, border, layout, fontSize, buttonStyle, typography } from 'styled-system';
-import { font, buttonSizes } from '@magnetis/astro-galaxy-core';
+import { border, buttonStyle, color, fontSize, layout, space, typography } from 'styled-system';
 
 const hoverStyles = props => ({
   'primary.uranus': `
@@ -48,6 +48,7 @@ const Button = styled.button`
   overflow: hidden;
   border-width: 2px;
   border-style: solid;
+  text-decoration: none;
 
   :disabled {
     cursor: not-allowed;

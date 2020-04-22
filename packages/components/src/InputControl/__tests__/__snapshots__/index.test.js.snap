@@ -15,6 +15,8 @@ exports[`InputControl renders correctly 1`] = `
   overflow: hidden;
   border-width: 2px;
   border-style: solid;
+  -webkit-text-decoration: none;
+  text-decoration: none;
   font: normal normal 600 normal 16px/1.5 Poppins,sans-serif;
   display: inline-block;
   background-color: transparent;

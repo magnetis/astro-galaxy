@@ -33,7 +33,7 @@ Magnetis believes that good design and experiences can **impact the product mark
 ### Accessible
 
 Design is meant to be **for all**. Astro style and components follow basic recommendations from the **WCAG guidelines** for accessibility, with tested contrast ratios and good practices in legibility and screen reading solutions.
-[See WCAG >>](https://www.w3.org/TR/WCAG21/)
+[See WCAG.](https://www.w3.org/TR/WCAG21/)
 
 ## Supported libraries
 
@@ -53,7 +53,7 @@ Run `yarn add @magnetis/astro-galaxy-core @magnetis/astro-galaxy-components` or 
 
 ## Using Astro Galaxy
 
-Ready to start coding with Astro? Follow the instructions in the docs ([astro.magnetis.com.br](https://astro.magnetis.com.br/)) to learn how to use our components.
+Ready to start coding with Astro? Follow the instructions in the docs ([https://astro-galaxy.magnetis.com.br](https://astro.magnetis.com.br/)) to learn how to use our components.
 
 Here's a quick example. If you'd like to use the default **Astro Galaxy** button component.
 

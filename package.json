@@ -14,17 +14,15 @@
     "url": "https://github.com/magnetis/astro-galaxy"
   },
   "scripts": {
-    "compile": "npx lerna run compile --ignore @magnetis/astro-galaxy-docs @magnetis/astro-galaxy-tokens",
+    "compile": "npx lerna run compile --ignore @magnetis/astro-galaxy-tokens",
     "bootstrap": "npx lerna bootstrap --use-workspaces",
     "icons:compile": "yarn compile --scope @magnetis/astro-galaxy-icons",
     "dev": "yarn icons:compile && start-storybook -p 5555",
     "test:unit": "yarn compile && jest",
     "lint": "eslint \"./packages/**/**/*.js\" --fix",
-    "publish": "npx lerna publish --ignore @magnetis/astro-galaxy-docs",
+    "publish": "npx lerna publish",
     "ci:build": "yarn lint && yarn compile && yarn test:unit",
-    "create-component": "yarn run plop",
-    "docs:build": "yarn icons:compile && npx lerna run compile --stream --scope @magnetis/astro-galaxy-docs",
-    "docs:dev": "yarn icons:compile && npx lerna run develop --stream --scope @magnetis/astro-galaxy-docs"
+    "create-component": "yarn run plop"
   },
   "devDependencies": {
     "@babel/cli": "^7.4.4",

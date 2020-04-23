@@ -17,12 +17,13 @@
     "compile": "npx lerna run compile --ignore @magnetis/astro-galaxy-tokens",
     "bootstrap": "npx lerna bootstrap --use-workspaces",
     "icons:compile": "yarn compile --scope @magnetis/astro-galaxy-icons",
-    "dev": "yarn icons:compile && start-storybook -p 5555",
+    "dev": "yarn icons:compile && start-storybook -c docs/.storybook -p 5555",
     "test:unit": "yarn compile && jest",
     "lint": "eslint \"./packages/**/**/*.js\" --fix",
     "publish": "npx lerna publish",
     "ci:build": "yarn lint && yarn compile && yarn test:unit",
-    "create-component": "yarn run plop"
+    "create-component": "yarn run plop",
+    "docs:build": "yarn icons:compile && build-storybook -c docs/.storybook -o docs/.dist"
   },
   "devDependencies": {
     "@babel/cli": "^7.4.4",
@@ -56,6 +57,7 @@
     "eslint-plugin-prettier": "^3.1.0",
     "eslint-plugin-react": "7.x",
     "eslint-plugin-react-hooks": "1.5.0",
+    "file-loader": "^6.0.0",
     "jest": "^24.8.0",
     "jest-styled-components": "^6.3.3",
     "lerna": "^3.15.0",

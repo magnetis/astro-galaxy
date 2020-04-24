@@ -36,7 +36,7 @@ export const CardCode = styled.code`
 `;
 
 export const Card = styled.div`
-  padding-bottom: 60px;
+  padding-bottom: 72px;
   position: relative;
   width: 100%;
 `;

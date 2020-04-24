@@ -97,7 +97,7 @@ To create the disabled state, add the disabled attribute on the `Checkbox` compo
         <Label htmlFor="checkbox2">Checked</Label>
       </CheckboxWrapper>
       <CheckboxWrapper>
-        <Checkbox indeterminate id="checkbox3" checked />
+        <Checkbox indeterminate id="checkbox3" defaultChecked />
         <CheckboxShape />
         <Label htmlFor="checkbox3">Checkbox</Label>
       </CheckboxWrapper>
@@ -157,6 +157,7 @@ To set the disabled state, add the `disabled` attribute.
       return (
         <>
           <Slider
+            id="slider"
             label="Wallet"
             counterLabel={counterLabel}
             value={value}

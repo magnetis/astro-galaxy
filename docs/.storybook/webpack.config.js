@@ -39,14 +39,14 @@ module.exports = {
       '@magnetis/astro-galaxy-components': path.resolve(__dirname, '../../packages/components/src'),
     },
   },
-  optimization: {
-    splitChunks: {
-      chunks: 'all',
-      minSize: 30 * 1024,
-      maxSize: maxAssetSize,
-    },
-  },
-  performance: {
-    maxAssetSize: maxAssetSize,
-  },
+  // optimization: {
+  //   splitChunks: {
+  //     chunks: 'all',
+  //     minSize: 30 * 1024,
+  //     maxSize: maxAssetSize,
+  //   },
+  // },
+  // performance: {
+  //   maxAssetSize: maxAssetSize,
+  // },
 };

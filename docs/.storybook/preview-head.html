@@ -5,7 +5,7 @@
     color: var(--color-moon-900) !important;
     font: var(--font-secondary) !important;
     font-size: var(--font-size-2base) !important;
-    padding: 40px !important;
+    padding: 8px !important;
   }
 
   h1.sbdocs-h1,
@@ -21,8 +21,9 @@
     border: 0 !important;
     color: var(--color-space-100) !important;
     font-size: var(--font-size-6base) !important;
-    margin: -105px -60px 40px !important;
-    padding: 80px 60px !important;
+    line-height: 1em !important;
+    margin: -72px -28px 40px !important;
+    padding: 40px 24px !important;
   }
 
   h2.sbdocs-h2,
@@ -56,5 +57,20 @@
   p.sbdocs-p {
     font: var(--font-secondary) !important;
     font-size: var(--font-size-2base) !important;
+  }
+
+  p.sbdocs-p code {
+    white-space: normal !important;
+  }
+
+  @media (min-width: 768px) {
+    body {
+      padding: 40px !important;
+    }
+
+    h1.sbdocs-h1 {
+      margin: -105px -60px 40px !important;
+      padding: 80px 60px !important;
+    }
   }
 </style>

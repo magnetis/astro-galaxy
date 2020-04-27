@@ -1,4 +1,5 @@
 const path = require('path');
+const maxAssetSize = 1024 * 1024;
 
 module.exports = {
   devtool: 'source-map',
@@ -37,5 +38,15 @@ module.exports = {
       '@magnetis/astro-galaxy-tokens': path.resolve(__dirname, '../../packages/tokens/src'),
       '@magnetis/astro-galaxy-components': path.resolve(__dirname, '../../packages/components/src'),
     },
+  },
+  optimization: {
+    splitChunks: {
+      chunks: 'all',
+      minSize: 30 * 1024,
+      maxSize: maxAssetSize,
+    },
+  },
+  performance: {
+    maxAssetSize: maxAssetSize,
   },
 };

@@ -19,6 +19,7 @@ export * from './Radio';
 export { default as Slider } from './Slider';
 export * from './Tab';
 export * from './Tabbed';
+export { default as Table } from './Table';
 export { default as Text } from './Text';
 export * from './TextArea';
 export { default as Toggle } from './Toggle';

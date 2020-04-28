@@ -3,25 +3,24 @@ import React from 'react';
 const GitHubButtons = ({ star, fork }) => (
   <>
     {star && (
-      <iframe
-        title="star astro on github"
-        src="https://ghbtns.com/github-btn.html?user=magnetis&repo=astro-galaxy&type=star&count=true&size=large"
-        frameBorder="0"
-        scrolling="0"
-        width="160px"
-        height="30px"
-      />
+      <a
+        style={{ marginRight: '10px' }}
+        href="https://github.com/magnetis/astro-galaxy/stargazers"
+        target="_blank"
+        rel="nofollow,noopener,noreferrer"
+        aria-label="Click to access Astro Galaxy repository's stargazers on GitHub">
+        <img src="https://img.shields.io/github/stars/magnetis/astro-galaxy?style=social" alt="" />
+      </a>
     )}
 
     {fork && (
-      <iframe
-        title="fork astro on github"
-        src="https://ghbtns.com/github-btn.html?user=magnetis&repo=astro-galaxy&type=fork&count=true&size=large"
-        frameBorder="0"
-        scrolling="0"
-        width="160px"
-        height="30px"
-      />
+      <a
+        href="https://github.com/magnetis/astro-galaxy"
+        target="_blank"
+        rel="nofollow,noopener,noreferrer"
+        aria-label="Click to access Astro Galaxy repository on GitHub">
+        <img src="https://img.shields.io/github/forks/magnetis/astro-galaxy?style=social" alt="" />
+      </a>
     )}
   </>
 );

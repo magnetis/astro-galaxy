@@ -23,7 +23,7 @@
     "publish": "npx lerna publish",
     "ci:build": "yarn lint && yarn compile && yarn test:unit",
     "create-component": "yarn run plop",
-    "docs:build": "yarn icons:compile && build-storybook -c docs/.storybook -o docs/.dist"
+    "docs:build": "yarn icons:compile && build-storybook -c docs/.storybook -o docs/.dist && cp ./docs/assets/favicon.png ./docs/.dist/favicon.png"
   },
   "devDependencies": {
     "@babel/cli": "^7.4.4",

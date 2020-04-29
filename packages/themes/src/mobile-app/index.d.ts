@@ -1,6 +1,6 @@
 import { Colors } from '@magnetis/astro-galaxy-tokens';
 
-export type Gradient = [string];
+export type Gradient = string[];
 
 export type GradientMap = {
   sombrero: Gradient;

@@ -1,6 +1,6 @@
 {
   "name": "@magnetis/astro-galaxy-themes",
-  "version": "1.0.0-alpha.4",
+  "version": "1.0.0-alpha.5",
   "main": "src/index.js",
   "module": "src/index.js",
   "types": "./src/mobile-app/index.d.ts",

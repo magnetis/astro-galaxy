@@ -69,19 +69,10 @@ exports[`InputMasked renders CPF masked input 1`] = `
   color: #afbec9;
 }
 
-.c1:focus {
-  outline: none;
-  border-color: #597183;
-}
-
-.c1:focus + label {
-  color: #159ce4;
-}
-
 .c1:focus,
 .c1:not(:placeholder-shown),
 .c1.--no-animate {
-  border-color: #159ce4;
+  border-color: #597183;
 }
 
 .c1:focus + label,
@@ -99,6 +90,15 @@ exports[`InputMasked renders CPF masked input 1`] = `
 
 .c1.--no-animate:focus {
   border-color: #159ce4;
+}
+
+.c1:focus {
+  outline: none;
+  border-color: #159ce4;
+}
+
+.c1:focus + label {
+  color: #159ce4;
 }
 
 .c1 + label {
@@ -716,10 +716,6 @@ exports[`InputMasked renders CPF masked input 1`] = `
                               [Function],
                               ";&::placeholder{color:transparent;}&:focus::placeholder,&.--no-animate::placeholder{color:",
                               [Function],
-                              ";}&:focus{outline:none;",
-                              [Function],
-                              ";}&:focus + label{",
-                              [Function],
                               ";}&:focus,&:not(:placeholder-shown),&.--no-animate{& + label{font-weight:700;",
                               [Function],
                               ";}",
@@ -728,7 +724,11 @@ exports[`InputMasked renders CPF masked input 1`] = `
                               [Function],
                               ";&:focus{",
                               [Function],
-                              ";}}& + label{left:0;position:absolute;top:0;transition:transform 0.25s,opacity 0.25s ease-in-out;transform-origin:0 0;}",
+                              ";}}&:focus{outline:none;",
+                              [Function],
+                              ";}&:focus + label{",
+                              [Function],
+                              ";}& + label{left:0;position:absolute;top:0;transition:transform 0.25s,opacity 0.25s ease-in-out;transform-origin:0 0;}",
                             ],
                           },
                           "displayName": "InputText__InputField",
@@ -898,19 +898,10 @@ exports[`InputMasked renders currency masked input 1`] = `
   color: #afbec9;
 }
 
-.c1:focus {
-  outline: none;
-  border-color: #597183;
-}
-
-.c1:focus + label {
-  color: #159ce4;
-}
-
 .c1:focus,
 .c1:not(:placeholder-shown),
 .c1.--no-animate {
-  border-color: #159ce4;
+  border-color: #597183;
 }
 
 .c1:focus + label,
@@ -928,6 +919,15 @@ exports[`InputMasked renders currency masked input 1`] = `
 
 .c1.--no-animate:focus {
   border-color: #159ce4;
+}
+
+.c1:focus {
+  outline: none;
+  border-color: #159ce4;
+}
+
+.c1:focus + label {
+  color: #159ce4;
 }
 
 .c1 + label {
@@ -1575,10 +1575,6 @@ exports[`InputMasked renders currency masked input 1`] = `
                             [Function],
                             ";&::placeholder{color:transparent;}&:focus::placeholder,&.--no-animate::placeholder{color:",
                             [Function],
-                            ";}&:focus{outline:none;",
-                            [Function],
-                            ";}&:focus + label{",
-                            [Function],
                             ";}&:focus,&:not(:placeholder-shown),&.--no-animate{& + label{font-weight:700;",
                             [Function],
                             ";}",
@@ -1587,7 +1583,11 @@ exports[`InputMasked renders currency masked input 1`] = `
                             [Function],
                             ";&:focus{",
                             [Function],
-                            ";}}& + label{left:0;position:absolute;top:0;transition:transform 0.25s,opacity 0.25s ease-in-out;transform-origin:0 0;}",
+                            ";}}&:focus{outline:none;",
+                            [Function],
+                            ";}&:focus + label{",
+                            [Function],
+                            ";}& + label{left:0;position:absolute;top:0;transition:transform 0.25s,opacity 0.25s ease-in-out;transform-origin:0 0;}",
                           ],
                         },
                         "displayName": "InputText__InputField",
@@ -1762,19 +1762,10 @@ exports[`InputMasked renders date masked input 1`] = `
   color: #afbec9;
 }
 
-.c1:focus {
-  outline: none;
-  border-color: #597183;
-}
-
-.c1:focus + label {
-  color: #159ce4;
-}
-
 .c1:focus,
 .c1:not(:placeholder-shown),
 .c1.--no-animate {
-  border-color: #159ce4;
+  border-color: #597183;
 }
 
 .c1:focus + label,
@@ -1792,6 +1783,15 @@ exports[`InputMasked renders date masked input 1`] = `
 
 .c1.--no-animate:focus {
   border-color: #159ce4;
+}
+
+.c1:focus {
+  outline: none;
+  border-color: #159ce4;
+}
+
+.c1:focus + label {
+  color: #159ce4;
 }
 
 .c1 + label {
@@ -2409,10 +2409,6 @@ exports[`InputMasked renders date masked input 1`] = `
                               [Function],
                               ";&::placeholder{color:transparent;}&:focus::placeholder,&.--no-animate::placeholder{color:",
                               [Function],
-                              ";}&:focus{outline:none;",
-                              [Function],
-                              ";}&:focus + label{",
-                              [Function],
                               ";}&:focus,&:not(:placeholder-shown),&.--no-animate{& + label{font-weight:700;",
                               [Function],
                               ";}",
@@ -2421,7 +2417,11 @@ exports[`InputMasked renders date masked input 1`] = `
                               [Function],
                               ";&:focus{",
                               [Function],
-                              ";}}& + label{left:0;position:absolute;top:0;transition:transform 0.25s,opacity 0.25s ease-in-out;transform-origin:0 0;}",
+                              ";}}&:focus{outline:none;",
+                              [Function],
+                              ";}&:focus + label{",
+                              [Function],
+                              ";}& + label{left:0;position:absolute;top:0;transition:transform 0.25s,opacity 0.25s ease-in-out;transform-origin:0 0;}",
                             ],
                           },
                           "displayName": "InputText__InputField",

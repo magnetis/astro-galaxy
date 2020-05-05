@@ -153,6 +153,7 @@ To set the disabled state, add the `disabled` attribute.
   <Story name="sliders">
     {() => {
       const [value, setValue] = useState(2500);
+      const [fullFillValue, setFullFillValue] = useState(50);
       const counterLabel = value + ' Coins';
       return (
         <>
@@ -164,7 +165,13 @@ To set the disabled state, add the `disabled` attribute.
             max={5000}
             onChange={e => setValue(e.target.value)}
           />
-          <Slider id="full-slider" label="Full Fill" fullFill={true} />
+          <Slider
+            id="full-slider"
+            label="Full Fill"
+            fullFill
+            value={fullFillValue}
+            onChange={e => setFullFillValue(e.target.value)}
+          />
           <Slider id="disabled-slider" label="Disabled" disabled />
         </>
       );

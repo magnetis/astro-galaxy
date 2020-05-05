@@ -69,19 +69,10 @@ exports[`input text renders correctly the input without animation 1`] = `
   color: #afbec9;
 }
 
-.c1:focus {
-  outline: none;
-  border-color: #597183;
-}
-
-.c1:focus + label {
-  color: #159ce4;
-}
-
 .c1:focus,
 .c1:not(:placeholder-shown),
 .c1.--no-animate {
-  border-color: #159ce4;
+  border-color: #597183;
 }
 
 .c1:focus + label,
@@ -99,6 +90,15 @@ exports[`input text renders correctly the input without animation 1`] = `
 
 .c1.--no-animate:focus {
   border-color: #159ce4;
+}
+
+.c1:focus {
+  outline: none;
+  border-color: #159ce4;
+}
+
+.c1:focus + label {
+  color: #159ce4;
 }
 
 .c1 + label {
@@ -208,16 +208,6 @@ exports[`input text renders correctly the invalid input 1`] = `
   color: #afbec9;
 }
 
-.c1:focus {
-  outline: none;
-  border-color: #d45459;
-  padding-right: 48px;
-}
-
-.c1:focus + label {
-  color: #d45459;
-}
-
 .c1:focus,
 .c1:not(:placeholder-shown),
 .c1.--no-animate {
@@ -242,6 +232,16 @@ exports[`input text renders correctly the invalid input 1`] = `
 .c1.--no-animate:focus {
   border-color: #d45459;
   padding-right: 48px;
+}
+
+.c1:focus {
+  outline: none;
+  border-color: #d45459;
+  padding-right: 48px;
+}
+
+.c1:focus + label {
+  color: #d45459;
 }
 
 .c1 + label {
@@ -289,7 +289,7 @@ exports[`input text renders correctly the invalid input 1`] = `
       Object {
         "position": "absolute",
         "right": "8px",
-        "top": "10px",
+        "top": "11px",
       }
     }
     viewBox="0 0 32 32"
@@ -397,19 +397,10 @@ exports[`input text renders correctly the large input and checks its font size 1
   color: #afbec9;
 }
 
-.c1:focus {
-  outline: none;
-  border-color: #597183;
-}
-
-.c1:focus + label {
-  color: #159ce4;
-}
-
 .c1:focus,
 .c1:not(:placeholder-shown),
 .c1.--no-animate {
-  border-color: #159ce4;
+  border-color: #597183;
 }
 
 .c1:focus + label,
@@ -427,6 +418,15 @@ exports[`input text renders correctly the large input and checks its font size 1
 
 .c1.--no-animate:focus {
   border-color: #159ce4;
+}
+
+.c1:focus {
+  outline: none;
+  border-color: #159ce4;
+}
+
+.c1:focus + label {
+  color: #159ce4;
 }
 
 .c1 + label {
@@ -530,19 +530,10 @@ exports[`input text renders correctly the standard input 1`] = `
   color: #afbec9;
 }
 
-.c1:focus {
-  outline: none;
-  border-color: #597183;
-}
-
-.c1:focus + label {
-  color: #159ce4;
-}
-
 .c1:focus,
 .c1:not(:placeholder-shown),
 .c1.--no-animate {
-  border-color: #159ce4;
+  border-color: #597183;
 }
 
 .c1:focus + label,
@@ -560,6 +551,15 @@ exports[`input text renders correctly the standard input 1`] = `
 
 .c1.--no-animate:focus {
   border-color: #159ce4;
+}
+
+.c1:focus {
+  outline: none;
+  border-color: #159ce4;
+}
+
+.c1:focus + label {
+  color: #159ce4;
 }
 
 .c1 + label {
@@ -669,16 +669,6 @@ exports[`input text renders correctly the validated input 1`] = `
   color: #afbec9;
 }
 
-.c1:focus {
-  outline: none;
-  border-color: #74e24a;
-  padding-right: 48px;
-}
-
-.c1:focus + label {
-  color: #74e24a;
-}
-
 .c1:focus,
 .c1:not(:placeholder-shown),
 .c1.--no-animate {
@@ -703,6 +693,16 @@ exports[`input text renders correctly the validated input 1`] = `
 .c1.--no-animate:focus {
   border-color: #74e24a;
   padding-right: 48px;
+}
+
+.c1:focus {
+  outline: none;
+  border-color: #74e24a;
+  padding-right: 48px;
+}
+
+.c1:focus + label {
+  color: #74e24a;
 }
 
 .c1 + label {
@@ -743,7 +743,7 @@ exports[`input text renders correctly the validated input 1`] = `
       Object {
         "position": "absolute",
         "right": "8px",
-        "top": "10px",
+        "top": "11px",
       }
     }
     viewBox="0 0 32 32"

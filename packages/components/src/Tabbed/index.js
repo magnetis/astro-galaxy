@@ -119,7 +119,7 @@ const TabItem = styled.a`
   text-decoration: none;
 
   svg {
-    fill: ${props => props.theme.colors.moon900};
+    fill: ${props => props.theme.colors.moon500};
     margin-right: 4px;
   }
 
@@ -128,7 +128,7 @@ const TabItem = styled.a`
     border-bottom: 2px solid ${props => props.theme.colors.moon200};
 
     svg {
-      fill: ${props => props.theme.colors.space400};
+      fill: ${props => props.theme.colors.moon300};
     }
   }
 `;

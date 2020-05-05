@@ -15,6 +15,9 @@ const Item = styled.div`
 `;
 
 const Container = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border: solid 1px ${props => props.theme.colors.moon300};
   border-radius: 8px;
   padding: 16px;

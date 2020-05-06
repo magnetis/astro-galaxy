@@ -1,6 +1,6 @@
 {
   "name": "@magnetis/astro-galaxy-themes",
-  "version": "1.0.0-alpha.5",
+  "version": "1.0.0",
   "main": "lib/index.cjs.js",
   "module": "lib/index.es.js",
   "scripts": {

@@ -1,4 +1,4 @@
-import { theme } from '@magnetis/astro-galaxy-core';
+import { colors } from '@magnetis/astro-galaxy-tokens';
 import React from 'react';
 import InputGhost from '../index';
 
@@ -21,7 +21,7 @@ describe('InputGhost', () => {
     const input = build().toJSON().children[0];
 
     expect(input).toHaveStyleRule('background-color', 'transparent');
-    expect(input).toHaveStyleRule('border-color', theme.colors.space100);
-    expect(input).toHaveStyleRule('color', theme.colors.space100);
+    expect(input).toHaveStyleRule('border-color', colors.space100);
+    expect(input).toHaveStyleRule('color', colors.space100);
   });
 });

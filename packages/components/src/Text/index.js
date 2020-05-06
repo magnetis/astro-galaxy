@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { color, space, layout, typography } from 'styled-system';
-import { font } from '@magnetis/astro-galaxy-core';
+import { font } from '@magnetis/astro-galaxy-themes';
 
 const Text = styled.p`
   ${color}

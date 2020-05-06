@@ -1,5 +1,5 @@
 import { Button, Heading, Text } from '@magnetis/astro-galaxy-components';
-import { theme } from '@magnetis/astro-galaxy-core';
+import { webTheme } from '@magnetis/astro-galaxy-themes';
 import React from 'react';
 import styled from 'styled-components';
 
@@ -29,10 +29,10 @@ export const CardButton = props => (
 );
 
 export const CardCode = styled.code`
-  background-color: ${theme.colors.moon100};
+  background-color: ${webTheme.colors.moon100};
   display: block;
-  margin: ${theme.space[1]}px 0;
-  padding: ${theme.space[2]}px;
+  margin: ${webTheme.space[1]}px 0;
+  padding: ${webTheme.space[2]}px;
 `;
 
 export const Card = styled.div`

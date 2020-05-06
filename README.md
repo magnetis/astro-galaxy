@@ -39,17 +39,15 @@ Design is meant to be **for all**. Astro style and components follow basic recom
 
 For now, Astro Galaxy only supports React (but we do plan to support React Native soon) as its official library.
 
-You will need [styled-components](https://www.styled-components.com) as well. We also plan to support [Emotion (soon)](https://github.com/emotion-js/emotion).
-
 ## Adding Astro Galaxy to your project
 
 ### Installing the dependencies.
 
 Assuming you already have React and styled-components installed:
 
-Install Astro Galaxy required packages via terminal:
+Install with `yarn` or `npm` Astro Galaxy required packages via terminal:
 
-Run `yarn add @magnetis/astro-galaxy-core @magnetis/astro-galaxy-components` or `npm install @magnetis/astro-galaxy-core @magnetis/astro-galaxy-components`.
+`@magnetis/astro-galaxy-themes @magnetis/astro-galaxy-components @magnetis/astro-galaxy-icons`
 
 ## Using Astro Galaxy
 
@@ -59,17 +57,17 @@ Here's a quick example. If you'd like to use the default **Astro Galaxy** button
 
 1. Complete all install steps listed above;
 
-2. The second thing you'll need, is to import `AstroThemeProvider` and our default `theme` file from `@magnetis/astro-galaxy-core`;
+2. The second thing you'll need, is to import `AstroThemeProvider` and our default `theme` file from `@magnetis/astro-galaxy-themes`;
 
 Look for entry point of your application and made the following changes.
 
 ```diff
 import React from 'react';
 // other imports you my have
-+ import { AstroThemeProvider, theme } from "@magnetis/astro-galaxy-core";
++ import { AstroThemeProvider, webTheme } from "@magnetis/astro-galaxy-themes";
 
 const Root = () => (
-+ <AstroThemeProvider theme={theme}>
++ <AstroThemeProvider theme={webTheme}>
   <App />
 + </AstroThemeProvider>
 );

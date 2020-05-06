@@ -1,8 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
-import { theme } from '@magnetis/astro-galaxy-core';
+import { webTheme } from '@magnetis/astro-galaxy-themes';
 
-const { colors, gradients } = theme;
+const { colors, gradients } = webTheme;
 const tints = [100, 200, 300, 400, 500, 600, 700, 800, 900, 1000];
 
 const getTextColor = (tint, lightTextStart) =>

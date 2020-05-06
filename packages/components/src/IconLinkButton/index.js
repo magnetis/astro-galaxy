@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
 import { color, space, border, layout, fontSize, typography } from 'styled-system';
-import { font, buttonSizes } from '@magnetis/astro-galaxy-core';
+import { font, buttonSizes } from '@magnetis/astro-galaxy-themes';
 import { iconlabelMargin } from '../IconButton';
 
 const IconLinkButton = styled.button`

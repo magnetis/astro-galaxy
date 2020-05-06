@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Meta, Preview, Story } from '@storybook/addon-docs/blocks';
-import { theme } from '@magnetis/astro-galaxy-core';
+import { colors } from '@magnetis/astro-galaxy-tokens';
 import {
   InputMasked,
   maskTypes,
@@ -124,7 +124,7 @@ Text areas are used in contexts that demand long and descriptive texts.
 
 Ghost inputs are used in the foreground of colorful backgrounds or images, always displayed in white color in order to preserve good usability and legibility. Depending on the context, when the user starts typing, a white icon might appear on the right side of the component, fading in.
 
-<Preview style={{ backgroundColor: theme.colors.moon900 }}>
+<Preview style={{ backgroundColor: colors.moon900 }}>
   <Story name="ghost inputs">
     <PreviewGrid columns={2}>
       <InputGhost inputId="inputGhost" labelId="labelGhost" />

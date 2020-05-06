@@ -83,7 +83,7 @@ As you can see, we are using the value 8 for `border-radius`.
 If you face any problems using this approach of accessing the prop theme inside our style, you can always import the theme itself like so:
 
 ```js
-import { theme } from '@magnetis/astro-galaxy-core';
+import { webTheme } from '@magnetis/astro-galaxy-themes';
 ```
 
 Once you finish coding your component, you should export it in `packages/components/src/index.js` like so:

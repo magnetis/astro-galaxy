@@ -1,4 +1,4 @@
-import { theme } from '@magnetis/astro-galaxy-core';
+import { webTheme } from '@magnetis/astro-galaxy-themes';
 import React from 'react';
 import InputText, { inputSizes } from '../index';
 
@@ -44,7 +44,7 @@ describe('input text', () => {
   it('renders correctly the large input and checks its font size', () => {
     const wrapper = mount({ inputSize: inputSizes.large });
     const input = wrapper.children[0];
-    expect(input).toHaveStyleRule('font-size', theme.fontSizes.texts.large);
+    expect(input).toHaveStyleRule('font-size', webTheme.fontSizes.texts.large);
     expect(wrapper).toMatchSnapshot();
   });
 });

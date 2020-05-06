@@ -1,5 +1,5 @@
 import React from 'react';
-import { theme } from '@magnetis/astro-galaxy-core';
+import { webTheme } from '@magnetis/astro-galaxy-themes';
 
 import Text from '../index';
 
@@ -19,14 +19,14 @@ describe('Text', () => {
   describe('when `color` prop is set', () => {
     it('renders with a defined color', () => {
       const json = rendererCreateWithTheme(<Text color="earth400">Text</Text>).toJSON();
-      expect(json).toHaveStyleRule('color', theme.colors.earth400);
+      expect(json).toHaveStyleRule('color', webTheme.colors.earth400);
     });
   });
 
   describe('when `fontSize` prop is set', () => {
     it('renders with a defined font size', () => {
       const json = rendererCreateWithTheme(<Text fontSize="verySmall">Text</Text>).toJSON();
-      expect(json).toHaveStyleRule('font-size', theme.fontSizes.texts.verySmall);
+      expect(json).toHaveStyleRule('font-size', webTheme.fontSizes.texts.verySmall);
     });
   });
 });

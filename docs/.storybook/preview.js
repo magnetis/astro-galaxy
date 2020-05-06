@@ -1,4 +1,4 @@
-import { AstroThemeProvider } from '@magnetis/astro-galaxy-core';
+import { AstroThemeProvider } from '@magnetis/astro-galaxy-themes';
 import { addDecorator } from '@storybook/react';
 import React from 'react';
 import styled from 'styled-components';

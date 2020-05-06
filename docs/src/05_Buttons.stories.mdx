@@ -8,7 +8,7 @@ import {
   IconOutlineButton,
   OutlineButton,
 } from '@magnetis/astro-galaxy-components';
-import { theme } from '@magnetis/astro-galaxy-core';
+import { colors } from '@magnetis/astro-galaxy-tokens';
 import { IconCalendar } from '@magnetis/astro-galaxy-icons';
 import PreviewDivider from './components/PreviewDivider';
 
@@ -249,11 +249,11 @@ To create an icon link button with bold text, just add the `bold` prop.
 
 Mouseover and click to view `:hover` and `:active` states.
 
-<Preview style={{ backgroundColor: theme.colors.moon900 }}>
+<Preview style={{ backgroundColor: colors.moon900 }}>
   <Story
     name="icon link buttons"
     parameters={{
-      backgrounds: [{ name: 'moon 900', value: theme.colors.moon900, default: true }],
+      backgrounds: [{ name: 'moon 900', value: colors.moon900, default: true }],
     }}>
     <>
       <IconLinkButton>

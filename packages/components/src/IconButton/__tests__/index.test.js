@@ -1,5 +1,5 @@
 import React from 'react';
-import { theme } from '@magnetis/astro-galaxy-core';
+import { colors } from '@magnetis/astro-galaxy-tokens';
 import { IconCalendar } from '@magnetis/astro-galaxy-icons';
 import IconButton from '../index';
 
@@ -44,9 +44,9 @@ describe('IconButton', () => {
     ).toJSON();
 
     expect(iconButton).toMatchSnapshot();
-    expect(iconButton).toHaveStyleRule('color', theme.colors.moon900);
-    expect(iconButton).toHaveStyleRule('background-color', theme.colors.earth400);
-    expect(iconButton).toHaveStyleRule('border-color', theme.colors.earth400);
+    expect(iconButton).toHaveStyleRule('color', colors.moon900);
+    expect(iconButton).toHaveStyleRule('background-color', colors.earth400);
+    expect(iconButton).toHaveStyleRule('border-color', colors.earth400);
   });
 
   it('should change background-color and border-color when variant is primary.venus', () => {
@@ -57,8 +57,8 @@ describe('IconButton', () => {
     ).toJSON();
 
     expect(iconButton).toMatchSnapshot();
-    expect(iconButton).toHaveStyleRule('background-color', theme.colors.venus400);
-    expect(iconButton).toHaveStyleRule('border-color', theme.colors.venus400);
+    expect(iconButton).toHaveStyleRule('background-color', colors.venus400);
+    expect(iconButton).toHaveStyleRule('border-color', colors.venus400);
   });
 
   it('should change background-color and border-color when variant is primary.mars', () => {
@@ -69,7 +69,7 @@ describe('IconButton', () => {
     ).toJSON();
 
     expect(iconButton).toMatchSnapshot();
-    expect(iconButton).toHaveStyleRule('background-color', theme.colors.mars500);
-    expect(iconButton).toHaveStyleRule('border-color', theme.colors.mars500);
+    expect(iconButton).toHaveStyleRule('background-color', colors.mars500);
+    expect(iconButton).toHaveStyleRule('border-color', colors.mars500);
   });
 });

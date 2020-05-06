@@ -1,10 +1,10 @@
-import { theme } from '@magnetis/astro-galaxy-core';
+import { webTheme } from '@magnetis/astro-galaxy-themes';
 import styled from 'styled-components';
 
 export const SectionTitle = styled.h2`
-  color: ${theme.colors.moon900};
-  font: ${theme.fonts.primary};
-  font-size: ${theme.fontSizes.headings.medium};
+  color: ${webTheme.colors.moon900};
+  font: ${webTheme.fonts.primary};
+  font-size: ${webTheme.fontSizes.headings.medium};
 `;
 
 export default SectionTitle;

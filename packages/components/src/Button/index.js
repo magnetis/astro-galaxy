@@ -1,4 +1,4 @@
-import { buttonSizes, font } from '@magnetis/astro-galaxy-core';
+import { buttonSizes, font } from '@magnetis/astro-galaxy-themes';
 import styled from 'styled-components';
 import { border, buttonStyle, color, fontSize, layout, space, typography } from 'styled-system';
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { theme } from '@magnetis/astro-galaxy-core';
+import { colors } from '@magnetis/astro-galaxy-tokens';
 import { IconCalendar } from '@magnetis/astro-galaxy-icons';
 import IconOutlineButton from '../index';
 
@@ -44,7 +44,7 @@ describe('IconOutlineButton', () => {
     ).toJSON();
 
     expect(iconButton).toMatchSnapshot();
-    expect(iconButton).toHaveStyleRule('border-color', theme.colors.earth600);
+    expect(iconButton).toHaveStyleRule('border-color', colors.earth600);
   });
 
   it('should change border-color when variant is outline.venus', () => {
@@ -55,7 +55,7 @@ describe('IconOutlineButton', () => {
     ).toJSON();
 
     expect(iconButton).toMatchSnapshot();
-    expect(iconButton).toHaveStyleRule('border-color', theme.colors.venus400);
+    expect(iconButton).toHaveStyleRule('border-color', colors.venus400);
   });
 
   it('should change border-color when variant is outline.mars', () => {
@@ -66,6 +66,6 @@ describe('IconOutlineButton', () => {
     ).toJSON();
 
     expect(iconButton).toMatchSnapshot();
-    expect(iconButton).toHaveStyleRule('border-color', theme.colors.mars500);
+    expect(iconButton).toHaveStyleRule('border-color', colors.mars500);
   });
 });

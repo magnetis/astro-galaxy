@@ -1,5 +1,5 @@
 import React from 'react';
-import { theme } from '@magnetis/astro-galaxy-core';
+import { colors } from '@magnetis/astro-galaxy-tokens';
 import Button from '../index';
 
 describe('Button component', () => {
@@ -25,7 +25,7 @@ describe('Button component', () => {
     ).toJSON();
 
     expect(button).toMatchSnapshot();
-    expect(button).toHaveStyleRule('background-color', theme.colors.mars500);
-    expect(button).toHaveStyleRule('border-color', theme.colors.mars500);
+    expect(button).toHaveStyleRule('background-color', colors.mars500);
+    expect(button).toHaveStyleRule('border-color', colors.mars500);
   });
 });

@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { fontSize, typography } from 'styled-system';
-import { font } from '@magnetis/astro-galaxy-core';
+import { font } from '@magnetis/astro-galaxy-themes';
 
 const Link = styled.a`
   color: ${props => props.theme.colors.uranus700};

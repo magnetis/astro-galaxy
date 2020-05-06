@@ -1,9 +1,17 @@
 # Changelog
 
+### [1.0.0] - 2020-05-06
+
+- Deprecate @magnetis/astro-galaxy-core package.
+- Fix Tabbed component icon color.
+- Fix InputControl component icon position.
+- Fix full fill Slider component on docs.
+- Release 1.0.0.
+
 ### [1.0.0-alpha.5] - 2020-04-30
 
-- Replace docs engine from Gatsby to Storybook
-- Introduce @magnetis/astro-galaxy-themes
+- Replace docs engine from Gatsby to Storybook.
+- Introduce @magnetis/astro-galaxy-themes.
 
 ### [1.0.0-alpha.4] - 2020-04-13
 

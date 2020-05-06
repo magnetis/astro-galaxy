@@ -69,19 +69,10 @@ exports[`InputGhost renders correctly 1`] = `
   color: #afbec9;
 }
 
-.c1:focus {
-  outline: none;
-  border-color: #597183;
-}
-
-.c1:focus + label {
-  color: #159ce4;
-}
-
 .c1:focus,
 .c1:not(:placeholder-shown),
 .c1.--no-animate {
-  border-color: #159ce4;
+  border-color: #597183;
 }
 
 .c1:focus + label,
@@ -99,6 +90,15 @@ exports[`InputGhost renders correctly 1`] = `
 
 .c1.--no-animate:focus {
   border-color: #159ce4;
+}
+
+.c1:focus {
+  outline: none;
+  border-color: #159ce4;
+}
+
+.c1:focus + label {
+  color: #159ce4;
 }
 
 .c1 + label {

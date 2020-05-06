@@ -116,16 +116,6 @@ const InputField = styled.input`
     color: ${props => props.theme.colors.moon300};
   }
 
-  &:focus {
-    outline: none;
-
-    ${props => inputValidationStyles({ ...props, defaultColor: props.theme.colors.moon500 })};
-  }
-
-  &:focus + label {
-    ${props => labelValidationStyles({ ...props, defaultColor: props.theme.colors.uranus500 })};
-  }
-
   &:focus,
   &:not(:placeholder-shown),
   &.--no-animate {
@@ -134,7 +124,7 @@ const InputField = styled.input`
 
       ${props => inputSizeStyles(props).label.focus};
     }
-    ${props => inputValidationStyles({ ...props, defaultColor: props.theme.colors.uranus500 })};
+    ${props => inputValidationStyles({ ...props, defaultColor: props.theme.colors.moon500 })};
   }
 
   &.--no-animate {
@@ -143,6 +133,16 @@ const InputField = styled.input`
     &:focus {
       ${props => inputValidationStyles({ ...props, defaultColor: props.theme.colors.uranus500 })};
     }
+  }
+
+  &:focus {
+    outline: none;
+
+    ${props => inputValidationStyles({ ...props, defaultColor: props.theme.colors.uranus500 })};
+  }
+
+  &:focus + label {
+    ${props => labelValidationStyles({ ...props, defaultColor: props.theme.colors.uranus500 })};
   }
 
   & + label {
@@ -156,7 +156,7 @@ const InputField = styled.input`
 
 const iconStyles = inputSize => ({
   position: 'absolute',
-  top: `${inputSize === inputSizes.large ? 16 : 10}px`,
+  top: `${inputSize === inputSizes.large ? 17 : 11}px`,
   right: '8px',
 });
 

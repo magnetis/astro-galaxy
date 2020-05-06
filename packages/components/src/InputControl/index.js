@@ -1,4 +1,4 @@
-import { IconCircleLess, IconCircleMore } from '@magnetis/astro-galaxy-icons';
+import { IconInputDash, IconInputPlus } from '@magnetis/astro-galaxy-icons';
 import PropTypes from 'prop-types';
 import React from 'react';
 import styled from 'styled-components';
@@ -46,7 +46,7 @@ const InputControl = ({
           variant={buttonVariant}
           disabled={inputProps.disabled}
           {...buttonProps.decrementButtonProps}>
-          <IconCircleLess />
+          <IconInputDash />
         </IconGhostButton>
         <IconGhostButton
           onClick={onIncrement}
@@ -54,7 +54,7 @@ const InputControl = ({
           variant={buttonVariant}
           disabled={inputProps.disabled}
           {...buttonProps.incrementButtonProps}>
-          <IconCircleMore />
+          <IconInputPlus />
         </IconGhostButton>
       </InputControlButtons>
     </InputControlContainer>

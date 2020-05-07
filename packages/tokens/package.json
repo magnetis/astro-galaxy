@@ -8,7 +8,7 @@
   },
   "types": "./src/index.d.ts",
   "files": [
-    "src"
+    "lib"
   ],
   "publishConfig": {
     "access": "public"

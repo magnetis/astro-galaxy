@@ -1,5 +1,9 @@
 # Changelog
 
+### [1.0.1] - 2020-05-06
+
+- Add @magnetis/astro-galaxy-tokens as dependency to @magnetis/astro-galaxy-themes.
+
 ### [1.0.0] - 2020-05-06
 
 - Deprecate @magnetis/astro-galaxy-core package.

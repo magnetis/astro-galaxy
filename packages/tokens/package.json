@@ -1,6 +1,6 @@
 {
   "name": "@magnetis/astro-galaxy-tokens",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "main": "lib/index.cjs.js",
   "module": "lib/index.es.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "types": "./src/index.d.ts",
   "files": [
-    "src"
+    "lib"
   ],
   "publishConfig": {
     "access": "public"

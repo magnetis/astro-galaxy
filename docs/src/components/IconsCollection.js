@@ -11,7 +11,7 @@ const Collection = styled.div`
 const Item = styled.div`
   margin: 16px;
   text-align: center;
-  width: 72px;
+  width: 90px;
 `;
 
 const Container = styled.div`
@@ -21,6 +21,7 @@ const Container = styled.div`
   border: solid 1px ${props => props.theme.colors.moon300};
   border-radius: 8px;
   padding: 16px;
+  height: 90px;
 `;
 
 const Name = styled.div`

@@ -1,5 +1,9 @@
 # Changelog
 
+### [1.1.1] - 2020-05-07
+
+- Add new icons; airplane, car, education.
+
 ### [1.0.2] - 2020-05-06
 
 - @magnetis/astro-galaxy-tokens has a build process now.

@@ -13,6 +13,13 @@ exports[`Tab should render tab component 1`] = `
   font-size: 48px;
 }
 
+.c6 {
+  color: #32383c;
+  font-size: medium;
+  font: normal normal 400 normal 16px/1.5 Lato,sans-serif;
+  font-size: 16px;
+}
+
 .c0 {
   position: relative;
   display: -webkit-box;
@@ -117,13 +124,6 @@ exports[`Tab should render tab component 1`] = `
   -webkit-order: 99;
   -ms-flex-order: 99;
   order: 99;
-}
-
-.c6 {
-  color: #32383c;
-  font-size: medium;
-  font: normal normal 400 normal 16px/1.5 Lato,sans-serif;
-  font-size: 16px;
 }
 
 <div

@@ -1,6 +1,6 @@
-import styled from 'styled-components';
-import { color, space, layout, typography } from 'styled-system';
 import { font } from '@magnetis/astro-galaxy-themes';
+import styled from 'styled-components';
+import { color, layout, space, typography } from 'styled-system';
 
 const Text = styled.p`
   ${color}
@@ -14,7 +14,7 @@ const Text = styled.p`
 Text.displayName = 'Text';
 
 Text.defaultProps = {
-  font: 'primary',
+  font: 'secondary',
   color: 'moon900',
   fontSize: 'medium',
 };

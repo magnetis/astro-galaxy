@@ -18,11 +18,7 @@ export const CardTitle = ({ children }) => (
   </Heading>
 );
 
-export const CardText = ({ children }) => (
-  <Text as="div" font="secondary" fontSize="medium">
-    {children}
-  </Text>
-);
+export const CardText = ({ children }) => <Text as="div">{children}</Text>;
 
 export const CardButton = props => (
   <AstroButton as="a" marginTop={4} variant="primary.earth" {...props}></AstroButton>

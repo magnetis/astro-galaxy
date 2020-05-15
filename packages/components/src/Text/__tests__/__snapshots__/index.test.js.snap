@@ -4,7 +4,7 @@ exports[`Text renders correctly 1`] = `
 .c0 {
   color: #32383c;
   font-size: medium;
-  font: normal normal 600 normal 16px/1.5 Poppins,sans-serif;
+  font: normal normal 400 normal 16px/1.5 Lato,sans-serif;
   font-size: 16px;
 }
 

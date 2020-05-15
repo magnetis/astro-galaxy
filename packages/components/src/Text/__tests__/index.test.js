@@ -1,6 +1,5 @@
-import React from 'react';
 import { webTheme } from '@magnetis/astro-galaxy-themes';
-
+import React from 'react';
 import Text from '../index';
 
 describe('Text', () => {
@@ -9,10 +8,10 @@ describe('Text', () => {
     expect(json).toMatchSnapshot();
   });
 
-  describe('when `font` prop is `secondary`', () => {
-    it('renders with font-family Lato', () => {
-      const json = rendererCreateWithTheme(<Text font="secondary">Text</Text>).toJSON();
-      expect(json).toHaveStyleRule('font', 'normal normal 400 normal 16px/1.5 Lato,sans-serif');
+  describe('when `font` prop is `primary`', () => {
+    it('renders with font-family Poppins', () => {
+      const json = rendererCreateWithTheme(<Text font="primary">Text</Text>).toJSON();
+      expect(json).toHaveStyleRule('font', 'normal normal 600 normal 16px/1.5 Poppins,sans-serif');
     });
   });
 

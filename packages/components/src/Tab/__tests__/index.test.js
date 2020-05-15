@@ -1,7 +1,7 @@
-import React from 'react';
-import { Text, Heading } from '@magnetis/astro-galaxy-components';
-import { Tab, TabItem, TabLabel, TabContent } from '../index';
+import { Heading, Text } from '@magnetis/astro-galaxy-components';
 import { IconCalendar, IconPencil } from '@magnetis/astro-galaxy-icons';
+import React from 'react';
+import { Tab, TabContent, TabItem, TabLabel } from '../index';
 
 describe('Tab', () => {
   it('should render tab component', () => {
@@ -14,11 +14,11 @@ describe('Tab', () => {
         </TabLabel>
         <TabContent>
           <Heading as="h2">tab 1</Heading>
-          <Text font="secondary">
+          <Text>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. In euismod nisi in orci mattis,
             ac iaculis orci lobortis.
           </Text>
-          <Text font="secondary">
+          <Text>
             Nullam imperdiet dolor a erat commodo laoreet a ut felis. Nam consequat nisl eu
             efficitur suscipit. Nulla dapibus cursus diam in convallis.
           </Text>
@@ -30,7 +30,7 @@ describe('Tab', () => {
         </TabLabel>
         <TabContent>
           <Heading as="h2">tab 2</Heading>
-          <Text font="secondary">
+          <Text>
             Integer id pulvinar odio, sit amet accumsan lacus. Pellentesque accumsan sapien eget
             orci auctor, ac pulvinar orci porttitor. Sed fermentum turpis sed egestas commodo. In
             euismod nisi in orci mattis, ac iaculis orci lobortis.

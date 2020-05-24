@@ -1,5 +1,11 @@
 # Changelog
 
+### [1.1.1] - 2020-05-15
+
+- Correct Tabbed component export.
+- Change the Text component to display the secondary font as default.
+- Add more values for spacing on web theme (margin, padding, etc.).
+
 ### [1.1.0] - 2020-05-08
 
 - Add new icons; airplane, car, education.

@@ -1,6 +1,6 @@
 {
   "name": "@magnetis/astro-galaxy-themes",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "main": "lib/index.cjs.js",
   "module": "lib/index.es.js",
   "scripts": {
@@ -11,7 +11,7 @@
     "lib"
   ],
   "dependencies": {
-    "@magnetis/astro-galaxy-tokens": "^1.1.0",
+    "@magnetis/astro-galaxy-tokens": "^1.1.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "styled-components": "^4.4.1",

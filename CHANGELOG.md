@@ -1,5 +1,9 @@
 # Changelog
 
+### [1.2.0] - 2020-05-24
+
+- Add dynamic extra prop to the Tabbed's Tab component.
+
 ### [1.1.1] - 2020-05-15
 
 - Correct Tabbed component export.

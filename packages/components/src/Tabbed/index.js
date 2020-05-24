@@ -135,9 +135,9 @@ const TabItem = styled.a`
 
 export const Section = styled.section``;
 
-export const Tab = ({ id, children, selected }) => (
+export const Tab = ({ id, children, selected, ...rest }) => (
   <TabContainer>
-    <TabItem href={`#${id}`} aria-selected={selected}>
+    <TabItem href={`#${id}`} aria-selected={selected} {...rest}>
       {children}
     </TabItem>
   </TabContainer>

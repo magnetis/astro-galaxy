@@ -1,5 +1,10 @@
 # Changelog
 
+### [1.2.3] - 2020-06-09
+
+- Creates a conditional to handle some functions from styled-components that
+  are undefined at react-native apps
+
 ### [1.2.2] - 2020-06-09
 
 - Updates styled-component dependecy to version 5

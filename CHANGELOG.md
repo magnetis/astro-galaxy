@@ -1,5 +1,9 @@
 # Changelog
 
+### [1.2.1] - 2020-06-09
+
+- Updates styled-component dependecy to version 5
+
 ### [1.2.0] - 2020-05-24
 
 - Add dynamic extra prop to the Tabbed's Tab component.

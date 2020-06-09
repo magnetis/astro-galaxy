@@ -6,7 +6,6 @@ function mount(props = {}) {
   const mergedProps = {
     inputId: 'inputId',
     labelId: 'labelId',
-    inputSize: 'small',
     ...props,
   };
   return toJson(mountWithTheme(<InputText {...mergedProps} />));

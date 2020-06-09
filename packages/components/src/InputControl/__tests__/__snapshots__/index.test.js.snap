@@ -203,6 +203,10 @@ exports[`InputControl renders correctly 1`] = `
   top: 5%;
 }
 
+@media (prefers-reduced-motion:reduce) {
+
+}
+
 <div
   className="c0"
 >
@@ -235,7 +239,7 @@ exports[`InputControl renders correctly 1`] = `
     className="c4"
   >
     <button
-      className="c5"
+      className="Button-tgj28e-0 IconButton-sc-60pql4-0 c5"
       display="inline-block"
       onClick={[Function]}
     >
@@ -267,7 +271,7 @@ exports[`InputControl renders correctly 1`] = `
       </svg>
     </button>
     <button
-      className="c5"
+      className="Button-tgj28e-0 IconButton-sc-60pql4-0 c5"
       display="inline-block"
       onClick={[Function]}
     >

@@ -1,6 +1,6 @@
 import React from 'react';
-import { colors } from '@magnetis/astro-galaxy-tokens';
 import Button from '../index';
+import toJson from 'enzyme-to-json';
 
 describe('Button component', () => {
   it('should render a button', () => {
@@ -10,22 +10,16 @@ describe('Button component', () => {
   });
 
   it('should change font-size and padding when button size is small', () => {
-    const button = rendererCreateWithTheme(
-      <Button buttonSize="small">Click here!</Button>
-    ).toJSON();
-
+    const wrapper = toJson(mountWithTheme(<Button buttonSize="small">Click here!</Button>));
+    const button = wrapper.children[0].children[1];
     expect(button).toMatchSnapshot();
-    expect(button).toHaveStyleRule('font-size', '12px');
-    expect(button).toHaveStyleRule('padding', '5px 28px');
+    expect(button.props.buttonSize).toBe('small');
   });
 
   it('should change background-color and border-color when variant is primary.mars', () => {
-    const button = rendererCreateWithTheme(
-      <Button variant="primary.mars">Click here!</Button>
-    ).toJSON();
-
+    const wrapper = toJson(mountWithTheme(<Button variant="primary.mars">Click here!</Button>));
+    const button = wrapper.children[0].children[1];
     expect(button).toMatchSnapshot();
-    expect(button).toHaveStyleRule('background-color', colors.mars500);
-    expect(button).toHaveStyleRule('border-color', colors.mars500);
+    expect(button.props.variant).toBe('primary.mars');
   });
 });

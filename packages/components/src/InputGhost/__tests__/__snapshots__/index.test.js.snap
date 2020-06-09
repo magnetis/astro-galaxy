@@ -139,6 +139,10 @@ exports[`InputGhost renders correctly 1`] = `
   fill: #ffffff;
 }
 
+@media (prefers-reduced-motion:reduce) {
+
+}
+
 <fieldset
   className="c0"
 >

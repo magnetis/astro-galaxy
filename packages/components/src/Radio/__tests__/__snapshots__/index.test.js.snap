@@ -61,6 +61,10 @@ exports[`Radio should render a disabled radio 1`] = `
   height: 18px;
 }
 
+@media (prefers-reduced-motion:reduce) {
+
+}
+
 <div
   className="c0"
 >
@@ -141,6 +145,10 @@ exports[`Radio should render a disabled selected radio 1`] = `
   background-color: #ffffff;
   width: 18px;
   height: 18px;
+}
+
+@media (prefers-reduced-motion:reduce) {
+
 }
 
 <div
@@ -226,6 +234,10 @@ exports[`Radio should render a selected radio 1`] = `
   height: 18px;
 }
 
+@media (prefers-reduced-motion:reduce) {
+
+}
+
 <div
   className="c0"
 >
@@ -306,6 +318,10 @@ exports[`Radio should render radio 1`] = `
   background-color: #ffffff;
   width: 18px;
   height: 18px;
+}
+
+@media (prefers-reduced-motion:reduce) {
+
 }
 
 <div

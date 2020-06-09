@@ -83,8 +83,12 @@ exports[`IconOutlineButton should border-color when variant is outline.earth 1`]
   color: #32383c;
 }
 
+@media (prefers-reduced-motion:reduce) {
+
+}
+
 <button
-  className="c0"
+  className="Button-tgj28e-0 OutlineButton-sc-9jysz0-0 c0"
   display="inline-block"
 >
   <svg
@@ -217,8 +221,12 @@ exports[`IconOutlineButton should change border-color when variant is outline.ma
   color: #ffffff;
 }
 
+@media (prefers-reduced-motion:reduce) {
+
+}
+
 <button
-  className="c0"
+  className="Button-tgj28e-0 OutlineButton-sc-9jysz0-0 c0"
   display="inline-block"
 >
   <svg
@@ -351,8 +359,12 @@ exports[`IconOutlineButton should change border-color when variant is outline.ve
   color: #ffffff;
 }
 
+@media (prefers-reduced-motion:reduce) {
+
+}
+
 <button
-  className="c0"
+  className="Button-tgj28e-0 OutlineButton-sc-9jysz0-0 c0"
   display="inline-block"
 >
   <svg
@@ -485,8 +497,12 @@ exports[`IconOutlineButton should change padding when icon button size is large 
   color: #ffffff;
 }
 
+@media (prefers-reduced-motion:reduce) {
+
+}
+
 <button
-  className="c0"
+  className="Button-tgj28e-0 OutlineButton-sc-9jysz0-0 c0"
   display="inline-block"
 >
   <svg
@@ -619,8 +635,12 @@ exports[`IconOutlineButton should change padding when icon button size is small 
   color: #ffffff;
 }
 
+@media (prefers-reduced-motion:reduce) {
+
+}
+
 <button
-  className="c0"
+  className="Button-tgj28e-0 OutlineButton-sc-9jysz0-0 c0"
   display="inline-block"
 >
   <svg
@@ -753,8 +773,12 @@ exports[`IconOutlineButton should render an icon button with calendar icon 1`] =
   color: #ffffff;
 }
 
+@media (prefers-reduced-motion:reduce) {
+
+}
+
 <button
-  className="c0"
+  className="Button-tgj28e-0 OutlineButton-sc-9jysz0-0 c0"
   display="inline-block"
 >
   <svg

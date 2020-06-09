@@ -81,8 +81,12 @@ exports[`IconGhostButton should change background-color and border-color when va
   color: #ac3c40;
 }
 
+@media (prefers-reduced-motion:reduce) {
+
+}
+
 <button
-  className="c0"
+  className="Button-tgj28e-0 IconButton-sc-60pql4-0 c0"
   display="inline-block"
 >
   <svg
@@ -213,8 +217,12 @@ exports[`IconGhostButton should change background-color and border-color when va
   color: #c763ba;
 }
 
+@media (prefers-reduced-motion:reduce) {
+
+}
+
 <button
-  className="c0"
+  className="Button-tgj28e-0 IconButton-sc-60pql4-0 c0"
   display="inline-block"
 >
   <svg
@@ -345,8 +353,12 @@ exports[`IconGhostButton should change color, background-color and border-color 
   color: #276f2d;
 }
 
+@media (prefers-reduced-motion:reduce) {
+
+}
+
 <button
-  className="c0"
+  className="Button-tgj28e-0 IconButton-sc-60pql4-0 c0"
   display="inline-block"
 >
   <svg
@@ -477,8 +489,12 @@ exports[`IconGhostButton should change padding when icon button size is large 1`
   color: #147ec1;
 }
 
+@media (prefers-reduced-motion:reduce) {
+
+}
+
 <button
-  className="c0"
+  className="Button-tgj28e-0 IconButton-sc-60pql4-0 c0"
   display="inline-block"
 >
   <svg
@@ -609,8 +625,12 @@ exports[`IconGhostButton should change padding when icon button size is small 1`
   color: #147ec1;
 }
 
+@media (prefers-reduced-motion:reduce) {
+
+}
+
 <button
-  className="c0"
+  className="Button-tgj28e-0 IconButton-sc-60pql4-0 c0"
   display="inline-block"
 >
   <svg
@@ -741,8 +761,12 @@ exports[`IconGhostButton should render an icon button with calendar icon 1`] = `
   color: #147ec1;
 }
 
+@media (prefers-reduced-motion:reduce) {
+
+}
+
 <button
-  className="c0"
+  className="Button-tgj28e-0 IconButton-sc-60pql4-0 c0"
   display="inline-block"
 >
   <svg

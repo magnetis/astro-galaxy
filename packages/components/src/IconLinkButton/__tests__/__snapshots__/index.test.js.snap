@@ -62,6 +62,10 @@ exports[`IconLinkButton should change font-weight when icon link button has bold
   color: #e9eef2;
 }
 
+@media (prefers-reduced-motion:reduce) {
+
+}
+
 <button
   className="c0"
 >
@@ -174,6 +178,10 @@ exports[`IconLinkButton should render an icon link button with calendar icon 1`]
   color: #e9eef2;
 }
 
+@media (prefers-reduced-motion:reduce) {
+
+}
+
 <button
   className="c0"
 >
@@ -284,6 +292,10 @@ exports[`IconLinkButton should render an icon link button with calendar icon on 
 
 .c0:disabled svg {
   color: #e9eef2;
+}
+
+@media (prefers-reduced-motion:reduce) {
+
 }
 
 <button

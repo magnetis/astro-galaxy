@@ -1,14 +1,15 @@
-import { webTheme } from '@magnetis/astro-galaxy-themes';
 import React from 'react';
 import InputText, { inputSizes } from '../index';
+import toJson from 'enzyme-to-json';
 
 function mount(props = {}) {
   const mergedProps = {
     inputId: 'inputId',
     labelId: 'labelId',
+    inputSize: 'small',
     ...props,
   };
-  return rendererCreateWithTheme(<InputText {...mergedProps} />).toJSON();
+  return toJson(mountWithTheme(<InputText {...mergedProps} />));
 }
 
 describe('input text', () => {
@@ -43,8 +44,8 @@ describe('input text', () => {
 
   it('renders correctly the large input and checks its font size', () => {
     const wrapper = mount({ inputSize: inputSizes.large });
-    const input = wrapper.children[0];
-    expect(input).toHaveStyleRule('font-size', webTheme.fontSizes.texts.large);
+    const input = wrapper.children[0].children[1];
+    expect(input.props.inputSize).toBe('large');
     expect(wrapper).toMatchSnapshot();
   });
 });

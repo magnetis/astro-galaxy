@@ -59,6 +59,10 @@ exports[`Tabbed should render correctly 1`] = `
   font-size: 16px;
 }
 
+@media (prefers-reduced-motion:reduce) {
+
+}
+
 <div
   className="a-tabbed"
 >

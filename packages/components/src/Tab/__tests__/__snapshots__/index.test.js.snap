@@ -126,6 +126,10 @@ exports[`Tab should render tab component 1`] = `
   order: 99;
 }
 
+@media (prefers-reduced-motion:reduce) {
+
+}
+
 <div
   className="c0"
 >

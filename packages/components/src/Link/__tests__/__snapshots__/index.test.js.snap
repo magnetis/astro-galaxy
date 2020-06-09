@@ -20,6 +20,10 @@ exports[`Link default render should render 1`] = `
   box-shadow: 0 0 0 3px rgba(21,156,228,0.4);
 }
 
+@media (prefers-reduced-motion:reduce) {
+
+}
+
 <a
   className="c0"
   fontSize="medium"
@@ -46,6 +50,10 @@ exports[`Link when font is secondary should render 1`] = `
   box-shadow: 0 0 0 3px rgba(21,156,228,0.4);
 }
 
+@media (prefers-reduced-motion:reduce) {
+
+}
+
 <a
   className="c0"
   fontSize="medium"
@@ -70,6 +78,10 @@ exports[`Link when size is small should render 1`] = `
 .c0:focus {
   outline: none;
   box-shadow: 0 0 0 3px rgba(21,156,228,0.4);
+}
+
+@media (prefers-reduced-motion:reduce) {
+
 }
 
 <a

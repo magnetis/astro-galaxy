@@ -53,6 +53,10 @@ exports[`TextArea should render 1`] = `
   transition: all 0.2s ease;
 }
 
+@media (prefers-reduced-motion:reduce) {
+
+}
+
 <div
   className="c0"
 >
@@ -118,6 +122,10 @@ exports[`TextArea should render disabled 1`] = `
   -webkit-transition: all 0.2s ease;
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
+}
+
+@media (prefers-reduced-motion:reduce) {
+
 }
 
 <div

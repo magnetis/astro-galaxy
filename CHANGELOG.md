@@ -1,8 +1,12 @@
 # Changelog
 
-### [1.2.1] - 2020-06-09
+### [1.2.2] - 2020-06-09
 
 - Updates styled-component dependecy to version 5
+
+### [1.2.1] - 2020-06-09
+
+- Skipped due to some problems at publishing
 
 ### [1.2.0] - 2020-05-24
 

@@ -61,8 +61,12 @@ exports[`IconButton should change background-color and border-color when variant
   height: 32px;
 }
 
+@media (prefers-reduced-motion:reduce) {
+
+}
+
 <button
-  className="c0"
+  className="Button-tgj28e-0 c0"
   display="inline-block"
 >
   <svg
@@ -173,8 +177,12 @@ exports[`IconButton should change background-color and border-color when variant
   height: 32px;
 }
 
+@media (prefers-reduced-motion:reduce) {
+
+}
+
 <button
-  className="c0"
+  className="Button-tgj28e-0 c0"
   display="inline-block"
 >
   <svg
@@ -285,8 +293,12 @@ exports[`IconButton should change color, background-color and border-color when 
   height: 32px;
 }
 
+@media (prefers-reduced-motion:reduce) {
+
+}
+
 <button
-  className="c0"
+  className="Button-tgj28e-0 c0"
   display="inline-block"
 >
   <svg
@@ -397,8 +409,12 @@ exports[`IconButton should change padding when icon button size is large 1`] = `
   height: 40px;
 }
 
+@media (prefers-reduced-motion:reduce) {
+
+}
+
 <button
-  className="c0"
+  className="Button-tgj28e-0 c0"
   display="inline-block"
 >
   <svg
@@ -509,8 +525,12 @@ exports[`IconButton should change padding when icon button size is small 1`] = `
   height: 24px;
 }
 
+@media (prefers-reduced-motion:reduce) {
+
+}
+
 <button
-  className="c0"
+  className="Button-tgj28e-0 c0"
   display="inline-block"
 >
   <svg
@@ -621,8 +641,12 @@ exports[`IconButton should render an icon button with calendar icon 1`] = `
   height: 32px;
 }
 
+@media (prefers-reduced-motion:reduce) {
+
+}
+
 <button
-  className="c0"
+  className="Button-tgj28e-0 c0"
   display="inline-block"
 >
   <svg

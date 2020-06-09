@@ -76,6 +76,10 @@ exports[`Toggle should render a disabled toggle button 1`] = `
   box-shadow: 0 0 0 3px rgba(21,156,228,0.4);
 }
 
+@media (prefers-reduced-motion:reduce) {
+
+}
+
 <button
   aria-pressed={false}
   className="c0"
@@ -165,6 +169,10 @@ exports[`Toggle should render a toggle button 1`] = `
   box-shadow: 0 0 0 3px rgba(21,156,228,0.4);
 }
 
+@media (prefers-reduced-motion:reduce) {
+
+}
+
 <button
   aria-pressed={false}
   className="c0"
@@ -251,6 +259,10 @@ exports[`Toggle should render a toggled toggle button 1`] = `
 
 .c0:focus span:before {
   box-shadow: 0 0 0 3px rgba(21,156,228,0.4);
+}
+
+@media (prefers-reduced-motion:reduce) {
+
 }
 
 <button

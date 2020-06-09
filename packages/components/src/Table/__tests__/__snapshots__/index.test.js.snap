@@ -40,6 +40,10 @@ exports[`Table should render correctly 1`] = `
   opacity: 0.3;
 }
 
+@media (prefers-reduced-motion:reduce) {
+
+}
+
 <table
   className="c0"
 />

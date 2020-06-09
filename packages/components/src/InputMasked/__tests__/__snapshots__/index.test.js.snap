@@ -113,6 +113,10 @@ exports[`InputMasked renders CPF masked input 1`] = `
   transform-origin: 0 0;
 }
 
+@media (prefers-reduced-motion:reduce) {
+
+}
+
 <index
   theme={
     Object {
@@ -603,7 +607,7 @@ exports[`InputMasked renders CPF masked input 1`] = `
       }
     }
   >
-    <GlobalStyleComponent />
+    <Memo(GlobalStyleComponent) />
     <InputMasked
       className=""
       decimalScale={2}
@@ -656,180 +660,51 @@ exports[`InputMasked renders CPF masked input 1`] = `
             placeholder="000.000.000-00"
           >
             <InputText__InputWrapper>
-              <StyledComponent
-                forwardedComponent={
-                  Object {
-                    "$$typeof": Symbol(react.forward_ref),
-                    "attrs": Array [],
-                    "componentStyle": ComponentStyle {
-                      "componentId": "InputText__InputWrapper-bgwxz4-0",
-                      "isStatic": false,
-                      "lastClassName": "c0",
-                      "rules": Array [
-                        "border:0;padding:0;position:relative;",
-                        [Function],
-                        ";",
-                        [Function],
-                        ";",
-                      ],
-                    },
-                    "displayName": "InputText__InputWrapper",
-                    "foldedComponentIds": Array [],
-                    "render": [Function],
-                    "styledComponentId": "InputText__InputWrapper-bgwxz4-0",
-                    "target": "fieldset",
-                    "toString": [Function],
-                    "warnTooManyClasses": [Function],
-                    "withComponent": [Function],
-                  }
-                }
-                forwardedRef={null}
+              <fieldset
+                className="c0"
               >
-                <fieldset
-                  className="c0"
+                <InputText__InputField
+                  aria-labelledby="labelId"
+                  className=" --no-animate"
+                  id="inputId"
+                  inputSize="medium"
+                  isInvalid={false}
+                  isValidated={false}
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  onMouseDown={[Function]}
+                  placeholder="000.000.000-00"
+                  type="text"
                 >
-                  <InputText__InputField
+                  <input
                     aria-labelledby="labelId"
-                    className=" --no-animate"
+                    className="c1  --no-animate"
                     id="inputId"
-                    inputSize="medium"
-                    isInvalid={false}
-                    isValidated={false}
                     onBlur={[Function]}
                     onChange={[Function]}
                     onFocus={[Function]}
                     onMouseDown={[Function]}
                     placeholder="000.000.000-00"
                     type="text"
-                  >
-                    <StyledComponent
-                      aria-labelledby="labelId"
-                      className=" --no-animate"
-                      forwardedComponent={
-                        Object {
-                          "$$typeof": Symbol(react.forward_ref),
-                          "attrs": Array [],
-                          "componentStyle": ComponentStyle {
-                            "componentId": "InputText__InputField-bgwxz4-2",
-                            "isStatic": false,
-                            "lastClassName": "c1",
-                            "rules": Array [
-                              "background-color:",
-                              [Function],
-                              ";border-width:1px;border-style:solid;border-radius:8px;color:",
-                              [Function],
-                              ";font:",
-                              [Function],
-                              ";padding:25px 16px 5px;position:relative;width:100%;",
-                              [Function],
-                              ";",
-                              [Function],
-                              ";&::placeholder{color:transparent;}&:focus::placeholder,&.--no-animate::placeholder{color:",
-                              [Function],
-                              ";}&:focus,&:not(:placeholder-shown),&.--no-animate{& + label{font-weight:700;",
-                              [Function],
-                              ";}",
-                              [Function],
-                              ";}&.--no-animate{",
-                              [Function],
-                              ";&:focus{",
-                              [Function],
-                              ";}}&:focus{outline:none;",
-                              [Function],
-                              ";}&:focus + label{",
-                              [Function],
-                              ";}& + label{left:0;position:absolute;top:0;transition:transform 0.25s,opacity 0.25s ease-in-out;transform-origin:0 0;}",
-                            ],
-                          },
-                          "displayName": "InputText__InputField",
-                          "foldedComponentIds": Array [],
-                          "render": [Function],
-                          "styledComponentId": "InputText__InputField-bgwxz4-2",
-                          "target": "input",
-                          "toString": [Function],
-                          "warnTooManyClasses": [Function],
-                          "withComponent": [Function],
-                        }
-                      }
-                      forwardedRef={null}
-                      id="inputId"
-                      inputSize="medium"
-                      isInvalid={false}
-                      isValidated={false}
-                      onBlur={[Function]}
-                      onChange={[Function]}
-                      onFocus={[Function]}
-                      onMouseDown={[Function]}
-                      placeholder="000.000.000-00"
-                      type="text"
-                    >
-                      <input
-                        aria-labelledby="labelId"
-                        className="c1  --no-animate"
-                        id="inputId"
-                        onBlur={[Function]}
-                        onChange={[Function]}
-                        onFocus={[Function]}
-                        onMouseDown={[Function]}
-                        placeholder="000.000.000-00"
-                        type="text"
-                      />
-                    </StyledComponent>
-                  </InputText__InputField>
-                  <InputText__InputLabel
+                  />
+                </InputText__InputField>
+                <InputText__InputLabel
+                  htmlFor="inputId"
+                  id="labelId"
+                  inputSize="medium"
+                  isInvalid={false}
+                  isValidated={false}
+                >
+                  <label
+                    className="c2"
                     htmlFor="inputId"
                     id="labelId"
-                    inputSize="medium"
-                    isInvalid={false}
-                    isValidated={false}
                   >
-                    <StyledComponent
-                      forwardedComponent={
-                        Object {
-                          "$$typeof": Symbol(react.forward_ref),
-                          "attrs": Array [],
-                          "componentStyle": ComponentStyle {
-                            "componentId": "InputText__InputLabel-bgwxz4-1",
-                            "isStatic": false,
-                            "lastClassName": "c2",
-                            "rules": Array [
-                              "font:",
-                              [Function],
-                              ";height:4em;padding:1em;pointer-events:none;user-select:none;",
-                              [Function],
-                              ";",
-                              [Function],
-                              ";",
-                            ],
-                          },
-                          "displayName": "InputText__InputLabel",
-                          "foldedComponentIds": Array [],
-                          "render": [Function],
-                          "styledComponentId": "InputText__InputLabel-bgwxz4-1",
-                          "target": "label",
-                          "toString": [Function],
-                          "warnTooManyClasses": [Function],
-                          "withComponent": [Function],
-                        }
-                      }
-                      forwardedRef={null}
-                      htmlFor="inputId"
-                      id="labelId"
-                      inputSize="medium"
-                      isInvalid={false}
-                      isValidated={false}
-                    >
-                      <label
-                        className="c2"
-                        htmlFor="inputId"
-                        id="labelId"
-                      >
-                        Standard
-                      </label>
-                    </StyledComponent>
-                  </InputText__InputLabel>
-                </fieldset>
-              </StyledComponent>
+                    Standard
+                  </label>
+                </InputText__InputLabel>
+              </fieldset>
             </InputText__InputWrapper>
           </InputText>
         </InputMaskChildrenWrapper>
@@ -952,6 +827,10 @@ exports[`InputMasked renders currency masked input 1`] = `
   transform-origin: 0 0;
 }
 
+@media (prefers-reduced-motion:reduce) {
+
+}
+
 <index
   theme={
     Object {
@@ -1442,7 +1321,7 @@ exports[`InputMasked renders currency masked input 1`] = `
       }
     }
   >
-    <GlobalStyleComponent />
+    <Memo(GlobalStyleComponent) />
     <InputMasked
       className=""
       decimalScale={2}
@@ -1522,46 +1401,31 @@ exports[`InputMasked renders currency masked input 1`] = `
           value=""
         >
           <InputText__InputWrapper>
-            <StyledComponent
-              forwardedComponent={
-                Object {
-                  "$$typeof": Symbol(react.forward_ref),
-                  "attrs": Array [],
-                  "componentStyle": ComponentStyle {
-                    "componentId": "InputText__InputWrapper-bgwxz4-0",
-                    "isStatic": false,
-                    "lastClassName": "c0",
-                    "rules": Array [
-                      "border:0;padding:0;position:relative;",
-                      [Function],
-                      ";",
-                      [Function],
-                      ";",
-                    ],
-                  },
-                  "displayName": "InputText__InputWrapper",
-                  "foldedComponentIds": Array [],
-                  "render": [Function],
-                  "styledComponentId": "InputText__InputWrapper-bgwxz4-0",
-                  "target": "fieldset",
-                  "toString": [Function],
-                  "warnTooManyClasses": [Function],
-                  "withComponent": [Function],
-                }
-              }
-              forwardedRef={null}
+            <fieldset
+              className="c0"
             >
-              <fieldset
-                className="c0"
+              <InputText__InputField
+                aria-labelledby="labelId"
+                className=" --no-animate"
+                id="inputId"
+                inputMode="numeric"
+                inputSize="medium"
+                isInvalid={false}
+                isValidated={false}
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onMouseUp={[Function]}
+                placeholder="0,00"
+                type="text"
+                value=""
               >
-                <InputText__InputField
+                <input
                   aria-labelledby="labelId"
-                  className=" --no-animate"
+                  className="c1  --no-animate"
                   id="inputId"
                   inputMode="numeric"
-                  inputSize="medium"
-                  isInvalid={false}
-                  isValidated={false}
                   onBlur={[Function]}
                   onChange={[Function]}
                   onFocus={[Function]}
@@ -1570,141 +1434,24 @@ exports[`InputMasked renders currency masked input 1`] = `
                   placeholder="0,00"
                   type="text"
                   value=""
-                >
-                  <StyledComponent
-                    aria-labelledby="labelId"
-                    className=" --no-animate"
-                    forwardedComponent={
-                      Object {
-                        "$$typeof": Symbol(react.forward_ref),
-                        "attrs": Array [],
-                        "componentStyle": ComponentStyle {
-                          "componentId": "InputText__InputField-bgwxz4-2",
-                          "isStatic": false,
-                          "lastClassName": "c1",
-                          "rules": Array [
-                            "background-color:",
-                            [Function],
-                            ";border-width:1px;border-style:solid;border-radius:8px;color:",
-                            [Function],
-                            ";font:",
-                            [Function],
-                            ";padding:25px 16px 5px;position:relative;width:100%;",
-                            [Function],
-                            ";",
-                            [Function],
-                            ";&::placeholder{color:transparent;}&:focus::placeholder,&.--no-animate::placeholder{color:",
-                            [Function],
-                            ";}&:focus,&:not(:placeholder-shown),&.--no-animate{& + label{font-weight:700;",
-                            [Function],
-                            ";}",
-                            [Function],
-                            ";}&.--no-animate{",
-                            [Function],
-                            ";&:focus{",
-                            [Function],
-                            ";}}&:focus{outline:none;",
-                            [Function],
-                            ";}&:focus + label{",
-                            [Function],
-                            ";}& + label{left:0;position:absolute;top:0;transition:transform 0.25s,opacity 0.25s ease-in-out;transform-origin:0 0;}",
-                          ],
-                        },
-                        "displayName": "InputText__InputField",
-                        "foldedComponentIds": Array [],
-                        "render": [Function],
-                        "styledComponentId": "InputText__InputField-bgwxz4-2",
-                        "target": "input",
-                        "toString": [Function],
-                        "warnTooManyClasses": [Function],
-                        "withComponent": [Function],
-                      }
-                    }
-                    forwardedRef={null}
-                    id="inputId"
-                    inputMode="numeric"
-                    inputSize="medium"
-                    isInvalid={false}
-                    isValidated={false}
-                    onBlur={[Function]}
-                    onChange={[Function]}
-                    onFocus={[Function]}
-                    onKeyDown={[Function]}
-                    onMouseUp={[Function]}
-                    placeholder="0,00"
-                    type="text"
-                    value=""
-                  >
-                    <input
-                      aria-labelledby="labelId"
-                      className="c1  --no-animate"
-                      id="inputId"
-                      inputMode="numeric"
-                      onBlur={[Function]}
-                      onChange={[Function]}
-                      onFocus={[Function]}
-                      onKeyDown={[Function]}
-                      onMouseUp={[Function]}
-                      placeholder="0,00"
-                      type="text"
-                      value=""
-                    />
-                  </StyledComponent>
-                </InputText__InputField>
-                <InputText__InputLabel
+                />
+              </InputText__InputField>
+              <InputText__InputLabel
+                htmlFor="inputId"
+                id="labelId"
+                inputSize="medium"
+                isInvalid={false}
+                isValidated={false}
+              >
+                <label
+                  className="c2"
                   htmlFor="inputId"
                   id="labelId"
-                  inputSize="medium"
-                  isInvalid={false}
-                  isValidated={false}
                 >
-                  <StyledComponent
-                    forwardedComponent={
-                      Object {
-                        "$$typeof": Symbol(react.forward_ref),
-                        "attrs": Array [],
-                        "componentStyle": ComponentStyle {
-                          "componentId": "InputText__InputLabel-bgwxz4-1",
-                          "isStatic": false,
-                          "lastClassName": "c2",
-                          "rules": Array [
-                            "font:",
-                            [Function],
-                            ";height:4em;padding:1em;pointer-events:none;user-select:none;",
-                            [Function],
-                            ";",
-                            [Function],
-                            ";",
-                          ],
-                        },
-                        "displayName": "InputText__InputLabel",
-                        "foldedComponentIds": Array [],
-                        "render": [Function],
-                        "styledComponentId": "InputText__InputLabel-bgwxz4-1",
-                        "target": "label",
-                        "toString": [Function],
-                        "warnTooManyClasses": [Function],
-                        "withComponent": [Function],
-                      }
-                    }
-                    forwardedRef={null}
-                    htmlFor="inputId"
-                    id="labelId"
-                    inputSize="medium"
-                    isInvalid={false}
-                    isValidated={false}
-                  >
-                    <label
-                      className="c2"
-                      htmlFor="inputId"
-                      id="labelId"
-                    >
-                      Standard
-                    </label>
-                  </StyledComponent>
-                </InputText__InputLabel>
-              </fieldset>
-            </StyledComponent>
+                  Standard
+                </label>
+              </InputText__InputLabel>
+            </fieldset>
           </InputText__InputWrapper>
         </InputText>
       </NumberFormat>
@@ -1826,6 +1573,10 @@ exports[`InputMasked renders date masked input 1`] = `
   transform-origin: 0 0;
 }
 
+@media (prefers-reduced-motion:reduce) {
+
+}
+
 <index
   theme={
     Object {
@@ -2316,7 +2067,7 @@ exports[`InputMasked renders date masked input 1`] = `
       }
     }
   >
-    <GlobalStyleComponent />
+    <Memo(GlobalStyleComponent) />
     <InputMasked
       className=""
       decimalScale={2}
@@ -2369,180 +2120,51 @@ exports[`InputMasked renders date masked input 1`] = `
             placeholder="00/00/0000"
           >
             <InputText__InputWrapper>
-              <StyledComponent
-                forwardedComponent={
-                  Object {
-                    "$$typeof": Symbol(react.forward_ref),
-                    "attrs": Array [],
-                    "componentStyle": ComponentStyle {
-                      "componentId": "InputText__InputWrapper-bgwxz4-0",
-                      "isStatic": false,
-                      "lastClassName": "c0",
-                      "rules": Array [
-                        "border:0;padding:0;position:relative;",
-                        [Function],
-                        ";",
-                        [Function],
-                        ";",
-                      ],
-                    },
-                    "displayName": "InputText__InputWrapper",
-                    "foldedComponentIds": Array [],
-                    "render": [Function],
-                    "styledComponentId": "InputText__InputWrapper-bgwxz4-0",
-                    "target": "fieldset",
-                    "toString": [Function],
-                    "warnTooManyClasses": [Function],
-                    "withComponent": [Function],
-                  }
-                }
-                forwardedRef={null}
+              <fieldset
+                className="c0"
               >
-                <fieldset
-                  className="c0"
+                <InputText__InputField
+                  aria-labelledby="labelId"
+                  className=" --no-animate"
+                  id="inputId"
+                  inputSize="medium"
+                  isInvalid={false}
+                  isValidated={false}
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  onMouseDown={[Function]}
+                  placeholder="00/00/0000"
+                  type="text"
                 >
-                  <InputText__InputField
+                  <input
                     aria-labelledby="labelId"
-                    className=" --no-animate"
+                    className="c1  --no-animate"
                     id="inputId"
-                    inputSize="medium"
-                    isInvalid={false}
-                    isValidated={false}
                     onBlur={[Function]}
                     onChange={[Function]}
                     onFocus={[Function]}
                     onMouseDown={[Function]}
                     placeholder="00/00/0000"
                     type="text"
-                  >
-                    <StyledComponent
-                      aria-labelledby="labelId"
-                      className=" --no-animate"
-                      forwardedComponent={
-                        Object {
-                          "$$typeof": Symbol(react.forward_ref),
-                          "attrs": Array [],
-                          "componentStyle": ComponentStyle {
-                            "componentId": "InputText__InputField-bgwxz4-2",
-                            "isStatic": false,
-                            "lastClassName": "c1",
-                            "rules": Array [
-                              "background-color:",
-                              [Function],
-                              ";border-width:1px;border-style:solid;border-radius:8px;color:",
-                              [Function],
-                              ";font:",
-                              [Function],
-                              ";padding:25px 16px 5px;position:relative;width:100%;",
-                              [Function],
-                              ";",
-                              [Function],
-                              ";&::placeholder{color:transparent;}&:focus::placeholder,&.--no-animate::placeholder{color:",
-                              [Function],
-                              ";}&:focus,&:not(:placeholder-shown),&.--no-animate{& + label{font-weight:700;",
-                              [Function],
-                              ";}",
-                              [Function],
-                              ";}&.--no-animate{",
-                              [Function],
-                              ";&:focus{",
-                              [Function],
-                              ";}}&:focus{outline:none;",
-                              [Function],
-                              ";}&:focus + label{",
-                              [Function],
-                              ";}& + label{left:0;position:absolute;top:0;transition:transform 0.25s,opacity 0.25s ease-in-out;transform-origin:0 0;}",
-                            ],
-                          },
-                          "displayName": "InputText__InputField",
-                          "foldedComponentIds": Array [],
-                          "render": [Function],
-                          "styledComponentId": "InputText__InputField-bgwxz4-2",
-                          "target": "input",
-                          "toString": [Function],
-                          "warnTooManyClasses": [Function],
-                          "withComponent": [Function],
-                        }
-                      }
-                      forwardedRef={null}
-                      id="inputId"
-                      inputSize="medium"
-                      isInvalid={false}
-                      isValidated={false}
-                      onBlur={[Function]}
-                      onChange={[Function]}
-                      onFocus={[Function]}
-                      onMouseDown={[Function]}
-                      placeholder="00/00/0000"
-                      type="text"
-                    >
-                      <input
-                        aria-labelledby="labelId"
-                        className="c1  --no-animate"
-                        id="inputId"
-                        onBlur={[Function]}
-                        onChange={[Function]}
-                        onFocus={[Function]}
-                        onMouseDown={[Function]}
-                        placeholder="00/00/0000"
-                        type="text"
-                      />
-                    </StyledComponent>
-                  </InputText__InputField>
-                  <InputText__InputLabel
+                  />
+                </InputText__InputField>
+                <InputText__InputLabel
+                  htmlFor="inputId"
+                  id="labelId"
+                  inputSize="medium"
+                  isInvalid={false}
+                  isValidated={false}
+                >
+                  <label
+                    className="c2"
                     htmlFor="inputId"
                     id="labelId"
-                    inputSize="medium"
-                    isInvalid={false}
-                    isValidated={false}
                   >
-                    <StyledComponent
-                      forwardedComponent={
-                        Object {
-                          "$$typeof": Symbol(react.forward_ref),
-                          "attrs": Array [],
-                          "componentStyle": ComponentStyle {
-                            "componentId": "InputText__InputLabel-bgwxz4-1",
-                            "isStatic": false,
-                            "lastClassName": "c2",
-                            "rules": Array [
-                              "font:",
-                              [Function],
-                              ";height:4em;padding:1em;pointer-events:none;user-select:none;",
-                              [Function],
-                              ";",
-                              [Function],
-                              ";",
-                            ],
-                          },
-                          "displayName": "InputText__InputLabel",
-                          "foldedComponentIds": Array [],
-                          "render": [Function],
-                          "styledComponentId": "InputText__InputLabel-bgwxz4-1",
-                          "target": "label",
-                          "toString": [Function],
-                          "warnTooManyClasses": [Function],
-                          "withComponent": [Function],
-                        }
-                      }
-                      forwardedRef={null}
-                      htmlFor="inputId"
-                      id="labelId"
-                      inputSize="medium"
-                      isInvalid={false}
-                      isValidated={false}
-                    >
-                      <label
-                        className="c2"
-                        htmlFor="inputId"
-                        id="labelId"
-                      >
-                        Standard
-                      </label>
-                    </StyledComponent>
-                  </InputText__InputLabel>
-                </fieldset>
-              </StyledComponent>
+                    Standard
+                  </label>
+                </InputText__InputLabel>
+              </fieldset>
             </InputText__InputWrapper>
           </InputText>
         </InputMaskChildrenWrapper>

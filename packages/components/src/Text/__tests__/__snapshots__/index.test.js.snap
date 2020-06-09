@@ -8,6 +8,10 @@ exports[`Text renders correctly 1`] = `
   font-size: 16px;
 }
 
+@media (prefers-reduced-motion:reduce) {
+
+}
+
 <p
   className="c0"
   color="moon900"

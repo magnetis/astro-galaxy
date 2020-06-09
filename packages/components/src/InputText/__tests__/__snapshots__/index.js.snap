@@ -113,24 +113,555 @@ exports[`input text renders correctly the input without animation 1`] = `
   transform-origin: 0 0;
 }
 
-<fieldset
-  className="c0"
+@media (prefers-reduced-motion:reduce) {
+
+}
+
+<index
+  theme={
+    Object {
+      "buttonSizes": Object {
+        "large": Object {
+          "borderRadius": 32,
+          "fontSize": 24,
+          "lineHeight": "35px",
+          "padding": "12px 46px",
+        },
+        "medium": Object {
+          "borderRadius": 24,
+          "fontSize": 16,
+          "lineHeight": "28px",
+          "padding": "8px 38px",
+        },
+        "small": Object {
+          "borderRadius": 16,
+          "fontSize": 12,
+          "lineHeight": "18px",
+          "padding": "5px 28px",
+        },
+      },
+      "buttons": Object {
+        "ghost": Object {
+          "earth": Object {
+            "backgroundColor": "transparent",
+            "borderColor": "transparent",
+            "color": "#469d39",
+          },
+          "mars": Object {
+            "backgroundColor": "transparent",
+            "borderColor": "transparent",
+            "color": "#d45459",
+          },
+          "moon": Object {
+            "backgroundColor": "transparent",
+            "borderColor": "transparent",
+            "color": "#597183",
+          },
+          "uranus": Object {
+            "backgroundColor": "transparent",
+            "borderColor": "transparent",
+            "color": "#159ce4",
+          },
+          "venus": Object {
+            "backgroundColor": "transparent",
+            "borderColor": "transparent",
+            "color": "#e078d6",
+          },
+        },
+        "outline": Object {
+          "earth": Object {
+            "borderColor": "#469d39",
+            "color": "#469d39",
+          },
+          "mars": Object {
+            "borderColor": "#d45459",
+            "color": "#d45459",
+          },
+          "uranus": Object {
+            "borderColor": "#159ce4",
+            "color": "#159ce4",
+          },
+          "venus": Object {
+            "borderColor": "#e078d6",
+            "color": "#e078d6",
+          },
+        },
+        "primary": Object {
+          "earth": Object {
+            "backgroundColor": "#74e24a",
+            "borderColor": "#74e24a",
+            "color": "#32383c",
+          },
+          "mars": Object {
+            "backgroundColor": "#d45459",
+            "borderColor": "#d45459",
+            "color": "#ffffff",
+          },
+          "uranus": Object {
+            "backgroundColor": "#159ce4",
+            "borderColor": "#159ce4",
+            "color": "#ffffff",
+          },
+          "venus": Object {
+            "backgroundColor": "#e078d6",
+            "borderColor": "#e078d6",
+            "color": "#ffffff",
+          },
+        },
+      },
+      "colors": Object {
+        "earth100": "#b8fcac",
+        "earth1000": "#084222",
+        "earth200": "#9cf184",
+        "earth300": "#88e967",
+        "earth400": "#74e24a",
+        "earth500": "#56b53f",
+        "earth600": "#469d39",
+        "earth700": "#388833",
+        "earth800": "#276f2d",
+        "earth900": "#145327",
+        "mars100": "#ffcace",
+        "mars1000": "#500508",
+        "mars200": "#f6b1b5",
+        "mars300": "#ea9297",
+        "mars400": "#dd676b",
+        "mars500": "#d45459",
+        "mars600": "#ac3c40",
+        "mars700": "#9a3135",
+        "mars800": "#7b1e22",
+        "mars900": "#651115",
+        "moon100": "#f6f7f8",
+        "moon1000": "#1c2124",
+        "moon200": "#e9eef2",
+        "moon300": "#afbec9",
+        "moon400": "#8296a4",
+        "moon500": "#597183",
+        "moon600": "#495c69",
+        "moon700": "#3f4c55",
+        "moon800": "#384248",
+        "moon900": "#32383c",
+        "space100": "#ffffff",
+        "space1000": "#202020",
+        "space200": "#f5f5f5",
+        "space300": "#e5e5e5",
+        "space400": "#c5c5c5",
+        "space500": "#a5a5a5",
+        "space600": "#858585",
+        "space700": "#656565",
+        "space800": "#454545",
+        "space900": "#353535",
+        "sun100": "#fffec1",
+        "sun1000": "#4b3e00",
+        "sun200": "#fbee88",
+        "sun300": "#f7e05b",
+        "sun400": "#f4d330",
+        "sun500": "#f1c500",
+        "sun600": "#cea800",
+        "sun700": "#b19100",
+        "sun800": "#8f7600",
+        "sun900": "#685500",
+        "uranus100": "#a6f7ff",
+        "uranus1000": "#182758",
+        "uranus200": "#86e3f9",
+        "uranus300": "#67cff3",
+        "uranus400": "#3db5eb",
+        "uranus500": "#159ce4",
+        "uranus600": "#147ec1",
+        "uranus700": "#1663a0",
+        "uranus800": "#16518b",
+        "uranus900": "#183a6e",
+        "venus100": "#ffc3f9",
+        "venus1000": "#5c083f",
+        "venus200": "#f0a0e9",
+        "venus300": "#e78ade",
+        "venus400": "#e078d6",
+        "venus500": "#c763ba",
+        "venus600": "#ab4b9a",
+        "venus700": "#993c85",
+        "venus800": "#842a6d",
+        "venus900": "#6b1550",
+      },
+      "fontSizes": Object {
+        "headings": Object {
+          "huge": "64px",
+          "large": "48px",
+          "medium": "40px",
+          "small": "32px",
+        },
+        "texts": Object {
+          "large": "24px",
+          "medium": "16px",
+          "small": "14px",
+          "verySmall": "12px",
+        },
+      },
+      "fonts": Object {
+        "primary": "normal normal 600 normal 16px/1.5 Poppins, sans-serif",
+        "secondary": "normal normal 400 normal 16px/1.5 Lato, sans-serif",
+      },
+      "gradients": Object {
+        "andromeda": "linear-gradient(45deg, #ea9297 0%, #e078d6 100%)",
+        "blackhole": "linear-gradient(225deg, #3f4c55 0%, #1c2124 100%)",
+        "cartwheel": "linear-gradient(45deg, #147ec1 0%, #3db5eb 100%)",
+        "centaurus": "linear-gradient(225deg, #e078d6 0%, #993c85 100%)",
+        "hoag": "linear-gradient(223.9deg, #fbee88 0%, #f1c500 100%)",
+        "mayall": "linear-gradient(225deg, #ea9297 0%, #dd676b 100%)",
+        "milkyway": "linear-gradient(44.64deg, #159ce4 0%, #e078d6 100%)",
+        "nebulosa": "linear-gradient(47.32deg, #d991e0 0%, #00c6d4 60.06%, #00ea60 100%)",
+        "pinwheel": "linear-gradient(45deg, #8296a4 0%, #bac8d1 100%)",
+        "sombrero": "linear-gradient(45.52deg, #9cf184 0%, #3db5eb 100%)",
+        "whirlpool": "linear-gradient(225deg, #9cf184 0%, #56b53f 100%)",
+      },
+      "lineHeights": Array [
+        0,
+        "18px",
+        "28px",
+        "35px",
+      ],
+      "radii": Array [
+        0,
+        2,
+        8,
+        16,
+        24,
+        32,
+      ],
+      "sizes": Array [
+        0,
+        "8px",
+        "18px",
+      ],
+      "space": Array [
+        0,
+        8,
+        16,
+        24,
+        32,
+        40,
+        48,
+        56,
+        64,
+        72,
+        80,
+        88,
+        96,
+      ],
+      "zIndices": Array [
+        0,
+        10,
+        20,
+        30,
+        40,
+        50,
+        60,
+        70,
+        80,
+        90,
+        100,
+      ],
+    }
+  }
 >
-  <input
-    aria-labelledby="labelId"
-    className="c1  --no-animate"
-    id="inputId"
-    placeholder="Standard"
-    type="text"
-  />
-  <label
-    className="c2"
-    htmlFor="inputId"
-    id="labelId"
+  <ThemeProvider
+    theme={
+      Object {
+        "buttonSizes": Object {
+          "large": Object {
+            "borderRadius": 32,
+            "fontSize": 24,
+            "lineHeight": "35px",
+            "padding": "12px 46px",
+          },
+          "medium": Object {
+            "borderRadius": 24,
+            "fontSize": 16,
+            "lineHeight": "28px",
+            "padding": "8px 38px",
+          },
+          "small": Object {
+            "borderRadius": 16,
+            "fontSize": 12,
+            "lineHeight": "18px",
+            "padding": "5px 28px",
+          },
+        },
+        "buttons": Object {
+          "ghost": Object {
+            "earth": Object {
+              "backgroundColor": "transparent",
+              "borderColor": "transparent",
+              "color": "#469d39",
+            },
+            "mars": Object {
+              "backgroundColor": "transparent",
+              "borderColor": "transparent",
+              "color": "#d45459",
+            },
+            "moon": Object {
+              "backgroundColor": "transparent",
+              "borderColor": "transparent",
+              "color": "#597183",
+            },
+            "uranus": Object {
+              "backgroundColor": "transparent",
+              "borderColor": "transparent",
+              "color": "#159ce4",
+            },
+            "venus": Object {
+              "backgroundColor": "transparent",
+              "borderColor": "transparent",
+              "color": "#e078d6",
+            },
+          },
+          "outline": Object {
+            "earth": Object {
+              "borderColor": "#469d39",
+              "color": "#469d39",
+            },
+            "mars": Object {
+              "borderColor": "#d45459",
+              "color": "#d45459",
+            },
+            "uranus": Object {
+              "borderColor": "#159ce4",
+              "color": "#159ce4",
+            },
+            "venus": Object {
+              "borderColor": "#e078d6",
+              "color": "#e078d6",
+            },
+          },
+          "primary": Object {
+            "earth": Object {
+              "backgroundColor": "#74e24a",
+              "borderColor": "#74e24a",
+              "color": "#32383c",
+            },
+            "mars": Object {
+              "backgroundColor": "#d45459",
+              "borderColor": "#d45459",
+              "color": "#ffffff",
+            },
+            "uranus": Object {
+              "backgroundColor": "#159ce4",
+              "borderColor": "#159ce4",
+              "color": "#ffffff",
+            },
+            "venus": Object {
+              "backgroundColor": "#e078d6",
+              "borderColor": "#e078d6",
+              "color": "#ffffff",
+            },
+          },
+        },
+        "colors": Object {
+          "earth100": "#b8fcac",
+          "earth1000": "#084222",
+          "earth200": "#9cf184",
+          "earth300": "#88e967",
+          "earth400": "#74e24a",
+          "earth500": "#56b53f",
+          "earth600": "#469d39",
+          "earth700": "#388833",
+          "earth800": "#276f2d",
+          "earth900": "#145327",
+          "mars100": "#ffcace",
+          "mars1000": "#500508",
+          "mars200": "#f6b1b5",
+          "mars300": "#ea9297",
+          "mars400": "#dd676b",
+          "mars500": "#d45459",
+          "mars600": "#ac3c40",
+          "mars700": "#9a3135",
+          "mars800": "#7b1e22",
+          "mars900": "#651115",
+          "moon100": "#f6f7f8",
+          "moon1000": "#1c2124",
+          "moon200": "#e9eef2",
+          "moon300": "#afbec9",
+          "moon400": "#8296a4",
+          "moon500": "#597183",
+          "moon600": "#495c69",
+          "moon700": "#3f4c55",
+          "moon800": "#384248",
+          "moon900": "#32383c",
+          "space100": "#ffffff",
+          "space1000": "#202020",
+          "space200": "#f5f5f5",
+          "space300": "#e5e5e5",
+          "space400": "#c5c5c5",
+          "space500": "#a5a5a5",
+          "space600": "#858585",
+          "space700": "#656565",
+          "space800": "#454545",
+          "space900": "#353535",
+          "sun100": "#fffec1",
+          "sun1000": "#4b3e00",
+          "sun200": "#fbee88",
+          "sun300": "#f7e05b",
+          "sun400": "#f4d330",
+          "sun500": "#f1c500",
+          "sun600": "#cea800",
+          "sun700": "#b19100",
+          "sun800": "#8f7600",
+          "sun900": "#685500",
+          "uranus100": "#a6f7ff",
+          "uranus1000": "#182758",
+          "uranus200": "#86e3f9",
+          "uranus300": "#67cff3",
+          "uranus400": "#3db5eb",
+          "uranus500": "#159ce4",
+          "uranus600": "#147ec1",
+          "uranus700": "#1663a0",
+          "uranus800": "#16518b",
+          "uranus900": "#183a6e",
+          "venus100": "#ffc3f9",
+          "venus1000": "#5c083f",
+          "venus200": "#f0a0e9",
+          "venus300": "#e78ade",
+          "venus400": "#e078d6",
+          "venus500": "#c763ba",
+          "venus600": "#ab4b9a",
+          "venus700": "#993c85",
+          "venus800": "#842a6d",
+          "venus900": "#6b1550",
+        },
+        "fontSizes": Object {
+          "headings": Object {
+            "huge": "64px",
+            "large": "48px",
+            "medium": "40px",
+            "small": "32px",
+          },
+          "texts": Object {
+            "large": "24px",
+            "medium": "16px",
+            "small": "14px",
+            "verySmall": "12px",
+          },
+        },
+        "fonts": Object {
+          "primary": "normal normal 600 normal 16px/1.5 Poppins, sans-serif",
+          "secondary": "normal normal 400 normal 16px/1.5 Lato, sans-serif",
+        },
+        "gradients": Object {
+          "andromeda": "linear-gradient(45deg, #ea9297 0%, #e078d6 100%)",
+          "blackhole": "linear-gradient(225deg, #3f4c55 0%, #1c2124 100%)",
+          "cartwheel": "linear-gradient(45deg, #147ec1 0%, #3db5eb 100%)",
+          "centaurus": "linear-gradient(225deg, #e078d6 0%, #993c85 100%)",
+          "hoag": "linear-gradient(223.9deg, #fbee88 0%, #f1c500 100%)",
+          "mayall": "linear-gradient(225deg, #ea9297 0%, #dd676b 100%)",
+          "milkyway": "linear-gradient(44.64deg, #159ce4 0%, #e078d6 100%)",
+          "nebulosa": "linear-gradient(47.32deg, #d991e0 0%, #00c6d4 60.06%, #00ea60 100%)",
+          "pinwheel": "linear-gradient(45deg, #8296a4 0%, #bac8d1 100%)",
+          "sombrero": "linear-gradient(45.52deg, #9cf184 0%, #3db5eb 100%)",
+          "whirlpool": "linear-gradient(225deg, #9cf184 0%, #56b53f 100%)",
+        },
+        "lineHeights": Array [
+          0,
+          "18px",
+          "28px",
+          "35px",
+        ],
+        "radii": Array [
+          0,
+          2,
+          8,
+          16,
+          24,
+          32,
+        ],
+        "sizes": Array [
+          0,
+          "8px",
+          "18px",
+        ],
+        "space": Array [
+          0,
+          8,
+          16,
+          24,
+          32,
+          40,
+          48,
+          56,
+          64,
+          72,
+          80,
+          88,
+          96,
+        ],
+        "zIndices": Array [
+          0,
+          10,
+          20,
+          30,
+          40,
+          50,
+          60,
+          70,
+          80,
+          90,
+          100,
+        ],
+      }
+    }
   >
-    Standard
-  </label>
-</fieldset>
+    <Memo(GlobalStyleComponent) />
+    <InputText
+      className=""
+      displayValidationIcon={true}
+      inputId="inputId"
+      inputSize="small"
+      isInvalid={false}
+      isValidated={false}
+      labelId="labelId"
+      labelProps={Object {}}
+      labelText="Standard"
+      noAnimate={true}
+    >
+      <InputText__InputWrapper>
+        <fieldset
+          className="c0"
+        >
+          <InputText__InputField
+            aria-labelledby="labelId"
+            className=" --no-animate"
+            id="inputId"
+            inputSize="small"
+            isInvalid={false}
+            isValidated={false}
+            placeholder="Standard"
+            type="text"
+          >
+            <input
+              aria-labelledby="labelId"
+              className="c1  --no-animate"
+              id="inputId"
+              placeholder="Standard"
+              type="text"
+            />
+          </InputText__InputField>
+          <InputText__InputLabel
+            htmlFor="inputId"
+            id="labelId"
+            inputSize="small"
+            isInvalid={false}
+            isValidated={false}
+          >
+            <label
+              className="c2"
+              htmlFor="inputId"
+              id="labelId"
+            >
+              Standard
+            </label>
+          </InputText__InputLabel>
+        </fieldset>
+      </InputText__InputWrapper>
+    </InputText>
+  </ThemeProvider>
+</index>
 `;
 
 exports[`input text renders correctly the invalid input 1`] = `
@@ -263,67 +794,668 @@ exports[`input text renders correctly the invalid input 1`] = `
   margin: 4px 16px;
 }
 
-<fieldset
-  className="c0"
+@media (prefers-reduced-motion:reduce) {
+
+}
+
+<index
+  theme={
+    Object {
+      "buttonSizes": Object {
+        "large": Object {
+          "borderRadius": 32,
+          "fontSize": 24,
+          "lineHeight": "35px",
+          "padding": "12px 46px",
+        },
+        "medium": Object {
+          "borderRadius": 24,
+          "fontSize": 16,
+          "lineHeight": "28px",
+          "padding": "8px 38px",
+        },
+        "small": Object {
+          "borderRadius": 16,
+          "fontSize": 12,
+          "lineHeight": "18px",
+          "padding": "5px 28px",
+        },
+      },
+      "buttons": Object {
+        "ghost": Object {
+          "earth": Object {
+            "backgroundColor": "transparent",
+            "borderColor": "transparent",
+            "color": "#469d39",
+          },
+          "mars": Object {
+            "backgroundColor": "transparent",
+            "borderColor": "transparent",
+            "color": "#d45459",
+          },
+          "moon": Object {
+            "backgroundColor": "transparent",
+            "borderColor": "transparent",
+            "color": "#597183",
+          },
+          "uranus": Object {
+            "backgroundColor": "transparent",
+            "borderColor": "transparent",
+            "color": "#159ce4",
+          },
+          "venus": Object {
+            "backgroundColor": "transparent",
+            "borderColor": "transparent",
+            "color": "#e078d6",
+          },
+        },
+        "outline": Object {
+          "earth": Object {
+            "borderColor": "#469d39",
+            "color": "#469d39",
+          },
+          "mars": Object {
+            "borderColor": "#d45459",
+            "color": "#d45459",
+          },
+          "uranus": Object {
+            "borderColor": "#159ce4",
+            "color": "#159ce4",
+          },
+          "venus": Object {
+            "borderColor": "#e078d6",
+            "color": "#e078d6",
+          },
+        },
+        "primary": Object {
+          "earth": Object {
+            "backgroundColor": "#74e24a",
+            "borderColor": "#74e24a",
+            "color": "#32383c",
+          },
+          "mars": Object {
+            "backgroundColor": "#d45459",
+            "borderColor": "#d45459",
+            "color": "#ffffff",
+          },
+          "uranus": Object {
+            "backgroundColor": "#159ce4",
+            "borderColor": "#159ce4",
+            "color": "#ffffff",
+          },
+          "venus": Object {
+            "backgroundColor": "#e078d6",
+            "borderColor": "#e078d6",
+            "color": "#ffffff",
+          },
+        },
+      },
+      "colors": Object {
+        "earth100": "#b8fcac",
+        "earth1000": "#084222",
+        "earth200": "#9cf184",
+        "earth300": "#88e967",
+        "earth400": "#74e24a",
+        "earth500": "#56b53f",
+        "earth600": "#469d39",
+        "earth700": "#388833",
+        "earth800": "#276f2d",
+        "earth900": "#145327",
+        "mars100": "#ffcace",
+        "mars1000": "#500508",
+        "mars200": "#f6b1b5",
+        "mars300": "#ea9297",
+        "mars400": "#dd676b",
+        "mars500": "#d45459",
+        "mars600": "#ac3c40",
+        "mars700": "#9a3135",
+        "mars800": "#7b1e22",
+        "mars900": "#651115",
+        "moon100": "#f6f7f8",
+        "moon1000": "#1c2124",
+        "moon200": "#e9eef2",
+        "moon300": "#afbec9",
+        "moon400": "#8296a4",
+        "moon500": "#597183",
+        "moon600": "#495c69",
+        "moon700": "#3f4c55",
+        "moon800": "#384248",
+        "moon900": "#32383c",
+        "space100": "#ffffff",
+        "space1000": "#202020",
+        "space200": "#f5f5f5",
+        "space300": "#e5e5e5",
+        "space400": "#c5c5c5",
+        "space500": "#a5a5a5",
+        "space600": "#858585",
+        "space700": "#656565",
+        "space800": "#454545",
+        "space900": "#353535",
+        "sun100": "#fffec1",
+        "sun1000": "#4b3e00",
+        "sun200": "#fbee88",
+        "sun300": "#f7e05b",
+        "sun400": "#f4d330",
+        "sun500": "#f1c500",
+        "sun600": "#cea800",
+        "sun700": "#b19100",
+        "sun800": "#8f7600",
+        "sun900": "#685500",
+        "uranus100": "#a6f7ff",
+        "uranus1000": "#182758",
+        "uranus200": "#86e3f9",
+        "uranus300": "#67cff3",
+        "uranus400": "#3db5eb",
+        "uranus500": "#159ce4",
+        "uranus600": "#147ec1",
+        "uranus700": "#1663a0",
+        "uranus800": "#16518b",
+        "uranus900": "#183a6e",
+        "venus100": "#ffc3f9",
+        "venus1000": "#5c083f",
+        "venus200": "#f0a0e9",
+        "venus300": "#e78ade",
+        "venus400": "#e078d6",
+        "venus500": "#c763ba",
+        "venus600": "#ab4b9a",
+        "venus700": "#993c85",
+        "venus800": "#842a6d",
+        "venus900": "#6b1550",
+      },
+      "fontSizes": Object {
+        "headings": Object {
+          "huge": "64px",
+          "large": "48px",
+          "medium": "40px",
+          "small": "32px",
+        },
+        "texts": Object {
+          "large": "24px",
+          "medium": "16px",
+          "small": "14px",
+          "verySmall": "12px",
+        },
+      },
+      "fonts": Object {
+        "primary": "normal normal 600 normal 16px/1.5 Poppins, sans-serif",
+        "secondary": "normal normal 400 normal 16px/1.5 Lato, sans-serif",
+      },
+      "gradients": Object {
+        "andromeda": "linear-gradient(45deg, #ea9297 0%, #e078d6 100%)",
+        "blackhole": "linear-gradient(225deg, #3f4c55 0%, #1c2124 100%)",
+        "cartwheel": "linear-gradient(45deg, #147ec1 0%, #3db5eb 100%)",
+        "centaurus": "linear-gradient(225deg, #e078d6 0%, #993c85 100%)",
+        "hoag": "linear-gradient(223.9deg, #fbee88 0%, #f1c500 100%)",
+        "mayall": "linear-gradient(225deg, #ea9297 0%, #dd676b 100%)",
+        "milkyway": "linear-gradient(44.64deg, #159ce4 0%, #e078d6 100%)",
+        "nebulosa": "linear-gradient(47.32deg, #d991e0 0%, #00c6d4 60.06%, #00ea60 100%)",
+        "pinwheel": "linear-gradient(45deg, #8296a4 0%, #bac8d1 100%)",
+        "sombrero": "linear-gradient(45.52deg, #9cf184 0%, #3db5eb 100%)",
+        "whirlpool": "linear-gradient(225deg, #9cf184 0%, #56b53f 100%)",
+      },
+      "lineHeights": Array [
+        0,
+        "18px",
+        "28px",
+        "35px",
+      ],
+      "radii": Array [
+        0,
+        2,
+        8,
+        16,
+        24,
+        32,
+      ],
+      "sizes": Array [
+        0,
+        "8px",
+        "18px",
+      ],
+      "space": Array [
+        0,
+        8,
+        16,
+        24,
+        32,
+        40,
+        48,
+        56,
+        64,
+        72,
+        80,
+        88,
+        96,
+      ],
+      "zIndices": Array [
+        0,
+        10,
+        20,
+        30,
+        40,
+        50,
+        60,
+        70,
+        80,
+        90,
+        100,
+      ],
+    }
+  }
 >
-  <input
-    aria-labelledby="labelId"
-    className="c1  "
-    defaultValue="Astro Team"
-    id="inputId"
-    placeholder="Invalid"
-    type="text"
-  />
-  <label
-    className="c2"
-    htmlFor="inputId"
-    id="labelId"
-  >
-    Invalid
-  </label>
-  <svg
-    className="c3"
-    color="mars500"
-    height="32"
-    style={
+  <ThemeProvider
+    theme={
       Object {
-        "position": "absolute",
-        "right": "8px",
-        "top": "11px",
+        "buttonSizes": Object {
+          "large": Object {
+            "borderRadius": 32,
+            "fontSize": 24,
+            "lineHeight": "35px",
+            "padding": "12px 46px",
+          },
+          "medium": Object {
+            "borderRadius": 24,
+            "fontSize": 16,
+            "lineHeight": "28px",
+            "padding": "8px 38px",
+          },
+          "small": Object {
+            "borderRadius": 16,
+            "fontSize": 12,
+            "lineHeight": "18px",
+            "padding": "5px 28px",
+          },
+        },
+        "buttons": Object {
+          "ghost": Object {
+            "earth": Object {
+              "backgroundColor": "transparent",
+              "borderColor": "transparent",
+              "color": "#469d39",
+            },
+            "mars": Object {
+              "backgroundColor": "transparent",
+              "borderColor": "transparent",
+              "color": "#d45459",
+            },
+            "moon": Object {
+              "backgroundColor": "transparent",
+              "borderColor": "transparent",
+              "color": "#597183",
+            },
+            "uranus": Object {
+              "backgroundColor": "transparent",
+              "borderColor": "transparent",
+              "color": "#159ce4",
+            },
+            "venus": Object {
+              "backgroundColor": "transparent",
+              "borderColor": "transparent",
+              "color": "#e078d6",
+            },
+          },
+          "outline": Object {
+            "earth": Object {
+              "borderColor": "#469d39",
+              "color": "#469d39",
+            },
+            "mars": Object {
+              "borderColor": "#d45459",
+              "color": "#d45459",
+            },
+            "uranus": Object {
+              "borderColor": "#159ce4",
+              "color": "#159ce4",
+            },
+            "venus": Object {
+              "borderColor": "#e078d6",
+              "color": "#e078d6",
+            },
+          },
+          "primary": Object {
+            "earth": Object {
+              "backgroundColor": "#74e24a",
+              "borderColor": "#74e24a",
+              "color": "#32383c",
+            },
+            "mars": Object {
+              "backgroundColor": "#d45459",
+              "borderColor": "#d45459",
+              "color": "#ffffff",
+            },
+            "uranus": Object {
+              "backgroundColor": "#159ce4",
+              "borderColor": "#159ce4",
+              "color": "#ffffff",
+            },
+            "venus": Object {
+              "backgroundColor": "#e078d6",
+              "borderColor": "#e078d6",
+              "color": "#ffffff",
+            },
+          },
+        },
+        "colors": Object {
+          "earth100": "#b8fcac",
+          "earth1000": "#084222",
+          "earth200": "#9cf184",
+          "earth300": "#88e967",
+          "earth400": "#74e24a",
+          "earth500": "#56b53f",
+          "earth600": "#469d39",
+          "earth700": "#388833",
+          "earth800": "#276f2d",
+          "earth900": "#145327",
+          "mars100": "#ffcace",
+          "mars1000": "#500508",
+          "mars200": "#f6b1b5",
+          "mars300": "#ea9297",
+          "mars400": "#dd676b",
+          "mars500": "#d45459",
+          "mars600": "#ac3c40",
+          "mars700": "#9a3135",
+          "mars800": "#7b1e22",
+          "mars900": "#651115",
+          "moon100": "#f6f7f8",
+          "moon1000": "#1c2124",
+          "moon200": "#e9eef2",
+          "moon300": "#afbec9",
+          "moon400": "#8296a4",
+          "moon500": "#597183",
+          "moon600": "#495c69",
+          "moon700": "#3f4c55",
+          "moon800": "#384248",
+          "moon900": "#32383c",
+          "space100": "#ffffff",
+          "space1000": "#202020",
+          "space200": "#f5f5f5",
+          "space300": "#e5e5e5",
+          "space400": "#c5c5c5",
+          "space500": "#a5a5a5",
+          "space600": "#858585",
+          "space700": "#656565",
+          "space800": "#454545",
+          "space900": "#353535",
+          "sun100": "#fffec1",
+          "sun1000": "#4b3e00",
+          "sun200": "#fbee88",
+          "sun300": "#f7e05b",
+          "sun400": "#f4d330",
+          "sun500": "#f1c500",
+          "sun600": "#cea800",
+          "sun700": "#b19100",
+          "sun800": "#8f7600",
+          "sun900": "#685500",
+          "uranus100": "#a6f7ff",
+          "uranus1000": "#182758",
+          "uranus200": "#86e3f9",
+          "uranus300": "#67cff3",
+          "uranus400": "#3db5eb",
+          "uranus500": "#159ce4",
+          "uranus600": "#147ec1",
+          "uranus700": "#1663a0",
+          "uranus800": "#16518b",
+          "uranus900": "#183a6e",
+          "venus100": "#ffc3f9",
+          "venus1000": "#5c083f",
+          "venus200": "#f0a0e9",
+          "venus300": "#e78ade",
+          "venus400": "#e078d6",
+          "venus500": "#c763ba",
+          "venus600": "#ab4b9a",
+          "venus700": "#993c85",
+          "venus800": "#842a6d",
+          "venus900": "#6b1550",
+        },
+        "fontSizes": Object {
+          "headings": Object {
+            "huge": "64px",
+            "large": "48px",
+            "medium": "40px",
+            "small": "32px",
+          },
+          "texts": Object {
+            "large": "24px",
+            "medium": "16px",
+            "small": "14px",
+            "verySmall": "12px",
+          },
+        },
+        "fonts": Object {
+          "primary": "normal normal 600 normal 16px/1.5 Poppins, sans-serif",
+          "secondary": "normal normal 400 normal 16px/1.5 Lato, sans-serif",
+        },
+        "gradients": Object {
+          "andromeda": "linear-gradient(45deg, #ea9297 0%, #e078d6 100%)",
+          "blackhole": "linear-gradient(225deg, #3f4c55 0%, #1c2124 100%)",
+          "cartwheel": "linear-gradient(45deg, #147ec1 0%, #3db5eb 100%)",
+          "centaurus": "linear-gradient(225deg, #e078d6 0%, #993c85 100%)",
+          "hoag": "linear-gradient(223.9deg, #fbee88 0%, #f1c500 100%)",
+          "mayall": "linear-gradient(225deg, #ea9297 0%, #dd676b 100%)",
+          "milkyway": "linear-gradient(44.64deg, #159ce4 0%, #e078d6 100%)",
+          "nebulosa": "linear-gradient(47.32deg, #d991e0 0%, #00c6d4 60.06%, #00ea60 100%)",
+          "pinwheel": "linear-gradient(45deg, #8296a4 0%, #bac8d1 100%)",
+          "sombrero": "linear-gradient(45.52deg, #9cf184 0%, #3db5eb 100%)",
+          "whirlpool": "linear-gradient(225deg, #9cf184 0%, #56b53f 100%)",
+        },
+        "lineHeights": Array [
+          0,
+          "18px",
+          "28px",
+          "35px",
+        ],
+        "radii": Array [
+          0,
+          2,
+          8,
+          16,
+          24,
+          32,
+        ],
+        "sizes": Array [
+          0,
+          "8px",
+          "18px",
+        ],
+        "space": Array [
+          0,
+          8,
+          16,
+          24,
+          32,
+          40,
+          48,
+          56,
+          64,
+          72,
+          80,
+          88,
+          96,
+        ],
+        "zIndices": Array [
+          0,
+          10,
+          20,
+          30,
+          40,
+          50,
+          60,
+          70,
+          80,
+          90,
+          100,
+        ],
       }
     }
-    viewBox="0 0 32 32"
-    width="32"
   >
-    <defs>
-      <path
-        d="M16.5 25.7a9.2 9.2 0 1 0 0-18.4 9.2 9.2 0 0 0 0 18.4zm0 2.3C10.149 28 5 22.851 5 16.5S10.149 5 16.5 5 28 10.149 28 16.5 22.851 28 16.5 28zm0-13.8c.635 0 1.15.515 1.15 1.15v5.75a1.15 1.15 0 1 1-2.3 0v-5.75c0-.635.515-1.15 1.15-1.15zm0-1.15a1.15 1.15 0 1 1 0-2.3 1.15 1.15 0 0 1 0 2.3z"
-        id="icon-alert-a"
-      />
-    </defs>
-    <g
-      id="icon/secondary/alert"
+    <Memo(GlobalStyleComponent) />
+    <InputText
+      className=""
+      defaultValue="Astro Team"
+      displayValidationIcon={true}
+      errorMessage="Invalid data"
+      inputId="inputId"
+      inputSize="small"
+      isInvalid={true}
+      isValidated={false}
+      labelId="labelId"
+      labelProps={Object {}}
+      labelText="Invalid"
+      noAnimate={false}
     >
-      <mask
-        id="mask-2"
-      >
-        <use
-          xlinkHref="#icon-alert-a"
-        />
-      </mask>
-      <use
-        id="Combined-Shape"
-        transform="rotate(-180 16.5 16.5)"
-        xlinkHref="#icon-alert-a"
-      />
-    </g>
-  </svg>
-  <div
-    className="c4"
-  >
-    Invalid data
-  </div>
-</fieldset>
+      <InputText__InputWrapper>
+        <fieldset
+          className="c0"
+        >
+          <InputText__InputField
+            aria-labelledby="labelId"
+            className=" "
+            defaultValue="Astro Team"
+            id="inputId"
+            inputSize="small"
+            isInvalid={true}
+            isValidated={false}
+            placeholder="Invalid"
+            type="text"
+          >
+            <input
+              aria-labelledby="labelId"
+              className="c1  "
+              defaultValue="Astro Team"
+              id="inputId"
+              placeholder="Invalid"
+              type="text"
+            />
+          </InputText__InputField>
+          <InputText__InputLabel
+            htmlFor="inputId"
+            id="labelId"
+            inputSize="small"
+            isInvalid={true}
+            isValidated={false}
+          >
+            <label
+              className="c2"
+              htmlFor="inputId"
+              id="labelId"
+            >
+              Invalid
+            </label>
+          </InputText__InputLabel>
+          <IconAlert
+            color="mars500"
+            size="32"
+            style={
+              Object {
+                "position": "absolute",
+                "right": "8px",
+                "top": "11px",
+              }
+            }
+          >
+            <IconComponent
+              color="mars500"
+              content={
+                <React.Fragment>
+                  <defs>
+                    <path
+                      d="M16.5 25.7a9.2 9.2 0 1 0 0-18.4 9.2 9.2 0 0 0 0 18.4zm0 2.3C10.149 28 5 22.851 5 16.5S10.149 5 16.5 5 28 10.149 28 16.5 22.851 28 16.5 28zm0-13.8c.635 0 1.15.515 1.15 1.15v5.75a1.15 1.15 0 1 1-2.3 0v-5.75c0-.635.515-1.15 1.15-1.15zm0-1.15a1.15 1.15 0 1 1 0-2.3 1.15 1.15 0 0 1 0 2.3z"
+                      id="icon-alert-a"
+                    />
+                  </defs>
+                  <g
+                    id="icon/secondary/alert"
+                  >
+                    <mask
+                      id="mask-2"
+                    >
+                      <use
+                        xlinkHref="#icon-alert-a"
+                      />
+                    </mask>
+                    <use
+                      id="Combined-Shape"
+                      transform="rotate(-180 16.5 16.5)"
+                      xlinkHref="#icon-alert-a"
+                    />
+                  </g>
+                </React.Fragment>
+              }
+              size="32"
+              style={
+                Object {
+                  "position": "absolute",
+                  "right": "8px",
+                  "top": "11px",
+                }
+              }
+              viewBox="0 0 32 32"
+            >
+              <styled.svg
+                color="mars500"
+                height="32"
+                style={
+                  Object {
+                    "position": "absolute",
+                    "right": "8px",
+                    "top": "11px",
+                  }
+                }
+                viewBox="0 0 32 32"
+                width="32"
+              >
+                <svg
+                  className="c3"
+                  color="mars500"
+                  height="32"
+                  style={
+                    Object {
+                      "position": "absolute",
+                      "right": "8px",
+                      "top": "11px",
+                    }
+                  }
+                  viewBox="0 0 32 32"
+                  width="32"
+                >
+                  <defs>
+                    <path
+                      d="M16.5 25.7a9.2 9.2 0 1 0 0-18.4 9.2 9.2 0 0 0 0 18.4zm0 2.3C10.149 28 5 22.851 5 16.5S10.149 5 16.5 5 28 10.149 28 16.5 22.851 28 16.5 28zm0-13.8c.635 0 1.15.515 1.15 1.15v5.75a1.15 1.15 0 1 1-2.3 0v-5.75c0-.635.515-1.15 1.15-1.15zm0-1.15a1.15 1.15 0 1 1 0-2.3 1.15 1.15 0 0 1 0 2.3z"
+                      id="icon-alert-a"
+                    />
+                  </defs>
+                  <g
+                    id="icon/secondary/alert"
+                  >
+                    <mask
+                      id="mask-2"
+                    >
+                      <use
+                        xlinkHref="#icon-alert-a"
+                      />
+                    </mask>
+                    <use
+                      id="Combined-Shape"
+                      transform="rotate(-180 16.5 16.5)"
+                      xlinkHref="#icon-alert-a"
+                    />
+                  </g>
+                </svg>
+              </styled.svg>
+            </IconComponent>
+          </IconAlert>
+          <ErrorMessage>
+            <div
+              className="c4"
+            >
+              Invalid data
+            </div>
+          </ErrorMessage>
+        </fieldset>
+      </InputText__InputWrapper>
+    </InputText>
+  </ThemeProvider>
+</index>
 `;
 
 exports[`input text renders correctly the large input and checks its font size 1`] = `
@@ -441,24 +1573,555 @@ exports[`input text renders correctly the large input and checks its font size 1
   transform-origin: 0 0;
 }
 
-<fieldset
-  className="c0"
+@media (prefers-reduced-motion:reduce) {
+
+}
+
+<index
+  theme={
+    Object {
+      "buttonSizes": Object {
+        "large": Object {
+          "borderRadius": 32,
+          "fontSize": 24,
+          "lineHeight": "35px",
+          "padding": "12px 46px",
+        },
+        "medium": Object {
+          "borderRadius": 24,
+          "fontSize": 16,
+          "lineHeight": "28px",
+          "padding": "8px 38px",
+        },
+        "small": Object {
+          "borderRadius": 16,
+          "fontSize": 12,
+          "lineHeight": "18px",
+          "padding": "5px 28px",
+        },
+      },
+      "buttons": Object {
+        "ghost": Object {
+          "earth": Object {
+            "backgroundColor": "transparent",
+            "borderColor": "transparent",
+            "color": "#469d39",
+          },
+          "mars": Object {
+            "backgroundColor": "transparent",
+            "borderColor": "transparent",
+            "color": "#d45459",
+          },
+          "moon": Object {
+            "backgroundColor": "transparent",
+            "borderColor": "transparent",
+            "color": "#597183",
+          },
+          "uranus": Object {
+            "backgroundColor": "transparent",
+            "borderColor": "transparent",
+            "color": "#159ce4",
+          },
+          "venus": Object {
+            "backgroundColor": "transparent",
+            "borderColor": "transparent",
+            "color": "#e078d6",
+          },
+        },
+        "outline": Object {
+          "earth": Object {
+            "borderColor": "#469d39",
+            "color": "#469d39",
+          },
+          "mars": Object {
+            "borderColor": "#d45459",
+            "color": "#d45459",
+          },
+          "uranus": Object {
+            "borderColor": "#159ce4",
+            "color": "#159ce4",
+          },
+          "venus": Object {
+            "borderColor": "#e078d6",
+            "color": "#e078d6",
+          },
+        },
+        "primary": Object {
+          "earth": Object {
+            "backgroundColor": "#74e24a",
+            "borderColor": "#74e24a",
+            "color": "#32383c",
+          },
+          "mars": Object {
+            "backgroundColor": "#d45459",
+            "borderColor": "#d45459",
+            "color": "#ffffff",
+          },
+          "uranus": Object {
+            "backgroundColor": "#159ce4",
+            "borderColor": "#159ce4",
+            "color": "#ffffff",
+          },
+          "venus": Object {
+            "backgroundColor": "#e078d6",
+            "borderColor": "#e078d6",
+            "color": "#ffffff",
+          },
+        },
+      },
+      "colors": Object {
+        "earth100": "#b8fcac",
+        "earth1000": "#084222",
+        "earth200": "#9cf184",
+        "earth300": "#88e967",
+        "earth400": "#74e24a",
+        "earth500": "#56b53f",
+        "earth600": "#469d39",
+        "earth700": "#388833",
+        "earth800": "#276f2d",
+        "earth900": "#145327",
+        "mars100": "#ffcace",
+        "mars1000": "#500508",
+        "mars200": "#f6b1b5",
+        "mars300": "#ea9297",
+        "mars400": "#dd676b",
+        "mars500": "#d45459",
+        "mars600": "#ac3c40",
+        "mars700": "#9a3135",
+        "mars800": "#7b1e22",
+        "mars900": "#651115",
+        "moon100": "#f6f7f8",
+        "moon1000": "#1c2124",
+        "moon200": "#e9eef2",
+        "moon300": "#afbec9",
+        "moon400": "#8296a4",
+        "moon500": "#597183",
+        "moon600": "#495c69",
+        "moon700": "#3f4c55",
+        "moon800": "#384248",
+        "moon900": "#32383c",
+        "space100": "#ffffff",
+        "space1000": "#202020",
+        "space200": "#f5f5f5",
+        "space300": "#e5e5e5",
+        "space400": "#c5c5c5",
+        "space500": "#a5a5a5",
+        "space600": "#858585",
+        "space700": "#656565",
+        "space800": "#454545",
+        "space900": "#353535",
+        "sun100": "#fffec1",
+        "sun1000": "#4b3e00",
+        "sun200": "#fbee88",
+        "sun300": "#f7e05b",
+        "sun400": "#f4d330",
+        "sun500": "#f1c500",
+        "sun600": "#cea800",
+        "sun700": "#b19100",
+        "sun800": "#8f7600",
+        "sun900": "#685500",
+        "uranus100": "#a6f7ff",
+        "uranus1000": "#182758",
+        "uranus200": "#86e3f9",
+        "uranus300": "#67cff3",
+        "uranus400": "#3db5eb",
+        "uranus500": "#159ce4",
+        "uranus600": "#147ec1",
+        "uranus700": "#1663a0",
+        "uranus800": "#16518b",
+        "uranus900": "#183a6e",
+        "venus100": "#ffc3f9",
+        "venus1000": "#5c083f",
+        "venus200": "#f0a0e9",
+        "venus300": "#e78ade",
+        "venus400": "#e078d6",
+        "venus500": "#c763ba",
+        "venus600": "#ab4b9a",
+        "venus700": "#993c85",
+        "venus800": "#842a6d",
+        "venus900": "#6b1550",
+      },
+      "fontSizes": Object {
+        "headings": Object {
+          "huge": "64px",
+          "large": "48px",
+          "medium": "40px",
+          "small": "32px",
+        },
+        "texts": Object {
+          "large": "24px",
+          "medium": "16px",
+          "small": "14px",
+          "verySmall": "12px",
+        },
+      },
+      "fonts": Object {
+        "primary": "normal normal 600 normal 16px/1.5 Poppins, sans-serif",
+        "secondary": "normal normal 400 normal 16px/1.5 Lato, sans-serif",
+      },
+      "gradients": Object {
+        "andromeda": "linear-gradient(45deg, #ea9297 0%, #e078d6 100%)",
+        "blackhole": "linear-gradient(225deg, #3f4c55 0%, #1c2124 100%)",
+        "cartwheel": "linear-gradient(45deg, #147ec1 0%, #3db5eb 100%)",
+        "centaurus": "linear-gradient(225deg, #e078d6 0%, #993c85 100%)",
+        "hoag": "linear-gradient(223.9deg, #fbee88 0%, #f1c500 100%)",
+        "mayall": "linear-gradient(225deg, #ea9297 0%, #dd676b 100%)",
+        "milkyway": "linear-gradient(44.64deg, #159ce4 0%, #e078d6 100%)",
+        "nebulosa": "linear-gradient(47.32deg, #d991e0 0%, #00c6d4 60.06%, #00ea60 100%)",
+        "pinwheel": "linear-gradient(45deg, #8296a4 0%, #bac8d1 100%)",
+        "sombrero": "linear-gradient(45.52deg, #9cf184 0%, #3db5eb 100%)",
+        "whirlpool": "linear-gradient(225deg, #9cf184 0%, #56b53f 100%)",
+      },
+      "lineHeights": Array [
+        0,
+        "18px",
+        "28px",
+        "35px",
+      ],
+      "radii": Array [
+        0,
+        2,
+        8,
+        16,
+        24,
+        32,
+      ],
+      "sizes": Array [
+        0,
+        "8px",
+        "18px",
+      ],
+      "space": Array [
+        0,
+        8,
+        16,
+        24,
+        32,
+        40,
+        48,
+        56,
+        64,
+        72,
+        80,
+        88,
+        96,
+      ],
+      "zIndices": Array [
+        0,
+        10,
+        20,
+        30,
+        40,
+        50,
+        60,
+        70,
+        80,
+        90,
+        100,
+      ],
+    }
+  }
 >
-  <input
-    aria-labelledby="labelId"
-    className="c1  "
-    id="inputId"
-    placeholder="Standard"
-    type="text"
-  />
-  <label
-    className="c2"
-    htmlFor="inputId"
-    id="labelId"
+  <ThemeProvider
+    theme={
+      Object {
+        "buttonSizes": Object {
+          "large": Object {
+            "borderRadius": 32,
+            "fontSize": 24,
+            "lineHeight": "35px",
+            "padding": "12px 46px",
+          },
+          "medium": Object {
+            "borderRadius": 24,
+            "fontSize": 16,
+            "lineHeight": "28px",
+            "padding": "8px 38px",
+          },
+          "small": Object {
+            "borderRadius": 16,
+            "fontSize": 12,
+            "lineHeight": "18px",
+            "padding": "5px 28px",
+          },
+        },
+        "buttons": Object {
+          "ghost": Object {
+            "earth": Object {
+              "backgroundColor": "transparent",
+              "borderColor": "transparent",
+              "color": "#469d39",
+            },
+            "mars": Object {
+              "backgroundColor": "transparent",
+              "borderColor": "transparent",
+              "color": "#d45459",
+            },
+            "moon": Object {
+              "backgroundColor": "transparent",
+              "borderColor": "transparent",
+              "color": "#597183",
+            },
+            "uranus": Object {
+              "backgroundColor": "transparent",
+              "borderColor": "transparent",
+              "color": "#159ce4",
+            },
+            "venus": Object {
+              "backgroundColor": "transparent",
+              "borderColor": "transparent",
+              "color": "#e078d6",
+            },
+          },
+          "outline": Object {
+            "earth": Object {
+              "borderColor": "#469d39",
+              "color": "#469d39",
+            },
+            "mars": Object {
+              "borderColor": "#d45459",
+              "color": "#d45459",
+            },
+            "uranus": Object {
+              "borderColor": "#159ce4",
+              "color": "#159ce4",
+            },
+            "venus": Object {
+              "borderColor": "#e078d6",
+              "color": "#e078d6",
+            },
+          },
+          "primary": Object {
+            "earth": Object {
+              "backgroundColor": "#74e24a",
+              "borderColor": "#74e24a",
+              "color": "#32383c",
+            },
+            "mars": Object {
+              "backgroundColor": "#d45459",
+              "borderColor": "#d45459",
+              "color": "#ffffff",
+            },
+            "uranus": Object {
+              "backgroundColor": "#159ce4",
+              "borderColor": "#159ce4",
+              "color": "#ffffff",
+            },
+            "venus": Object {
+              "backgroundColor": "#e078d6",
+              "borderColor": "#e078d6",
+              "color": "#ffffff",
+            },
+          },
+        },
+        "colors": Object {
+          "earth100": "#b8fcac",
+          "earth1000": "#084222",
+          "earth200": "#9cf184",
+          "earth300": "#88e967",
+          "earth400": "#74e24a",
+          "earth500": "#56b53f",
+          "earth600": "#469d39",
+          "earth700": "#388833",
+          "earth800": "#276f2d",
+          "earth900": "#145327",
+          "mars100": "#ffcace",
+          "mars1000": "#500508",
+          "mars200": "#f6b1b5",
+          "mars300": "#ea9297",
+          "mars400": "#dd676b",
+          "mars500": "#d45459",
+          "mars600": "#ac3c40",
+          "mars700": "#9a3135",
+          "mars800": "#7b1e22",
+          "mars900": "#651115",
+          "moon100": "#f6f7f8",
+          "moon1000": "#1c2124",
+          "moon200": "#e9eef2",
+          "moon300": "#afbec9",
+          "moon400": "#8296a4",
+          "moon500": "#597183",
+          "moon600": "#495c69",
+          "moon700": "#3f4c55",
+          "moon800": "#384248",
+          "moon900": "#32383c",
+          "space100": "#ffffff",
+          "space1000": "#202020",
+          "space200": "#f5f5f5",
+          "space300": "#e5e5e5",
+          "space400": "#c5c5c5",
+          "space500": "#a5a5a5",
+          "space600": "#858585",
+          "space700": "#656565",
+          "space800": "#454545",
+          "space900": "#353535",
+          "sun100": "#fffec1",
+          "sun1000": "#4b3e00",
+          "sun200": "#fbee88",
+          "sun300": "#f7e05b",
+          "sun400": "#f4d330",
+          "sun500": "#f1c500",
+          "sun600": "#cea800",
+          "sun700": "#b19100",
+          "sun800": "#8f7600",
+          "sun900": "#685500",
+          "uranus100": "#a6f7ff",
+          "uranus1000": "#182758",
+          "uranus200": "#86e3f9",
+          "uranus300": "#67cff3",
+          "uranus400": "#3db5eb",
+          "uranus500": "#159ce4",
+          "uranus600": "#147ec1",
+          "uranus700": "#1663a0",
+          "uranus800": "#16518b",
+          "uranus900": "#183a6e",
+          "venus100": "#ffc3f9",
+          "venus1000": "#5c083f",
+          "venus200": "#f0a0e9",
+          "venus300": "#e78ade",
+          "venus400": "#e078d6",
+          "venus500": "#c763ba",
+          "venus600": "#ab4b9a",
+          "venus700": "#993c85",
+          "venus800": "#842a6d",
+          "venus900": "#6b1550",
+        },
+        "fontSizes": Object {
+          "headings": Object {
+            "huge": "64px",
+            "large": "48px",
+            "medium": "40px",
+            "small": "32px",
+          },
+          "texts": Object {
+            "large": "24px",
+            "medium": "16px",
+            "small": "14px",
+            "verySmall": "12px",
+          },
+        },
+        "fonts": Object {
+          "primary": "normal normal 600 normal 16px/1.5 Poppins, sans-serif",
+          "secondary": "normal normal 400 normal 16px/1.5 Lato, sans-serif",
+        },
+        "gradients": Object {
+          "andromeda": "linear-gradient(45deg, #ea9297 0%, #e078d6 100%)",
+          "blackhole": "linear-gradient(225deg, #3f4c55 0%, #1c2124 100%)",
+          "cartwheel": "linear-gradient(45deg, #147ec1 0%, #3db5eb 100%)",
+          "centaurus": "linear-gradient(225deg, #e078d6 0%, #993c85 100%)",
+          "hoag": "linear-gradient(223.9deg, #fbee88 0%, #f1c500 100%)",
+          "mayall": "linear-gradient(225deg, #ea9297 0%, #dd676b 100%)",
+          "milkyway": "linear-gradient(44.64deg, #159ce4 0%, #e078d6 100%)",
+          "nebulosa": "linear-gradient(47.32deg, #d991e0 0%, #00c6d4 60.06%, #00ea60 100%)",
+          "pinwheel": "linear-gradient(45deg, #8296a4 0%, #bac8d1 100%)",
+          "sombrero": "linear-gradient(45.52deg, #9cf184 0%, #3db5eb 100%)",
+          "whirlpool": "linear-gradient(225deg, #9cf184 0%, #56b53f 100%)",
+        },
+        "lineHeights": Array [
+          0,
+          "18px",
+          "28px",
+          "35px",
+        ],
+        "radii": Array [
+          0,
+          2,
+          8,
+          16,
+          24,
+          32,
+        ],
+        "sizes": Array [
+          0,
+          "8px",
+          "18px",
+        ],
+        "space": Array [
+          0,
+          8,
+          16,
+          24,
+          32,
+          40,
+          48,
+          56,
+          64,
+          72,
+          80,
+          88,
+          96,
+        ],
+        "zIndices": Array [
+          0,
+          10,
+          20,
+          30,
+          40,
+          50,
+          60,
+          70,
+          80,
+          90,
+          100,
+        ],
+      }
+    }
   >
-    Standard
-  </label>
-</fieldset>
+    <Memo(GlobalStyleComponent) />
+    <InputText
+      className=""
+      displayValidationIcon={true}
+      inputId="inputId"
+      inputSize="large"
+      isInvalid={false}
+      isValidated={false}
+      labelId="labelId"
+      labelProps={Object {}}
+      labelText="Standard"
+      noAnimate={false}
+    >
+      <InputText__InputWrapper>
+        <fieldset
+          className="c0"
+        >
+          <InputText__InputField
+            aria-labelledby="labelId"
+            className=" "
+            id="inputId"
+            inputSize="large"
+            isInvalid={false}
+            isValidated={false}
+            placeholder="Standard"
+            type="text"
+          >
+            <input
+              aria-labelledby="labelId"
+              className="c1  "
+              id="inputId"
+              placeholder="Standard"
+              type="text"
+            />
+          </InputText__InputField>
+          <InputText__InputLabel
+            htmlFor="inputId"
+            id="labelId"
+            inputSize="large"
+            isInvalid={false}
+            isValidated={false}
+          >
+            <label
+              className="c2"
+              htmlFor="inputId"
+              id="labelId"
+            >
+              Standard
+            </label>
+          </InputText__InputLabel>
+        </fieldset>
+      </InputText__InputWrapper>
+    </InputText>
+  </ThemeProvider>
+</index>
 `;
 
 exports[`input text renders correctly the standard input 1`] = `
@@ -574,24 +2237,555 @@ exports[`input text renders correctly the standard input 1`] = `
   transform-origin: 0 0;
 }
 
-<fieldset
-  className="c0"
+@media (prefers-reduced-motion:reduce) {
+
+}
+
+<index
+  theme={
+    Object {
+      "buttonSizes": Object {
+        "large": Object {
+          "borderRadius": 32,
+          "fontSize": 24,
+          "lineHeight": "35px",
+          "padding": "12px 46px",
+        },
+        "medium": Object {
+          "borderRadius": 24,
+          "fontSize": 16,
+          "lineHeight": "28px",
+          "padding": "8px 38px",
+        },
+        "small": Object {
+          "borderRadius": 16,
+          "fontSize": 12,
+          "lineHeight": "18px",
+          "padding": "5px 28px",
+        },
+      },
+      "buttons": Object {
+        "ghost": Object {
+          "earth": Object {
+            "backgroundColor": "transparent",
+            "borderColor": "transparent",
+            "color": "#469d39",
+          },
+          "mars": Object {
+            "backgroundColor": "transparent",
+            "borderColor": "transparent",
+            "color": "#d45459",
+          },
+          "moon": Object {
+            "backgroundColor": "transparent",
+            "borderColor": "transparent",
+            "color": "#597183",
+          },
+          "uranus": Object {
+            "backgroundColor": "transparent",
+            "borderColor": "transparent",
+            "color": "#159ce4",
+          },
+          "venus": Object {
+            "backgroundColor": "transparent",
+            "borderColor": "transparent",
+            "color": "#e078d6",
+          },
+        },
+        "outline": Object {
+          "earth": Object {
+            "borderColor": "#469d39",
+            "color": "#469d39",
+          },
+          "mars": Object {
+            "borderColor": "#d45459",
+            "color": "#d45459",
+          },
+          "uranus": Object {
+            "borderColor": "#159ce4",
+            "color": "#159ce4",
+          },
+          "venus": Object {
+            "borderColor": "#e078d6",
+            "color": "#e078d6",
+          },
+        },
+        "primary": Object {
+          "earth": Object {
+            "backgroundColor": "#74e24a",
+            "borderColor": "#74e24a",
+            "color": "#32383c",
+          },
+          "mars": Object {
+            "backgroundColor": "#d45459",
+            "borderColor": "#d45459",
+            "color": "#ffffff",
+          },
+          "uranus": Object {
+            "backgroundColor": "#159ce4",
+            "borderColor": "#159ce4",
+            "color": "#ffffff",
+          },
+          "venus": Object {
+            "backgroundColor": "#e078d6",
+            "borderColor": "#e078d6",
+            "color": "#ffffff",
+          },
+        },
+      },
+      "colors": Object {
+        "earth100": "#b8fcac",
+        "earth1000": "#084222",
+        "earth200": "#9cf184",
+        "earth300": "#88e967",
+        "earth400": "#74e24a",
+        "earth500": "#56b53f",
+        "earth600": "#469d39",
+        "earth700": "#388833",
+        "earth800": "#276f2d",
+        "earth900": "#145327",
+        "mars100": "#ffcace",
+        "mars1000": "#500508",
+        "mars200": "#f6b1b5",
+        "mars300": "#ea9297",
+        "mars400": "#dd676b",
+        "mars500": "#d45459",
+        "mars600": "#ac3c40",
+        "mars700": "#9a3135",
+        "mars800": "#7b1e22",
+        "mars900": "#651115",
+        "moon100": "#f6f7f8",
+        "moon1000": "#1c2124",
+        "moon200": "#e9eef2",
+        "moon300": "#afbec9",
+        "moon400": "#8296a4",
+        "moon500": "#597183",
+        "moon600": "#495c69",
+        "moon700": "#3f4c55",
+        "moon800": "#384248",
+        "moon900": "#32383c",
+        "space100": "#ffffff",
+        "space1000": "#202020",
+        "space200": "#f5f5f5",
+        "space300": "#e5e5e5",
+        "space400": "#c5c5c5",
+        "space500": "#a5a5a5",
+        "space600": "#858585",
+        "space700": "#656565",
+        "space800": "#454545",
+        "space900": "#353535",
+        "sun100": "#fffec1",
+        "sun1000": "#4b3e00",
+        "sun200": "#fbee88",
+        "sun300": "#f7e05b",
+        "sun400": "#f4d330",
+        "sun500": "#f1c500",
+        "sun600": "#cea800",
+        "sun700": "#b19100",
+        "sun800": "#8f7600",
+        "sun900": "#685500",
+        "uranus100": "#a6f7ff",
+        "uranus1000": "#182758",
+        "uranus200": "#86e3f9",
+        "uranus300": "#67cff3",
+        "uranus400": "#3db5eb",
+        "uranus500": "#159ce4",
+        "uranus600": "#147ec1",
+        "uranus700": "#1663a0",
+        "uranus800": "#16518b",
+        "uranus900": "#183a6e",
+        "venus100": "#ffc3f9",
+        "venus1000": "#5c083f",
+        "venus200": "#f0a0e9",
+        "venus300": "#e78ade",
+        "venus400": "#e078d6",
+        "venus500": "#c763ba",
+        "venus600": "#ab4b9a",
+        "venus700": "#993c85",
+        "venus800": "#842a6d",
+        "venus900": "#6b1550",
+      },
+      "fontSizes": Object {
+        "headings": Object {
+          "huge": "64px",
+          "large": "48px",
+          "medium": "40px",
+          "small": "32px",
+        },
+        "texts": Object {
+          "large": "24px",
+          "medium": "16px",
+          "small": "14px",
+          "verySmall": "12px",
+        },
+      },
+      "fonts": Object {
+        "primary": "normal normal 600 normal 16px/1.5 Poppins, sans-serif",
+        "secondary": "normal normal 400 normal 16px/1.5 Lato, sans-serif",
+      },
+      "gradients": Object {
+        "andromeda": "linear-gradient(45deg, #ea9297 0%, #e078d6 100%)",
+        "blackhole": "linear-gradient(225deg, #3f4c55 0%, #1c2124 100%)",
+        "cartwheel": "linear-gradient(45deg, #147ec1 0%, #3db5eb 100%)",
+        "centaurus": "linear-gradient(225deg, #e078d6 0%, #993c85 100%)",
+        "hoag": "linear-gradient(223.9deg, #fbee88 0%, #f1c500 100%)",
+        "mayall": "linear-gradient(225deg, #ea9297 0%, #dd676b 100%)",
+        "milkyway": "linear-gradient(44.64deg, #159ce4 0%, #e078d6 100%)",
+        "nebulosa": "linear-gradient(47.32deg, #d991e0 0%, #00c6d4 60.06%, #00ea60 100%)",
+        "pinwheel": "linear-gradient(45deg, #8296a4 0%, #bac8d1 100%)",
+        "sombrero": "linear-gradient(45.52deg, #9cf184 0%, #3db5eb 100%)",
+        "whirlpool": "linear-gradient(225deg, #9cf184 0%, #56b53f 100%)",
+      },
+      "lineHeights": Array [
+        0,
+        "18px",
+        "28px",
+        "35px",
+      ],
+      "radii": Array [
+        0,
+        2,
+        8,
+        16,
+        24,
+        32,
+      ],
+      "sizes": Array [
+        0,
+        "8px",
+        "18px",
+      ],
+      "space": Array [
+        0,
+        8,
+        16,
+        24,
+        32,
+        40,
+        48,
+        56,
+        64,
+        72,
+        80,
+        88,
+        96,
+      ],
+      "zIndices": Array [
+        0,
+        10,
+        20,
+        30,
+        40,
+        50,
+        60,
+        70,
+        80,
+        90,
+        100,
+      ],
+    }
+  }
 >
-  <input
-    aria-labelledby="labelId"
-    className="c1  "
-    id="inputId"
-    placeholder="Standard"
-    type="text"
-  />
-  <label
-    className="c2"
-    htmlFor="inputId"
-    id="labelId"
+  <ThemeProvider
+    theme={
+      Object {
+        "buttonSizes": Object {
+          "large": Object {
+            "borderRadius": 32,
+            "fontSize": 24,
+            "lineHeight": "35px",
+            "padding": "12px 46px",
+          },
+          "medium": Object {
+            "borderRadius": 24,
+            "fontSize": 16,
+            "lineHeight": "28px",
+            "padding": "8px 38px",
+          },
+          "small": Object {
+            "borderRadius": 16,
+            "fontSize": 12,
+            "lineHeight": "18px",
+            "padding": "5px 28px",
+          },
+        },
+        "buttons": Object {
+          "ghost": Object {
+            "earth": Object {
+              "backgroundColor": "transparent",
+              "borderColor": "transparent",
+              "color": "#469d39",
+            },
+            "mars": Object {
+              "backgroundColor": "transparent",
+              "borderColor": "transparent",
+              "color": "#d45459",
+            },
+            "moon": Object {
+              "backgroundColor": "transparent",
+              "borderColor": "transparent",
+              "color": "#597183",
+            },
+            "uranus": Object {
+              "backgroundColor": "transparent",
+              "borderColor": "transparent",
+              "color": "#159ce4",
+            },
+            "venus": Object {
+              "backgroundColor": "transparent",
+              "borderColor": "transparent",
+              "color": "#e078d6",
+            },
+          },
+          "outline": Object {
+            "earth": Object {
+              "borderColor": "#469d39",
+              "color": "#469d39",
+            },
+            "mars": Object {
+              "borderColor": "#d45459",
+              "color": "#d45459",
+            },
+            "uranus": Object {
+              "borderColor": "#159ce4",
+              "color": "#159ce4",
+            },
+            "venus": Object {
+              "borderColor": "#e078d6",
+              "color": "#e078d6",
+            },
+          },
+          "primary": Object {
+            "earth": Object {
+              "backgroundColor": "#74e24a",
+              "borderColor": "#74e24a",
+              "color": "#32383c",
+            },
+            "mars": Object {
+              "backgroundColor": "#d45459",
+              "borderColor": "#d45459",
+              "color": "#ffffff",
+            },
+            "uranus": Object {
+              "backgroundColor": "#159ce4",
+              "borderColor": "#159ce4",
+              "color": "#ffffff",
+            },
+            "venus": Object {
+              "backgroundColor": "#e078d6",
+              "borderColor": "#e078d6",
+              "color": "#ffffff",
+            },
+          },
+        },
+        "colors": Object {
+          "earth100": "#b8fcac",
+          "earth1000": "#084222",
+          "earth200": "#9cf184",
+          "earth300": "#88e967",
+          "earth400": "#74e24a",
+          "earth500": "#56b53f",
+          "earth600": "#469d39",
+          "earth700": "#388833",
+          "earth800": "#276f2d",
+          "earth900": "#145327",
+          "mars100": "#ffcace",
+          "mars1000": "#500508",
+          "mars200": "#f6b1b5",
+          "mars300": "#ea9297",
+          "mars400": "#dd676b",
+          "mars500": "#d45459",
+          "mars600": "#ac3c40",
+          "mars700": "#9a3135",
+          "mars800": "#7b1e22",
+          "mars900": "#651115",
+          "moon100": "#f6f7f8",
+          "moon1000": "#1c2124",
+          "moon200": "#e9eef2",
+          "moon300": "#afbec9",
+          "moon400": "#8296a4",
+          "moon500": "#597183",
+          "moon600": "#495c69",
+          "moon700": "#3f4c55",
+          "moon800": "#384248",
+          "moon900": "#32383c",
+          "space100": "#ffffff",
+          "space1000": "#202020",
+          "space200": "#f5f5f5",
+          "space300": "#e5e5e5",
+          "space400": "#c5c5c5",
+          "space500": "#a5a5a5",
+          "space600": "#858585",
+          "space700": "#656565",
+          "space800": "#454545",
+          "space900": "#353535",
+          "sun100": "#fffec1",
+          "sun1000": "#4b3e00",
+          "sun200": "#fbee88",
+          "sun300": "#f7e05b",
+          "sun400": "#f4d330",
+          "sun500": "#f1c500",
+          "sun600": "#cea800",
+          "sun700": "#b19100",
+          "sun800": "#8f7600",
+          "sun900": "#685500",
+          "uranus100": "#a6f7ff",
+          "uranus1000": "#182758",
+          "uranus200": "#86e3f9",
+          "uranus300": "#67cff3",
+          "uranus400": "#3db5eb",
+          "uranus500": "#159ce4",
+          "uranus600": "#147ec1",
+          "uranus700": "#1663a0",
+          "uranus800": "#16518b",
+          "uranus900": "#183a6e",
+          "venus100": "#ffc3f9",
+          "venus1000": "#5c083f",
+          "venus200": "#f0a0e9",
+          "venus300": "#e78ade",
+          "venus400": "#e078d6",
+          "venus500": "#c763ba",
+          "venus600": "#ab4b9a",
+          "venus700": "#993c85",
+          "venus800": "#842a6d",
+          "venus900": "#6b1550",
+        },
+        "fontSizes": Object {
+          "headings": Object {
+            "huge": "64px",
+            "large": "48px",
+            "medium": "40px",
+            "small": "32px",
+          },
+          "texts": Object {
+            "large": "24px",
+            "medium": "16px",
+            "small": "14px",
+            "verySmall": "12px",
+          },
+        },
+        "fonts": Object {
+          "primary": "normal normal 600 normal 16px/1.5 Poppins, sans-serif",
+          "secondary": "normal normal 400 normal 16px/1.5 Lato, sans-serif",
+        },
+        "gradients": Object {
+          "andromeda": "linear-gradient(45deg, #ea9297 0%, #e078d6 100%)",
+          "blackhole": "linear-gradient(225deg, #3f4c55 0%, #1c2124 100%)",
+          "cartwheel": "linear-gradient(45deg, #147ec1 0%, #3db5eb 100%)",
+          "centaurus": "linear-gradient(225deg, #e078d6 0%, #993c85 100%)",
+          "hoag": "linear-gradient(223.9deg, #fbee88 0%, #f1c500 100%)",
+          "mayall": "linear-gradient(225deg, #ea9297 0%, #dd676b 100%)",
+          "milkyway": "linear-gradient(44.64deg, #159ce4 0%, #e078d6 100%)",
+          "nebulosa": "linear-gradient(47.32deg, #d991e0 0%, #00c6d4 60.06%, #00ea60 100%)",
+          "pinwheel": "linear-gradient(45deg, #8296a4 0%, #bac8d1 100%)",
+          "sombrero": "linear-gradient(45.52deg, #9cf184 0%, #3db5eb 100%)",
+          "whirlpool": "linear-gradient(225deg, #9cf184 0%, #56b53f 100%)",
+        },
+        "lineHeights": Array [
+          0,
+          "18px",
+          "28px",
+          "35px",
+        ],
+        "radii": Array [
+          0,
+          2,
+          8,
+          16,
+          24,
+          32,
+        ],
+        "sizes": Array [
+          0,
+          "8px",
+          "18px",
+        ],
+        "space": Array [
+          0,
+          8,
+          16,
+          24,
+          32,
+          40,
+          48,
+          56,
+          64,
+          72,
+          80,
+          88,
+          96,
+        ],
+        "zIndices": Array [
+          0,
+          10,
+          20,
+          30,
+          40,
+          50,
+          60,
+          70,
+          80,
+          90,
+          100,
+        ],
+      }
+    }
   >
-    Standard
-  </label>
-</fieldset>
+    <Memo(GlobalStyleComponent) />
+    <InputText
+      className=""
+      displayValidationIcon={true}
+      inputId="inputId"
+      inputSize="small"
+      isInvalid={false}
+      isValidated={false}
+      labelId="labelId"
+      labelProps={Object {}}
+      labelText="Standard"
+      noAnimate={false}
+    >
+      <InputText__InputWrapper>
+        <fieldset
+          className="c0"
+        >
+          <InputText__InputField
+            aria-labelledby="labelId"
+            className=" "
+            id="inputId"
+            inputSize="small"
+            isInvalid={false}
+            isValidated={false}
+            placeholder="Standard"
+            type="text"
+          >
+            <input
+              aria-labelledby="labelId"
+              className="c1  "
+              id="inputId"
+              placeholder="Standard"
+              type="text"
+            />
+          </InputText__InputField>
+          <InputText__InputLabel
+            htmlFor="inputId"
+            id="labelId"
+            inputSize="small"
+            isInvalid={false}
+            isValidated={false}
+          >
+            <label
+              className="c2"
+              htmlFor="inputId"
+              id="labelId"
+            >
+              Standard
+            </label>
+          </InputText__InputLabel>
+        </fieldset>
+      </InputText__InputWrapper>
+    </InputText>
+  </ThemeProvider>
+</index>
 `;
 
 exports[`input text renders correctly the validated input 1`] = `
@@ -717,68 +2911,674 @@ exports[`input text renders correctly the validated input 1`] = `
   transform-origin: 0 0;
 }
 
-<fieldset
-  className="c0"
+@media (prefers-reduced-motion:reduce) {
+
+}
+
+<index
+  theme={
+    Object {
+      "buttonSizes": Object {
+        "large": Object {
+          "borderRadius": 32,
+          "fontSize": 24,
+          "lineHeight": "35px",
+          "padding": "12px 46px",
+        },
+        "medium": Object {
+          "borderRadius": 24,
+          "fontSize": 16,
+          "lineHeight": "28px",
+          "padding": "8px 38px",
+        },
+        "small": Object {
+          "borderRadius": 16,
+          "fontSize": 12,
+          "lineHeight": "18px",
+          "padding": "5px 28px",
+        },
+      },
+      "buttons": Object {
+        "ghost": Object {
+          "earth": Object {
+            "backgroundColor": "transparent",
+            "borderColor": "transparent",
+            "color": "#469d39",
+          },
+          "mars": Object {
+            "backgroundColor": "transparent",
+            "borderColor": "transparent",
+            "color": "#d45459",
+          },
+          "moon": Object {
+            "backgroundColor": "transparent",
+            "borderColor": "transparent",
+            "color": "#597183",
+          },
+          "uranus": Object {
+            "backgroundColor": "transparent",
+            "borderColor": "transparent",
+            "color": "#159ce4",
+          },
+          "venus": Object {
+            "backgroundColor": "transparent",
+            "borderColor": "transparent",
+            "color": "#e078d6",
+          },
+        },
+        "outline": Object {
+          "earth": Object {
+            "borderColor": "#469d39",
+            "color": "#469d39",
+          },
+          "mars": Object {
+            "borderColor": "#d45459",
+            "color": "#d45459",
+          },
+          "uranus": Object {
+            "borderColor": "#159ce4",
+            "color": "#159ce4",
+          },
+          "venus": Object {
+            "borderColor": "#e078d6",
+            "color": "#e078d6",
+          },
+        },
+        "primary": Object {
+          "earth": Object {
+            "backgroundColor": "#74e24a",
+            "borderColor": "#74e24a",
+            "color": "#32383c",
+          },
+          "mars": Object {
+            "backgroundColor": "#d45459",
+            "borderColor": "#d45459",
+            "color": "#ffffff",
+          },
+          "uranus": Object {
+            "backgroundColor": "#159ce4",
+            "borderColor": "#159ce4",
+            "color": "#ffffff",
+          },
+          "venus": Object {
+            "backgroundColor": "#e078d6",
+            "borderColor": "#e078d6",
+            "color": "#ffffff",
+          },
+        },
+      },
+      "colors": Object {
+        "earth100": "#b8fcac",
+        "earth1000": "#084222",
+        "earth200": "#9cf184",
+        "earth300": "#88e967",
+        "earth400": "#74e24a",
+        "earth500": "#56b53f",
+        "earth600": "#469d39",
+        "earth700": "#388833",
+        "earth800": "#276f2d",
+        "earth900": "#145327",
+        "mars100": "#ffcace",
+        "mars1000": "#500508",
+        "mars200": "#f6b1b5",
+        "mars300": "#ea9297",
+        "mars400": "#dd676b",
+        "mars500": "#d45459",
+        "mars600": "#ac3c40",
+        "mars700": "#9a3135",
+        "mars800": "#7b1e22",
+        "mars900": "#651115",
+        "moon100": "#f6f7f8",
+        "moon1000": "#1c2124",
+        "moon200": "#e9eef2",
+        "moon300": "#afbec9",
+        "moon400": "#8296a4",
+        "moon500": "#597183",
+        "moon600": "#495c69",
+        "moon700": "#3f4c55",
+        "moon800": "#384248",
+        "moon900": "#32383c",
+        "space100": "#ffffff",
+        "space1000": "#202020",
+        "space200": "#f5f5f5",
+        "space300": "#e5e5e5",
+        "space400": "#c5c5c5",
+        "space500": "#a5a5a5",
+        "space600": "#858585",
+        "space700": "#656565",
+        "space800": "#454545",
+        "space900": "#353535",
+        "sun100": "#fffec1",
+        "sun1000": "#4b3e00",
+        "sun200": "#fbee88",
+        "sun300": "#f7e05b",
+        "sun400": "#f4d330",
+        "sun500": "#f1c500",
+        "sun600": "#cea800",
+        "sun700": "#b19100",
+        "sun800": "#8f7600",
+        "sun900": "#685500",
+        "uranus100": "#a6f7ff",
+        "uranus1000": "#182758",
+        "uranus200": "#86e3f9",
+        "uranus300": "#67cff3",
+        "uranus400": "#3db5eb",
+        "uranus500": "#159ce4",
+        "uranus600": "#147ec1",
+        "uranus700": "#1663a0",
+        "uranus800": "#16518b",
+        "uranus900": "#183a6e",
+        "venus100": "#ffc3f9",
+        "venus1000": "#5c083f",
+        "venus200": "#f0a0e9",
+        "venus300": "#e78ade",
+        "venus400": "#e078d6",
+        "venus500": "#c763ba",
+        "venus600": "#ab4b9a",
+        "venus700": "#993c85",
+        "venus800": "#842a6d",
+        "venus900": "#6b1550",
+      },
+      "fontSizes": Object {
+        "headings": Object {
+          "huge": "64px",
+          "large": "48px",
+          "medium": "40px",
+          "small": "32px",
+        },
+        "texts": Object {
+          "large": "24px",
+          "medium": "16px",
+          "small": "14px",
+          "verySmall": "12px",
+        },
+      },
+      "fonts": Object {
+        "primary": "normal normal 600 normal 16px/1.5 Poppins, sans-serif",
+        "secondary": "normal normal 400 normal 16px/1.5 Lato, sans-serif",
+      },
+      "gradients": Object {
+        "andromeda": "linear-gradient(45deg, #ea9297 0%, #e078d6 100%)",
+        "blackhole": "linear-gradient(225deg, #3f4c55 0%, #1c2124 100%)",
+        "cartwheel": "linear-gradient(45deg, #147ec1 0%, #3db5eb 100%)",
+        "centaurus": "linear-gradient(225deg, #e078d6 0%, #993c85 100%)",
+        "hoag": "linear-gradient(223.9deg, #fbee88 0%, #f1c500 100%)",
+        "mayall": "linear-gradient(225deg, #ea9297 0%, #dd676b 100%)",
+        "milkyway": "linear-gradient(44.64deg, #159ce4 0%, #e078d6 100%)",
+        "nebulosa": "linear-gradient(47.32deg, #d991e0 0%, #00c6d4 60.06%, #00ea60 100%)",
+        "pinwheel": "linear-gradient(45deg, #8296a4 0%, #bac8d1 100%)",
+        "sombrero": "linear-gradient(45.52deg, #9cf184 0%, #3db5eb 100%)",
+        "whirlpool": "linear-gradient(225deg, #9cf184 0%, #56b53f 100%)",
+      },
+      "lineHeights": Array [
+        0,
+        "18px",
+        "28px",
+        "35px",
+      ],
+      "radii": Array [
+        0,
+        2,
+        8,
+        16,
+        24,
+        32,
+      ],
+      "sizes": Array [
+        0,
+        "8px",
+        "18px",
+      ],
+      "space": Array [
+        0,
+        8,
+        16,
+        24,
+        32,
+        40,
+        48,
+        56,
+        64,
+        72,
+        80,
+        88,
+        96,
+      ],
+      "zIndices": Array [
+        0,
+        10,
+        20,
+        30,
+        40,
+        50,
+        60,
+        70,
+        80,
+        90,
+        100,
+      ],
+    }
+  }
 >
-  <input
-    aria-labelledby="labelId"
-    className="c1  "
-    defaultValue="Astro Team"
-    id="inputId"
-    placeholder="Validated"
-    type="text"
-  />
-  <label
-    className="c2"
-    htmlFor="inputId"
-    id="labelId"
-  >
-    Validated
-  </label>
-  <svg
-    className="c3"
-    color="earth400"
-    height="32"
-    style={
+  <ThemeProvider
+    theme={
       Object {
-        "position": "absolute",
-        "right": "8px",
-        "top": "11px",
+        "buttonSizes": Object {
+          "large": Object {
+            "borderRadius": 32,
+            "fontSize": 24,
+            "lineHeight": "35px",
+            "padding": "12px 46px",
+          },
+          "medium": Object {
+            "borderRadius": 24,
+            "fontSize": 16,
+            "lineHeight": "28px",
+            "padding": "8px 38px",
+          },
+          "small": Object {
+            "borderRadius": 16,
+            "fontSize": 12,
+            "lineHeight": "18px",
+            "padding": "5px 28px",
+          },
+        },
+        "buttons": Object {
+          "ghost": Object {
+            "earth": Object {
+              "backgroundColor": "transparent",
+              "borderColor": "transparent",
+              "color": "#469d39",
+            },
+            "mars": Object {
+              "backgroundColor": "transparent",
+              "borderColor": "transparent",
+              "color": "#d45459",
+            },
+            "moon": Object {
+              "backgroundColor": "transparent",
+              "borderColor": "transparent",
+              "color": "#597183",
+            },
+            "uranus": Object {
+              "backgroundColor": "transparent",
+              "borderColor": "transparent",
+              "color": "#159ce4",
+            },
+            "venus": Object {
+              "backgroundColor": "transparent",
+              "borderColor": "transparent",
+              "color": "#e078d6",
+            },
+          },
+          "outline": Object {
+            "earth": Object {
+              "borderColor": "#469d39",
+              "color": "#469d39",
+            },
+            "mars": Object {
+              "borderColor": "#d45459",
+              "color": "#d45459",
+            },
+            "uranus": Object {
+              "borderColor": "#159ce4",
+              "color": "#159ce4",
+            },
+            "venus": Object {
+              "borderColor": "#e078d6",
+              "color": "#e078d6",
+            },
+          },
+          "primary": Object {
+            "earth": Object {
+              "backgroundColor": "#74e24a",
+              "borderColor": "#74e24a",
+              "color": "#32383c",
+            },
+            "mars": Object {
+              "backgroundColor": "#d45459",
+              "borderColor": "#d45459",
+              "color": "#ffffff",
+            },
+            "uranus": Object {
+              "backgroundColor": "#159ce4",
+              "borderColor": "#159ce4",
+              "color": "#ffffff",
+            },
+            "venus": Object {
+              "backgroundColor": "#e078d6",
+              "borderColor": "#e078d6",
+              "color": "#ffffff",
+            },
+          },
+        },
+        "colors": Object {
+          "earth100": "#b8fcac",
+          "earth1000": "#084222",
+          "earth200": "#9cf184",
+          "earth300": "#88e967",
+          "earth400": "#74e24a",
+          "earth500": "#56b53f",
+          "earth600": "#469d39",
+          "earth700": "#388833",
+          "earth800": "#276f2d",
+          "earth900": "#145327",
+          "mars100": "#ffcace",
+          "mars1000": "#500508",
+          "mars200": "#f6b1b5",
+          "mars300": "#ea9297",
+          "mars400": "#dd676b",
+          "mars500": "#d45459",
+          "mars600": "#ac3c40",
+          "mars700": "#9a3135",
+          "mars800": "#7b1e22",
+          "mars900": "#651115",
+          "moon100": "#f6f7f8",
+          "moon1000": "#1c2124",
+          "moon200": "#e9eef2",
+          "moon300": "#afbec9",
+          "moon400": "#8296a4",
+          "moon500": "#597183",
+          "moon600": "#495c69",
+          "moon700": "#3f4c55",
+          "moon800": "#384248",
+          "moon900": "#32383c",
+          "space100": "#ffffff",
+          "space1000": "#202020",
+          "space200": "#f5f5f5",
+          "space300": "#e5e5e5",
+          "space400": "#c5c5c5",
+          "space500": "#a5a5a5",
+          "space600": "#858585",
+          "space700": "#656565",
+          "space800": "#454545",
+          "space900": "#353535",
+          "sun100": "#fffec1",
+          "sun1000": "#4b3e00",
+          "sun200": "#fbee88",
+          "sun300": "#f7e05b",
+          "sun400": "#f4d330",
+          "sun500": "#f1c500",
+          "sun600": "#cea800",
+          "sun700": "#b19100",
+          "sun800": "#8f7600",
+          "sun900": "#685500",
+          "uranus100": "#a6f7ff",
+          "uranus1000": "#182758",
+          "uranus200": "#86e3f9",
+          "uranus300": "#67cff3",
+          "uranus400": "#3db5eb",
+          "uranus500": "#159ce4",
+          "uranus600": "#147ec1",
+          "uranus700": "#1663a0",
+          "uranus800": "#16518b",
+          "uranus900": "#183a6e",
+          "venus100": "#ffc3f9",
+          "venus1000": "#5c083f",
+          "venus200": "#f0a0e9",
+          "venus300": "#e78ade",
+          "venus400": "#e078d6",
+          "venus500": "#c763ba",
+          "venus600": "#ab4b9a",
+          "venus700": "#993c85",
+          "venus800": "#842a6d",
+          "venus900": "#6b1550",
+        },
+        "fontSizes": Object {
+          "headings": Object {
+            "huge": "64px",
+            "large": "48px",
+            "medium": "40px",
+            "small": "32px",
+          },
+          "texts": Object {
+            "large": "24px",
+            "medium": "16px",
+            "small": "14px",
+            "verySmall": "12px",
+          },
+        },
+        "fonts": Object {
+          "primary": "normal normal 600 normal 16px/1.5 Poppins, sans-serif",
+          "secondary": "normal normal 400 normal 16px/1.5 Lato, sans-serif",
+        },
+        "gradients": Object {
+          "andromeda": "linear-gradient(45deg, #ea9297 0%, #e078d6 100%)",
+          "blackhole": "linear-gradient(225deg, #3f4c55 0%, #1c2124 100%)",
+          "cartwheel": "linear-gradient(45deg, #147ec1 0%, #3db5eb 100%)",
+          "centaurus": "linear-gradient(225deg, #e078d6 0%, #993c85 100%)",
+          "hoag": "linear-gradient(223.9deg, #fbee88 0%, #f1c500 100%)",
+          "mayall": "linear-gradient(225deg, #ea9297 0%, #dd676b 100%)",
+          "milkyway": "linear-gradient(44.64deg, #159ce4 0%, #e078d6 100%)",
+          "nebulosa": "linear-gradient(47.32deg, #d991e0 0%, #00c6d4 60.06%, #00ea60 100%)",
+          "pinwheel": "linear-gradient(45deg, #8296a4 0%, #bac8d1 100%)",
+          "sombrero": "linear-gradient(45.52deg, #9cf184 0%, #3db5eb 100%)",
+          "whirlpool": "linear-gradient(225deg, #9cf184 0%, #56b53f 100%)",
+        },
+        "lineHeights": Array [
+          0,
+          "18px",
+          "28px",
+          "35px",
+        ],
+        "radii": Array [
+          0,
+          2,
+          8,
+          16,
+          24,
+          32,
+        ],
+        "sizes": Array [
+          0,
+          "8px",
+          "18px",
+        ],
+        "space": Array [
+          0,
+          8,
+          16,
+          24,
+          32,
+          40,
+          48,
+          56,
+          64,
+          72,
+          80,
+          88,
+          96,
+        ],
+        "zIndices": Array [
+          0,
+          10,
+          20,
+          30,
+          40,
+          50,
+          60,
+          70,
+          80,
+          90,
+          100,
+        ],
       }
     }
-    viewBox="0 0 32 32"
-    width="32"
   >
-    <defs>
-      <path
-        d="M15.51 18.52l5.992-6.682a1 1 0 1 1 1.49 1.335l-6.698 7.468a1 1 0 0 1-1.452.04l-3.957-3.957a1 1 0 0 1 1.414-1.414l3.21 3.21zM16 28.5C9.096 28.5 3.5 22.904 3.5 16S9.096 3.5 16 3.5 28.5 9.096 28.5 16 22.904 28.5 16 28.5zm0-2c5.799 0 10.5-4.701 10.5-10.5S21.799 5.5 16 5.5 5.5 10.201 5.5 16 10.201 26.5 16 26.5z"
-        id="icon-circle-check-a"
-      />
-    </defs>
-    <g
-      id="icon/secondary/circle/check"
+    <Memo(GlobalStyleComponent) />
+    <InputText
+      className=""
+      defaultValue="Astro Team"
+      displayValidationIcon={true}
+      inputId="inputId"
+      inputSize="small"
+      isInvalid={false}
+      isValidated={true}
+      labelId="labelId"
+      labelProps={Object {}}
+      labelText="Validated"
+      noAnimate={false}
     >
-      <mask
-        id="icon-circle-check-b"
-      >
-        <use
-          xlinkHref="#icon-circle-check-a"
-        />
-      </mask>
-      <use
-        id="Mask"
-        xlinkHref="#icon-circle-check-a"
-      />
-      <g
-        id="color/moon-900"
-        mask="url(#icon-circle-check-b)"
-      >
-        <path
-          d="M0 0h32v32H0z"
-          id="Rectangle"
-        />
-      </g>
-    </g>
-  </svg>
-</fieldset>
+      <InputText__InputWrapper>
+        <fieldset
+          className="c0"
+        >
+          <InputText__InputField
+            aria-labelledby="labelId"
+            className=" "
+            defaultValue="Astro Team"
+            id="inputId"
+            inputSize="small"
+            isInvalid={false}
+            isValidated={true}
+            placeholder="Validated"
+            type="text"
+          >
+            <input
+              aria-labelledby="labelId"
+              className="c1  "
+              defaultValue="Astro Team"
+              id="inputId"
+              placeholder="Validated"
+              type="text"
+            />
+          </InputText__InputField>
+          <InputText__InputLabel
+            htmlFor="inputId"
+            id="labelId"
+            inputSize="small"
+            isInvalid={false}
+            isValidated={true}
+          >
+            <label
+              className="c2"
+              htmlFor="inputId"
+              id="labelId"
+            >
+              Validated
+            </label>
+          </InputText__InputLabel>
+          <IconCircleCheck
+            color="earth400"
+            size="32"
+            style={
+              Object {
+                "position": "absolute",
+                "right": "8px",
+                "top": "11px",
+              }
+            }
+          >
+            <IconComponent
+              color="earth400"
+              content={
+                <React.Fragment>
+                  <defs>
+                    <path
+                      d="M15.51 18.52l5.992-6.682a1 1 0 1 1 1.49 1.335l-6.698 7.468a1 1 0 0 1-1.452.04l-3.957-3.957a1 1 0 0 1 1.414-1.414l3.21 3.21zM16 28.5C9.096 28.5 3.5 22.904 3.5 16S9.096 3.5 16 3.5 28.5 9.096 28.5 16 22.904 28.5 16 28.5zm0-2c5.799 0 10.5-4.701 10.5-10.5S21.799 5.5 16 5.5 5.5 10.201 5.5 16 10.201 26.5 16 26.5z"
+                      id="icon-circle-check-a"
+                    />
+                  </defs>
+                  <g
+                    id="icon/secondary/circle/check"
+                  >
+                    <mask
+                      id="icon-circle-check-b"
+                    >
+                      <use
+                        xlinkHref="#icon-circle-check-a"
+                      />
+                    </mask>
+                    <use
+                      id="Mask"
+                      xlinkHref="#icon-circle-check-a"
+                    />
+                    <g
+                      id="color/moon-900"
+                      mask="url(#icon-circle-check-b)"
+                    >
+                      <path
+                        d="M0 0h32v32H0z"
+                        id="Rectangle"
+                      />
+                    </g>
+                  </g>
+                </React.Fragment>
+              }
+              size="32"
+              style={
+                Object {
+                  "position": "absolute",
+                  "right": "8px",
+                  "top": "11px",
+                }
+              }
+              viewBox="0 0 32 32"
+            >
+              <styled.svg
+                color="earth400"
+                height="32"
+                style={
+                  Object {
+                    "position": "absolute",
+                    "right": "8px",
+                    "top": "11px",
+                  }
+                }
+                viewBox="0 0 32 32"
+                width="32"
+              >
+                <svg
+                  className="c3"
+                  color="earth400"
+                  height="32"
+                  style={
+                    Object {
+                      "position": "absolute",
+                      "right": "8px",
+                      "top": "11px",
+                    }
+                  }
+                  viewBox="0 0 32 32"
+                  width="32"
+                >
+                  <defs>
+                    <path
+                      d="M15.51 18.52l5.992-6.682a1 1 0 1 1 1.49 1.335l-6.698 7.468a1 1 0 0 1-1.452.04l-3.957-3.957a1 1 0 0 1 1.414-1.414l3.21 3.21zM16 28.5C9.096 28.5 3.5 22.904 3.5 16S9.096 3.5 16 3.5 28.5 9.096 28.5 16 22.904 28.5 16 28.5zm0-2c5.799 0 10.5-4.701 10.5-10.5S21.799 5.5 16 5.5 5.5 10.201 5.5 16 10.201 26.5 16 26.5z"
+                      id="icon-circle-check-a"
+                    />
+                  </defs>
+                  <g
+                    id="icon/secondary/circle/check"
+                  >
+                    <mask
+                      id="icon-circle-check-b"
+                    >
+                      <use
+                        xlinkHref="#icon-circle-check-a"
+                      />
+                    </mask>
+                    <use
+                      id="Mask"
+                      xlinkHref="#icon-circle-check-a"
+                    />
+                    <g
+                      id="color/moon-900"
+                      mask="url(#icon-circle-check-b)"
+                    >
+                      <path
+                        d="M0 0h32v32H0z"
+                        id="Rectangle"
+                      />
+                    </g>
+                  </g>
+                </svg>
+              </styled.svg>
+            </IconComponent>
+          </IconCircleCheck>
+        </fieldset>
+      </InputText__InputWrapper>
+    </InputText>
+  </ThemeProvider>
+</index>
 `;

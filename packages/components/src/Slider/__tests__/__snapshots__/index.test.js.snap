@@ -189,6 +189,10 @@ exports[`Slider reders disabled Slider 1`] = `
   visibility: hidden;
 }
 
+@media (prefers-reduced-motion:reduce) {
+
+}
+
 <div>
   <label
     className="c0"
@@ -404,6 +408,10 @@ exports[`Slider renders Slider with correct ID 1`] = `
 .c2:disabled::-ms-thumb {
   display: none;
   visibility: hidden;
+}
+
+@media (prefers-reduced-motion:reduce) {
+
 }
 
 <div>
@@ -623,6 +631,10 @@ exports[`Slider renders default slider 1`] = `
   visibility: hidden;
 }
 
+@media (prefers-reduced-motion:reduce) {
+
+}
+
 <div>
   <label
     className="c0"
@@ -840,6 +852,10 @@ exports[`Slider renders with counter only 1`] = `
   visibility: hidden;
 }
 
+@media (prefers-reduced-motion:reduce) {
+
+}
+
 <div>
   <label
     className="c0"
@@ -1049,6 +1065,10 @@ exports[`Slider renders with counter only 2`] = `
   visibility: hidden;
 }
 
+@media (prefers-reduced-motion:reduce) {
+
+}
+
 <div>
   <label
     className="c0"
@@ -1250,6 +1270,10 @@ exports[`Slider renders with label only 1`] = `
 .c1:disabled::-ms-thumb {
   display: none;
   visibility: hidden;
+}
+
+@media (prefers-reduced-motion:reduce) {
+
 }
 
 <div>

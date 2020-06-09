@@ -8,6 +8,10 @@ exports[`Heading renders correctly 1`] = `
   font-size: 48px;
 }
 
+@media (prefers-reduced-motion:reduce) {
+
+}
+
 <h1
   className="c0"
   color="moon900"

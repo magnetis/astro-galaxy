@@ -45,12 +45,23 @@ exports[`Button component should change background-color and border-color when v
   outline: none;
 }
 
-<button
-  className="c0"
+@media (prefers-reduced-motion:reduce) {
+
+}
+
+<Button
+  buttonSize="medium"
   display="inline-block"
+  font="primary"
+  variant="primary.mars"
 >
-  Click here!
-</button>
+  <button
+    className="c0"
+    display="inline-block"
+  >
+    Click here!
+  </button>
+</Button>
 `;
 
 exports[`Button component should change font-size and padding when button size is small 1`] = `
@@ -98,12 +109,23 @@ exports[`Button component should change font-size and padding when button size i
   outline: none;
 }
 
-<button
-  className="c0"
+@media (prefers-reduced-motion:reduce) {
+
+}
+
+<Button
+  buttonSize="small"
   display="inline-block"
+  font="primary"
+  variant="primary.uranus"
 >
-  Click here!
-</button>
+  <button
+    className="c0"
+    display="inline-block"
+  >
+    Click here!
+  </button>
+</Button>
 `;
 
 exports[`Button component should render a button 1`] = `
@@ -149,6 +171,10 @@ exports[`Button component should render a button 1`] = `
 
 .c0:focus {
   outline: none;
+}
+
+@media (prefers-reduced-motion:reduce) {
+
 }
 
 <button

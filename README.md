@@ -84,7 +84,7 @@ import { Button } from '@magnetis/astro-galaxy-components';
 4. Then, declare it like so:
 
 ```js
-<Button>My Astro Galaxy button</Button
+<Button>My Astro Galaxy button</Button>
 ```
 
 Check the docs for all the props available and happy coding!

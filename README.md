@@ -2,7 +2,7 @@
 
 ### A design system by Magnetis 👩‍🚀🌌
 
-[![Build Status](https://travis-ci.org/magnetis/astro-galaxy.svg?branch=master)](https://travis-ci.org/magnetis/astro-galaxy)
+[![Build Status](https://travis-ci.org/magnetis/astro-galaxy.svg?branch=main)](https://travis-ci.org/magnetis/astro-galaxy)
 
 ## Table of contents
 
